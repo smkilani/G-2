@@ -1,0 +1,3 @@
+Added Component: Designator=J2(MOLEX_85505-5113)
+Added Member To Class: ClassName=LV1 Member=Component J1 D Connector 9
+Added Member To Class: ClassName=controller Member=Component J2 CONNECTOR, RJ45, JACK, 8P8C, 1PORT, CAT5E
