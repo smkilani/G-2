@@ -88,8 +88,8 @@ Generating : Bottom Layer
 
 Used DCodes :
     D18
-    D51
     D52
+    D53
     D54
     D55
     D56
@@ -298,6 +298,6 @@ Generating : Mechanical 6
 
 
 Used DCodes :
-    D51
+    D52
 *************************************************************
 
