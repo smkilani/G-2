@@ -1,0 +1,3 @@
+Change Component Library : Designator=D2 Old Library=G2_LV.IntLib New Library=G2_LV.SCHLIB
+Change Component Library : Designator=D7 Old Library=G2_LV.IntLib New Library=G2_LV.SCHLIB
+Added Member To Class: ClassName=LV1 Member=Component D2 PDS1040L

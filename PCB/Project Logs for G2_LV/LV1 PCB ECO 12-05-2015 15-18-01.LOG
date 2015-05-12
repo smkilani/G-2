@@ -1,0 +1,6 @@
+Added Component: Designator=J2(MOLEX_85505-5113)
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_6 Pin=J2-6
+Added Member To Class: ClassName=controller Member=Component J2 CONNECTOR, RJ45, JACK, 8P8C, 1PORT, CAT5E
