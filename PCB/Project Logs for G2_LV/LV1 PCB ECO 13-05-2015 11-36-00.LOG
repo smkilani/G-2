@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ISENSE_1 Pin=F3-1
+Removed Pin From Net: NetName=ISENSE_1 Pin=PC1-1
+Added Component: Designator=W1(RAD-0.2)
+Added Pin To Net: NetName=ISENSE_1 Pin=W1-1
+Added Pin To Net: NetName=NetF3_1 Pin=F3-1
+Added Pin To Net: NetName=NetF3_1 Pin=PC1-1
+Added Pin To Net: NetName=NetF3_1 Pin=W1-2
+Added Net: Name=NetF3_1
+Added Member To Class: ClassName=controller Member=Component W1 Jumper
