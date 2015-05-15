@@ -1,38 +1,51 @@
-Field=Comment~String~Comment~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~G2_LV.PrjPcb|ReportField=ProjectFullPath~C:\Users\smkilani\Documents\GitHub\G-2\PCB\G2_LV.PrjPcb|ReportField=Title~Bill of Materials For Project [G2_LV.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~97|ReportField=ReportTime~11:03:49|ReportField=ReportDate~13/05/2015|ReportField=ReportDateTime~13/05/2015 11:03:49|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~13/05/2015|ReportField=CurrentTime~11:03:45|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\smkilani\Documents\GitHub\G-2\PCB\controller.SchDoc|ReportField=DocumentName~controller.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~12/05/2015|ReportField=Organization~|ReportField=ProjectName~G2_LV.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~G2_LV.PrjPcb|ReportField=DataSourceFullPath~C:\Users\smkilani\Documents\GitHub\G-2\PCB\G2_LV.PrjPcb
-|C1|PANASONIC_D|CPOL-EUD|1
-|out1, out2|1X08|PINHD-1X8|2
-|RESET1|B3S-1002|TS42|1
-|Y1|RESONATOR|RESONATORMU|1
-3x2 M|ICSP1|2X03|PINHD-2X3|1
-<B>POLARIZED CAPACITOR</B>, European symbol|PC1, PC2|PANASONIC_D|CPOL-EUD|2
-CONNECTOR, RJ45, JACK, 8P8C, 1PORT, CAT5E|J2|MOLEX_85505-5113|85505-5113|1
-GREEN|LED1, LED2|CHIP-LED0805|LEDCHIP-LED0805|2
-INA138|U1, U2|SOT-23|INA138|2
-LT8302|LT1, LT2|S8E|LT8302|2
-SP3084EEN-L|U5|SOICN8|SP3084EEN-L|1
-WiretoBoard|P1|MC000044|WiretoBoard|1
-ATmega328P-AU|U3|32A_N|ATmega328P-AU|1
-LM2940IMP-5.0/NOPB|AU1|SOT223|MC33269ST*|1
-100n|AC1|1608[0603]|Cap Semi|1
-Cap Semi|AC4, AC10, C5, C7, C8, C12, C35|1608[0603]|Cap Semi|7
-Cap Semi|C30, C31|1812|Cap Semi|2
-Rsense|Rsense1, Rsense2|R6432|Rsense|2
-36V|T1, T2|EP13|WE-FB, 750311457|2
-MF-MSMF075-2|F2|MF-MSMF1|Fuse 1|1
-MINISMDC050F-2|F1, F3|MF-MSMF1|Fuse 1|2
-Inductor|L1, L2|MPLC0730|Inductor|2
-BSS131|Q1, Q2|SOT-23|BSS131|2
-ES3B|D5, D10|DO-214AB|ES3B|2
-D Connector 9|J1|DSUB1.385-2H9|D Connector 9|1
-|AR2, NTC, R51, R52, R_NTC, RLED1, RLED2|J1-0603|Res3|7
-pullup|R_pu1, R_pu2, R_pu3, R_pu4|J1-0603|Res3|4
-Res3|R1, R2, R4, R5, R6, R7, R45, R46, Rfb1, Rfb2, Rref1, Rref2, Rtc1, Rtc2|J1-0603|Res3|14
-Res3|R3, R8|C1206|Res3|2
-PDS1040L|D2, D7|PDS1040L|PDS1040L|2
-SMBJ|DTVS2, DTVS3|DO-214AA|SMBJ|2
-SMBJ24A-E3/52|DTVS1|DO-214AA|SMBJ|1
-LED0|D3, D9|LED-0|LED0|2
-BZT52H-B5V6|D1, D6|SOD123F|BZT52H-B5V6|2
-SMAJ30A|D4, D8|DO-214AC|D Zener|2
-Cap Semi|C6, C13|C0805|Cap Semi|2
-Cap Semi|C2, C3, C4, C9, C10, C11, C20, C21, C22, C23, C24, C25, C26, C27|C1210|Cap Semi|14
+Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|Field=PartNo~String~PartNo~100|Field=Value~String~Value~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~G2_LV.PrjPcb|ReportField=ProjectFullPath~C:\Users\smkilani\Documents\GitHub\G-2\PCB\G2_LV.PrjPcb|ReportField=Title~Bill of Materials For Project [G2_LV.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~98|ReportField=ReportTime~15:47:03|ReportField=ReportDate~15/05/2015|ReportField=ReportDateTime~15/05/2015 15:47:03|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~15/05/2015|ReportField=CurrentTime~15:44:54|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\smkilani\Documents\GitHub\G-2\PCB\controller.SchDoc|ReportField=DocumentName~controller.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~13/05/2015|ReportField=Organization~|ReportField=ProjectName~G2_LV.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~G2_LV.PrjPcb|ReportField=DataSourceFullPath~C:\Users\smkilani\Documents\GitHub\G-2\PCB\G2_LV.PrjPcb
+C1|PANASONIC_D|CPOL-EUD|1|EMZA500ADA220MF61G|22uF
+out1, out2|1X08|PINHD-1X8|2|5-534237-4|
+RESET1|B3S-1002|TS42|1|B3S-1002|
+Y1|RESONATOR|RESONATORMU|1|CSTCE16M0V53-R0|
+ICSP1|2X03|PINHD-2X3|1|M20-9980345|
+PC1, PC2|PANASONIC_D|CPOL-EUD|2|EEE1EA470WAP|47uF
+J2|MOLEX_85505-5113|85505-5113|1||
+LED1, LED2|CHIP-LED0805|LEDCHIP-LED0805|2|KPT-2012SGC|
+U1, U2|SOT-23|INA138|2|INA138NA/250|
+LT1, LT2|S8E|LT8302|2|LT8302ES8E#PBF|
+U5|SOICN8|SP3084EEN-L|1|SP3084EEN-L|
+P1|MC000044|WiretoBoard|1|64T3402|
+U3|32A_N|ATmega328P-AU|1|ATmega328P-AU|
+AU1|SOT223|MC33269ST*|1|LM2940IMP-5.0/NOPB|
+AC1, AC4, AC10, C8, C35|1608[0603]|Cap Semi|5|CC0603KRX7R9BB104|0.1uF
+C21, C22, C23, C25, C26, C27|C1210|Cap Semi|6|CL32A107MPVNNNE|100uF
+C3, C4, C9, C10, C20, C24|C1210|Cap Semi|6|C3225X5R0J107M250AC|100uF
+C30, C31|1812|Cap Semi|2|C1812C472KDRACTU|4.7nF
+C5, C12|1608[0603]|Cap Semi|2||1uF
+C7|1608[0603]|Cap Semi|1||0.1uF
+Rsense1, Rsense2|R6432|Rsense|2|MCS3264R050FER|50m
+T1, T2|EP13|WE-FB, 750311457|2|750311457|
+F2|MF-MSMF1|Fuse 1|1|MF-MSMF075/24-2|
+F1, F3|MF-MSMF1|Fuse 1|2|MINISMDC050F-2|
+W1|HDR1X2|Header 2|1||
+L1, L2|MPLC0730|Inductor|2|MPLC0730L1R0|1uH
+Q1, Q2|SOT-23|BSS131|2|BSS131|
+D5, D10|DO-214AB|ES3B|2|ES3B|
+J1|DSUB1.385-2H9|D Connector 9|1|1734354-1|
+AR2|J1-0603|Res3|1||1M
+NTC, R_NTC, RLED2|J1-0603|Res3|3||500
+R51, R52|J1-0603|Res3|2||50R
+RLED1|J1-0603|Res3|1||500R
+R_pu1, R_pu2, R_pu3|J1-0603|Res3|3||4.7K
+R_pu4, Rref1, Rref2|J1-0603|Res3|3||10k
+R1, R6|J1-0603|Res3|2||1000K
+R2, R7|J1-0603|Res3|2||79k
+R3, R8|C1206|Res3|2||39
+R4, R5|J1-0603|Res3|2||100k
+R45, R46|J1-0603|Res3|2||1R
+Rfb1|J1-0603|Res3|1||220k
+Rfb2|J1-0603|Res3|1||200k
+Rtc1, Rtc2|J1-0603|Res3|2||169k
+D2, D7|PDS1040L|PDS1040L|2|PDS1040L-13|
+DTVS1, DTVS2, DTVS3|DO-214AA|SMBJ|3|SMBJ24A-E3/52|
+D3, D9|LED-0|LED0|2||
+D1, D6|SOD123F|BZT52H-B5V6|2|BZT52H-B5V6|
+D4, D8|DO-214AC|D Zener|2|SMAJ30A|
+C2, C11|C1210|Cap Semi|2|UMK325BJ106KM-T|10uF
+C6, C13|C0805|Cap Semi|2|08055A221JAT2A|470p
