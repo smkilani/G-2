@@ -2,13 +2,13 @@
 //Author: Samer Kilani
 //19/01/2015
 
-##############################################
-#Uncomment the I2C address below
-#Board A
+//##############################################
+//#Uncomment the I2C address below
+//#Board A
 #define i2cadrs 1
-#Board B
-##define i2cadrs 2
-##############################################
+//#Board B
+//##define i2cadrs 2
+//##############################################
 
 
 #include <Wire.h>
