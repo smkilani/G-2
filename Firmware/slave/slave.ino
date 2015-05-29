@@ -7,7 +7,7 @@
 //#Board A
 #define i2cadrs 1
 //#Board B
-//##define i2cadrs 2
+//#define i2cadrs 2
 //##############################################
 
 
@@ -16,6 +16,12 @@ byte x =0;
 int y=0;
 bool SC=false;
 char inputString[64]; 
+const int ENpin = A0; //A2 for Rev 1.0
+const int pos_ADC = A1; //A0 for Rev 1.0
+const int neg_ADC = A2; //A1 for Rev 1.0
+const int NTC_ADC = A3;
+
+
 void setup()
 {
   Wire.begin(i2cadrs);                // join i2c bus with address #2
@@ -24,8 +30,9 @@ void setup()
   Wire.onRequest(requestEvent); // register event
   //Serial1.begin(115200); //for micro
   Serial.begin(115200); //for uno
-  pinMode(A2, OUTPUT); //to control the output
-  digitalWrite(A2, HIGH);
+  //Serial.println("Welcome");
+  pinMode(ENpin, OUTPUT); //to control the output
+  digitalWrite(ENpin, LOW);
   
   for( int i = 0; i < sizeof(inputString);  ++i )
   inputString[i] = (char)0;
@@ -49,8 +56,8 @@ void receiveEvent(int howMany)
       }else {
 
         x = Wire.read();    // receive byte as an integer
-        if (x==1) digitalWrite(A2, HIGH);
-        else if (x==2) digitalWrite(A2, LOW);
+        if (x==1) digitalWrite(ENpin, HIGH);
+        else if (x==2) digitalWrite(ENpin, LOW);
         else if (x==3) SC=true;
       }   
   }
@@ -60,52 +67,24 @@ void requestEvent()
 {
   //Serial.println("requested");
   if (!SC){
-    byte data[5];
-    //the UNO has 10bit ADCs. To send the value of 2 ADCs we need 3 bytes.
-    //the values are read from the ADCs as integers and converted into a single three byte stream of bits.
-    //i.e. 1023 and 1023 becomes 1048575 == 0000 1111 1111 1111 1111 1111 == 0x0fffff
-    //to do this the first integer (X) needs to be shifted by 6 bits (towards the lsb)
-    //XXXX XXXX XX >> 0000 00XX XX
-    //The int is then casted to a char which will get rid of the first two 00.
-    boolean lvstatus = digitalRead(A2);
+    byte data[7];
+
+    boolean lvstatus = digitalRead(ENpin);
     unsigned int pinvalue1=0;
     unsigned int pinvalue2=0;
+    unsigned int pinvalue3=0;
     //AVERAGING THE CURRENT READINGS OVER 100MS
     for (int avg=0;avg<11;avg++)
     {
-      pinvalue1 += analogRead(A0);
-      pinvalue2 += analogRead(A1);
+      pinvalue1 += analogRead(pos_ADC);
+      pinvalue2 += analogRead(neg_ADC);
+      pinvalue3 += analogRead(NTC_ADC);
       delay(20);
     }
     
-    pinvalue1=pinvalue1/10;
-    pinvalue2=pinvalue2/10;
-    
-//    
-//    data[0] = pinvalue1 >> 6;
-//    //now we have the first 8 bits
-//    //[0000 XXXX] XXXX XXYY YYYY YYYY
-//    //To obtain the next byte, the integer X needs to be shifted by 2 bits (towards the msb)
-//    //This is then ANDed with 1111 1100 to obtaine XXXX XX00 which will be ORed with our next byte
-//    data[1] = pinvalue1 << 2;
-//    data[1] = data[1] & 0xfc;
-//  
-//    //The next byte is prepared by shifting the Y integer 8 bits (towards the lsb)
-//    //this is then ORed with the previous byte
-//    //This way we obtain the 2nd byte
-//    //0000 XXXX [XXXX XXYY] YYYY YYYY
-//    unsigned char tmp = pinvalue2 >> 8;
-//    data[1] = data[1] | tmp;
-//  
-//    //the third and final byte is simply the integer Y as is casted into a char
-//    data[2] = pinvalue2;
-//    
-//    if (lvstatus==true) data[0] = (data[0] & 0x0f) | 0xc0; //lvstatus is inverted true is OFF and vice versa
-//    else data[0] = (data[0] & 0x0f) | 0x50;
-//    //this will include the on/off status of the LV board. where ZZZZ is either 0xc or 0x5 (on or off, respectively).
-//    //[ZZZZ] XXXX XXXX XXYY YYYY YYYY
-//    
-//    Wire.write(data,3); 
+    pinvalue1=pinvalue1/10; //current reading +ve
+    pinvalue2=pinvalue2/10; //current reading -ve
+    pinvalue3=pinvalue3/10; //NTC temp reading
 
     data[0] = pinvalue1&0xff;              // sends one byte
     //Serial.println(pinvalue1&0xff,HEX);
@@ -117,10 +96,15 @@ void requestEvent()
     data[3] = pinvalue2>>8;
     //Serial.println(pinvalue2>>8,HEX);
     
-    if (lvstatus==true) data[4] = 0xcc;
-    else data[4] = 0xaa;
+    data[4] = pinvalue3&0xff;              // sends one byte
+    //Serial.println(pinvalue2&0xff,HEX); 
+    data[5] = pinvalue3>>8;
+    //Serial.println(pinvalue2>>8,HEX);
     
-    Wire.write(data,5);
+    if (lvstatus==true) data[6] = 0xcc;
+    else data[6] = 0xaa;
+    
+    Wire.write(data,7);
     
     
   } else {

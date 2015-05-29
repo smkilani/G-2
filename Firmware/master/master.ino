@@ -5,7 +5,7 @@
 #include <Wire.h>
 //#include <avr/pgmspace.h>
 
-#define ver "2.0"
+#define ver "2.1"
 
 String wireString="";
 
@@ -40,6 +40,7 @@ void loop()
     
   if (stringComplete) {
   if (y>1) { //to check if the command is not empty
+
       //Serial.println(inputString);
       //Serial.println( menu[0]);
         if (((String)inputString).startsWith(menu[0])) {
@@ -59,9 +60,9 @@ void loop()
         else if (((String)inputString).startsWith(menu[2])) {
             //Serial.write("\nPolling status\n");
             slave_adrs=((String)inputString).substring(7,((String)inputString).length()).toInt();
-            byte datain[5];
+            byte datain[7];
             int i=0;
-            if (Wire.requestFrom(slave_adrs, 5)<5) Serial.println("Error");    // request 3 byte from slave device #
+            if (Wire.requestFrom(slave_adrs, 7)<7) Serial.println("Error");    // request 3 byte from slave device #
             else {
               delay(100);
               while (Wire.available())   // slave may send less than requested
@@ -77,21 +78,10 @@ void loop()
                
               int pinvalue1 = joinbytes(datain[0],datain[1]);
               int pinvalue2 = joinbytes(datain[2],datain[3]);
-              if ((datain[4]) == 0xaa) Serial.println("ON");
-              else if ((datain[4]) == 0xcc) Serial.println("OFF");
+              int pinvalue3 = joinbytes(datain[4],datain[5]);
+              if ((datain[6]) == 0xaa) Serial.println("ON");
+              else if ((datain[6]) == 0xcc) Serial.println("OFF");
               
-              //convert the three bytes to two integers
-              //0000 XXXX XXXX XXYY YYYY YYYY
-              //int pinvalue1 = (datain[0] << 4) & 0xf0;
-              //pinvalue1 = pinvalue1 | (datain[1] >> 4);
-              //pinvalue1 = (pinvalue1 << 2) | ((datain[1] >> 2) & 0x03);
-              //to find the on/off status
-              //the slave board should return 0xc0 or 0x50. If neither were received then the address is wrong.
-              //if (((datain[0] & 0xf0) != 0xc0) && ((datain[0] & 0xf0) != 0x50)) Serial.println("Error 52");
-              //else
-              //{
-                //if ((datain[0] & 0xf0) == 0xc0) Serial.println("OFF");
-                //else if ((datain[0] & 0xf0) == 0x50) Serial.println("ON");
                 Serial.print("-5V -> ");
                 Serial.print(((float)pinvalue1/1023));
                 Serial.println("A");
@@ -99,6 +89,11 @@ void loop()
                 Serial.print("+5V -> ");
                 Serial.print(((float)pinvalue2/1023));
                 Serial.println("A");
+                
+                
+                Serial.print("Temp -> ");
+                Serial.print(((float)pinvalue3/1023));
+                Serial.println("C");
               //}
             }
         }
@@ -125,7 +120,9 @@ void loop()
           for (int i = 0;i<6;i++) Serial.println(menu[i]);
           //Serial.print('>');
         }
-        else Serial.println("Bad command");
+        else {
+          Serial.println("Bad command");
+        }
     }
     
     
@@ -169,9 +166,17 @@ void serialEvent() {
       y=0;
     }
     else {
-      Serial.write(inChar);
+      
+      //Serial.print(y);
       inputString[y] = inChar;
-      y++;
+      if (inChar==0x08 & y>0) { 
+        Serial.write(inChar); 
+        y--; 
+      }
+      else {
+        Serial.write(inChar); 
+        y++;
+      }
       if (inChar == '\r') stringComplete = true;
     }
   }
