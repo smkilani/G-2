@@ -3,6 +3,7 @@
 //19/01/2015
 
 #include <Wire.h>
+#include <math.h>
 //#include <avr/pgmspace.h>
 
 #define ver "2.1"
@@ -79,6 +80,7 @@ void loop()
               int pinvalue1 = joinbytes(datain[0],datain[1]);
               int pinvalue2 = joinbytes(datain[2],datain[3]);
               int pinvalue3 = joinbytes(datain[4],datain[5]);
+              double temp=0;
               if ((datain[6]) == 0xaa) Serial.println("ON");
               else if ((datain[6]) == 0xcc) Serial.println("OFF");
               
@@ -92,7 +94,10 @@ void loop()
                 
                 
                 Serial.print("Temp -> ");
-                Serial.print(((float)pinvalue3/1023));
+                temp=(double)pinvalue3/1023.0;
+                temp=(temp*10000.0)/(1.0-temp);
+                temp=(3455/log(temp/0.092756))-273.15;
+                Serial.print(temp);
                 Serial.println("C");
               //}
             }
