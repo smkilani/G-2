@@ -5,9 +5,9 @@
 //##############################################
 //#Uncomment the I2C address below
 //#Board A
-#define i2cadrs 1
+//#define i2cadrs 1
 //#Board B
-//#define i2cadrs 2
+#define i2cadrs 2
 //##############################################
 
 

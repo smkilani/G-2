@@ -95,8 +95,9 @@ void loop()
                 
                 Serial.print("Temp -> ");
                 temp=(double)pinvalue3/1023.0;
-                temp=(temp*10000.0)/(1.0-temp);
-                temp=(3455/log(temp/0.092756))-273.15;
+                temp=(temp*9000.0)/(1.0-temp);
+                temp=(3455/log(temp/0.102756))-273.15;
+                //Serial.print(pinvalue3);
                 Serial.print(temp);
                 Serial.println("C");
               //}
