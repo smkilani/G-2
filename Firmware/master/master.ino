@@ -84,12 +84,12 @@ void loop()
               if ((datain[6]) == 0xaa) Serial.println("ON");
               else if ((datain[6]) == 0xcc) Serial.println("OFF");
               
-                Serial.print("-5V -> ");
-                Serial.print(((float)pinvalue1/1023));
+                Serial.print("+5V -> ");
+                Serial.print(5.0*((float)pinvalue1/1023));
                 Serial.println("A");
                 //int pinvalue2 = ((datain[1]<<8) & 0x300) | datain[2];
-                Serial.print("+5V -> ");
-                Serial.print(((float)pinvalue2/1023));
+                Serial.print("-5V -> ");
+                Serial.print(5.0*((float)pinvalue2/1023));
                 Serial.println("A");
                 
                 
