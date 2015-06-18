@@ -1,0 +1,20 @@
+Added Component: Designator=DB1A(DSUB1.STRAIGHT)
+Added Component: Designator=DB1B(DSUB1.STRAIGHT)
+Added Pin To Net: NetName=5V1A Pin=DB1A-1
+Added Pin To Net: NetName=5V1A Pin=DB1A-2
+Added Pin To Net: NetName=-5V1A Pin=DB1A-4
+Added Pin To Net: NetName=-5V1A Pin=DB1A-5
+Added Pin To Net: NetName=5VRTN1A Pin=DB1A-6
+Added Pin To Net: NetName=5VRTN1A Pin=DB1A-7
+Added Pin To Net: NetName=-5VRTN1A Pin=DB1A-8
+Added Pin To Net: NetName=-5VRTN1A Pin=DB1A-9
+Added Pin To Net: NetName=5V1B Pin=DB1B-1
+Added Pin To Net: NetName=5V1B Pin=DB1B-2
+Added Pin To Net: NetName=-5V1B Pin=DB1B-4
+Added Pin To Net: NetName=-5V1B Pin=DB1B-5
+Added Pin To Net: NetName=5VRTN1B Pin=DB1B-6
+Added Pin To Net: NetName=5VRTN1B Pin=DB1B-7
+Added Pin To Net: NetName=-5VRTN1B Pin=DB1B-8
+Added Pin To Net: NetName=-5VRTN1B Pin=DB1B-9
+Added Member To Class: ClassName=Backplane Member=Component DB1A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB1B D Connector 9

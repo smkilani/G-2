@@ -1,0 +1,101 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+D2         PDS1040L            101.133mm       27.94mm     103.124mm       27.94mm      99.142mm       28.86mm  T        270.00 PDS1040L       
+D7         PDS1040L             98.847mm      62.992mm     100.838mm      62.992mm      96.856mm      63.912mm  T        270.00 PDS1040L       
+PC2        PANASONIC_D         42.6655mm      38.354mm      42.672mm      38.354mm      40.259mm      38.354mm  T        180.00 <B>POLARIZED CAPACITOR</B>, European symbol
+PC1        PANASONIC_D         41.1415mm      30.988mm      41.148mm      30.988mm      38.735mm      30.988mm  T        180.00 <B>POLARIZED CAPACITOR</B>, European symbol
+C1         PANASONIC_D          41.148mm     22.8535mm      41.148mm       22.86mm      41.148mm      20.447mm  T        270.00                
+J2         MOLEX_85505-5113     127.382mm     26.5444mm     123.952mm      22.098mm     123.952mm      22.098mm  T         90.00 CONNECTOR, RJ45, JACK, 8P8C, 1PORT, CAT5E
+U5         SOICN8              116.967mm      14.692mm     115.062mm      12.192mm     115.062mm      12.192mm  T         90.00 SP3084EEN-L    
+R52        J1-0603             118.364mm       19.05mm     118.364mm       19.05mm     119.114mm       19.05mm  T        180.00                
+R51        J1-0603              115.57mm       19.05mm      115.57mm       19.05mm      116.32mm       19.05mm  T        180.00                
+C35        1608[0603]          113.284mm      12.192mm     113.284mm      12.192mm     112.584mm      12.192mm  T          0.00 Cap Semi       
+L2         MPLC0730            121.412mm      48.514mm     121.412mm      48.514mm     118.962mm      48.514mm  T        180.00 Inductor       
+L1         MPLC0730            121.158mm       57.15mm     121.158mm       57.15mm     118.708mm       57.15mm  T        180.00 Inductor       
+C27        C1210               117.856mm      60.198mm     117.856mm      60.198mm     117.856mm      61.548mm  B        270.00 Cap Semi       
+C26        C1210               120.904mm      60.198mm     120.904mm      60.198mm     120.904mm      61.548mm  B        270.00 Cap Semi       
+C25        C1210               123.952mm      60.198mm     123.952mm      60.198mm     123.952mm      61.548mm  B        270.00 Cap Semi       
+C24        C1210               107.442mm       53.34mm     107.442mm       53.34mm     107.442mm       51.99mm  T         90.00 Cap Semi       
+C23        C1210                118.11mm       45.72mm      118.11mm       45.72mm      118.11mm       47.07mm  B        270.00 Cap Semi       
+C22        C1210               121.158mm       45.72mm     121.158mm       45.72mm     121.158mm       47.07mm  B        270.00 Cap Semi       
+C21        C1210               124.206mm       45.72mm     124.206mm       45.72mm     124.206mm       47.07mm  B        270.00 Cap Semi       
+C20        C1210               108.204mm      21.082mm     108.204mm      21.082mm     108.204mm      19.732mm  T         90.00 Cap Semi       
+DTVS3      DO-214AA             24.384mm      38.862mm      24.384mm      38.862mm      24.384mm      40.702mm  T        270.00 SMBJ           
+F3         MF-MSMF1             32.512mm      30.226mm      32.512mm      30.226mm      34.612mm      30.226mm  T        180.00 MINISMDC050F-2 
+DTVS2      DO-214AA             58.674mm       30.48mm      58.674mm       30.48mm      60.514mm       30.48mm  T        180.00 SMBJ           
+R_NTC      J1-0603              61.976mm      42.164mm      61.976mm      42.164mm      62.726mm      42.164mm  T        180.00                
+NTC        J1-0603              70.358mm      50.546mm      70.358mm      50.546mm      70.358mm      51.296mm  T        270.00                
+U1         SOT-23                53.34mm      44.196mm       53.34mm      44.196mm       51.99mm      45.146mm  T        270.00 INA138         
+C7         1608[0603]            54.61mm      46.736mm       54.61mm      46.736mm       54.61mm      47.436mm  T        270.00 Cap Semi       
+C8         1608[0603]           51.308mm        63.5mm      51.308mm        63.5mm      51.308mm        62.8mm  T         90.00 Cap Semi       
+T1         EP13                  88.34mm      21.978mm       88.34mm      21.978mm       80.16mm      17.018mm  T        180.00 36V            
+Rtc1       J1-0603              77.246mm       25.06mm      77.246mm       25.06mm      77.246mm       25.81mm  T        270.00 Res3           
+Rfb1       J1-0603              77.246mm      22.266mm      77.246mm      22.266mm      77.246mm      23.016mm  T        270.00 Res3           
+R4         J1-0603               52.07mm      46.736mm       52.07mm      46.736mm       52.07mm      47.486mm  T        270.00 Res3           
+R1         J1-0603              68.072mm      26.924mm      68.072mm      26.924mm      68.822mm      26.924mm  T        180.00 Res3           
+Q1         SOT-23               67.056mm      28.956mm      67.056mm      28.956mm      66.056mm      29.956mm  T        180.00 BSS131         
+D4         DO-214AC             76.818mm      32.204mm      76.818mm      32.204mm      74.618mm      32.204mm  T        180.00 SMAJ30A        
+C6         C0805                76.454mm      40.386mm      76.454mm      40.386mm      77.204mm      40.386mm  T        180.00 Cap Semi       
+C5         1608[0603]           67.594mm      24.806mm      67.594mm      24.806mm      68.294mm      24.806mm  T        180.00 Cap Semi       
+C2         C1210                 67.34mm      21.758mm       67.34mm      21.758mm       67.34mm      20.408mm  T         90.00 Cap Semi       
+AU1        SOT223                33.02mm     37.5793mm       33.02mm      37.592mm     35.3314mm     40.6908mm  T        180.00 LM2940IMP-5.0/NOPB
+C11        C1210                67.564mm       54.61mm      67.564mm       54.61mm      67.564mm       53.26mm  T         90.00 Cap Semi       
+C12        1608[0603]            67.31mm      57.658mm       67.31mm      57.658mm       68.01mm      57.658mm  T        180.00 Cap Semi       
+C13        C0805                76.962mm      72.136mm      76.962mm      72.136mm      77.712mm      72.136mm  T        180.00 Cap Semi       
+D8         DO-214AC             77.724mm      64.262mm      77.724mm      64.262mm      75.524mm      64.262mm  T        180.00 SMAJ30A        
+ICSP1      2X03                 35.266mm      70.358mm      35.266mm      70.358mm      32.726mm      69.088mm  T          0.00 3x2 M          
+LT2        S8E                 72.7075mm      56.515mm      70.104mm       58.42mm      70.104mm       58.42mm  T          0.00 LT8302         
+out1       1X08                 35.012mm      45.466mm      35.012mm      45.466mm      26.122mm      45.466mm  T          0.00                
+Q2         SOT-23               66.294mm      61.722mm      66.294mm      61.722mm      65.294mm      62.722mm  T        180.00 BSS131         
+R6         J1-0603              66.548mm      59.436mm      66.548mm      59.436mm      67.298mm      59.436mm  T        180.00 Res3           
+R7         J1-0603              70.104mm      60.706mm      70.104mm      60.706mm      70.104mm      61.456mm  T        270.00 Res3           
+R8         C1206                84.328mm       72.39mm      84.328mm       72.39mm      85.678mm       72.39mm  T        180.00 Res3           
+R5         J1-0603              51.816mm      59.944mm      51.816mm      59.944mm      51.066mm      59.944mm  T        360.00 Res3           
+Rfb2       J1-0603             77.2986mm      55.118mm     77.2985mm      55.118mm     77.2986mm      55.868mm  T        270.00 Res3           
+Rref2      J1-0603              76.454mm      60.198mm      76.454mm      60.198mm      77.204mm      60.198mm  T        180.00 Res3           
+Rtc2       J1-0603             77.2986mm      57.912mm     77.2985mm      57.912mm     77.2986mm      58.662mm  T        270.00 Res3           
+T2         EP13                  88.38mm       54.69mm       88.38mm       54.69mm        80.2mm       49.73mm  T        180.00 36V            
+Y1         RESONATOR            40.846mm      56.134mm      40.854mm      56.134mm      41.854mm      56.134mm  T        180.00                
+F2         MF-MSMF1             61.468mm      70.104mm      61.468mm      70.104mm      59.368mm      70.104mm  T          0.00 MF-MSMF075-2   
+F1         MF-MSMF1             61.722mm      36.576mm      61.722mm      36.576mm      59.622mm      36.576mm  T          0.00 MINISMDC050F-2 
+DTVS1      DO-214AA             62.484mm      53.848mm      62.484mm      53.848mm      62.484mm      55.688mm  T        270.00 SMBJ24A-E3/52  
+R_pu1      J1-0603                27.9mm      64.008mm        27.9mm      64.008mm     28.4303mm     63.4777mm  T        135.00 pullup         
+D10        DO-214AB             82.804mm       68.58mm      82.804mm       68.58mm      79.554mm       68.58mm  T          0.00 ES3B           
+D5         DO-214AB             82.296mm      36.322mm      82.296mm      36.322mm      79.046mm      36.322mm  T          0.00 ES3B           
+C9         C1210                99.314mm       53.34mm      99.314mm       53.34mm      99.314mm       51.99mm  T         90.00 Cap Semi       
+C10        C1210               102.362mm       53.34mm     102.362mm       53.34mm     102.362mm       51.99mm  T         90.00 Cap Semi       
+D6         SOD123F             104.902mm       53.34mm     104.902mm       53.34mm     104.902mm       54.74mm  T        270.00 BZT52H-B5V6    
+Rsense1    R6432                58.166mm      43.942mm      58.166mm      43.942mm      58.166mm      46.142mm  T        270.00 Rsense         
+Rsense2    R6432                58.166mm      62.738mm      58.166mm      62.738mm      58.166mm      60.538mm  T         90.00 Rsense         
+J1         DSUB1.385-2H9       128.676mm      52.832mm     138.176mm      52.832mm     127.256mm      58.372mm  T        270.00 D Connector 9  
+RLED1      J1-0603              27.392mm       68.58mm      27.392mm       68.58mm      28.142mm       68.58mm  T        180.00                
+AC4        1608[0603]           29.678mm      65.532mm      29.678mm      65.532mm      29.183mm      66.027mm  T        315.00 Cap Semi       
+AC10       1608[0603]           37.552mm      55.372mm      37.552mm      55.372mm      37.057mm      54.877mm  T         45.00 Cap Semi       
+AR2        J1-0603                40.6mm      58.166mm        40.6mm      58.166mm       39.85mm      58.166mm  T          0.00                
+LED1       CHIP-LED0805         27.646mm     71.1284mm      27.646mm       71.12mm      27.646mm       70.07mm  T          0.00 GREEN          
+LED2       CHIP-LED0805        44.1644mm      70.866mm      44.156mm      70.866mm      43.106mm      70.866mm  T        270.00 GREEN          
+out2       1X08                 33.742mm      48.768mm      33.742mm      48.768mm      24.852mm      48.768mm  T          0.00                
+R_pu2      J1-0603              25.106mm      57.912mm      25.106mm      57.912mm      25.856mm      57.912mm  T        180.00 pullup         
+R_pu3      J1-0603              27.392mm      55.372mm      27.392mm      55.372mm     27.9223mm     55.9023mm  T        225.00 pullup         
+R_pu4      J1-0603              29.678mm       55.88mm      29.678mm       55.88mm     30.2083mm     56.4103mm  T        225.00 pullup         
+RLED2      J1-0603              41.108mm      70.866mm      41.108mm      70.866mm      41.858mm      70.866mm  T        180.00                
+U3         32A_N                33.996mm      60.706mm      33.996mm      60.706mm      34.986mm     55.7563mm  T        135.00 ATmega328P-AU  
+RESET1     B3S-1002              43.14mm      65.024mm       43.14mm      65.024mm       45.39mm      68.999mm  T         90.00                
+P1         MC000044             26.416mm       22.86mm      26.416mm       22.86mm      26.416mm      20.955mm  T         90.00 WiretoBoard    
+D3         LED-0                69.342mm      32.258mm      69.342mm      32.258mm      68.072mm      32.258mm  T        180.00 LED0           
+D9         LED-0                69.088mm      65.024mm      69.088mm      65.024mm      67.818mm      65.024mm  T        180.00 LED0           
+C30        1812                 88.392mm      45.212mm      88.392mm      45.212mm      86.492mm      45.212mm  T          0.00 Cap Semi       
+C31        1812                 88.138mm      32.004mm      88.138mm      32.004mm      86.238mm      32.004mm  B          0.00 Cap Semi       
+R45        J1-0603             121.412mm      44.958mm     121.412mm      44.958mm     120.662mm      44.958mm  T          0.00 Res3           
+R46        J1-0603             120.142mm      60.706mm     120.142mm      60.706mm     119.392mm      60.706mm  T          0.00 Res3           
+U2         SOT-23               53.594mm      62.738mm      53.594mm      62.738mm      52.644mm      61.388mm  T        360.00 INA138         
+Rref1      J1-0603              76.564mm      27.632mm      76.564mm      27.632mm      77.314mm      27.632mm  T        180.00 Res3           
+R3         C1206                83.566mm      40.386mm      83.566mm      40.386mm      84.916mm      40.386mm  T        180.00 Res3           
+R2         J1-0603              70.214mm      27.886mm      70.214mm      27.886mm      70.214mm      28.636mm  T        270.00 Res3           
+LT1        S8E                 72.7375mm      23.663mm      70.134mm      25.568mm      70.134mm      25.568mm  T          0.00 LT8302         
+D1         SOD123F              105.41mm      21.336mm      105.41mm      21.336mm      105.41mm      22.736mm  T        270.00 BZT52H-B5V6    
+C4         C1210               102.616mm      21.082mm     102.616mm      21.082mm     102.616mm      19.732mm  T         90.00 Cap Semi       
+C3         C1210                99.568mm      21.082mm      99.568mm      21.082mm      99.568mm      19.732mm  T         90.00 Cap Semi       
+AC1        1608[0603]           33.274mm      42.926mm      33.274mm      42.926mm      33.974mm      42.926mm  T        180.00 100n           
+W1         HDR1X2               47.244mm      25.146mm      48.514mm      25.146mm      48.514mm      25.146mm  T        180.00 Jumper         
+

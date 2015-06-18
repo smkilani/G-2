@@ -1,0 +1,4 @@
+Added Component: Designator=J3(RJ45.STRAIGHT)
+Added Component: Designator=J4(RJ45.STRAIGHT)
+Added Member To Class: ClassName=Backplane Member=Component J3 85504-5001
+Added Member To Class: ClassName=Backplane Member=Component J4 85504-5001

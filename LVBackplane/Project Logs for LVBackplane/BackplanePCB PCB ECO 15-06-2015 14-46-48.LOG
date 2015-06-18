@@ -1,0 +1,340 @@
+Removed Member From Class: ClassName=Backplane Member=J1
+Removed Member From Class: ClassName=Backplane Member=J2
+Removed Member From Class: ClassName=Backplane Member=J3
+Removed Member From Class: ClassName=Backplane Member=J4
+Change Component Designator: OldDesignator=J5 NewDesignator=J1A
+Change Component Designator: OldDesignator=J6 NewDesignator=J1B
+Added Component: Designator=J2A(EDGECONNECTOR12)
+Added Component: Designator=J2B(EDGECONNECTOR12)
+Added Component: Designator=J3A(EDGECONNECTOR12)
+Added Component: Designator=J3B(EDGECONNECTOR12)
+Added Component: Designator=J4A(EDGECONNECTOR12)
+Added Component: Designator=J4B(EDGECONNECTOR12)
+Added Component: Designator=J5A(EDGECONNECTOR12)
+Added Component: Designator=J5B(EDGECONNECTOR12)
+Added Component: Designator=J6A(EDGECONNECTOR12)
+Added Component: Designator=J6B(EDGECONNECTOR12)
+Added Component: Designator=J7A(EDGECONNECTOR12)
+Added Component: Designator=J7B(EDGECONNECTOR12)
+Added Component: Designator=J8A(EDGECONNECTOR12)
+Added Component: Designator=J8B(EDGECONNECTOR12)
+Added Component: Designator=J9(EDGECONNECTOR12)
+Added Pin To Net: NetName=-5V1A Pin=J1A-11
+Added Net: Name=-5V1A
+Added Pin To Net: NetName=-5V1B Pin=J1B-11
+Added Net: Name=-5V1B
+Added Pin To Net: NetName=-5V2A Pin=J2A-11
+Added Net: Name=-5V2A
+Added Pin To Net: NetName=-5V2B Pin=J2B-11
+Added Net: Name=-5V2B
+Added Pin To Net: NetName=-5V3A Pin=J3A-11
+Added Net: Name=-5V3A
+Added Pin To Net: NetName=-5V3B Pin=J3B-11
+Added Net: Name=-5V3B
+Added Pin To Net: NetName=-5V4A Pin=J4A-11
+Added Net: Name=-5V4A
+Added Pin To Net: NetName=-5V4B Pin=J4B-11
+Added Net: Name=-5V4B
+Added Pin To Net: NetName=-5V5A Pin=J5A-11
+Added Net: Name=-5V5A
+Added Pin To Net: NetName=-5V5B Pin=J5B-11
+Added Net: Name=-5V5B
+Added Pin To Net: NetName=-5V6A Pin=J6A-11
+Added Net: Name=-5V6A
+Added Pin To Net: NetName=-5V6B Pin=J6B-11
+Added Net: Name=-5V6B
+Added Pin To Net: NetName=-5V7A Pin=J7A-11
+Added Net: Name=-5V7A
+Added Pin To Net: NetName=-5V7B Pin=J7B-11
+Added Net: Name=-5V7B
+Added Pin To Net: NetName=-5V8A Pin=J8A-11
+Added Net: Name=-5V8A
+Added Pin To Net: NetName=-5V8B Pin=J8B-11
+Added Net: Name=-5V8B
+Added Pin To Net: NetName=-5VRTN1A Pin=J1A-12
+Added Net: Name=-5VRTN1A
+Added Pin To Net: NetName=-5VRTN1B Pin=J1B-12
+Added Net: Name=-5VRTN1B
+Added Pin To Net: NetName=-5VRTN2A Pin=J2A-12
+Added Net: Name=-5VRTN2A
+Added Pin To Net: NetName=-5VRTN2B Pin=J2B-12
+Added Net: Name=-5VRTN2B
+Added Pin To Net: NetName=-5VRTN3A Pin=J3A-12
+Added Net: Name=-5VRTN3A
+Added Pin To Net: NetName=-5VRTN3B Pin=J3B-12
+Added Net: Name=-5VRTN3B
+Added Pin To Net: NetName=-5VRTN4A Pin=J4A-12
+Added Net: Name=-5VRTN4A
+Added Pin To Net: NetName=-5VRTN4B Pin=J4B-12
+Added Net: Name=-5VRTN4B
+Added Pin To Net: NetName=-5VRTN5A Pin=J5A-12
+Added Net: Name=-5VRTN5A
+Added Pin To Net: NetName=-5VRTN5B Pin=J5B-12
+Added Net: Name=-5VRTN5B
+Added Pin To Net: NetName=-5VRTN6A Pin=J6A-12
+Added Net: Name=-5VRTN6A
+Added Pin To Net: NetName=-5VRTN6B Pin=J6B-12
+Added Net: Name=-5VRTN6B
+Added Pin To Net: NetName=-5VRTN7A Pin=J7A-12
+Added Net: Name=-5VRTN7A
+Added Pin To Net: NetName=-5VRTN7B Pin=J7B-12
+Added Net: Name=-5VRTN7B
+Added Pin To Net: NetName=-5VRTN8A Pin=J8A-12
+Added Net: Name=-5VRTN8A
+Added Pin To Net: NetName=-5VRTN8B Pin=J8B-12
+Added Net: Name=-5VRTN8B
+Added Pin To Net: NetName=5V1A Pin=J1A-9
+Added Net: Name=5V1A
+Added Pin To Net: NetName=5V1B Pin=J1B-9
+Added Net: Name=5V1B
+Added Pin To Net: NetName=5V2A Pin=J2A-9
+Added Net: Name=5V2A
+Added Pin To Net: NetName=5V2B Pin=J2B-9
+Added Net: Name=5V2B
+Added Pin To Net: NetName=5V3A Pin=J3A-9
+Added Net: Name=5V3A
+Added Pin To Net: NetName=5V3B Pin=J3B-8
+Added Pin To Net: NetName=5V3B Pin=J3B-9
+Added Net: Name=5V3B
+Added Pin To Net: NetName=5V4A Pin=J4A-9
+Added Net: Name=5V4A
+Added Pin To Net: NetName=5V4B Pin=J4B-9
+Added Net: Name=5V4B
+Added Pin To Net: NetName=5V5A Pin=J5A-9
+Added Net: Name=5V5A
+Added Pin To Net: NetName=5V5B Pin=J5B-9
+Added Net: Name=5V5B
+Added Pin To Net: NetName=5V6A Pin=J6A-9
+Added Net: Name=5V6A
+Added Pin To Net: NetName=5V6B Pin=J6B-9
+Added Net: Name=5V6B
+Added Pin To Net: NetName=5V7A Pin=J7A-9
+Added Net: Name=5V7A
+Added Pin To Net: NetName=5V7B Pin=J7B-9
+Added Net: Name=5V7B
+Added Pin To Net: NetName=5V8A Pin=J8A-9
+Added Net: Name=5V8A
+Added Pin To Net: NetName=5V8B Pin=J8B-9
+Added Net: Name=5V8B
+Added Pin To Net: NetName=5VRTN1A Pin=J1A-10
+Added Net: Name=5VRTN1A
+Added Pin To Net: NetName=5VRTN1B Pin=J1B-10
+Added Net: Name=5VRTN1B
+Added Pin To Net: NetName=5VRTN2A Pin=J2A-10
+Added Net: Name=5VRTN2A
+Added Pin To Net: NetName=5VRTN2B Pin=J2B-10
+Added Net: Name=5VRTN2B
+Added Pin To Net: NetName=5VRTN3A Pin=J3A-10
+Added Net: Name=5VRTN3A
+Added Pin To Net: NetName=5VRTN3B Pin=J3B-10
+Added Net: Name=5VRTN3B
+Added Pin To Net: NetName=5VRTN4A Pin=J4A-10
+Added Net: Name=5VRTN4A
+Added Pin To Net: NetName=5VRTN4B Pin=J4B-10
+Added Net: Name=5VRTN4B
+Added Pin To Net: NetName=5VRTN5A Pin=J5A-10
+Added Net: Name=5VRTN5A
+Added Pin To Net: NetName=5VRTN5B Pin=J5B-10
+Added Net: Name=5VRTN5B
+Added Pin To Net: NetName=5VRTN6A Pin=J6A-10
+Added Net: Name=5VRTN6A
+Added Pin To Net: NetName=5VRTN6B Pin=J6B-10
+Added Net: Name=5VRTN6B
+Added Pin To Net: NetName=5VRTN7A Pin=J7A-10
+Added Net: Name=5VRTN7A
+Added Pin To Net: NetName=5VRTN7B Pin=J7B-10
+Added Net: Name=5VRTN7B
+Added Pin To Net: NetName=5VRTN8A Pin=J8A-10
+Added Net: Name=5VRTN8A
+Added Pin To Net: NetName=5VRTN8B Pin=J8B-10
+Added Net: Name=5VRTN8B
+Added Pin To Net: NetName=5V Pin=J1A-1
+Added Pin To Net: NetName=5V Pin=J1B-1
+Added Pin To Net: NetName=5V Pin=J2A-1
+Added Pin To Net: NetName=5V Pin=J2B-1
+Added Pin To Net: NetName=5V Pin=J3A-1
+Added Pin To Net: NetName=5V Pin=J3B-1
+Added Pin To Net: NetName=5V Pin=J4A-1
+Added Pin To Net: NetName=5V Pin=J4B-1
+Added Pin To Net: NetName=5V Pin=J5A-1
+Added Pin To Net: NetName=5V Pin=J5B-1
+Added Pin To Net: NetName=5V Pin=J6A-1
+Added Pin To Net: NetName=5V Pin=J6B-1
+Added Pin To Net: NetName=5V Pin=J7A-1
+Added Pin To Net: NetName=5V Pin=J7B-1
+Added Pin To Net: NetName=5V Pin=J8A-1
+Added Pin To Net: NetName=5V Pin=J8B-1
+Added Pin To Net: NetName=5V Pin=J9-1
+Added Net: Name=5V
+Added Pin To Net: NetName=24V Pin=J1A-2
+Added Pin To Net: NetName=24V Pin=J1B-2
+Added Pin To Net: NetName=24V Pin=J2A-2
+Added Pin To Net: NetName=24V Pin=J2B-2
+Added Pin To Net: NetName=24V Pin=J3A-2
+Added Pin To Net: NetName=24V Pin=J3B-2
+Added Pin To Net: NetName=24V Pin=J4A-2
+Added Pin To Net: NetName=24V Pin=J4B-2
+Added Pin To Net: NetName=24V Pin=J5A-2
+Added Pin To Net: NetName=24V Pin=J5B-2
+Added Pin To Net: NetName=24V Pin=J6A-2
+Added Pin To Net: NetName=24V Pin=J6B-2
+Added Pin To Net: NetName=24V Pin=J7A-2
+Added Pin To Net: NetName=24V Pin=J7B-2
+Added Pin To Net: NetName=24V Pin=J8A-2
+Added Pin To Net: NetName=24V Pin=J8B-2
+Added Net: Name=24V
+Added Pin To Net: NetName=GND Pin=J1A-3
+Added Pin To Net: NetName=GND Pin=J1A-6
+Added Pin To Net: NetName=GND Pin=J1B-3
+Added Pin To Net: NetName=GND Pin=J1B-6
+Added Pin To Net: NetName=GND Pin=J2A-3
+Added Pin To Net: NetName=GND Pin=J2A-6
+Added Pin To Net: NetName=GND Pin=J2B-3
+Added Pin To Net: NetName=GND Pin=J2B-6
+Added Pin To Net: NetName=GND Pin=J3A-3
+Added Pin To Net: NetName=GND Pin=J3A-6
+Added Pin To Net: NetName=GND Pin=J3B-3
+Added Pin To Net: NetName=GND Pin=J3B-6
+Added Pin To Net: NetName=GND Pin=J4A-3
+Added Pin To Net: NetName=GND Pin=J4A-6
+Added Pin To Net: NetName=GND Pin=J4B-3
+Added Pin To Net: NetName=GND Pin=J4B-6
+Added Pin To Net: NetName=GND Pin=J5A-3
+Added Pin To Net: NetName=GND Pin=J5A-6
+Added Pin To Net: NetName=GND Pin=J5B-3
+Added Pin To Net: NetName=GND Pin=J5B-6
+Added Pin To Net: NetName=GND Pin=J6A-3
+Added Pin To Net: NetName=GND Pin=J6A-6
+Added Pin To Net: NetName=GND Pin=J6B-3
+Added Pin To Net: NetName=GND Pin=J6B-6
+Added Pin To Net: NetName=GND Pin=J7A-3
+Added Pin To Net: NetName=GND Pin=J7A-6
+Added Pin To Net: NetName=GND Pin=J7B-3
+Added Pin To Net: NetName=GND Pin=J7B-6
+Added Pin To Net: NetName=GND Pin=J8A-3
+Added Pin To Net: NetName=GND Pin=J8A-6
+Added Pin To Net: NetName=GND Pin=J8B-3
+Added Pin To Net: NetName=GND Pin=J8B-6
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Pin To Net: NetName=GND Pin=J9-3
+Added Pin To Net: NetName=GND Pin=J9-6
+Added Pin To Net: NetName=GND Pin=J9-7
+Added Pin To Net: NetName=GND Pin=J9-8
+Added Pin To Net: NetName=GND Pin=J9-9
+Added Pin To Net: NetName=GND Pin=J9-10
+Added Pin To Net: NetName=GND Pin=J9-11
+Added Pin To Net: NetName=GND Pin=J9-12
+Added Net: Name=GND
+Added Pin To Net: NetName=RX1A Pin=J1A-7
+Added Net: Name=RX1A
+Added Pin To Net: NetName=RX1B Pin=J1B-7
+Added Net: Name=RX1B
+Added Pin To Net: NetName=RX2A Pin=J2A-7
+Added Net: Name=RX2A
+Added Pin To Net: NetName=RX2B Pin=J2B-7
+Added Net: Name=RX2B
+Added Pin To Net: NetName=RX3A Pin=J3A-7
+Added Net: Name=RX3A
+Added Pin To Net: NetName=RX3B Pin=J3B-7
+Added Net: Name=RX3B
+Added Pin To Net: NetName=RX4A Pin=J4A-7
+Added Net: Name=RX4A
+Added Pin To Net: NetName=RX4B Pin=J4B-7
+Added Net: Name=RX4B
+Added Pin To Net: NetName=RX5A Pin=J5A-7
+Added Net: Name=RX5A
+Added Pin To Net: NetName=RX5B Pin=J5B-7
+Added Net: Name=RX5B
+Added Pin To Net: NetName=RX6A Pin=J6A-7
+Added Net: Name=RX6A
+Added Pin To Net: NetName=RX6B Pin=J6B-7
+Added Net: Name=RX6B
+Added Pin To Net: NetName=RX7A Pin=J7A-7
+Added Net: Name=RX7A
+Added Pin To Net: NetName=RX7B Pin=J7B-7
+Added Net: Name=RX7B
+Added Pin To Net: NetName=RX8A Pin=J8A-7
+Added Net: Name=RX8A
+Added Pin To Net: NetName=RX8B Pin=J8B-7
+Added Net: Name=RX8B
+Added Pin To Net: NetName=SCL Pin=J1A-5
+Added Pin To Net: NetName=SCL Pin=J1B-5
+Added Pin To Net: NetName=SCL Pin=J2A-5
+Added Pin To Net: NetName=SCL Pin=J2B-5
+Added Pin To Net: NetName=SCL Pin=J3A-5
+Added Pin To Net: NetName=SCL Pin=J3B-5
+Added Pin To Net: NetName=SCL Pin=J4A-5
+Added Pin To Net: NetName=SCL Pin=J4B-5
+Added Pin To Net: NetName=SCL Pin=J5A-5
+Added Pin To Net: NetName=SCL Pin=J5B-5
+Added Pin To Net: NetName=SCL Pin=J6A-5
+Added Pin To Net: NetName=SCL Pin=J6B-5
+Added Pin To Net: NetName=SCL Pin=J7A-5
+Added Pin To Net: NetName=SCL Pin=J7B-5
+Added Pin To Net: NetName=SCL Pin=J8A-5
+Added Pin To Net: NetName=SCL Pin=J8B-5
+Added Pin To Net: NetName=SCL Pin=J9-5
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=J1A-4
+Added Pin To Net: NetName=SDA Pin=J1B-4
+Added Pin To Net: NetName=SDA Pin=J2A-4
+Added Pin To Net: NetName=SDA Pin=J2B-4
+Added Pin To Net: NetName=SDA Pin=J3A-4
+Added Pin To Net: NetName=SDA Pin=J3B-4
+Added Pin To Net: NetName=SDA Pin=J4A-4
+Added Pin To Net: NetName=SDA Pin=J4B-4
+Added Pin To Net: NetName=SDA Pin=J5A-4
+Added Pin To Net: NetName=SDA Pin=J5B-4
+Added Pin To Net: NetName=SDA Pin=J6A-4
+Added Pin To Net: NetName=SDA Pin=J6B-4
+Added Pin To Net: NetName=SDA Pin=J7A-4
+Added Pin To Net: NetName=SDA Pin=J7B-4
+Added Pin To Net: NetName=SDA Pin=J8A-4
+Added Pin To Net: NetName=SDA Pin=J8B-4
+Added Pin To Net: NetName=SDA Pin=J9-4
+Added Net: Name=SDA
+Added Pin To Net: NetName=TX1A Pin=J1A-8
+Added Net: Name=TX1A
+Added Pin To Net: NetName=TX1B Pin=J1B-8
+Added Net: Name=TX1B
+Added Pin To Net: NetName=TX2A Pin=J2A-8
+Added Net: Name=TX2A
+Added Pin To Net: NetName=TX2B Pin=J2B-8
+Added Net: Name=TX2B
+Added Pin To Net: NetName=TX3A Pin=J3A-8
+Added Net: Name=TX3A
+Added Pin To Net: NetName=TX4A Pin=J4A-8
+Added Net: Name=TX4A
+Added Pin To Net: NetName=TX4B Pin=J4B-8
+Added Net: Name=TX4B
+Added Pin To Net: NetName=TX5A Pin=J5A-8
+Added Net: Name=TX5A
+Added Pin To Net: NetName=TX5B Pin=J5B-8
+Added Net: Name=TX5B
+Added Pin To Net: NetName=TX6A Pin=J6A-8
+Added Net: Name=TX6A
+Added Pin To Net: NetName=TX6B Pin=J6B-8
+Added Net: Name=TX6B
+Added Pin To Net: NetName=TX7A Pin=J7A-8
+Added Net: Name=TX7A
+Added Pin To Net: NetName=TX7B Pin=J7B-8
+Added Net: Name=TX7B
+Added Pin To Net: NetName=TX8A Pin=J8A-8
+Added Net: Name=TX8A
+Added Pin To Net: NetName=TX8B Pin=J8B-8
+Added Net: Name=TX8B
+Added Member To Class: ClassName=Backplane Member=Component J2A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J2B EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J3A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J3B EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J4A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J4B EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J5A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J5B EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J6A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J6B EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J7A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J7B EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J8A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J8B EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J9 EDGECONNECTOR12

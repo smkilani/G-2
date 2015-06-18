@@ -1,0 +1,12 @@
+Added Component: Designator=R1A(J1-0603)
+Added Component: Designator=R1B(J1-0603)
+Added Pin To Net: NetName=NetRJ1A_3 Pin=R1A-1
+Added Pin To Net: NetName=NetRJ1A_6 Pin=R1A-2
+Added Pin To Net: NetName=NetRJ1B_3 Pin=R1B-1
+Added Pin To Net: NetName=NetRJ1B_6 Pin=R1B-2
+Change Net Name : Old Net Name=NetRJ1A_3 New Net Name=NetR1A_1
+Change Net Name : Old Net Name=NetRJ1A_6 New Net Name=NetR1A_2
+Change Net Name : Old Net Name=NetRJ1B_3 New Net Name=NetR1B_1
+Change Net Name : Old Net Name=NetRJ1B_6 New Net Name=NetR1B_2
+Added Member To Class: ClassName=Backplane2 Member=Component R1A 
+Added Member To Class: ClassName=Backplane2 Member=Component R1B 

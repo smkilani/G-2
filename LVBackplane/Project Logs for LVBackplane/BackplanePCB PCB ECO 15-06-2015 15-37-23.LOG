@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=GND Pin=J9-2
+Added Component: Designator=C1(1608[0603])
+Added Component: Designator=C2(1608[0603])
+Added Component: Designator=J1B(RJ45.STRAIGHT)
+Added Component: Designator=RJ1A(RJ45.STRAIGHT)
+Added Component: Designator=RJ1B(RJ45.STRAIGHT)
+Added Component: Designator=U1A(SOICN8)
+Added Component: Designator=U1B(SOICN8)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C2-2
+Added Pin To Net: NetName=24V Pin=J9-2
+Added Pin To Net: NetName=5V Pin=U1A-1
+Added Pin To Net: NetName=RX1A Pin=U1A-2
+Added Pin To Net: NetName=TX1A Pin=U1A-3
+Added Pin To Net: NetName=GND Pin=U1A-4
+Added Pin To Net: NetName=5V Pin=U1B-1
+Added Pin To Net: NetName=RX1B Pin=U1B-2
+Added Pin To Net: NetName=TX1B Pin=U1B-3
+Added Pin To Net: NetName=GND Pin=U1B-4
+Change Net Name : Old Net Name=5V New Net Name=+5V
+Added Pin To Net: NetName=NetRJ1A_1 Pin=RJ1A-1
+Added Pin To Net: NetName=NetRJ1A_1 Pin=U1A-6
+Added Net: Name=NetRJ1A_1
+Added Pin To Net: NetName=NetRJ1A_2 Pin=RJ1A-2
+Added Pin To Net: NetName=NetRJ1A_2 Pin=U1A-5
+Added Net: Name=NetRJ1A_2
+Added Pin To Net: NetName=NetRJ1A_3 Pin=RJ1A-3
+Added Pin To Net: NetName=NetRJ1A_3 Pin=U1A-8
+Added Net: Name=NetRJ1A_3
+Added Pin To Net: NetName=NetRJ1A_6 Pin=RJ1A-6
+Added Pin To Net: NetName=NetRJ1A_6 Pin=U1A-7
+Added Net: Name=NetRJ1A_6
+Added Pin To Net: NetName=NetRJ1B_1 Pin=RJ1B-1
+Added Pin To Net: NetName=NetRJ1B_1 Pin=U1B-6
+Added Net: Name=NetRJ1B_1
+Added Pin To Net: NetName=NetRJ1B_2 Pin=RJ1B-2
+Added Pin To Net: NetName=NetRJ1B_2 Pin=U1B-5
+Added Net: Name=NetRJ1B_2
+Added Pin To Net: NetName=NetRJ1B_3 Pin=RJ1B-3
+Added Pin To Net: NetName=NetRJ1B_3 Pin=U1B-8
+Added Net: Name=NetRJ1B_3
+Added Pin To Net: NetName=NetRJ1B_6 Pin=RJ1B-6
+Added Pin To Net: NetName=NetRJ1B_6 Pin=U1B-7
+Added Net: Name=NetRJ1B_6
+Added Class: Name=Backplane2

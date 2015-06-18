@@ -1,0 +1,28 @@
+Added Component: Designator=J1A(EDGECONNECTOR12)
+Added Component: Designator=J1B(EDGECONNECTOR12)
+Added Pin To Net: NetName=+5V Pin=J1A-1
+Added Pin To Net: NetName=24V Pin=J1A-2
+Added Pin To Net: NetName=GND Pin=J1A-3
+Added Pin To Net: NetName=SDA Pin=J1A-4
+Added Pin To Net: NetName=SCL Pin=J1A-5
+Added Pin To Net: NetName=GND Pin=J1A-6
+Added Pin To Net: NetName=RX1A Pin=J1A-7
+Added Pin To Net: NetName=TX1A Pin=J1A-8
+Added Pin To Net: NetName=5V1A Pin=J1A-9
+Added Pin To Net: NetName=5VRTN1A Pin=J1A-10
+Added Pin To Net: NetName=-5V1A Pin=J1A-11
+Added Pin To Net: NetName=-5VRTN1A Pin=J1A-12
+Added Pin To Net: NetName=+5V Pin=J1B-1
+Added Pin To Net: NetName=24V Pin=J1B-2
+Added Pin To Net: NetName=GND Pin=J1B-3
+Added Pin To Net: NetName=SDA Pin=J1B-4
+Added Pin To Net: NetName=SCL Pin=J1B-5
+Added Pin To Net: NetName=GND Pin=J1B-6
+Added Pin To Net: NetName=RX1B Pin=J1B-7
+Added Pin To Net: NetName=TX1B Pin=J1B-8
+Added Pin To Net: NetName=5V1B Pin=J1B-9
+Added Pin To Net: NetName=5VRTN1B Pin=J1B-10
+Added Pin To Net: NetName=-5V1B Pin=J1B-11
+Added Pin To Net: NetName=-5VRTN1B Pin=J1B-12
+Added Member To Class: ClassName=Backplane Member=Component J1A EDGECONNECTOR12
+Added Member To Class: ClassName=Backplane Member=Component J1B EDGECONNECTOR12

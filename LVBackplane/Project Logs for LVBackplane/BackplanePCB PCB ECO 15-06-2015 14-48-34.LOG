@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=5V3B Pin=J3B-8
+Added Pin To Net: NetName=TX3B Pin=J3B-8
+Added Net: Name=TX3B
+Added Room: Name=Backplane

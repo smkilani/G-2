@@ -1,0 +1,140 @@
+Added Component: Designator=DB2A(DSUB1.STRAIGHT)
+Added Component: Designator=DB2B(DSUB1.STRAIGHT)
+Added Component: Designator=DB3A(DSUB1.STRAIGHT)
+Added Component: Designator=DB3B(DSUB1.STRAIGHT)
+Added Component: Designator=DB4A(DSUB1.STRAIGHT)
+Added Component: Designator=DB4B(DSUB1.STRAIGHT)
+Added Component: Designator=DB5A(DSUB1.STRAIGHT)
+Added Component: Designator=DB5B(DSUB1.STRAIGHT)
+Added Component: Designator=DB6A(DSUB1.STRAIGHT)
+Added Component: Designator=DB6B(DSUB1.STRAIGHT)
+Added Component: Designator=DB7A(DSUB1.STRAIGHT)
+Added Component: Designator=DB7B(DSUB1.STRAIGHT)
+Added Component: Designator=DB8A(DSUB1.STRAIGHT)
+Added Component: Designator=DB8B(DSUB1.STRAIGHT)
+Added Pin To Net: NetName=5V2A Pin=DB2A-1
+Added Pin To Net: NetName=5V2A Pin=DB2A-2
+Added Pin To Net: NetName=-5V2A Pin=DB2A-4
+Added Pin To Net: NetName=-5V2A Pin=DB2A-5
+Added Pin To Net: NetName=5VRTN2A Pin=DB2A-6
+Added Pin To Net: NetName=5VRTN2A Pin=DB2A-7
+Added Pin To Net: NetName=-5VRTN2A Pin=DB2A-8
+Added Pin To Net: NetName=-5VRTN2A Pin=DB2A-9
+Added Pin To Net: NetName=5V2B Pin=DB2B-1
+Added Pin To Net: NetName=5V2B Pin=DB2B-2
+Added Pin To Net: NetName=-5V2B Pin=DB2B-4
+Added Pin To Net: NetName=-5V2B Pin=DB2B-5
+Added Pin To Net: NetName=5VRTN2B Pin=DB2B-6
+Added Pin To Net: NetName=5VRTN2B Pin=DB2B-7
+Added Pin To Net: NetName=-5VRTN2B Pin=DB2B-8
+Added Pin To Net: NetName=-5VRTN2B Pin=DB2B-9
+Added Pin To Net: NetName=5V3A Pin=DB3A-1
+Added Pin To Net: NetName=5V3A Pin=DB3A-2
+Added Pin To Net: NetName=-5V3A Pin=DB3A-4
+Added Pin To Net: NetName=-5V3A Pin=DB3A-5
+Added Pin To Net: NetName=5VRTN3A Pin=DB3A-6
+Added Pin To Net: NetName=5VRTN3A Pin=DB3A-7
+Added Pin To Net: NetName=-5VRTN3A Pin=DB3A-8
+Added Pin To Net: NetName=-5VRTN3A Pin=DB3A-9
+Added Pin To Net: NetName=5V3B Pin=DB3B-1
+Added Pin To Net: NetName=5V3B Pin=DB3B-2
+Added Pin To Net: NetName=-5V3B Pin=DB3B-4
+Added Pin To Net: NetName=-5V3B Pin=DB3B-5
+Added Pin To Net: NetName=5VRTN3B Pin=DB3B-6
+Added Pin To Net: NetName=5VRTN3B Pin=DB3B-7
+Added Pin To Net: NetName=-5VRTN3B Pin=DB3B-8
+Added Pin To Net: NetName=-5VRTN3B Pin=DB3B-9
+Added Pin To Net: NetName=5V4A Pin=DB4A-1
+Added Pin To Net: NetName=5V4A Pin=DB4A-2
+Added Pin To Net: NetName=-5V4A Pin=DB4A-4
+Added Pin To Net: NetName=-5V4A Pin=DB4A-5
+Added Pin To Net: NetName=5VRTN4A Pin=DB4A-6
+Added Pin To Net: NetName=5VRTN4A Pin=DB4A-7
+Added Pin To Net: NetName=-5VRTN4A Pin=DB4A-8
+Added Pin To Net: NetName=-5VRTN4A Pin=DB4A-9
+Added Pin To Net: NetName=5V4B Pin=DB4B-1
+Added Pin To Net: NetName=5V4B Pin=DB4B-2
+Added Pin To Net: NetName=-5V4B Pin=DB4B-4
+Added Pin To Net: NetName=-5V4B Pin=DB4B-5
+Added Pin To Net: NetName=5VRTN4B Pin=DB4B-6
+Added Pin To Net: NetName=5VRTN4B Pin=DB4B-7
+Added Pin To Net: NetName=-5VRTN4B Pin=DB4B-8
+Added Pin To Net: NetName=-5VRTN4B Pin=DB4B-9
+Added Pin To Net: NetName=5V5A Pin=DB5A-1
+Added Pin To Net: NetName=5V5A Pin=DB5A-2
+Added Pin To Net: NetName=-5V5A Pin=DB5A-4
+Added Pin To Net: NetName=-5V5A Pin=DB5A-5
+Added Pin To Net: NetName=5VRTN5A Pin=DB5A-6
+Added Pin To Net: NetName=5VRTN5A Pin=DB5A-7
+Added Pin To Net: NetName=-5VRTN5A Pin=DB5A-8
+Added Pin To Net: NetName=-5VRTN5A Pin=DB5A-9
+Added Pin To Net: NetName=5V5B Pin=DB5B-1
+Added Pin To Net: NetName=5V5B Pin=DB5B-2
+Added Pin To Net: NetName=-5V5B Pin=DB5B-4
+Added Pin To Net: NetName=-5V5B Pin=DB5B-5
+Added Pin To Net: NetName=5VRTN5B Pin=DB5B-6
+Added Pin To Net: NetName=5VRTN5B Pin=DB5B-7
+Added Pin To Net: NetName=-5VRTN5B Pin=DB5B-8
+Added Pin To Net: NetName=-5VRTN5B Pin=DB5B-9
+Added Pin To Net: NetName=5V6A Pin=DB6A-1
+Added Pin To Net: NetName=5V6A Pin=DB6A-2
+Added Pin To Net: NetName=-5V6A Pin=DB6A-4
+Added Pin To Net: NetName=-5V6A Pin=DB6A-5
+Added Pin To Net: NetName=5VRTN6A Pin=DB6A-6
+Added Pin To Net: NetName=5VRTN6A Pin=DB6A-7
+Added Pin To Net: NetName=-5VRTN6A Pin=DB6A-8
+Added Pin To Net: NetName=-5VRTN6A Pin=DB6A-9
+Added Pin To Net: NetName=5V6B Pin=DB6B-1
+Added Pin To Net: NetName=5V6B Pin=DB6B-2
+Added Pin To Net: NetName=-5V6B Pin=DB6B-4
+Added Pin To Net: NetName=-5V6B Pin=DB6B-5
+Added Pin To Net: NetName=5VRTN6B Pin=DB6B-6
+Added Pin To Net: NetName=5VRTN6B Pin=DB6B-7
+Added Pin To Net: NetName=-5VRTN6B Pin=DB6B-8
+Added Pin To Net: NetName=-5VRTN6B Pin=DB6B-9
+Added Pin To Net: NetName=5V7A Pin=DB7A-1
+Added Pin To Net: NetName=5V7A Pin=DB7A-2
+Added Pin To Net: NetName=-5V7A Pin=DB7A-4
+Added Pin To Net: NetName=-5V7A Pin=DB7A-5
+Added Pin To Net: NetName=5VRTN7A Pin=DB7A-6
+Added Pin To Net: NetName=5VRTN7A Pin=DB7A-7
+Added Pin To Net: NetName=-5VRTN7A Pin=DB7A-8
+Added Pin To Net: NetName=-5VRTN7A Pin=DB7A-9
+Added Pin To Net: NetName=5V7B Pin=DB7B-1
+Added Pin To Net: NetName=5V7B Pin=DB7B-2
+Added Pin To Net: NetName=-5V7B Pin=DB7B-4
+Added Pin To Net: NetName=-5V7B Pin=DB7B-5
+Added Pin To Net: NetName=5VRTN7B Pin=DB7B-6
+Added Pin To Net: NetName=5VRTN7B Pin=DB7B-7
+Added Pin To Net: NetName=-5VRTN7B Pin=DB7B-8
+Added Pin To Net: NetName=-5VRTN7B Pin=DB7B-9
+Added Pin To Net: NetName=5V8A Pin=DB8A-1
+Added Pin To Net: NetName=5V8A Pin=DB8A-2
+Added Pin To Net: NetName=-5V8A Pin=DB8A-4
+Added Pin To Net: NetName=-5V8A Pin=DB8A-5
+Added Pin To Net: NetName=5VRTN8A Pin=DB8A-6
+Added Pin To Net: NetName=5VRTN8A Pin=DB8A-7
+Added Pin To Net: NetName=-5VRTN8A Pin=DB8A-8
+Added Pin To Net: NetName=-5VRTN8A Pin=DB8A-9
+Added Pin To Net: NetName=5V8B Pin=DB8B-1
+Added Pin To Net: NetName=5V8B Pin=DB8B-2
+Added Pin To Net: NetName=-5V8B Pin=DB8B-4
+Added Pin To Net: NetName=-5V8B Pin=DB8B-5
+Added Pin To Net: NetName=5VRTN8B Pin=DB8B-6
+Added Pin To Net: NetName=5VRTN8B Pin=DB8B-7
+Added Pin To Net: NetName=-5VRTN8B Pin=DB8B-8
+Added Pin To Net: NetName=-5VRTN8B Pin=DB8B-9
+Added Member To Class: ClassName=Backplane Member=Component DB2A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB2B D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB3A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB3B D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB4A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB4B D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB5A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB5B D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB6A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB6B D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB7A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB7B D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB8A D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component DB8B D Connector 9
