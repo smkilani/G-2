@@ -5,9 +5,9 @@
 //##############################################
 //#Uncomment the I2C address below
 //#Board A
-//#define i2cadrs 1
+#define i2cadrs 1
 //#Board B
-#define i2cadrs 2
+//#define i2cadrs 2
 //##############################################
 
 
@@ -32,7 +32,7 @@ void setup()
   Serial.begin(115200); //for uno
   //Serial.println("Welcome");
   pinMode(ENpin, OUTPUT); //to control the output
-  digitalWrite(ENpin, LOW);
+  digitalWrite(ENpin, HIGH);
   
   for( int i = 0; i < sizeof(inputString);  ++i )
   inputString[i] = (char)0;
