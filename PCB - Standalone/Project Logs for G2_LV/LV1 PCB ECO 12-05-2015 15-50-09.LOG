@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=ISENSE_1 Pin=C1-+
+Removed Pin From Net: NetName=GND Pin=C1--
+Removed Pin From Net: NetName=ISENSE_1 Pin=PC1-+
+Removed Pin From Net: NetName=GND Pin=PC1--
+Removed Pin From Net: NetName=+5V Pin=PC2-+
+Removed Pin From Net: NetName=GND Pin=PC2--
+Change Component Comment : Designator=C1 Old Comment=<B>POLARIZED CAPACITOR</B>, European symbol New Comment=
+Change Component Library : Designator=C1 Old Library=arduino_Uno_Rev3-02-TH.IntLib New Library=G2_LV.SCHLIB
+Change Component Library : Designator=PC1 Old Library=arduino_Uno_Rev3-02-TH.IntLib New Library=G2_LV.SCHLIB
+Change Component Library : Designator=PC2 Old Library=arduino_Uno_Rev3-02-TH.IntLib New Library=G2_LV.SCHLIB
+Added Member To Class: ClassName=controller Member=Component C1 

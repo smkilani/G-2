@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=D0 Pin=U3-30
+Removed Pin From Net: NetName=D1 Pin=U3-31
+Added Component: Designator=C35(1608[0603])
+Added Component: Designator=R51(J1-0603)
+Added Component: Designator=R52(J1-0603)
+Added Component: Designator=U5(SOICN8)
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=+5V Pin=C35-2
+Added Pin To Net: NetName=+5V Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=R52-2
+Added Pin To Net: NetName=NetJ2_1 Pin=U5-6
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=R52-1
+Added Pin To Net: NetName=NetJ2_2 Pin=U5-5
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_3 Pin=R51-2
+Added Pin To Net: NetName=NetJ2_3 Pin=U5-8
+Added Net: Name=NetJ2_3
+Added Pin To Net: NetName=NetJ2_6 Pin=J2-6
+Added Pin To Net: NetName=NetJ2_6 Pin=R51-1
+Added Pin To Net: NetName=NetJ2_6 Pin=U5-7
+Added Net: Name=NetJ2_6
+Added Pin To Net: NetName=RX Pin=U3-30
+Added Pin To Net: NetName=RX Pin=U5-2
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=U3-31
+Added Pin To Net: NetName=TX Pin=U5-3
+Added Net: Name=TX
+Added Member To Class: ClassName=controller Member=Component C35 Cap Semi
+Added Member To Class: ClassName=controller Member=Component R51 
+Added Member To Class: ClassName=controller Member=Component R52 
+Added Member To Class: ClassName=controller Member=Component U5 SP3084EEN-L

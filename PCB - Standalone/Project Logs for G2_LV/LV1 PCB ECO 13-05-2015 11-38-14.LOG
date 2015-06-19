@@ -1,0 +1,2 @@
+Change Component DesignItemId : Designator=W1 Old DesignItemId=Jumper New DesignItemId=Header 2
+Change Component Footprint: Designator=W1 Old Footprint=RAD-0.2 New Footprint=HDR1X2

@@ -1,0 +1,5 @@
+Added Component: Designator=D7(PDS1040L)
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=NetC9_2 Pin=D7-2
+Added Member To Class: ClassName=LV1 Member=Component D7 PDS1040L

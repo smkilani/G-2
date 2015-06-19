@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"30-12082014-105014";"";
+"REFERENCE";"24563131";"";
+"TraceParts.PartTitle";"Kit, "flexible", unshielded, for backplane mounting ";"";
+"TraceParts.InstanceId";"30-12082014-105014A5P8SI0UWYLQ2U34GGI8BEG4Y";"";
+"DESIGN";"Kit, "flexible", unshielded, for backplane mounting ";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"Pentair/Schroff";"";
+"TraceParts.PartVersion";"1.0.5";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"SCHROFF:/F_SCHROFF/30-12082014-105014";"";

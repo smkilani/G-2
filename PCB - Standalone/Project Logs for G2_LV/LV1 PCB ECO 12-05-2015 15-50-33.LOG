@@ -1,0 +1,12 @@
+Added Component: Designator=C1(PANASONIC_D)
+Added Component: Designator=PC1(PANASONIC_D)
+Added Component: Designator=PC2(PANASONIC_D)
+Added Pin To Net: NetName=ISENSE_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=ISENSE_1 Pin=PC1-1
+Added Pin To Net: NetName=GND Pin=PC1-2
+Added Pin To Net: NetName=+5V Pin=PC2-1
+Added Pin To Net: NetName=GND Pin=PC2-2
+Added Member To Class: ClassName=controller Member=Component C1 
+Added Member To Class: ClassName=controller Member=Component PC1 <B>POLARIZED CAPACITOR</B>, European symbol
+Added Member To Class: ClassName=controller Member=Component PC2 <B>POLARIZED CAPACITOR</B>, European symbol

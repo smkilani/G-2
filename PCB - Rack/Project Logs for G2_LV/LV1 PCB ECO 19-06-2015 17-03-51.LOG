@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+LV Pin=J1-1
+Removed Pin From Net: NetName=+LV Pin=J1-2
+Removed Pin From Net: NetName=-LV Pin=J1-4
+Removed Pin From Net: NetName=-LV Pin=J1-5
+Removed Pin From Net: NetName=GNDOUT Pin=J1-6
+Removed Pin From Net: NetName=GNDOUT Pin=J1-7
+Removed Pin From Net: NetName=NEGGNDOUT Pin=J1-8
+Removed Pin From Net: NetName=NEGGNDOUT Pin=J1-9
+Removed Member From Class: ClassName=LV1 Member=J1
