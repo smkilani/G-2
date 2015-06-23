@@ -1,0 +1,14 @@
+Added Component: Designator=J_Controller1(EDGECONNECTOR12)
+Added Pin To Net: NetName=+5V Pin=J_Controller1-1
+Added Pin To Net: NetName=24V Pin=J_Controller1-2
+Added Pin To Net: NetName=GND Pin=J_Controller1-3
+Added Pin To Net: NetName=SDANET_U1 Pin=J_Controller1-4
+Added Pin To Net: NetName=SCLNET_U1 Pin=J_Controller1-5
+Added Pin To Net: NetName=GND Pin=J_Controller1-6
+Added Pin To Net: NetName=GND Pin=J_Controller1-7
+Added Pin To Net: NetName=GND Pin=J_Controller1-8
+Added Pin To Net: NetName=GND Pin=J_Controller1-9
+Added Pin To Net: NetName=GND Pin=J_Controller1-10
+Added Pin To Net: NetName=GND Pin=J_Controller1-11
+Added Pin To Net: NetName=GND Pin=J_Controller1-12
+Added Member To Class: ClassName=Backplane Member=Component J_Controller1 EDGECONNECTOR12

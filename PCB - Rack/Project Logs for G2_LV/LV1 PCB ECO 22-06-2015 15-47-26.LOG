@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=24V+ Pin=DTVS1-1
+Removed Pin From Net: NetName=GND Pin=DTVS1-2
+Removed Pin From Net: NetName=24V+ Pin=F2-2
+Removed Pin From Net: NetName=GND Pin=R5-1
+Removed Pin From Net: NetName=GND Pin=U2-2
+Added Component: Designator=C25(C1210)
+Added Component: Designator=C26(C1210)
+Added Component: Designator=C27(C1210)
+Added Component: Designator=R46(J1-0603)
+Added Pin To Net: NetName=GNDOUT Pin=C25-1
+Added Pin To Net: NetName=GNDOUT Pin=C26-1
+Added Pin To Net: NetName=GNDOUT Pin=C27-1
+Added Pin To Net: NetName=NetC9_2 Pin=R46-1
+Change Net Name : Old Net Name=24V+ New Net Name=NetC11_2
+Change Net Name : Old Net Name=EN New Net Name=NetQ2_1
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Pin To Net: NetName=NetC25_2 Pin=C26-2
+Added Pin To Net: NetName=NetC25_2 Pin=C27-2
+Added Pin To Net: NetName=NetC25_2 Pin=R46-2
+Added Net: Name=NetC25_2
+Change Class Name : Old Net Name=LV1 New Net Name=LVposA
+Added Member To Class: ClassName=LVposA Member=Component C9 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C10 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C11 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C12 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C13 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C24 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C25 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C26 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C27 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component C30 Cap Semi
+Added Member To Class: ClassName=LVposA Member=Component D6 BZT52H-B5V6
+Added Member To Class: ClassName=LVposA Member=Component D7 PDS1040L
+Added Member To Class: ClassName=LVposA Member=Component D8 SMAJ30A
+Added Member To Class: ClassName=LVposA Member=Component D9 LED0
+Added Member To Class: ClassName=LVposA Member=Component D10 ES3B
+Added Member To Class: ClassName=LVposA Member=Component LT2 LT8302
+Added Member To Class: ClassName=LVposA Member=Component Q2 BSS131
+Added Member To Class: ClassName=LVposA Member=Component R6 Res3
+Added Member To Class: ClassName=LVposA Member=Component R7 Res3
+Added Member To Class: ClassName=LVposA Member=Component R8 Res3
+Added Member To Class: ClassName=LVposA Member=Component R46 Res3
+Added Member To Class: ClassName=LVposA Member=Component Rfb2 Res3
+Added Member To Class: ClassName=LVposA Member=Component Rref2 Res3
+Added Member To Class: ClassName=LVposA Member=Component Rtc2 Res3
+Added Member To Class: ClassName=LVposA Member=Component T2 36V

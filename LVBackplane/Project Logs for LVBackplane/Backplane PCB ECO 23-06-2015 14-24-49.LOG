@@ -1,0 +1,153 @@
+Change Component Designator: OldDesignator=*_U1 NewDesignator=J1
+Change Component Designator: OldDesignator=C1_U1 NewDesignator=C1
+Change Component Designator: OldDesignator=C2_U1 NewDesignator=C2
+Change Component Designator: OldDesignator=DB1_U1 NewDesignator=DB1
+Change Component Designator: OldDesignator=DB2_U1 NewDesignator=DB2
+Change Component Designator: OldDesignator=R1_U1 NewDesignator=R1
+Change Component Designator: OldDesignator=R2_U1 NewDesignator=R2
+Change Component Designator: OldDesignator=RJ1_U1 NewDesignator=RJ1
+Change Component Designator: OldDesignator=RJ2_U1 NewDesignator=RJ2
+Change Component Designator: OldDesignator=U1_U1 NewDesignator=U1
+Change Component Designator: OldDesignator=U2_U1 NewDesignator=U2
+Added Component: Designator=J_Controller(FCI-2x19WAY)
+Added Pin To Net: NetName=+5V Pin=C1-2
+Added Pin To Net: NetName=+5V Pin=C2-2
+Added Pin To Net: NetName=+5V Pin=J1-1
+Added Pin To Net: NetName=+5V Pin=J1-38
+Added Pin To Net: NetName=+5V Pin=J_Controller-1
+Added Pin To Net: NetName=+5V Pin=J_Controller-38
+Added Pin To Net: NetName=+5V Pin=U1-1
+Added Pin To Net: NetName=+5V Pin=U2-1
+Added Net: Name=+5V
+Added Pin To Net: NetName=24V Pin=J1-3
+Added Pin To Net: NetName=24V Pin=J1-36
+Added Pin To Net: NetName=24V Pin=J_Controller-3
+Added Pin To Net: NetName=24V Pin=J_Controller-36
+Added Net: Name=24V
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-8
+Added Pin To Net: NetName=GND Pin=J1-11
+Added Pin To Net: NetName=GND Pin=J1-28
+Added Pin To Net: NetName=GND Pin=J1-31
+Added Pin To Net: NetName=GND Pin=J1-34
+Added Pin To Net: NetName=GND Pin=J1-35
+Added Pin To Net: NetName=GND Pin=J1-37
+Added Pin To Net: NetName=GND Pin=J_Controller-2
+Added Pin To Net: NetName=GND Pin=J_Controller-4
+Added Pin To Net: NetName=GND Pin=J_Controller-5
+Added Pin To Net: NetName=GND Pin=J_Controller-8
+Added Pin To Net: NetName=GND Pin=J_Controller-11
+Added Pin To Net: NetName=GND Pin=J_Controller-28
+Added Pin To Net: NetName=GND Pin=J_Controller-31
+Added Pin To Net: NetName=GND Pin=J_Controller-34
+Added Pin To Net: NetName=GND Pin=J_Controller-35
+Added Pin To Net: NetName=GND Pin=J_Controller-37
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Net: Name=GND
+Added Pin To Net: NetName=NetDB1_1 Pin=DB1-1
+Added Pin To Net: NetName=NetDB1_1 Pin=DB1-2
+Added Pin To Net: NetName=NetDB1_1 Pin=J1-12
+Added Pin To Net: NetName=NetDB1_1 Pin=J1-13
+Added Net: Name=NetDB1_1
+Added Pin To Net: NetName=NetDB1_4 Pin=DB1-4
+Added Pin To Net: NetName=NetDB1_4 Pin=DB1-5
+Added Pin To Net: NetName=NetDB1_4 Pin=J1-18
+Added Pin To Net: NetName=NetDB1_4 Pin=J1-19
+Added Net: Name=NetDB1_4
+Added Pin To Net: NetName=NetDB1_6 Pin=DB1-6
+Added Pin To Net: NetName=NetDB1_6 Pin=DB1-7
+Added Pin To Net: NetName=NetDB1_6 Pin=J1-14
+Added Pin To Net: NetName=NetDB1_6 Pin=J1-15
+Added Net: Name=NetDB1_6
+Added Pin To Net: NetName=NetDB1_8 Pin=DB1-8
+Added Pin To Net: NetName=NetDB1_8 Pin=DB1-9
+Added Pin To Net: NetName=NetDB1_8 Pin=J1-16
+Added Pin To Net: NetName=NetDB1_8 Pin=J1-17
+Added Net: Name=NetDB1_8
+Added Pin To Net: NetName=NetDB2_1 Pin=DB2-1
+Added Pin To Net: NetName=NetDB2_1 Pin=DB2-2
+Added Pin To Net: NetName=NetDB2_1 Pin=J1-20
+Added Pin To Net: NetName=NetDB2_1 Pin=J1-21
+Added Net: Name=NetDB2_1
+Added Pin To Net: NetName=NetDB2_4 Pin=DB2-4
+Added Pin To Net: NetName=NetDB2_4 Pin=DB2-5
+Added Pin To Net: NetName=NetDB2_4 Pin=J1-26
+Added Pin To Net: NetName=NetDB2_4 Pin=J1-27
+Added Net: Name=NetDB2_4
+Added Pin To Net: NetName=NetDB2_6 Pin=DB2-6
+Added Pin To Net: NetName=NetDB2_6 Pin=DB2-7
+Added Pin To Net: NetName=NetDB2_6 Pin=J1-22
+Added Pin To Net: NetName=NetDB2_6 Pin=J1-23
+Added Net: Name=NetDB2_6
+Added Pin To Net: NetName=NetDB2_8 Pin=DB2-8
+Added Pin To Net: NetName=NetDB2_8 Pin=DB2-9
+Added Pin To Net: NetName=NetDB2_8 Pin=J1-24
+Added Pin To Net: NetName=NetDB2_8 Pin=J1-25
+Added Net: Name=NetDB2_8
+Added Pin To Net: NetName=NetJ1_9 Pin=J1-9
+Added Pin To Net: NetName=NetJ1_9 Pin=U1-2
+Added Net: Name=NetJ1_9
+Added Pin To Net: NetName=NetJ1_10 Pin=J1-10
+Added Pin To Net: NetName=NetJ1_10 Pin=U1-3
+Added Net: Name=NetJ1_10
+Added Pin To Net: NetName=NetJ1_29 Pin=J1-29
+Added Pin To Net: NetName=NetJ1_29 Pin=U2-3
+Added Net: Name=NetJ1_29
+Added Pin To Net: NetName=NetJ1_30 Pin=J1-30
+Added Pin To Net: NetName=NetJ1_30 Pin=U2-2
+Added Net: Name=NetJ1_30
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=RJ1-3
+Added Pin To Net: NetName=NetR1_1 Pin=U1-8
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=RJ1-6
+Added Pin To Net: NetName=NetR1_2 Pin=U1-7
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=RJ2-3
+Added Pin To Net: NetName=NetR2_1 Pin=U2-8
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=RJ2-6
+Added Pin To Net: NetName=NetR2_2 Pin=U2-7
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetRJ1_1 Pin=RJ1-1
+Added Pin To Net: NetName=NetRJ1_1 Pin=U1-6
+Added Net: Name=NetRJ1_1
+Added Pin To Net: NetName=NetRJ1_2 Pin=RJ1-2
+Added Pin To Net: NetName=NetRJ1_2 Pin=U1-5
+Added Net: Name=NetRJ1_2
+Added Pin To Net: NetName=NetRJ2_1 Pin=RJ2-1
+Added Pin To Net: NetName=NetRJ2_1 Pin=U2-6
+Added Net: Name=NetRJ2_1
+Added Pin To Net: NetName=NetRJ2_2 Pin=RJ2-2
+Added Pin To Net: NetName=NetRJ2_2 Pin=U2-5
+Added Net: Name=NetRJ2_2
+Added Pin To Net: NetName=SCLNET Pin=J1-7
+Added Pin To Net: NetName=SCLNET Pin=J1-32
+Added Pin To Net: NetName=SCLNET Pin=J_Controller-7
+Added Pin To Net: NetName=SCLNET Pin=J_Controller-32
+Added Net: Name=SCLNET
+Added Pin To Net: NetName=SDANET Pin=J1-6
+Added Pin To Net: NetName=SDANET Pin=J1-33
+Added Pin To Net: NetName=SDANET Pin=J_Controller-6
+Added Pin To Net: NetName=SDANET Pin=J_Controller-33
+Added Net: Name=SDANET
+Added Member To Class: ClassName=U1 Member=Component C1 Cap Semi
+Added Member To Class: ClassName=U1 Member=Component C2 Cap Semi
+Added Member To Class: ClassName=U1 Member=Component DB1 D Connector 9
+Added Member To Class: ClassName=U1 Member=Component DB2 D Connector 9
+Added Member To Class: ClassName=U1 Member=Component J1 19way_edgeconnector
+Added Member To Class: ClassName=Backplane Member=Component J_Controller 19way_edgeconnector
+Added Member To Class: ClassName=U1 Member=Component R1 
+Added Member To Class: ClassName=U1 Member=Component R2 
+Added Member To Class: ClassName=U1 Member=Component RJ1 85504-5001
+Added Member To Class: ClassName=U1 Member=Component RJ2 85504-5001
+Added Member To Class: ClassName=U1 Member=Component U1 SP3084EEN-L
+Added Member To Class: ClassName=U1 Member=Component U2 SP3084EEN-L

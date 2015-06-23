@@ -1,0 +1,41 @@
+Removed Member From Class: ClassName=U1 Member=*_U2
+Removed Member From Class: ClassName=U1 Member=C1_U2
+Removed Member From Class: ClassName=U1 Member=C2_U2
+Removed Member From Class: ClassName=U1 Member=DB1_U2
+Removed Member From Class: ClassName=U1 Member=DB2_U2
+Removed Member From Class: ClassName=U1 Member=R1_U2
+Removed Member From Class: ClassName=U1 Member=R2_U2
+Removed Member From Class: ClassName=U1 Member=RJ1_U2
+Removed Member From Class: ClassName=U1 Member=RJ2_U2
+Removed Member From Class: ClassName=U1 Member=U1_U2
+Removed Member From Class: ClassName=U1 Member=U2_U2
+Added Component: Designator=*(FCI-2x19WAY)
+Added Pin To Net: NetName=+5V Pin=*-1
+Added Pin To Net: NetName=24V Pin=*-2
+Added Pin To Net: NetName=GND Pin=*-3
+Added Pin To Net: NetName=SDANET_U1 Pin=*-4
+Added Pin To Net: NetName=SCLNET_U1 Pin=*-5
+Added Pin To Net: NetName=GND Pin=*-6
+Added Pin To Net: NetName=GND Pin=*-7
+Added Pin To Net: NetName=GND Pin=*-8
+Added Pin To Net: NetName=GND Pin=*-9
+Added Pin To Net: NetName=GND Pin=*-10
+Added Pin To Net: NetName=GND Pin=*-11
+Added Pin To Net: NetName=GND Pin=*-12
+Added Pin To Net: NetName=SCLNET_U1 Pin=*-34
+Added Pin To Net: NetName=SDANET_U1 Pin=*-35
+Added Pin To Net: NetName=GND Pin=*-36
+Added Pin To Net: NetName=24V Pin=*-37
+Added Pin To Net: NetName=+5V Pin=*-38
+Added Member To Class: ClassName=U1 Member=Component *_U1 (*) 19way_edgeconnector
+Added Member To Class: ClassName=Backplane Member=Component * 19way_edgeconnector
+Added Member To Class: ClassName=U1 Member=Component C1_U1 (C1) Cap Semi
+Added Member To Class: ClassName=U1 Member=Component C2_U1 (C2) Cap Semi
+Added Member To Class: ClassName=U1 Member=Component DB1_U1 (DB1) D Connector 9
+Added Member To Class: ClassName=U1 Member=Component DB2_U1 (DB2) D Connector 9
+Added Member To Class: ClassName=U1 Member=Component R1_U1 (R1) 
+Added Member To Class: ClassName=U1 Member=Component R2_U1 (R2) 
+Added Member To Class: ClassName=U1 Member=Component RJ1_U1 (RJ1) 85504-5001
+Added Member To Class: ClassName=U1 Member=Component RJ2_U1 (RJ2) 85504-5001
+Added Member To Class: ClassName=U1 Member=Component U1_U1 (U1) SP3084EEN-L
+Added Member To Class: ClassName=U1 Member=Component U2_U1 (U2) SP3084EEN-L
