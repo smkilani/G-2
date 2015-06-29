@@ -1,0 +1,121 @@
+Added Component: Designator=DB1(DSUB1.STRAIGHT)
+Added Component: Designator=DB2(DSUB1.STRAIGHT)
+Added Component: Designator=J1(EDAC_EDGE)
+Added Component: Designator=J1(EDAC_EDGE)
+Added Component: Designator=RJ1(RJ45.STRAIGHT)
+Added Component: Designator=RJ2(RJ45.STRAIGHT)
+Added Pin To Net: NetName=+5V Pin=J1-2
+Added Pin To Net: NetName=+5V Pin=J1-2
+Added Pin To Net: NetName=+5V Pin=J1-43
+Added Pin To Net: NetName=+5V Pin=J1-43
+Added Net: Name=+5V
+Added Pin To Net: NetName=24V Pin=J1-1
+Added Pin To Net: NetName=24V Pin=J1-1
+Added Pin To Net: NetName=24V Pin=J1-44
+Added Pin To Net: NetName=24V Pin=J1-44
+Added Net: Name=24V
+Added Pin To Net: NetName=ADRS2 Pin=J1-3
+Added Pin To Net: NetName=ADRS2 Pin=J1-3
+Added Pin To Net: NetName=ADRS2 Pin=J1-6
+Added Pin To Net: NetName=ADRS2 Pin=J1-6
+Added Pin To Net: NetName=ADRS2 Pin=J1-7
+Added Pin To Net: NetName=ADRS2 Pin=J1-7
+Added Pin To Net: NetName=ADRS2 Pin=J1-8
+Added Pin To Net: NetName=ADRS2 Pin=J1-8
+Added Pin To Net: NetName=ADRS2 Pin=J1-9
+Added Pin To Net: NetName=ADRS2 Pin=J1-9
+Added Pin To Net: NetName=ADRS2 Pin=J1-10
+Added Pin To Net: NetName=ADRS2 Pin=J1-11
+Added Pin To Net: NetName=ADRS2 Pin=J1-12
+Added Pin To Net: NetName=ADRS2 Pin=J1-13
+Added Pin To Net: NetName=ADRS2 Pin=J1-14
+Added Pin To Net: NetName=ADRS2 Pin=J1-14
+Added Pin To Net: NetName=ADRS2 Pin=J1-31
+Added Pin To Net: NetName=ADRS2 Pin=J1-31
+Added Pin To Net: NetName=ADRS2 Pin=J1-32
+Added Pin To Net: NetName=ADRS2 Pin=J1-33
+Added Pin To Net: NetName=ADRS2 Pin=J1-34
+Added Pin To Net: NetName=ADRS2 Pin=J1-35
+Added Pin To Net: NetName=ADRS2 Pin=J1-36
+Added Pin To Net: NetName=ADRS2 Pin=J1-36
+Added Pin To Net: NetName=ADRS2 Pin=J1-37
+Added Pin To Net: NetName=ADRS2 Pin=J1-37
+Added Pin To Net: NetName=ADRS2 Pin=J1-38
+Added Pin To Net: NetName=ADRS2 Pin=J1-38
+Added Pin To Net: NetName=ADRS2 Pin=J1-39
+Added Pin To Net: NetName=ADRS2 Pin=J1-39
+Added Pin To Net: NetName=ADRS2 Pin=J1-42
+Added Pin To Net: NetName=ADRS2 Pin=J1-42
+Added Net: Name=ADRS2
+Added Pin To Net: NetName=NetDB1_1 Pin=DB1-1
+Added Pin To Net: NetName=NetDB1_1 Pin=DB1-2
+Added Pin To Net: NetName=NetDB1_1 Pin=J1-15
+Added Pin To Net: NetName=NetDB1_1 Pin=J1-16
+Added Net: Name=NetDB1_1
+Added Pin To Net: NetName=NetDB1_4 Pin=DB1-4
+Added Pin To Net: NetName=NetDB1_4 Pin=DB1-5
+Added Pin To Net: NetName=NetDB1_4 Pin=J1-21
+Added Pin To Net: NetName=NetDB1_4 Pin=J1-22
+Added Net: Name=NetDB1_4
+Added Pin To Net: NetName=NetDB1_6 Pin=DB1-6
+Added Pin To Net: NetName=NetDB1_6 Pin=DB1-7
+Added Pin To Net: NetName=NetDB1_6 Pin=J1-17
+Added Pin To Net: NetName=NetDB1_6 Pin=J1-18
+Added Net: Name=NetDB1_6
+Added Pin To Net: NetName=NetDB1_8 Pin=DB1-8
+Added Pin To Net: NetName=NetDB1_8 Pin=DB1-9
+Added Pin To Net: NetName=NetDB1_8 Pin=J1-19
+Added Pin To Net: NetName=NetDB1_8 Pin=J1-20
+Added Net: Name=NetDB1_8
+Added Pin To Net: NetName=NetDB2_1 Pin=DB2-1
+Added Pin To Net: NetName=NetDB2_1 Pin=DB2-2
+Added Pin To Net: NetName=NetDB2_1 Pin=J1-23
+Added Pin To Net: NetName=NetDB2_1 Pin=J1-24
+Added Net: Name=NetDB2_1
+Added Pin To Net: NetName=NetDB2_4 Pin=DB2-4
+Added Pin To Net: NetName=NetDB2_4 Pin=DB2-5
+Added Pin To Net: NetName=NetDB2_4 Pin=J1-29
+Added Pin To Net: NetName=NetDB2_4 Pin=J1-30
+Added Net: Name=NetDB2_4
+Added Pin To Net: NetName=NetDB2_6 Pin=DB2-6
+Added Pin To Net: NetName=NetDB2_6 Pin=DB2-7
+Added Pin To Net: NetName=NetDB2_6 Pin=J1-25
+Added Pin To Net: NetName=NetDB2_6 Pin=J1-26
+Added Net: Name=NetDB2_6
+Added Pin To Net: NetName=NetDB2_8 Pin=DB2-8
+Added Pin To Net: NetName=NetDB2_8 Pin=DB2-9
+Added Pin To Net: NetName=NetDB2_8 Pin=J1-27
+Added Pin To Net: NetName=NetDB2_8 Pin=J1-28
+Added Net: Name=NetDB2_8
+Added Pin To Net: NetName=NetJ1_10 Pin=J1-10
+Added Pin To Net: NetName=NetJ1_10 Pin=RJ1-3
+Added Net: Name=NetJ1_10
+Added Pin To Net: NetName=NetJ1_11 Pin=J1-11
+Added Pin To Net: NetName=NetJ1_11 Pin=RJ1-6
+Added Net: Name=NetJ1_11
+Added Pin To Net: NetName=NetJ1_12 Pin=J1-12
+Added Pin To Net: NetName=NetJ1_12 Pin=RJ1-1
+Added Net: Name=NetJ1_12
+Added Pin To Net: NetName=NetJ1_13 Pin=J1-13
+Added Pin To Net: NetName=NetJ1_13 Pin=RJ1-2
+Added Net: Name=NetJ1_13
+Added Pin To Net: NetName=NetJ1_32 Pin=J1-32
+Added Pin To Net: NetName=NetJ1_32 Pin=RJ2-2
+Added Net: Name=NetJ1_32
+Added Pin To Net: NetName=NetJ1_33 Pin=J1-33
+Added Pin To Net: NetName=NetJ1_33 Pin=RJ2-1
+Added Net: Name=NetJ1_33
+Added Pin To Net: NetName=NetJ1_34 Pin=J1-34
+Added Pin To Net: NetName=NetJ1_34 Pin=RJ2-6
+Added Net: Name=NetJ1_34
+Added Pin To Net: NetName=NetJ1_35 Pin=J1-35
+Added Pin To Net: NetName=NetJ1_35 Pin=RJ2-3
+Added Net: Name=NetJ1_35
+Added Pin To Net: NetName=SCLNET Pin=J1-4
+Added Pin To Net: NetName=SCLNET Pin=J1-5
+Added Pin To Net: NetName=SCLNET Pin=J1-40
+Added Pin To Net: NetName=SCLNET Pin=J1-41
+Added Net: Name=SCLNET
+Added Class: Name=U_Connectors
+Added Class: Name=ADRS[0..2]
+Added Member To Class: ClassName=Backplane Member=Component J1 44way_edge

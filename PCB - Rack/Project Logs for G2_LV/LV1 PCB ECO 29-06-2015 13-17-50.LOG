@@ -1,0 +1,62 @@
+Added Component: Designator=*(44wayPCBEdgeConnector)
+Added Pin To Net: NetName=24V Pin=*-1
+Added Pin To Net: NetName=24V Pin=*-2
+Added Pin To Net: NetName=GND Pin=*-3
+Added Pin To Net: NetName=SDA Pin=*-4
+Added Pin To Net: NetName=SCL Pin=*-5
+Added Pin To Net: NetName=GND Pin=*-14
+Added Pin To Net: NetName=NetC9_LV3_2 Pin=*-15
+Added Pin To Net: NetName=+5VGNDA Pin=*-17
+Added Pin To Net: NetName=-5VGNDA Pin=*-19
+Added Pin To Net: NetName=NetC9_LV4_1 Pin=*-21
+Added Pin To Net: NetName=NetC9_LV1_2 Pin=*-24
+Added Pin To Net: NetName=+5VGNDB Pin=*-26
+Added Pin To Net: NetName=-5VGNDB Pin=*-28
+Added Pin To Net: NetName=NetC9_LV2_1 Pin=*-30
+Added Pin To Net: NetName=GND Pin=*-31
+Added Pin To Net: NetName=GND Pin=*-32
+Added Pin To Net: NetName=GND Pin=*-33
+Added Pin To Net: NetName=GND Pin=*-34
+Added Pin To Net: NetName=GND Pin=*-35
+Added Pin To Net: NetName=GND Pin=*-36
+Added Pin To Net: NetName=ADRS0 Pin=*-37
+Added Pin To Net: NetName=ADRS1 Pin=*-38
+Added Pin To Net: NetName=ADRS2 Pin=*-39
+Added Pin To Net: NetName=SCL Pin=*-40
+Added Pin To Net: NetName=SDA Pin=*-41
+Added Pin To Net: NetName=GND Pin=*-42
+Added Pin To Net: NetName=+5V Pin=*-43
+Added Pin To Net: NetName=+5V Pin=*-44
+Change Net Name : Old Net Name=NetC9_LV1_2 New Net Name=Net*_24
+Change Net Name : Old Net Name=NetC9_LV2_1 New Net Name=Net*_30
+Change Net Name : Old Net Name=NetC9_LV3_2 New Net Name=Net*_15
+Change Net Name : Old Net Name=NetC9_LV4_1 New Net Name=Net*_21
+Added Pin To Net: NetName=Net*_6 Pin=*-6
+Added Pin To Net: NetName=Net*_6 Pin=R1-2
+Added Pin To Net: NetName=Net*_6 Pin=U1-8
+Added Net: Name=Net*_6
+Added Pin To Net: NetName=Net*_7 Pin=*-7
+Added Pin To Net: NetName=Net*_7 Pin=R1-1
+Added Pin To Net: NetName=Net*_7 Pin=U1-7
+Added Net: Name=Net*_7
+Added Pin To Net: NetName=Net*_8 Pin=*-8
+Added Pin To Net: NetName=Net*_8 Pin=U1-6
+Added Net: Name=Net*_8
+Added Pin To Net: NetName=Net*_9 Pin=*-9
+Added Pin To Net: NetName=Net*_9 Pin=U1-5
+Added Net: Name=Net*_9
+Added Pin To Net: NetName=Net*_10 Pin=*-10
+Added Pin To Net: NetName=Net*_10 Pin=R2-1
+Added Pin To Net: NetName=Net*_10 Pin=U2-8
+Added Net: Name=Net*_10
+Added Pin To Net: NetName=Net*_11 Pin=*-11
+Added Pin To Net: NetName=Net*_11 Pin=R2-2
+Added Pin To Net: NetName=Net*_11 Pin=U2-7
+Added Net: Name=Net*_11
+Added Pin To Net: NetName=Net*_12 Pin=*-12
+Added Pin To Net: NetName=Net*_12 Pin=U2-6
+Added Net: Name=Net*_12
+Added Pin To Net: NetName=Net*_13 Pin=*-13
+Added Pin To Net: NetName=Net*_13 Pin=U2-5
+Added Net: Name=Net*_13
+Added Member To Class: ClassName=Top Member=Component * Edgeconnector44way

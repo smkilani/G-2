@@ -1,0 +1,102 @@
+Removed Pin From Net: NetName=Net*_15 Pin=*-15
+Removed Pin From Net: NetName=Net*_21 Pin=*-21
+Removed Pin From Net: NetName=+5VGNDB Pin=*-24
+Removed Pin From Net: NetName=Net*_26 Pin=*-26
+Removed Pin From Net: NetName=Net*_28 Pin=*-28
+Removed Pin From Net: NetName=+5VGNDB Pin=C32-2
+Added Component: Designator=C4(C1210)
+Added Component: Designator=C5(C1210)
+Added Component: Designator=C6(C1210)
+Added Component: Designator=C7(C1210)
+Added Component: Designator=C8(C1210)
+Added Component: Designator=C9(C1210)
+Added Component: Designator=C10(C1210)
+Added Component: Designator=C11(C1210)
+Added Component: Designator=C12(C1210)
+Added Component: Designator=C13(C1210)
+Added Component: Designator=C14(C1210)
+Added Component: Designator=C15(C1210)
+Added Component: Designator=C16(C1210)
+Added Component: Designator=C17(C1210)
+Added Component: Designator=C18(C1210)
+Added Component: Designator=C19(C1210)
+Added Component: Designator=R_L1(J1-0603)
+Added Component: Designator=R_L2(J1-0603)
+Added Component: Designator=R_L3(J1-0603)
+Added Component: Designator=R_L4(J1-0603)
+Added Pin To Net: NetName=+5VGNDA Pin=C4-1
+Added Pin To Net: NetName=Net*_15 Pin=C4-2
+Added Pin To Net: NetName=+5VGNDA Pin=C5-1
+Added Pin To Net: NetName=+5VGNDA Pin=C6-1
+Added Pin To Net: NetName=+5VGNDA Pin=C7-1
+Added Pin To Net: NetName=Net*_21 Pin=C8-1
+Added Pin To Net: NetName=-5VGNDA Pin=C8-2
+Added Pin To Net: NetName=-5VGNDA Pin=C9-2
+Added Pin To Net: NetName=-5VGNDA Pin=C10-2
+Added Pin To Net: NetName=-5VGNDA Pin=C11-2
+Added Pin To Net: NetName=Net*_28 Pin=C12-1
+Added Pin To Net: NetName=-5VGNDB Pin=C12-2
+Added Pin To Net: NetName=-5VGNDB Pin=C13-2
+Added Pin To Net: NetName=-5VGNDB Pin=C14-2
+Added Pin To Net: NetName=-5VGNDB Pin=C15-2
+Added Pin To Net: NetName=Net*_26 Pin=C16-2
+Added Pin To Net: NetName=Net*_15 Pin=R_L1-2
+Added Pin To Net: NetName=Net*_21 Pin=R_L2-2
+Added Pin To Net: NetName=Net*_28 Pin=R_L3-1
+Added Pin To Net: NetName=Net*_26 Pin=R_L4-1
+Change Net Name : Old Net Name=+5VGNDB New Net Name=NetC9_LV1_1
+Change Net Name : Old Net Name=Net*_15 New Net Name=NetC4_2
+Change Net Name : Old Net Name=Net*_21 New Net Name=NetC8_1
+Change Net Name : Old Net Name=Net*_26 New Net Name=NetC9_LV1_2
+Change Net Name : Old Net Name=Net*_28 New Net Name=NetC9_LV2_1
+Added Pin To Net: NetName=+5VGNDB Pin=*-24
+Added Pin To Net: NetName=+5VGNDB Pin=C16-1
+Added Pin To Net: NetName=+5VGNDB Pin=C17-1
+Added Pin To Net: NetName=+5VGNDB Pin=C18-1
+Added Pin To Net: NetName=+5VGNDB Pin=C19-1
+Added Pin To Net: NetName=+5VGNDB Pin=C32-2
+Added Net: Name=+5VGNDB
+Added Pin To Net: NetName=Net*_15 Pin=*-15
+Added Pin To Net: NetName=Net*_15 Pin=C5-2
+Added Pin To Net: NetName=Net*_15 Pin=C6-2
+Added Pin To Net: NetName=Net*_15 Pin=C7-2
+Added Pin To Net: NetName=Net*_15 Pin=R_L1-1
+Added Net: Name=Net*_15
+Added Pin To Net: NetName=Net*_21 Pin=*-21
+Added Pin To Net: NetName=Net*_21 Pin=C9-1
+Added Pin To Net: NetName=Net*_21 Pin=C10-1
+Added Pin To Net: NetName=Net*_21 Pin=C11-1
+Added Pin To Net: NetName=Net*_21 Pin=R_L2-1
+Added Net: Name=Net*_21
+Added Pin To Net: NetName=Net*_26 Pin=*-26
+Added Pin To Net: NetName=Net*_26 Pin=C17-2
+Added Pin To Net: NetName=Net*_26 Pin=C18-2
+Added Pin To Net: NetName=Net*_26 Pin=C19-2
+Added Pin To Net: NetName=Net*_26 Pin=R_L4-2
+Added Net: Name=Net*_26
+Added Pin To Net: NetName=Net*_28 Pin=*-28
+Added Pin To Net: NetName=Net*_28 Pin=C13-1
+Added Pin To Net: NetName=Net*_28 Pin=C14-1
+Added Pin To Net: NetName=Net*_28 Pin=C15-1
+Added Pin To Net: NetName=Net*_28 Pin=R_L3-2
+Added Net: Name=Net*_28
+Added Member To Class: ClassName=Top Member=Component C4 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C5 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C6 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C7 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C8 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C10 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C11 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C12 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C13 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C14 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C15 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C16 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C17 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C18 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C19 Cap Semi
+Added Member To Class: ClassName=Top Member=Component R_L1 Res3
+Added Member To Class: ClassName=Top Member=Component R_L2 Res3
+Added Member To Class: ClassName=Top Member=Component R_L3 Res3
+Added Member To Class: ClassName=Top Member=Component R_L4 Res3

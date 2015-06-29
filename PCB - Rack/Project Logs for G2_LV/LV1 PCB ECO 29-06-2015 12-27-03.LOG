@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=GND Pin=C30_LV1-1
+Removed Pin From Net: NetName=GNDOUT_LV1 Pin=C30_LV1-2
+Removed Pin From Net: NetName=GND Pin=C30_LV2-1
+Removed Pin From Net: NetName=GNDOUT_LV2 Pin=C30_LV2-2
+Removed Pin From Net: NetName=GND Pin=C30_LV3-1
+Removed Pin From Net: NetName=GNDOUT_LV3 Pin=C30_LV3-2
+Removed Pin From Net: NetName=GND Pin=C30_LV4-1
+Removed Pin From Net: NetName=GNDOUT_LV4 Pin=C30_LV4-2
+Added Component: Designator=C30(1812)
+Added Component: Designator=C31(1812)
+Added Component: Designator=C32(1812)
+Added Component: Designator=C33(1812)
+Added Pin To Net: NetName=GND Pin=C30-1
+Added Pin To Net: NetName=GNDOUT_LV3 Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=NetC9_LV4_2 Pin=C31-2
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=GNDOUT_LV1 Pin=C32-2
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=NetC9_LV2_2 Pin=C33-2
+Change Net Name : Old Net Name=GNDOUT_LV1 New Net Name=+5VGNDB
+Change Net Name : Old Net Name=GNDOUT_LV2 New Net Name=NetC9_LV2_1
+Change Net Name : Old Net Name=GNDOUT_LV3 New Net Name=+5VGNDA
+Change Net Name : Old Net Name=GNDOUT_LV4 New Net Name=NetC9_LV4_1
+Change Net Name : Old Net Name=NetC9_LV2_2 New Net Name=-5VGNDB
+Change Net Name : Old Net Name=NetC9_LV4_2 New Net Name=-5VGNDA
+Added Member To Class: ClassName=Top Member=Component C30 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C31 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C32 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C33 Cap Semi

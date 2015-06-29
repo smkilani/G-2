@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=SCLNET New Net Name=SDANET
+Added Pin To Net: NetName=SCLNET Pin=J1-4
+Added Pin To Net: NetName=SCLNET Pin=J1-41
+Added Pin To Net: NetName=SCLNET Pin=J1_controller-5
+Added Pin To Net: NetName=SCLNET Pin=J1_controller-40
+Added Net: Name=SCLNET

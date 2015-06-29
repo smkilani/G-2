@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=C30_LV1-1
+Removed Pin From Net: NetName=GNDOUT_LV1 Pin=C30_LV1-2
+Removed Pin From Net: NetName=GND Pin=C30_LV2-1
+Removed Pin From Net: NetName=GNDOUT_LV2 Pin=C30_LV2-2
+Removed Pin From Net: NetName=GND Pin=C30_LV3-1
+Removed Pin From Net: NetName=GNDOUT_LV3 Pin=C30_LV3-2
+Removed Pin From Net: NetName=GND Pin=C30_LV4-1
+Removed Pin From Net: NetName=GNDOUT_LV4 Pin=C30_LV4-2
+Removed Member From Class: ClassName=LV1 Member=C30_LV1
+Removed Member From Class: ClassName=LV2 Member=C30_LV2
+Removed Member From Class: ClassName=LV3 Member=C30_LV3
+Removed Member From Class: ClassName=LV4 Member=C30_LV4
+Change Net Name : Old Net Name=GNDOUT_LV1 New Net Name=+5VGNDB
+Change Net Name : Old Net Name=GNDOUT_LV2 New Net Name=NetC9_LV2_1
+Change Net Name : Old Net Name=GNDOUT_LV3 New Net Name=+5VGNDA
+Change Net Name : Old Net Name=GNDOUT_LV4 New Net Name=NetC9_LV4_1
+Change Net Name : Old Net Name=NetC9_LV2_2 New Net Name=-5VGNDB
+Change Net Name : Old Net Name=NetC9_LV4_2 New Net Name=-5VGNDA

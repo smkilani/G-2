@@ -1,0 +1,133 @@
+Removed Pin From Net: NetName=+5V Pin=J1-A1
+Removed Pin From Net: NetName=GND Pin=J1-A2
+Removed Pin From Net: NetName=24V Pin=J1-A3
+Removed Pin From Net: NetName=GND Pin=J1-A4
+Removed Pin From Net: NetName=GND Pin=J1-A5
+Removed Pin From Net: NetName=SDA Pin=J1-A6
+Removed Pin From Net: NetName=SCL Pin=J1-A7
+Removed Pin From Net: NetName=GND Pin=J1-A8
+Removed Pin From Net: NetName=RX1 Pin=J1-A9
+Removed Pin From Net: NetName=TX1 Pin=J1-A10
+Removed Pin From Net: NetName=GND Pin=J1-A11
+Removed Pin From Net: NetName=NetC9_LV3_2 Pin=J1-A12
+Removed Pin From Net: NetName=NetC9_LV3_2 Pin=J1-A13
+Removed Pin From Net: NetName=GNDOUT_LV3 Pin=J1-A14
+Removed Pin From Net: NetName=GNDOUT_LV3 Pin=J1-A15
+Removed Pin From Net: NetName=NetC9_LV4_2 Pin=J1-A16
+Removed Pin From Net: NetName=NetC9_LV4_2 Pin=J1-A17
+Removed Pin From Net: NetName=GNDOUT_LV4 Pin=J1-A18
+Removed Pin From Net: NetName=GNDOUT_LV4 Pin=J1-A19
+Removed Pin From Net: NetName=+5V Pin=J1-B1
+Removed Pin From Net: NetName=GND Pin=J1-B2
+Removed Pin From Net: NetName=24V Pin=J1-B3
+Removed Pin From Net: NetName=GND Pin=J1-B4
+Removed Pin From Net: NetName=GND Pin=J1-B5
+Removed Pin From Net: NetName=SDA Pin=J1-B6
+Removed Pin From Net: NetName=SCL Pin=J1-B7
+Removed Pin From Net: NetName=GND Pin=J1-B8
+Removed Pin From Net: NetName=RX0 Pin=J1-B9
+Removed Pin From Net: NetName=TX0 Pin=J1-B10
+Removed Pin From Net: NetName=GND Pin=J1-B11
+Removed Pin From Net: NetName=GNDOUT_LV2 Pin=J1-B12
+Removed Pin From Net: NetName=GNDOUT_LV2 Pin=J1-B13
+Removed Pin From Net: NetName=NetC9_LV2_2 Pin=J1-B14
+Removed Pin From Net: NetName=NetC9_LV2_2 Pin=J1-B15
+Removed Pin From Net: NetName=GNDOUT_LV1 Pin=J1-B16
+Removed Pin From Net: NetName=GNDOUT_LV1 Pin=J1-B17
+Removed Pin From Net: NetName=NetC9_LV1_2 Pin=J1-B18
+Removed Pin From Net: NetName=NetC9_LV1_2 Pin=J1-B19
+Change Component DesignItemId : Designator=J1 Old DesignItemId=Edgeconnector38way New DesignItemId=Edgeconnector44way
+Change Component Footprint: Designator=J1 Old Footprint=FCIEdge New Footprint=44wayPCBEdgeConnector
+Change Component Comment : Designator=J1 Old Comment=Edgeconnector38way New Comment=Edgeconnector44way
+Added Component: Designator=C2(1608[0603])
+Added Component: Designator=C3(1608[0603])
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=R2(J1-0603)
+Added Component: Designator=U1(SOICN8)
+Added Component: Designator=U2(SOICN8)
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=+5V Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+5V Pin=C3-2
+Added Pin To Net: NetName=24V Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=+5V Pin=J1-3
+Added Pin To Net: NetName=SDA Pin=J1-4
+Added Pin To Net: NetName=SCL Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-14
+Added Pin To Net: NetName=NetC9_LV3_2 Pin=J1-15
+Added Pin To Net: NetName=NetC9_LV3_2 Pin=J1-16
+Added Pin To Net: NetName=GNDOUT_LV3 Pin=J1-17
+Added Pin To Net: NetName=GNDOUT_LV3 Pin=J1-18
+Added Pin To Net: NetName=NetC9_LV4_2 Pin=J1-19
+Added Pin To Net: NetName=NetC9_LV4_2 Pin=J1-20
+Added Pin To Net: NetName=GNDOUT_LV4 Pin=J1-21
+Added Pin To Net: NetName=GNDOUT_LV4 Pin=J1-22
+Added Pin To Net: NetName=NetC9_LV1_2 Pin=J1-23
+Added Pin To Net: NetName=NetC9_LV1_2 Pin=J1-24
+Added Pin To Net: NetName=GNDOUT_LV1 Pin=J1-25
+Added Pin To Net: NetName=GNDOUT_LV1 Pin=J1-26
+Added Pin To Net: NetName=NetC9_LV2_2 Pin=J1-27
+Added Pin To Net: NetName=NetC9_LV2_2 Pin=J1-28
+Added Pin To Net: NetName=GNDOUT_LV2 Pin=J1-29
+Added Pin To Net: NetName=GNDOUT_LV2 Pin=J1-30
+Added Pin To Net: NetName=GND Pin=J1-31
+Added Pin To Net: NetName=GND Pin=J1-32
+Added Pin To Net: NetName=GND Pin=J1-33
+Added Pin To Net: NetName=GND Pin=J1-34
+Added Pin To Net: NetName=GND Pin=J1-35
+Added Pin To Net: NetName=GND Pin=J1-36
+Added Pin To Net: NetName=SCL Pin=J1-40
+Added Pin To Net: NetName=SDA Pin=J1-41
+Added Pin To Net: NetName=+5V Pin=J1-42
+Added Pin To Net: NetName=GND Pin=J1-43
+Added Pin To Net: NetName=24V Pin=J1-44
+Added Pin To Net: NetName=+5V Pin=U1-1
+Added Pin To Net: NetName=RX0 Pin=U1-2
+Added Pin To Net: NetName=TX0 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=+5V Pin=U2-1
+Added Pin To Net: NetName=RX1 Pin=U2-2
+Added Pin To Net: NetName=TX1 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=ADRS0 Pin=J1-37
+Added Net: Name=ADRS0
+Added Pin To Net: NetName=ADRS1 Pin=J1-38
+Added Net: Name=ADRS1
+Added Pin To Net: NetName=ADRS2 Pin=J1-39
+Added Net: Name=ADRS2
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-6
+Added Pin To Net: NetName=NetJ1_6 Pin=R1-2
+Added Pin To Net: NetName=NetJ1_6 Pin=U1-8
+Added Net: Name=NetJ1_6
+Added Pin To Net: NetName=NetJ1_7 Pin=J1-7
+Added Pin To Net: NetName=NetJ1_7 Pin=R1-1
+Added Pin To Net: NetName=NetJ1_7 Pin=U1-7
+Added Net: Name=NetJ1_7
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-8
+Added Pin To Net: NetName=NetJ1_8 Pin=U1-6
+Added Net: Name=NetJ1_8
+Added Pin To Net: NetName=NetJ1_9 Pin=J1-9
+Added Pin To Net: NetName=NetJ1_9 Pin=U1-5
+Added Net: Name=NetJ1_9
+Added Pin To Net: NetName=NetJ1_10 Pin=J1-10
+Added Pin To Net: NetName=NetJ1_10 Pin=R2-1
+Added Pin To Net: NetName=NetJ1_10 Pin=U2-8
+Added Net: Name=NetJ1_10
+Added Pin To Net: NetName=NetJ1_11 Pin=J1-11
+Added Pin To Net: NetName=NetJ1_11 Pin=R2-2
+Added Pin To Net: NetName=NetJ1_11 Pin=U2-7
+Added Net: Name=NetJ1_11
+Added Pin To Net: NetName=NetJ1_12 Pin=J1-12
+Added Pin To Net: NetName=NetJ1_12 Pin=U2-6
+Added Net: Name=NetJ1_12
+Added Pin To Net: NetName=NetJ1_13 Pin=J1-13
+Added Pin To Net: NetName=NetJ1_13 Pin=U2-5
+Added Net: Name=NetJ1_13
+Added Class: Name=ADRS[0..2]
+Added Member To Class: ClassName=Top Member=Component C2 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C3 Cap Semi
+Added Member To Class: ClassName=Top Member=Component R1 
+Added Member To Class: ClassName=Top Member=Component R2 
+Added Member To Class: ClassName=Top Member=Component U1 SP3084EEN-L
+Added Member To Class: ClassName=Top Member=Component U2 SP3084EEN-L
