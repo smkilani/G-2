@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=EN1 Pin=Q2_LV1-1
+Removed Pin From Net: NetName=EN1 Pin=Q2_LV2-1
+Removed Pin From Net: NetName=EN2 Pin=Q2_LV3-1
+Removed Pin From Net: NetName=EN2 Pin=Q2_LV4-1
+Added Pin To Net: NetName=EN2 Pin=Q2_LV1-1
+Added Pin To Net: NetName=EN2 Pin=Q2_LV2-1
+Added Pin To Net: NetName=EN1 Pin=Q2_LV3-1
+Added Pin To Net: NetName=EN1 Pin=Q2_LV4-1

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ADRS2 Pin=U3-74
+Removed Pin From Net: NetName=ADRS1 Pin=U3-75
+Removed Pin From Net: NetName=ADRS0 Pin=U3-76
+Added Pin To Net: NetName=ADRS2 Pin=U3-73
+Added Pin To Net: NetName=ADRS1 Pin=U3-74
+Added Pin To Net: NetName=ADRS0 Pin=U3-75

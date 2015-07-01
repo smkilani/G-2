@@ -1,0 +1,60 @@
+Added Component: Designator=J1(44wayPCBEdgeConnector)
+Added Pin To Net: NetName=24V Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=SDA Pin=J1-4
+Added Pin To Net: NetName=SCL Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-14
+Added Pin To Net: NetName=Net*_15 Pin=J1-15
+Added Pin To Net: NetName=+5VGNDA Pin=J1-17
+Added Pin To Net: NetName=-5VGNDA Pin=J1-19
+Added Pin To Net: NetName=Net*_21 Pin=J1-21
+Added Pin To Net: NetName=+5VGNDB Pin=J1-24
+Added Pin To Net: NetName=Net*_26 Pin=J1-26
+Added Pin To Net: NetName=Net*_28 Pin=J1-28
+Added Pin To Net: NetName=-5VGNDB Pin=J1-30
+Added Pin To Net: NetName=GND Pin=J1-31
+Added Pin To Net: NetName=GND Pin=J1-32
+Added Pin To Net: NetName=GND Pin=J1-33
+Added Pin To Net: NetName=GND Pin=J1-34
+Added Pin To Net: NetName=GND Pin=J1-35
+Added Pin To Net: NetName=GND Pin=J1-36
+Added Pin To Net: NetName=ADRS0 Pin=J1-37
+Added Pin To Net: NetName=ADRS1 Pin=J1-38
+Added Pin To Net: NetName=ADRS2 Pin=J1-39
+Added Pin To Net: NetName=SCL Pin=J1-40
+Added Pin To Net: NetName=SDA Pin=J1-41
+Added Pin To Net: NetName=GND Pin=J1-42
+Added Pin To Net: NetName=+5V Pin=J1-44
+Change Net Name : Old Net Name=Net*_15 New Net Name=NetC5_2
+Change Net Name : Old Net Name=Net*_21 New Net Name=NetC9_1
+Change Net Name : Old Net Name=Net*_26 New Net Name=NetC17_2
+Change Net Name : Old Net Name=Net*_28 New Net Name=NetC13_1
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-6
+Added Pin To Net: NetName=NetJ1_6 Pin=R1-2
+Added Pin To Net: NetName=NetJ1_6 Pin=U1-8
+Added Net: Name=NetJ1_6
+Added Pin To Net: NetName=NetJ1_7 Pin=J1-7
+Added Pin To Net: NetName=NetJ1_7 Pin=R1-1
+Added Pin To Net: NetName=NetJ1_7 Pin=U1-7
+Added Net: Name=NetJ1_7
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-8
+Added Pin To Net: NetName=NetJ1_8 Pin=U1-6
+Added Net: Name=NetJ1_8
+Added Pin To Net: NetName=NetJ1_9 Pin=J1-9
+Added Pin To Net: NetName=NetJ1_9 Pin=U1-5
+Added Net: Name=NetJ1_9
+Added Pin To Net: NetName=NetJ1_10 Pin=J1-10
+Added Pin To Net: NetName=NetJ1_10 Pin=R2-1
+Added Pin To Net: NetName=NetJ1_10 Pin=U2-8
+Added Net: Name=NetJ1_10
+Added Pin To Net: NetName=NetJ1_11 Pin=J1-11
+Added Pin To Net: NetName=NetJ1_11 Pin=R2-2
+Added Pin To Net: NetName=NetJ1_11 Pin=U2-7
+Added Net: Name=NetJ1_11
+Added Pin To Net: NetName=NetJ1_12 Pin=J1-12
+Added Pin To Net: NetName=NetJ1_12 Pin=U2-6
+Added Net: Name=NetJ1_12
+Added Pin To Net: NetName=NetJ1_13 Pin=J1-13
+Added Pin To Net: NetName=NetJ1_13 Pin=U2-5
+Added Net: Name=NetJ1_13
+Added Member To Class: ClassName=Top Member=Component J1 Edgeconnector44way
