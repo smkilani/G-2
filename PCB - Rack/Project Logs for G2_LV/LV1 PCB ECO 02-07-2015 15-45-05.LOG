@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+5VA Pin=D1-2
+Removed Pin From Net: NetName=+5VB Pin=D3-2
+Removed Pin From Net: NetName=-5VA Pin=R_LED2-2
+Removed Pin From Net: NetName=-5VB Pin=R_LED4-2
+Added Pin To Net: NetName=NetC4_2 Pin=D1-2
+Added Pin To Net: NetName=NetC9_LV1_2 Pin=D3-2
+Added Pin To Net: NetName=NetC8_1 Pin=R_LED2-2
+Added Pin To Net: NetName=NetC9_LV2_1 Pin=R_LED4-2
+Change Net Name : Old Net Name=+5VA New Net Name=NetC5_2
+Change Net Name : Old Net Name=+5VB New Net Name=NetC17_2
+Change Net Name : Old Net Name=-5VA New Net Name=NetC9_1
+Change Net Name : Old Net Name=-5VB New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetC4_2 New Net Name=+5VA
+Change Net Name : Old Net Name=NetC8_1 New Net Name=-5VA
+Change Net Name : Old Net Name=NetC9_LV1_2 New Net Name=+5VB
+Change Net Name : Old Net Name=NetC9_LV2_1 New Net Name=-5VB

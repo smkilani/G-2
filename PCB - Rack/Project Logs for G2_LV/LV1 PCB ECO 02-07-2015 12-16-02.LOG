@@ -1,0 +1,62 @@
+Added Component: Designator=D1(LED-1)
+Added Component: Designator=D2(LED-1)
+Added Component: Designator=D3(LED-1)
+Added Component: Designator=D4(LED-1)
+Added Component: Designator=D5(LED-1)
+Added Component: Designator=D6(LED-1)
+Added Component: Designator=R_LED1(J1-0603)
+Added Component: Designator=R_LED2(J1-0603)
+Added Component: Designator=R_LED3(J1-0603)
+Added Component: Designator=R_LED4(J1-0603)
+Added Component: Designator=R_LED5(J1-0603)
+Added Component: Designator=R_LED6(J1-0603)
+Added Pin To Net: NetName=NetC5_2 Pin=D1-1
+Added Pin To Net: NetName=-5VGNDA Pin=D2-1
+Added Pin To Net: NetName=NetC17_2 Pin=D3-1
+Added Pin To Net: NetName=-5VGNDB Pin=D4-1
+Added Pin To Net: NetName=+5VGNDA Pin=R_LED1-2
+Added Pin To Net: NetName=NetC9_1 Pin=R_LED2-2
+Added Pin To Net: NetName=+5VGNDB Pin=R_LED3-2
+Added Pin To Net: NetName=NetC13_1 Pin=R_LED4-2
+Added Pin To Net: NetName=GND Pin=R_LED5-2
+Added Pin To Net: NetName=GND Pin=R_LED6-2
+Change Net Name : Old Net Name=NetC5_2 New Net Name=+5VA
+Change Net Name : Old Net Name=NetC9_1 New Net Name=-5VA
+Change Net Name : Old Net Name=NetC13_1 New Net Name=-5VB
+Change Net Name : Old Net Name=NetC17_2 New Net Name=+5VB
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R_LED1-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R_LED2-1
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=R_LED3-1
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R_LED4-1
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=U3-72
+Added Net: Name=NetD5_1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=R_LED5-1
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=U3-71
+Added Net: Name=NetD6_1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=R_LED6-1
+Added Net: Name=NetD6_2
+Added Member To Class: ClassName=Top Member=Component D1 LED1
+Added Member To Class: ClassName=Top Member=Component D2 LED1
+Added Member To Class: ClassName=Top Member=Component D3 LED1
+Added Member To Class: ClassName=Top Member=Component D4 LED1
+Added Member To Class: ClassName=Top Member=Component D5 LED1
+Added Member To Class: ClassName=Top Member=Component D6 LED1
+Added Member To Class: ClassName=Top Member=Component R_LED1 Res3
+Added Member To Class: ClassName=Top Member=Component R_LED2 Res3
+Added Member To Class: ClassName=Top Member=Component R_LED3 Res3
+Added Member To Class: ClassName=Top Member=Component R_LED4 Res3
+Added Member To Class: ClassName=Top Member=Component R_LED5 Res3
+Added Member To Class: ClassName=Top Member=Component R_LED6 Res3

@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=LED1 Old DesignItemId=LEDGREEN New DesignItemId=LEDRED
+Change Component DesignItemId : Designator=D5 Old DesignItemId=LEDGREEN New DesignItemId=LEDYELLOW
+Change Component DesignItemId : Designator=D6 Old DesignItemId=LEDGREEN New DesignItemId=LEDYELLOW
+Change Component Footprint: Designator=LED1 Old Footprint=LEDGREEN New Footprint=LEDRED
+Change Component Footprint: Designator=D5 Old Footprint=LEDGREEN New Footprint=LEDYELLOW
+Change Component Footprint: Designator=D6 Old Footprint=LEDGREEN New Footprint=LEDYELLOW
+Change Component Comment : Designator=LED1 Old Comment=LEDGREEN New Comment=LEDRED
+Change Component Comment : Designator=D5 Old Comment=LEDGREEN New Comment=LEDYELLOW
+Change Component Comment : Designator=D6 Old Comment=LEDGREEN New Comment=LEDYELLOW

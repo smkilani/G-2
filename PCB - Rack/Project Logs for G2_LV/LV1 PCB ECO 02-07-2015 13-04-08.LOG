@@ -1,0 +1,28 @@
+Added Component: Designator=D1(LEDGREEN)
+Added Component: Designator=D2(LEDGREEN)
+Added Component: Designator=D3(LEDGREEN)
+Added Component: Designator=D4(LEDGREEN)
+Added Component: Designator=D5(LEDGREEN)
+Added Component: Designator=D6(LEDGREEN)
+Added Component: Designator=LED1(LEDGREEN)
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=+5VA Pin=D1-2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=-5VGNDA Pin=D2-2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=+5VB Pin=D3-2
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=-5VGNDB Pin=D4-2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=GND Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Member To Class: ClassName=Top Member=Component D1 LEDGREEN
+Added Member To Class: ClassName=Top Member=Component D2 LEDGREEN
+Added Member To Class: ClassName=Top Member=Component D3 LEDGREEN
+Added Member To Class: ClassName=Top Member=Component D4 LEDGREEN
+Added Member To Class: ClassName=Top Member=Component D5 LEDGREEN
+Added Member To Class: ClassName=Top Member=Component D6 LEDGREEN
+Added Member To Class: ClassName=U_controller Member=Component LED1 LEDGREEN
