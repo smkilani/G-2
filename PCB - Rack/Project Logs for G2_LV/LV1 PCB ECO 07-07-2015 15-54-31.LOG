@@ -1,0 +1,6 @@
+Added Component: Designator=RESET1(1-1825027-4)
+Added Pin To Net: NetName=GND Pin=RESET1-1
+Added Pin To Net: NetName=GND Pin=RESET1-2
+Added Pin To Net: NetName=RESET Pin=RESET1-3
+Added Pin To Net: NetName=RESET Pin=RESET1-4
+Added Member To Class: ClassName=U_controller Member=Component RESET1 TS42
