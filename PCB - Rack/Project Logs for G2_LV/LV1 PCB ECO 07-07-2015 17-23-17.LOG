@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=J1-36
+Change Net Name : Old Net Name=ADRS0 New Net Name=ADRS1
+Change Net Name : Old Net Name=ADRS1 New Net Name=ADRS2
+Change Net Name : Old Net Name=ADRS2 New Net Name=ADRS3
+Added Pin To Net: NetName=ADRS0 Pin=J1-36
+Added Pin To Net: NetName=ADRS0 Pin=U3-76
+Added Net: Name=ADRS0
+Change Class Name : Old Net Name=ADRS[0..2] New Net Name=ADRS[0..3]
+Added Member To Class: ClassName=ADRS[0..3] Member=Element[3]: ADRS
