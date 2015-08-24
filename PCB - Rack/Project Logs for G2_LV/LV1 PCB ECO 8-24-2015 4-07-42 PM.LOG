@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=EN2 Pin=Q2_LV1-1
+Removed Pin From Net: NetName=EN2 Pin=Q2_LV2-1
+Removed Pin From Net: NetName=EN1 Pin=Q2_LV3-1
+Removed Pin From Net: NetName=EN1 Pin=Q2_LV4-1
+Added Pin To Net: NetName=EN1 Pin=Q2_LV1-1
+Added Pin To Net: NetName=EN1 Pin=Q2_LV2-1
+Added Pin To Net: NetName=EN2 Pin=Q2_LV3-1
+Added Pin To Net: NetName=EN2 Pin=Q2_LV4-1
+Change Net Name : Old Net Name=RX0 New Net Name=RX1
+Change Net Name : Old Net Name=RX1 New Net Name=RX0
+Change Net Name : Old Net Name=TX0 New Net Name=TX1
+Change Net Name : Old Net Name=TX1 New Net Name=TX0

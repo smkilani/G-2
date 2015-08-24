@@ -1,0 +1,102 @@
+Removed Pin From Net: NetName=24V Pin=J1-1
+Removed Pin From Net: NetName=GND Pin=J1-3
+Removed Pin From Net: NetName=SCL Pin=J1-4
+Removed Pin From Net: NetName=SDA Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-14
+Removed Pin From Net: NetName=NetC5_2 Pin=J1-15
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-17
+Removed Pin From Net: NetName=-5VGNDA Pin=J1-19
+Removed Pin From Net: NetName=NetC9_1 Pin=J1-21
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-24
+Removed Pin From Net: NetName=NetC13_1 Pin=J1-28
+Removed Pin From Net: NetName=-5VGNDB Pin=J1-30
+Removed Pin From Net: NetName=GND Pin=J1-31
+Removed Pin From Net: NetName=GND Pin=J1-32
+Removed Pin From Net: NetName=GND Pin=J1-33
+Removed Pin From Net: NetName=GND Pin=J1-35
+Removed Pin From Net: NetName=ADRS0 Pin=J1-36
+Removed Pin From Net: NetName=ADRS1 Pin=J1-37
+Removed Pin From Net: NetName=ADRS2 Pin=J1-38
+Removed Pin From Net: NetName=ADRS3 Pin=J1-39
+Removed Pin From Net: NetName=SDA Pin=J1-40
+Removed Pin From Net: NetName=SCL Pin=J1-41
+Removed Pin From Net: NetName=GND Pin=J1-42
+Removed Pin From Net: NetName=+5VRAW Pin=J1-44
+Change Component DesignItemId : Designator=J1 Old DesignItemId=Edgeconnector44way New DesignItemId=DIN41612_64WAY
+Change Component Footprint: Designator=J1 Old Footprint=44wayPCBEdgeConnector New Footprint=09 03 164 6919
+Change Component Comment : Designator=J1 Old Comment=Edgeconnector44way New Comment=DIN41612_64WAY
+Added Pin To Net: NetName=+5VRAW Pin=J1-0
+Added Pin To Net: NetName=+5VRAW Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=SCL Pin=J1-3
+Added Pin To Net: NetName=SDA Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=GND Pin=J1-7
+Added Pin To Net: NetName=ADRS3 Pin=J1-8
+Added Pin To Net: NetName=GND Pin=J1-17
+Added Pin To Net: NetName=GND Pin=J1-18
+Added Pin To Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=-5VGNDB Pin=J1-20
+Added Pin To Net: NetName=-5VGNDB Pin=J1-21
+Added Pin To Net: NetName=-5VGNDB Pin=J1-22
+Added Pin To Net: NetName=NetC13_1 Pin=J1-23
+Added Pin To Net: NetName=NetC13_1 Pin=J1-24
+Added Pin To Net: NetName=NetC13_1 Pin=J1-25
+Added Pin To Net: NetName=NetC17_2 Pin=J1-27
+Added Pin To Net: NetName=NetC17_2 Pin=J1-28
+Added Pin To Net: NetName=+5VGNDB Pin=J1-29
+Added Pin To Net: NetName=+5VGNDB Pin=J1-30
+Added Pin To Net: NetName=+5VGNDB Pin=J1-31
+Added Pin To Net: NetName=24V Pin=J1-32
+Added Pin To Net: NetName=24V Pin=J1-33
+Added Pin To Net: NetName=SCL Pin=J1-35
+Added Pin To Net: NetName=SDA Pin=J1-36
+Added Pin To Net: NetName=GND Pin=J1-37
+Added Pin To Net: NetName=GND Pin=J1-38
+Added Pin To Net: NetName=GND Pin=J1-39
+Added Pin To Net: NetName=GND Pin=J1-48
+Added Pin To Net: NetName=GND Pin=J1-49
+Added Pin To Net: NetName=GND Pin=J1-50
+Added Pin To Net: NetName=GND Pin=J1-51
+Added Pin To Net: NetName=NetC5_2 Pin=J1-52
+Added Pin To Net: NetName=NetC5_2 Pin=J1-53
+Added Pin To Net: NetName=NetC5_2 Pin=J1-54
+Added Pin To Net: NetName=+5VGNDA Pin=J1-55
+Added Pin To Net: NetName=+5VGNDA Pin=J1-56
+Added Pin To Net: NetName=+5VGNDA Pin=J1-57
+Added Pin To Net: NetName=-5VGNDA Pin=J1-58
+Added Pin To Net: NetName=-5VGNDA Pin=J1-59
+Added Pin To Net: NetName=-5VGNDA Pin=J1-60
+Added Pin To Net: NetName=NetC9_1 Pin=J1-61
+Added Pin To Net: NetName=NetC9_1 Pin=J1-62
+Added Pin To Net: NetName=NetC9_1 Pin=J1-63
+Added Pin To Net: NetName=NetJ1_40 Pin=J1-40
+Added Pin To Net: NetName=NetJ1_40 Pin=R1-2
+Added Pin To Net: NetName=NetJ1_40 Pin=U1-8
+Added Net: Name=NetJ1_40
+Added Pin To Net: NetName=NetJ1_41 Pin=J1-41
+Added Pin To Net: NetName=NetJ1_41 Pin=R1-1
+Added Pin To Net: NetName=NetJ1_41 Pin=U1-7
+Added Net: Name=NetJ1_41
+Added Pin To Net: NetName=NetJ1_42 Pin=J1-42
+Added Pin To Net: NetName=NetJ1_42 Pin=U1-6
+Added Net: Name=NetJ1_42
+Added Pin To Net: NetName=NetJ1_43 Pin=J1-43
+Added Pin To Net: NetName=NetJ1_43 Pin=U1-5
+Added Net: Name=NetJ1_43
+Added Pin To Net: NetName=NetJ1_44 Pin=J1-44
+Added Pin To Net: NetName=NetJ1_44 Pin=R2-1
+Added Pin To Net: NetName=NetJ1_44 Pin=U2-8
+Added Net: Name=NetJ1_44
+Added Pin To Net: NetName=NetJ1_45 Pin=J1-45
+Added Pin To Net: NetName=NetJ1_45 Pin=R2-2
+Added Pin To Net: NetName=NetJ1_45 Pin=U2-7
+Added Net: Name=NetJ1_45
+Added Pin To Net: NetName=NetJ1_46 Pin=J1-46
+Added Pin To Net: NetName=NetJ1_46 Pin=U2-6
+Added Net: Name=NetJ1_46
+Added Pin To Net: NetName=NetJ1_47 Pin=J1-47
+Added Pin To Net: NetName=NetJ1_47 Pin=U2-5
+Added Net: Name=NetJ1_47
+Added Member To Class: ClassName=ADRS[0..3] Member=Element[0]: ADRS
