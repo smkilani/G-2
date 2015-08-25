@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
-NCDrill File Report For: LV1.PCBDOC   08/07/2015  12:37:18
+NCDrill File Report For: LV1.PCBDOC   8/25/2015  2:34:00 PM
 ---------------------------------------------------------------------------
 
 Layer Pair : Component Side to Bottom Layer
@@ -7,14 +7,18 @@ ASCII RoundHoles File : LV1.TXT
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        0.3mm (11.811mil)        Round          20               92.29 mm (3.63 Inch)
-T2        0.34mm (13.386mil)       Round          1                0.00 mm (0.00 Inch)
-T3        0.71mm (27.953mil)       Round          99               863.72 mm (34.00 Inch)
-T4        0.8mm (31.496mil)        Round          14               76.46 mm (3.01 Inch)
-T5        0.97mm (38.189mil)       Round          6                12.70 mm (0.50 Inch)
-T6        0.99mm (38.976mil)       Round          2                4.50 mm (0.18 Inch)
-T7        1.3mm (51.181mil)        Round          2                7.01 mm (0.28 Inch)
+T1        0.25mm (9.842mil)        Round          18               105.26 mm (4.14 Inch)
+T2        0.3mm (11.811mil)        Round          20               92.18 mm (3.63 Inch)
+T3        0.38mm (14.961mil)       Round          10               155.37 mm (6.12 Inch)
+T4        0.46mm (18.11mil)        Round          4                93.22 mm (3.67 Inch)
+T5        0.71mm (27.953mil)       Round          62               756.20 mm (29.77 Inch)
+T6        0.76mm (29.921mil)       Round          64               223.52 mm (8.80 Inch)
+T7        0.8mm (31.496mil)        Round          14               78.56 mm (3.09 Inch)
+T8        0.97mm (38.189mil)       Round          6                12.70 mm (0.50 Inch)
+T9        0.99mm (38.976mil)       Round          2                4.50 mm (0.18 Inch)
+T10       1.3mm (51.181mil)        Round          2                7.01 mm (0.28 Inch)
+T11       2.8mm (110.236mil)       Round          2                88.90 mm (3.50 Inch)
 ---------------------------------------------------------------------------
-Totals                                            144              1056.68 mm (41.60 Inch)
+Totals                                            204              1617.42 mm (63.68 Inch)
 
 Total Processing Time (hh:mm:ss) : 00:00:00

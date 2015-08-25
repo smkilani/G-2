@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: LV1.GBR   08/07/2015  12:35:46
+Gerber File Extension Report For: LV1.GBR   8/25/2015  2:33:43 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -12,5 +12,7 @@ Layer Extension     Layer Description
 .GTP                Top Paste                               
 .GTS                Top Solder                              
 .GBS                Solder Side                             
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
 .GM6                Mechanical 6                            
 ------------------------------------------------------------------------------------------

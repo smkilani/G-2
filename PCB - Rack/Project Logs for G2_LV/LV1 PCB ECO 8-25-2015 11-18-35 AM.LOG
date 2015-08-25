@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=-5VGNDA Pin=J1-24
+Removed Pin From Net: NetName=-5VGNDB Pin=J1-30
+Added Pin To Net: NetName=-5VGNDB Pin=J1-24
+Added Pin To Net: NetName=-5VGNDA Pin=J1-30

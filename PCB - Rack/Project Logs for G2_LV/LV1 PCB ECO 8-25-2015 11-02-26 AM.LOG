@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+5VA Pin=J1-20
+Removed Pin From Net: NetName=+5VA Pin=J1-21
+Removed Pin From Net: NetName=+5VB Pin=J1-24
+Removed Pin From Net: NetName=+5VB Pin=J1-25
+Removed Pin From Net: NetName=-5VA Pin=J1-29
+Removed Pin From Net: NetName=-5VB Pin=J1-31
+Added Pin To Net: NetName=NetC5_2 Pin=J1-20
+Added Pin To Net: NetName=NetC5_2 Pin=J1-21
+Added Pin To Net: NetName=NetC17_1 Pin=J1-24
+Added Pin To Net: NetName=NetC17_1 Pin=J1-25
+Added Pin To Net: NetName=NetC9_1 Pin=J1-29
+Added Pin To Net: NetName=NetC13_2 Pin=J1-31
+Added Pin To Net: NetName=ADRS3 Pin=U3-73
+Added Pin To Net: NetName=ADRS2 Pin=U3-74
+Added Pin To Net: NetName=ADRS1 Pin=U3-75
+Added Pin To Net: NetName=ADRS0 Pin=U3-76
