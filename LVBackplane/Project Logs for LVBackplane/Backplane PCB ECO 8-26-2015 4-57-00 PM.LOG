@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-0
+Removed Pin From Net: NetName=ADRSA3 Pin=J1-1
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-2
+Removed Pin From Net: NetName=SCLNET Pin=J1-3
+Removed Pin From Net: NetName=SDANET Pin=J1-4
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-5
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-32
+Removed Pin From Net: NetName=ADRSA3 Pin=J1-33
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-34
+Removed Pin From Net: NetName=SCLNET Pin=J1-35
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-37
+Added Pin To Net: NetName=24V Pin=J1-0
+Added Pin To Net: NetName=24V Pin=J1-1
+Added Pin To Net: NetName=ADRSA3 Pin=J1-2
+Added Pin To Net: NetName=ADRSA2 Pin=J1-3
+Added Pin To Net: NetName=SCLNET Pin=J1-4
+Added Pin To Net: NetName=SDANET Pin=J1-5
+Added Pin To Net: NetName=24V Pin=J1-32
+Added Pin To Net: NetName=24V Pin=J1-33
+Added Pin To Net: NetName=ADRSA3 Pin=J1-34
+Added Pin To Net: NetName=ADRSA2 Pin=J1-35
+Added Room: Name=Backplane
+Added Room: Name=U_Connectors1
+Added Room: Name=U_Connectors2

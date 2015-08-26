@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=SDANET Pin=J1-5
+Removed Pin From Net: NetName=ADRSA3 Pin=J1_U_Connectors1-1
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors1-2
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors1-5
+Removed Pin From Net: NetName=ADRSA3 Pin=J1_U_Connectors1-33
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors1-34
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors1-37
+Removed Pin From Net: NetName=ADRSA3 Pin=J1_U_Connectors2-1
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors2-2
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors2-5
+Removed Pin From Net: NetName=ADRSA3 Pin=J1_U_Connectors2-33
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors2-34
+Removed Pin From Net: NetName=ADRSA2 Pin=J1_U_Connectors2-37
+Added Pin To Net: NetName=SDANET Pin=J1-4
+Added Pin To Net: NetName=24V Pin=J1_U_Connectors1-1
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors1-2
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-3
+Added Pin To Net: NetName=24V Pin=J1_U_Connectors1-33
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors1-34
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-35
+Added Pin To Net: NetName=24V Pin=J1_U_Connectors2-1
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors2-2
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors2-3
+Added Pin To Net: NetName=24V Pin=J1_U_Connectors2-33
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors2-34
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors2-35
+Change Net Name : Old Net Name=SDANET New Net Name=SCLNET
+Added Pin To Net: NetName=SDANET Pin=J1-5
+Added Pin To Net: NetName=SDANET Pin=J1-37
+Added Pin To Net: NetName=SDANET Pin=J1_U_Connectors1-5
+Added Pin To Net: NetName=SDANET Pin=J1_U_Connectors1-37
+Added Pin To Net: NetName=SDANET Pin=J1_U_Connectors2-5
+Added Pin To Net: NetName=SDANET Pin=J1_U_Connectors2-37
+Added Net: Name=SDANET

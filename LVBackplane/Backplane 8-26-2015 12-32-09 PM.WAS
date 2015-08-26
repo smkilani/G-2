@@ -1,0 +1,10 @@
+J1_U_Connectors1 J2
+J1_U_Connectors2 J3
+RJ2_U_Connectors2 RJ1
+RJ1_U_Connectors2 RJ2
+DB2_U_Connectors2 DB1
+DB1_U_Connectors2 DB2
+RJ2_U_Connectors1 RJ3
+RJ1_U_Connectors1 RJ4
+DB2_U_Connectors1 DB3
+DB1_U_Connectors1 DB4

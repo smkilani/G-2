@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LVBackplane.PrjPcb]
+   Generated File[Backplane.GTL]
+   Generated File[Backplane.GBL]
+   Generated File[Backplane.GTO]
+   Generated File[Backplane.GTS]
+   Generated File[Backplane.GBS]
+   Generated File[Backplane.GBO]
+   Generated File[Backplane.GM1]
+   Generated File[Backplane.RUL]
+   Generated File[Backplane.EXTREP]
+   Generated File[Backplane.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 4:41:12 PM On 8/26/2015

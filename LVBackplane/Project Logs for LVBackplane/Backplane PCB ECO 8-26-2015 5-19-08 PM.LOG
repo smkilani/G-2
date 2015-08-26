@@ -1,0 +1,5 @@
+Added Component: Designator=P1(3Way_Screw_Power)
+Added Pin To Net: NetName=ADRSA2 Pin=P1-1
+Added Pin To Net: NetName=ADRSA3 Pin=P1-2
+Added Pin To Net: NetName=24V Pin=P1-3
+Added Member To Class: ClassName=Backplane Member=Component P1 3Way_Power
