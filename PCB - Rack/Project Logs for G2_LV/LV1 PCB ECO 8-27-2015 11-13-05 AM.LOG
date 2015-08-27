@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=+5VRAW Pin=C20-1
+Removed Pin From Net: NetName=+5V Pin=DTVS-1
+Removed Pin From Net: NetName=+5V Pin=F3-2
+Added Component: Designator=AC6(1608[0603])
+Added Component: Designator=C21(PANASONIC_D)
+Added Component: Designator=LDO1(SOT223)
+Added Pin To Net: NetName=GND Pin=AC6-1
+Added Pin To Net: NetName=+5V Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=GND Pin=LDO1-1
+Added Pin To Net: NetName=+5V Pin=LDO1-2
+Added Pin To Net: NetName=+5V Pin=LDO1-4
+Added Pin To Net: NetName=NetAC6_2 Pin=AC6-2
+Added Pin To Net: NetName=NetAC6_2 Pin=C20-1
+Added Pin To Net: NetName=NetAC6_2 Pin=DTVS-1
+Added Pin To Net: NetName=NetAC6_2 Pin=F3-2
+Added Pin To Net: NetName=NetAC6_2 Pin=LDO1-3
+Added Net: Name=NetAC6_2
+Added Member To Class: ClassName=U_controller Member=Component AC6 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component C20 
+Added Member To Class: ClassName=U_controller Member=Component C21 
+Added Member To Class: ClassName=U_controller Member=Component LDO1 LDO_5V
