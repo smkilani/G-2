@@ -1,0 +1,16 @@
+Added Component: Designator=RADRS0(J1-0603)
+Added Component: Designator=RADRS1(J1-0603)
+Added Component: Designator=RADRS2(J1-0603)
+Added Component: Designator=RADRS3(J1-0603)
+Added Pin To Net: NetName=+5V Pin=RADRS0-1
+Added Pin To Net: NetName=ADRS0 Pin=RADRS0-2
+Added Pin To Net: NetName=+5V Pin=RADRS1-1
+Added Pin To Net: NetName=ADRS1 Pin=RADRS1-2
+Added Pin To Net: NetName=+5V Pin=RADRS2-1
+Added Pin To Net: NetName=ADRS2 Pin=RADRS2-2
+Added Pin To Net: NetName=+5V Pin=RADRS3-1
+Added Pin To Net: NetName=ADRS3 Pin=RADRS3-2
+Added Member To Class: ClassName=Top Member=Component RADRS0 Res3
+Added Member To Class: ClassName=Top Member=Component RADRS1 Res3
+Added Member To Class: ClassName=Top Member=Component RADRS2 Res3
+Added Member To Class: ClassName=Top Member=Component RADRS3 Res3
