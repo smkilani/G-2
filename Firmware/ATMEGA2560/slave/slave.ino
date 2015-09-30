@@ -36,7 +36,7 @@ void setup()
   Wire.onRequest(requestEvent); // register event
   Serial1.begin(115200);
   Serial.begin(115200); 
-  //Serial.println("Welcome");
+  
   pinMode(EN1pin, OUTPUT); //to control the output
   pinMode(EN2pin, OUTPUT); //to control the output
   digitalWrite(EN1pin, HIGH);
@@ -49,7 +49,9 @@ void setup()
 
 void loop()
 {
-  delay(100);
+  Serial.println("Welcome");
+  Serial.println(ADRS);
+  delay(1000);
 }
 
 // function that executes whenever data is received from master
