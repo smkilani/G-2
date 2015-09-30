@@ -1,6 +1,7 @@
 //LV Slave reader/writer
+//Crate version
 //Author: Samer Kilani
-//19/01/2015
+//30/09/2015
 
 
 
@@ -33,8 +34,8 @@ void setup()
   TWAR = (ADRS << 1) | 1;
   Wire.onReceive(receiveEvent); // register event
   Wire.onRequest(requestEvent); // register event
-  //Serial1.begin(115200); //for micro
-  Serial.begin(115200); //for uno
+  Serial1.begin(115200);
+  Serial.begin(115200); 
   //Serial.println("Welcome");
   pinMode(EN1pin, OUTPUT); //to control the output
   pinMode(EN2pin, OUTPUT); //to control the output
@@ -57,9 +58,12 @@ void receiveEvent(int howMany)
 {
   while (Wire.available()) // loop through all but the last
   {
-      if (SC) {
+      if (SC1) {
             char c = Wire.read(); // receive byte as a character
             Serial.print(c);         // print the character CHANGE BACK TO SERIAL1 FOR MICRO
+      } else if (SC2) {
+            char c = Wire.read(); // receive byte as a character
+            Serial1.print(c);         // print the character CHANGE BACK TO SERIAL1 FOR MICRO
       }else {
 
         x = Wire.read();    // receive byte as an integer
@@ -76,26 +80,32 @@ void receiveEvent(int howMany)
 void requestEvent()
 {
   //Serial.println("requested");
-  if (!SC){
-    byte data[7];
+  if (!SC1 && !SC2){
+    byte data[12];
 
     boolean lvstatus1 = digitalRead(EN1pin);
     boolean lvstatus2 = digitalRead(EN2pin);
     unsigned int pinvalue1=0;
     unsigned int pinvalue2=0;
     unsigned int pinvalue3=0;
+    unsigned int pinvalue4=0;
+    unsigned int pinvalue5=0;
     //AVERAGING THE CURRENT READINGS OVER 100MS
     for (int avg=0;avg<11;avg++)
     {
-      pinvalue1 += analogRead(pos_ADC);
-      pinvalue2 += analogRead(neg_ADC);
-      pinvalue3 += analogRead(NTC_ADC);
+      pinvalue1 += analogRead(pos1_ADC);
+      pinvalue2 += analogRead(neg1_ADC);
+      pinvalue3 += analogRead(pos2_ADC);
+      pinvalue4 += analogRead(neg2_ADC);      
+      pinvalue5 += analogRead(NTC_ADC);
       delay(20);
     }
     
     pinvalue1=pinvalue1/10; //current reading +ve
     pinvalue2=pinvalue2/10; //current reading -ve
-    pinvalue3=pinvalue3/10; //NTC temp reading
+    pinvalue3=pinvalue3/10; //current reading +ve
+    pinvalue4=pinvalue4/10; //current reading -ve
+    pinvalue5=pinvalue5/10; //NTC temp reading
 
     data[0] = pinvalue1&0xff;              // sends one byte
     //Serial.println(pinvalue1&0xff,HEX);
@@ -111,19 +121,40 @@ void requestEvent()
     //Serial.println(pinvalue2&0xff,HEX); 
     data[5] = pinvalue3>>8;
     //Serial.println(pinvalue2>>8,HEX);
+
+    data[6] = pinvalue4&0xff;              // sends one byte
+    //Serial.println(pinvalue1&0xff,HEX);
+    data[7] = pinvalue4>>8;
+    //Serial.println(pinvalue1>>8,HEX);
     
-    if (lvstatus==true) data[6] = 0xcc;
-    else data[6] = 0xaa;
+    data[8] = pinvalue5&0xff;              // sends one byte
+    //Serial.println(pinvalue2&0xff,HEX); 
+    data[9] = pinvalue5>>8;
+    //Serial.println(pinvalue2>>8,HEX);
     
-    Wire.write(data,7);
+    
+    if (lvstatus1==true) data[10] = 0xcc;
+    else data[10] = 0xaa;
+    if (lvstatus2==true) data[11] = 0xcc;
+    else data[11] = 0xaa;
+    Wire.write(data,12);
     
     
   } else {
     //Serial.println("requested2");
-      while (Serial.available()) { //CHANGE BACK TO SERIAL1 FOR MICRO
+    if (SC1) {
+      while (Serial.available()) { 
       char inChar = Serial.read();
       inputString[y] = inChar;
       y++;
+    }
+    }
+    else if (SC2) {
+      while (Serial1.available()) { 
+      char inChar = Serial1.read();
+      inputString[y] = inChar;
+      y++;
+    }
     }
     y=0;
     Wire.write(inputString);
