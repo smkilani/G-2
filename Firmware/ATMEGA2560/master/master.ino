@@ -5,9 +5,11 @@
 
 #include <Wire.h>
 #include <math.h>
+#include "commands.h"
 //#include <avr/pgmspace.h>
 
 #define ver "1.0"
+
 
 String wireString="";
 
@@ -18,7 +20,7 @@ char inputString[50];
 
 //const PROGMEM  String menu[6]  = {"on\r","off\r","status\r","sc\r","version\r","help\r"};
 
-String menu[10] = {"ona","onb","offa","offb","statusa","statusb","sca","scb","version","help"};
+String menu[9] = {"ona","onb","offa","offb","status","sca","scb","version","help"};
 //String adrs_rsp = "Enter LV board address";
 String reply[2] = {"OK","Error"};
 int selected_menu=-1;
@@ -56,35 +58,94 @@ void loop()
       switch (selected_menu){
         case 0:
           Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x02);              // sends one byte
+          Wire.write(CMD_ONA);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
         break;
         case 1:
           Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x02);              // sends one byte
+          Wire.write(CMD_ONB);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
         break;
         case 2:
           Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x01);              // sends one byte
+          Wire.write(CMD_OFFA);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
         break;
         case 3:
           Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x01);              // sends one byte
+          Wire.write(CMD_OFFB);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
         break;
         case 4:
+        {
+            byte datain[12];
+            int j=0;
+            
+            if (Wire.requestFrom(slave_adrs, 12)<12) Serial.println("Error");    // request 3 byte from slave device #
+            else {
+              delay(100);
+              while (Wire.available())   // slave may send less than requested
+              {
+                datain[j] = Wire.read(); // receive a byte as character
+                //Serial.println(datain[i],HEX);
+                //Serial.print("Byte ");
+               // Serial.print(i);
+                //Serial.print(" ");
+                //Serial.println(datain[i]);         // print the character
+                j++;
+              }
+               
+              int pinvalue1 = joinbytes(datain[0],datain[1]);
+              int pinvalue2 = joinbytes(datain[2],datain[3]);
+              int pinvalue3 = joinbytes(datain[4],datain[5]);
+              int pinvalue4 = joinbytes(datain[6],datain[7]);
+              int pinvalue5 = joinbytes(datain[8],datain[9]);
+             
+              double temp=0;
+
+
+
+                Serial.println("LV A");
+                if ((datain[10]) == 0xaa) Serial.println("ON");
+                else if ((datain[10]) == 0xcc) Serial.println("OFF");
+                Serial.print("+5V -> ");
+                Serial.print(5.0*((float)pinvalue1/1023));
+                Serial.println("A");
+                //int pinvalue2 = ((datain[1]<<8) & 0x300) | datain[2];
+                Serial.print("-5V -> ");
+                Serial.print(5.0*((float)pinvalue2/1023));
+                Serial.println("A");
+                
+                Serial.println("LV B");
+                if ((datain[11]) == 0xaa) Serial.println("ON");
+                else if ((datain[11]) == 0xcc) Serial.println("OFF");
+                Serial.print("+5V -> ");
+                Serial.print(5.0*((float)pinvalue3/1023));
+                Serial.println("A");
+                //int pinvalue2 = ((datain[1]<<8) & 0x300) | datain[2];
+                Serial.print("-5V -> ");
+                Serial.print(5.0*((float)pinvalue4/1023));
+                Serial.println("A");
+                
+                Serial.print("Temp -> ");
+                temp=(double)pinvalue5/1023.0;
+                temp=(temp*9000.0)/(1.0-temp);
+                temp=(3455/log(temp/0.102756))-273.15;
+                //Serial.print(pinvalue3);
+                Serial.print(temp);
+                Serial.println("C");
+              }
+        
+        
+        }
         break;
         case 5:
-        break;
-        case 6:
           Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x03);              // sends one byte
+          Wire.write(CMD_SCA);              // sends one byte
           if (Wire.endTransmission()==0) {
             Serial.print("SC on device ");
             Serial.print(slave_adrs);
@@ -96,9 +157,9 @@ void loop()
             sc_mode=false; 
           }
         break;
-        case 7:
+        case 6:
           Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x03);              // sends one byte
+          Wire.write(CMD_SCB);              // sends one byte
           if (Wire.endTransmission()==0) {
             Serial.print("SC on device ");
             Serial.print(slave_adrs);
@@ -110,11 +171,11 @@ void loop()
             sc_mode=false; 
           }
         break;
-        case 8:
+        case 7:
         Serial.println(ver);
         break;
-        case 9:
-        for (int i = 0;i<10;i++) Serial.println(menu[i]);
+        case 8:
+        for (int i = 0;i<9;i++) Serial.println(menu[i]);
         break;
         default: 
         Serial.println("Bad command");   
@@ -135,48 +196,7 @@ void loop()
           else Serial.println(reply[1]);
         }  
         else if (((String)inputString).startsWith(menu[2])) {
-            //Serial.write("\nPolling status\n");
-            //slave_adrs=((String)inputString).substring(7,((String)inputString).length()).toInt();
-            byte datain[7];
-            int i=0;
-            if (Wire.requestFrom(slave_adrs, 7)<7) Serial.println("Error");    // request 3 byte from slave device #
-            else {
-              delay(100);
-              while (Wire.available())   // slave may send less than requested
-              {
-                datain[i] = Wire.read(); // receive a byte as character
-                //Serial.println(datain[i],HEX);
-                //Serial.print("Byte ");
-               // Serial.print(i);
-                //Serial.print(" ");
-                //Serial.println(datain[i]);         // print the character
-                i++;
-              }
-               
-              int pinvalue1 = joinbytes(datain[0],datain[1]);
-              int pinvalue2 = joinbytes(datain[2],datain[3]);
-              int pinvalue3 = joinbytes(datain[4],datain[5]);
-              double temp=0;
-              if ((datain[6]) == 0xaa) Serial.println("ON");
-              else if ((datain[6]) == 0xcc) Serial.println("OFF");
-              
-                Serial.print("+5V -> ");
-                Serial.print(5.0*((float)pinvalue1/1023));
-                Serial.println("A");
-                //int pinvalue2 = ((datain[1]<<8) & 0x300) | datain[2];
-                Serial.print("-5V -> ");
-                Serial.print(5.0*((float)pinvalue2/1023));
-                Serial.println("A");
-                
-                
-                Serial.print("Temp -> ");
-                temp=(double)pinvalue3/1023.0;
-                temp=(temp*9000.0)/(1.0-temp);
-                temp=(3455/log(temp/0.102756))-273.15;
-                //Serial.print(pinvalue3);
-                Serial.print(temp);
-                Serial.println("C");
-              //}
+
             }
         }
         else if (((String)inputString).startsWith(menu[3])) {
@@ -230,7 +250,7 @@ void serialEvent() {
         Wire.beginTransmission(slave_adrs);
         Wire.write(inChar);
         Wire.endTransmission();
-        
+        //Serial.println("SC sent");
         delay(10);
         Wire.requestFrom(slave_adrs, 64); 
 

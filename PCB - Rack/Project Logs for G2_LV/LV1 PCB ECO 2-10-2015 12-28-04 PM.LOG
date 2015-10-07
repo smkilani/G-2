@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=RESET1-2
+Removed Pin From Net: NetName=RESET Pin=RESET1-3
+Removed Pin From Net: NetName=RESET Pin=RESET1-4
+Change Component DesignItemId : Designator=RESET1 Old DesignItemId=TS42 New DesignItemId=PB_RST
+Change Component Comment : Designator=RESET1 Old Comment=TS42 New Comment=PB_RST
+Added Pin To Net: NetName=RESET Pin=RESET1-2
