@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=LV1 Member=C20
+Removed Member From Class: ClassName=LV1 Member=C21
+Removed Member From Class: ClassName=LV1 Member=U3
+Change Component Designator: OldDesignator=C20 NewDesignator=C28
+Change Component Designator: OldDesignator=C21 NewDesignator=C29
+Change Component Designator: OldDesignator=U3 NewDesignator=U5
+Change Net Name : Old Net Name=NetC21_2 New Net Name=NetC22_2
+Added Member To Class: ClassName=LV1 Member=Component C28 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C29 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component U5 INA138

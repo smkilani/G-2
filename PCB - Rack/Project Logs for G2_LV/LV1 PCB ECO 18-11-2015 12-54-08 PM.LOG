@@ -1,0 +1,123 @@
+Removed Member From Class: ClassName=LV4 Member=C3
+Removed Member From Class: ClassName=LV4 Member=C4
+Removed Member From Class: ClassName=LV1 Member=C8
+Removed Member From Class: ClassName=U_controller Member=C8
+Removed Member From Class: ClassName=LV1 Member=C9
+Removed Member From Class: ClassName=LV1 Member=C10
+Removed Member From Class: ClassName=LV1 Member=C11
+Removed Member From Class: ClassName=LV1 Member=C14
+Removed Member From Class: ClassName=LV2 Member=C14
+Removed Member From Class: ClassName=LV2 Member=C22
+Removed Member From Class: ClassName=Top Member=C24
+Removed Member From Class: ClassName=LV4 Member=C27
+Removed Member From Class: ClassName=Top Member=C27
+Removed Member From Class: ClassName=LV4 Member=C29
+Removed Member From Class: ClassName=Top Member=C29
+Removed Member From Class: ClassName=LV4 Member=C31
+Removed Member From Class: ClassName=LV4 Member=F1
+Removed Member From Class: ClassName=LV2 Member=F3
+Removed Member From Class: ClassName=LV4 Member=Q1
+Removed Member From Class: ClassName=LV4 Member=R1
+Removed Member From Class: ClassName=LV4 Member=R2
+Removed Member From Class: ClassName=LV4 Member=R4
+Removed Member From Class: ClassName=LV2 Member=R14
+Removed Member From Class: ClassName=LV4 Member=T1
+Removed Member From Class: ClassName=LV1 Member=U2
+Removed Member From Class: ClassName=U_controller Member=U2
+Removed Member From Class: ClassName=LV1 Member=U3
+Removed Member From Class: ClassName=LV2 Member=U4
+Added Member To Class: ClassName=U_controller Member=Component AR2 
+Added Member To Class: ClassName=Top Member=Component C1 
+Added Member To Class: ClassName=Top Member=Component C2 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C3_a Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C3_b Cap Semi
+Added Member To Class: ClassName=Top Member=Component C3 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C4 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C5 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C6 Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C8_LV2 (C8) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C8_LV4 (C8) Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C9_LV2 (C9) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C9_LV4 (C9) Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C10_LV2 (C10) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C10_LV4 (C10) Cap Semi
+Added Member To Class: ClassName=Top Member=Component C10 Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C11_LV2 (C11) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C11_LV4 (C11) Cap Semi
+Added Member To Class: ClassName=Top Member=Component C11 Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C12_LV2 (C12) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C12_LV4 (C12) Cap Semi
+Added Member To Class: ClassName=Top Member=Component C12 Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C13_LV2 (C13) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C13_LV4 (C13) Cap Semi
+Added Member To Class: ClassName=Top Member=Component C13 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C14 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C15 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C16 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C17 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C19 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component C20 
+Added Member To Class: ClassName=U_controller Member=Component C21 
+Added Member To Class: ClassName=LV1 Member=Component C22 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C23 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C24 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C25 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C26 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C27 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C28 Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C29 Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component D6_LV2 (D6) BZT52H-B5V6
+Added Member To Class: ClassName=LV4 Member=Component D6_LV4 (D6) BZT52H-B5V6
+Added Member To Class: ClassName=LV2 Member=Component D7_LV2 (D7) PDS1040L
+Added Member To Class: ClassName=LV4 Member=Component D7_LV4 (D7) PDS1040L
+Added Member To Class: ClassName=LV2 Member=Component D8_LV2 (D8) SMAJ30A
+Added Member To Class: ClassName=LV4 Member=Component D8_LV4 (D8) SMAJ30A
+Added Member To Class: ClassName=LV1 Member=Component D9 BAV20WS
+Added Member To Class: ClassName=LV2 Member=Component D10_LV2 (D10) ES3B
+Added Member To Class: ClassName=LV4 Member=Component D10_LV4 (D10) ES3B
+Added Member To Class: ClassName=U_controller Member=Component DTVS SMBJ
+Added Member To Class: ClassName=LV1 Member=Component F1 MF-MSMF075-2
+Added Member To Class: ClassName=LV2 Member=Component F2_LV2 (F2) MF-MSMF075-2
+Added Member To Class: ClassName=LV4 Member=Component F2_LV4 (F2) MF-MSMF075-2
+Added Member To Class: ClassName=U_controller Member=Component F3 MINISMDC050F-2
+Added Member To Class: ClassName=LV2 Member=Component LT2_LV2 (LT2) LT8302
+Added Member To Class: ClassName=LV4 Member=Component LT2_LV4 (LT2) LT8302
+Added Member To Class: ClassName=Top Member=Component NTC 
+Added Member To Class: ClassName=LV1 Member=Component Q1 BSC320N20NS3 G
+Added Member To Class: ClassName=LV2 Member=Component Q2_LV2 (Q2) BSS131
+Added Member To Class: ClassName=LV4 Member=Component Q2_LV4 (Q2) BSS131
+Added Member To Class: ClassName=Top Member=Component R1 
+Added Member To Class: ClassName=Top Member=Component R2 
+Added Member To Class: ClassName=LV1 Member=Component R3 Res3
+Added Member To Class: ClassName=LV1 Member=Component R4 Res3
+Added Member To Class: ClassName=LV2 Member=Component R5_LV2 (R5) Res3
+Added Member To Class: ClassName=LV4 Member=Component R5_LV4 (R5) Res3
+Added Member To Class: ClassName=LV2 Member=Component R6_LV2 (R6) Res3
+Added Member To Class: ClassName=LV4 Member=Component R6_LV4 (R6) Res3
+Added Member To Class: ClassName=LV2 Member=Component R7_LV2 (R7) Res3
+Added Member To Class: ClassName=LV4 Member=Component R7_LV4 (R7) Res3
+Added Member To Class: ClassName=LV2 Member=Component R8_LV2 (R8) Res3
+Added Member To Class: ClassName=LV4 Member=Component R8_LV4 (R8) Res3
+Added Member To Class: ClassName=LV1 Member=Component R15 Res3
+Added Member To Class: ClassName=LV1 Member=Component R16 Res3
+Added Member To Class: ClassName=Top Member=Component R_NTC 
+Added Member To Class: ClassName=U_controller Member=Component R_pu5 pullup
+Added Member To Class: ClassName=Top Member=Component RADRS0 Res3
+Added Member To Class: ClassName=LV2 Member=Component Rfb2_LV2 (Rfb2) Res3
+Added Member To Class: ClassName=LV4 Member=Component Rfb2_LV4 (Rfb2) Res3
+Added Member To Class: ClassName=LV2 Member=Component Rref2_LV2 (Rref2) Res3
+Added Member To Class: ClassName=LV4 Member=Component Rref2_LV4 (Rref2) Res3
+Added Member To Class: ClassName=LV1 Member=Component Rsense1 Rsense
+Added Member To Class: ClassName=LV2 Member=Component Rsense2_LV2 (Rsense2) Rsense
+Added Member To Class: ClassName=LV4 Member=Component Rsense2_LV4 (Rsense2) Rsense
+Added Member To Class: ClassName=LV2 Member=Component Rtc2_LV2 (Rtc2) Res3
+Added Member To Class: ClassName=LV4 Member=Component Rtc2_LV4 (Rtc2) Res3
+Added Member To Class: ClassName=LV1 Member=Component T1 750311597
+Added Member To Class: ClassName=LV2 Member=Component T2_LV2 (T2) 36V
+Added Member To Class: ClassName=LV4 Member=Component T2_LV4 (T2) 36V
+Added Member To Class: ClassName=Top Member=Component U1 SP3084EEN-L
+Added Member To Class: ClassName=LV2 Member=Component U2_LV2 (U2) INA138
+Added Member To Class: ClassName=LV4 Member=Component U2_LV4 (U2) INA138
+Added Member To Class: ClassName=U_controller Member=Component U3 ATmega2560-16AU
+Added Member To Class: ClassName=LV1 Member=Component U4 LT3748IMS#PBF
+Added Member To Class: ClassName=LV1 Member=Component U5 INA138

@@ -1,0 +1,42 @@
+Loading settings for: 'EGX-350'
+DrillHoles: spot
+MaxX: 30500
+MaxY: 23000
+MaxZ: 4000
+XYSpeed: 5
+ZSpeed: 5
+MillRPM: 10000
+MillDepth: 10
+ClearDepth: 1000
+DrillDepth: 300
+Offset(X,Y): 5,5mm
+
+ExportMillFiles
+RML_ExportMillLayerData
+SetRefPointForLayer(TopLayer)
+ ... using point 41,76 as ZeroPoint
+Exporting pre route commands
+Spot drilling holes
+MakeNewPolygon: '__TempOutlinePolygon' on Layer 'TopLayer'
+RML_ExportPolygonOutline(__TempOutlinePolygon)
+Exporting polygon contour
+RML_ExportPolygonOutline(Component Side-No Net)
+Exporting polygon contour
+RML_ExportPolygonOutline(Component Side-No Net)
+Exporting polygon contour
+TopLayer routing file written to C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane_EGX-350_TopLayer.mdt
+RML_ExportMillLayerData
+SetRefPointForLayer(BottomLayer)
+ ... using point 346,76 as ZeroPoint
+Exporting pre route commands
+MakeNewPolygon: '__TempOutlinePolygon' on Layer 'BottomLayer'
+RML_ExportPolygonOutline(__TempOutlinePolygon)
+Exporting polygon contour
+RML_ExportPolygonOutline(Component Side-No Net)
+Exporting polygon contour
+RML_ExportPolygonOutline(Component Side-No Net)
+Exporting polygon contour
+RML_ExportPolygonOutline(Component Side-No Net)
+Exporting polygon contour
+BottomLayer routing file written to C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane_EGX-350_BottomLayer.mdt
+SUCCESS

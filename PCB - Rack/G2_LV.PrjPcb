@@ -39,6 +39,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=LV2.schdoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=APWPHJHK
+
+[Document2]
 DocumentPath=6C-2L-1550um.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -55,14 +72,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQTLOTRO
 
-[Document2]
+[Document3]
 DocumentPath=controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -72,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EYYJCYBF
 
-[Document3]
+[Document4]
 DocumentPath=LV1.PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,14 +106,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SIRMFXOJ
 
-[Document4]
+[Document5]
 DocumentPath=LV1.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -106,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UFAFHRCG
 
-[Document5]
+[Document6]
 DocumentPath=LV1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YYTTTHLK
 
-[Document6]
+[Document7]
 DocumentPath=G2_LV.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ISMWONNT
 
-[Document7]
+[Document8]
 DocumentPath=G2_LV.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,14 +174,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -174,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JMJWKQVN
 
-[Document9]
+[Document10]
 DocumentPath=Atmel Microcontroller megaAVR.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -256,10 +273,14 @@ DocumentPath=Project Outputs for G2_LV\LV1.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=LV1 23-06-2015 11-36-17.WAS
+DocumentPath=LV1 18-11-2015 12-52-59 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
+DocumentPath=LV1 23-06-2015 11-36-17.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=Project Outputs for G2_LV\Pick Place for LV1.txt
 DItemRevisionGUID=
 
@@ -347,6 +368,101 @@ OutputName6=Verilog File
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=CadnetixNetlist
+OutputName7=Cadnetix Netlist
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=CalayNetlist
+OutputName8=Calay Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=EDIF
+OutputName9=EDIF for PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=EESofNetlist
+OutputName10=EESof Netlist
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=IntergraphNetlist
+OutputName11=Intergraph Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=MentorBoardStationNetlist
+OutputName12=Mentor BoardStation Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=MultiWire
+OutputName13=MultiWire
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=OrCadPCB2Netlist
+OutputName14=Orcad/PCB2 Netlist
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=PADSNetlist
+OutputName15=PADS ASCII Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Pcad
+OutputName16=Pcad for PCB
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=PCADnltNetlist
+OutputName17=PCADnlt Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=Protel2Netlist
+OutputName18=Protel2 Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=ProtelNetlist
+OutputName19=Protel
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=RacalNetlist
+OutputName20=Racal Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=RINFNetlist
+OutputName21=RINF Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SciCardsNetlist
+OutputName22=SciCards Netlist
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=TangoNetlist
+OutputName23=Tango Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+OutputType24=TelesisNetlist
+OutputName24=Telesis Netlist
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+OutputType25=WireListNetlist
+OutputName25=WireList Netlist
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -508,7 +624,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=\\http://printserver:631\hep-mono (Copy 1)
+TargetPrinter=\\http://printserver:631\hep-colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -566,7 +682,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=\\http://printserver:631\hep-mono (Copy 1)
+TargetPrinter=\\http://printserver:631\hep-colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ODB
 OutputName1=ODB++ Files
@@ -1070,7 +1186,7 @@ Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\http://printserver:631\hep-mono (Copy 1)
+TargetPrinter=\\http://printserver:631\hep-colour
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1369,6 +1485,11 @@ OutputName5=Export PDF3D
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
+OutputType6=NetList Sch
+OutputName6=NetList Sch
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
 
 [Modification Levels]
 Type1=1

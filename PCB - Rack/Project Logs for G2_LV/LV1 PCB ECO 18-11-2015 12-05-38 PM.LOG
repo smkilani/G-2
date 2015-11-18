@@ -1,0 +1,4 @@
+Added Component: Designator=DTVS1(DO-214AA)
+Added Pin To Net: NetName=48V Pin=DTVS1-1
+Added Pin To Net: NetName=GND Pin=DTVS1-2
+Added Member To Class: ClassName=Top Member=Component DTVS1 SMBJ48A

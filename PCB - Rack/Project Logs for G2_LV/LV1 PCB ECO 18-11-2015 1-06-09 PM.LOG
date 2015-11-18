@@ -1,0 +1,215 @@
+Change Component Designator: OldDesignator=C3_a NewDesignator=C3_a_LV1
+Change Component Designator: OldDesignator=C3_a_1 NewDesignator=C3_a_LV3
+Change Component Designator: OldDesignator=C3_b NewDesignator=C3_b_LV1
+Change Component Designator: OldDesignator=C3_b_1 NewDesignator=C3_b_LV3
+Change Component Designator: OldDesignator=C22 NewDesignator=C22_LV1
+Change Component Designator: OldDesignator=C22_1 NewDesignator=C22_LV3
+Change Component Designator: OldDesignator=C23 NewDesignator=C23_LV1
+Change Component Designator: OldDesignator=C23_1 NewDesignator=C23_LV3
+Change Component Designator: OldDesignator=C24 NewDesignator=C24_LV1
+Change Component Designator: OldDesignator=C24_1 NewDesignator=C24_LV3
+Change Component Designator: OldDesignator=C25 NewDesignator=C25_LV1
+Change Component Designator: OldDesignator=C25_1 NewDesignator=C25_LV3
+Change Component Designator: OldDesignator=C26 NewDesignator=C26_LV1
+Change Component Designator: OldDesignator=C26_1 NewDesignator=C26_LV3
+Change Component Designator: OldDesignator=C27 NewDesignator=C27_LV1
+Change Component Designator: OldDesignator=C27_1 NewDesignator=C27_LV3
+Change Component Designator: OldDesignator=C28 NewDesignator=C28_LV1
+Change Component Designator: OldDesignator=C28_1 NewDesignator=C28_LV3
+Change Component Designator: OldDesignator=C29 NewDesignator=C29_LV1
+Change Component Designator: OldDesignator=C29_1 NewDesignator=C29_LV3
+Change Component Designator: OldDesignator=D9 NewDesignator=D9_LV1
+Change Component Designator: OldDesignator=D9_1 NewDesignator=D9_LV3
+Change Component Designator: OldDesignator=D11 NewDesignator=D11_LV1
+Change Component Designator: OldDesignator=D11_1 NewDesignator=D11_LV3
+Change Component Designator: OldDesignator=D12 NewDesignator=D12_LV1
+Change Component Designator: OldDesignator=D12_1 NewDesignator=D12_LV3
+Change Component Designator: OldDesignator=F1 NewDesignator=F1_LV1
+Change Component Designator: OldDesignator=F1_1 NewDesignator=F1_LV3
+Change Component Designator: OldDesignator=Q1 NewDesignator=Q1_LV1
+Change Component Designator: OldDesignator=Q1_1 NewDesignator=Q1_LV3
+Change Component Designator: OldDesignator=Q3 NewDesignator=Q3_LV1
+Change Component Designator: OldDesignator=Q3_1 NewDesignator=Q3_LV3
+Change Component Designator: OldDesignator=R3 NewDesignator=R3_LV1
+Change Component Designator: OldDesignator=R3_1 NewDesignator=R3_LV3
+Change Component Designator: OldDesignator=R4 NewDesignator=R4_LV1
+Change Component Designator: OldDesignator=R4_1 NewDesignator=R4_LV3
+Change Component Designator: OldDesignator=R9 NewDesignator=R9_LV1
+Change Component Designator: OldDesignator=R9_1 NewDesignator=R9_LV3
+Change Component Designator: OldDesignator=R10 NewDesignator=R10_LV1
+Change Component Designator: OldDesignator=R10_1 NewDesignator=R10_LV3
+Change Component Designator: OldDesignator=R11 NewDesignator=R11_LV1
+Change Component Designator: OldDesignator=R11_1 NewDesignator=R11_LV3
+Change Component Designator: OldDesignator=R12 NewDesignator=R12_LV1
+Change Component Designator: OldDesignator=R12_1 NewDesignator=R12_LV3
+Change Component Designator: OldDesignator=R13 NewDesignator=R13_LV1
+Change Component Designator: OldDesignator=R13_1 NewDesignator=R13_LV3
+Change Component Designator: OldDesignator=R14 NewDesignator=R14_LV1
+Change Component Designator: OldDesignator=R14_1 NewDesignator=R14_LV3
+Change Component Designator: OldDesignator=R15 NewDesignator=R15_LV1
+Change Component Designator: OldDesignator=R15_1 NewDesignator=R15_LV3
+Change Component Designator: OldDesignator=R16 NewDesignator=R16_LV1
+Change Component Designator: OldDesignator=R16_1 NewDesignator=R16_LV3
+Change Component Designator: OldDesignator=Rsense1 NewDesignator=Rsense1_LV1
+Change Component Designator: OldDesignator=Rsense1_1 NewDesignator=Rsense1_LV3
+Change Component Designator: OldDesignator=T1 NewDesignator=T1_LV1
+Change Component Designator: OldDesignator=T1_1 NewDesignator=T1_LV3
+Change Component Designator: OldDesignator=U4 NewDesignator=U4_LV1
+Change Component Designator: OldDesignator=U4_1 NewDesignator=U4_LV3
+Change Component Designator: OldDesignator=U5 NewDesignator=U5_LV1
+Change Component Designator: OldDesignator=U5_1 NewDesignator=U5_LV3
+Added Pin To Net: NetName=+5VGNDB Pin=C3_a_LV3-1
+Added Pin To Net: NetName=+5VB Pin=C3_a_LV3-2
+Added Pin To Net: NetName=+5VGNDB Pin=C3_b_LV3-1
+Added Pin To Net: NetName=+5VB Pin=C3_b_LV3-2
+Added Pin To Net: NetName=GND Pin=C22_LV3-1
+Added Pin To Net: NetName=GND Pin=C24_LV3-1
+Added Pin To Net: NetName=GND Pin=C25_LV3-1
+Added Pin To Net: NetName=GND Pin=C26_LV3-1
+Added Pin To Net: NetName=GND Pin=C27_LV3-1
+Added Pin To Net: NetName=GND Pin=C28_LV3-1
+Added Pin To Net: NetName=+5V Pin=C28_LV3-2
+Added Pin To Net: NetName=GND Pin=C29_LV3-1
+Added Pin To Net: NetName=+5VB Pin=D11_LV3-2
+Added Pin To Net: NetName=+5VB Pin=D12_LV3-1
+Added Pin To Net: NetName=+5VGNDB Pin=D12_LV3-2
+Added Pin To Net: NetName=EN1 Pin=Q3_LV3-1
+Added Pin To Net: NetName=GND Pin=Q3_LV3-2
+Added Pin To Net: NetName=GND Pin=R3_LV3-2
+Added Pin To Net: NetName=GND Pin=R10_LV3-1
+Added Pin To Net: NetName=A2 Pin=R10_LV3-2
+Added Pin To Net: NetName=GND Pin=R14_LV3-1
+Added Pin To Net: NetName=GND Pin=R15_LV3-1
+Added Pin To Net: NetName=GND Pin=R16_LV3-1
+Added Pin To Net: NetName=48V Pin=Rsense1_LV3-1
+Added Pin To Net: NetName=+5VGNDB Pin=T1_LV3-7
+Added Pin To Net: NetName=+5VGNDB Pin=T1_LV3-8
+Added Pin To Net: NetName=+5VGNDB Pin=T1_LV3-9
+Added Pin To Net: NetName=GND Pin=U4_LV3-8
+Added Pin To Net: NetName=GND Pin=U4_LV3-9
+Added Pin To Net: NetName=A2 Pin=U5_LV3-1
+Added Pin To Net: NetName=GND Pin=U5_LV3-2
+Added Pin To Net: NetName=48V Pin=U5_LV3-3
+Added Pin To Net: NetName=+5V Pin=U5_LV3-5
+Change Net Name : Old Net Name=NetC22_2 New Net Name=NetC22_LV1_2
+Change Net Name : Old Net Name=NetC23_1 New Net Name=NetC23_LV1_1
+Change Net Name : Old Net Name=NetC24_2 New Net Name=NetC24_LV1_2
+Change Net Name : Old Net Name=NetC25_2 New Net Name=NetC25_LV1_2
+Change Net Name : Old Net Name=NetC26_2 New Net Name=NetC26_LV1_2
+Change Net Name : Old Net Name=NetC27_2 New Net Name=NetC27_LV1_2
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetD9_LV1_2
+Change Net Name : Old Net Name=NetD11_1 New Net Name=NetD11_LV1_1
+Change Net Name : Old Net Name=NetF1_1 New Net Name=NetF1_LV1_1
+Change Net Name : Old Net Name=NetQ1_1 New Net Name=NetQ1_LV1_1
+Change Net Name : Old Net Name=NetQ1_4 New Net Name=NetQ1_LV1_4
+Change Net Name : Old Net Name=NetQ3_3 New Net Name=NetQ3_LV1_3
+Change Net Name : Old Net Name=NetR3_1 New Net Name=NetR3_LV1_1
+Change Net Name : Old Net Name=NetR9_2 New Net Name=NetR9_LV1_2
+Change Net Name : Old Net Name=NetR12_1 New Net Name=NetR12_LV1_1
+Change Net Name : Old Net Name=NetR15_2 New Net Name=NetR15_LV1_2
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=C22_LV3-2
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=C23_LV3-2
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=C29_LV3-2
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=F1_LV3-2
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=R11_LV3-2
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=R13_LV3-1
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=T1_LV3-3
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=T1_LV3-4
+Added Pin To Net: NetName=NetC22_LV3_2 Pin=U4_LV3-1
+Added Net: Name=NetC22_LV3_2
+Added Pin To Net: NetName=NetC23_LV3_1 Pin=C23_LV3-1
+Added Pin To Net: NetName=NetC23_LV3_1 Pin=D9_LV3-1
+Added Pin To Net: NetName=NetC23_LV3_1 Pin=R13_LV3-2
+Added Net: Name=NetC23_LV3_1
+Added Pin To Net: NetName=NetC24_LV3_2 Pin=C24_LV3-2
+Added Pin To Net: NetName=NetC24_LV3_2 Pin=U4_LV3-10
+Added Net: Name=NetC24_LV3_2
+Added Pin To Net: NetName=NetC25_LV3_2 Pin=C25_LV3-2
+Added Pin To Net: NetName=NetC25_LV3_2 Pin=R4_LV3-1
+Added Net: Name=NetC25_LV3_2
+Added Pin To Net: NetName=NetC26_LV3_2 Pin=C26_LV3-2
+Added Pin To Net: NetName=NetC26_LV3_2 Pin=R4_LV3-2
+Added Pin To Net: NetName=NetC26_LV3_2 Pin=U4_LV3-11
+Added Net: Name=NetC26_LV3_2
+Added Pin To Net: NetName=NetC27_LV3_2 Pin=C27_LV3-2
+Added Pin To Net: NetName=NetC27_LV3_2 Pin=U4_LV3-5
+Added Net: Name=NetC27_LV3_2
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=D9_LV3-2
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=Q1_LV3-5
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=Q1_LV3-6
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=Q1_LV3-7
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=Q1_LV3-8
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=R12_LV3-2
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=T1_LV3-1
+Added Pin To Net: NetName=NetD9_LV3_2 Pin=T1_LV3-2
+Added Net: Name=NetD9_LV3_2
+Added Pin To Net: NetName=NetD11_LV3_1 Pin=D11_LV3-1
+Added Pin To Net: NetName=NetD11_LV3_1 Pin=D11_LV3-1
+Added Pin To Net: NetName=NetD11_LV3_1 Pin=T1_LV3-10
+Added Pin To Net: NetName=NetD11_LV3_1 Pin=T1_LV3-11
+Added Pin To Net: NetName=NetD11_LV3_1 Pin=T1_LV3-12
+Added Net: Name=NetD11_LV3_1
+Added Pin To Net: NetName=NetF1_LV3_1 Pin=F1_LV3-1
+Added Pin To Net: NetName=NetF1_LV3_1 Pin=Rsense1_LV3-2
+Added Pin To Net: NetName=NetF1_LV3_1 Pin=U5_LV3-4
+Added Net: Name=NetF1_LV3_1
+Added Pin To Net: NetName=NetQ1_LV3_1 Pin=Q1_LV3-1
+Added Pin To Net: NetName=NetQ1_LV3_1 Pin=Q1_LV3-2
+Added Pin To Net: NetName=NetQ1_LV3_1 Pin=Q1_LV3-3
+Added Pin To Net: NetName=NetQ1_LV3_1 Pin=R9_LV3-1
+Added Pin To Net: NetName=NetQ1_LV3_1 Pin=R16_LV3-2
+Added Net: Name=NetQ1_LV3_1
+Added Pin To Net: NetName=NetQ1_LV3_4 Pin=Q1_LV3-4
+Added Pin To Net: NetName=NetQ1_LV3_4 Pin=U4_LV3-6
+Added Net: Name=NetQ1_LV3_4
+Added Pin To Net: NetName=NetQ3_LV3_3 Pin=Q3_LV3-3
+Added Pin To Net: NetName=NetQ3_LV3_3 Pin=R11_LV3-1
+Added Pin To Net: NetName=NetQ3_LV3_3 Pin=R14_LV3-2
+Added Pin To Net: NetName=NetQ3_LV3_3 Pin=U4_LV3-3
+Added Net: Name=NetQ3_LV3_3
+Added Pin To Net: NetName=NetR3_LV3_1 Pin=R3_LV3-1
+Added Pin To Net: NetName=NetR3_LV3_1 Pin=U4_LV3-14
+Added Net: Name=NetR3_LV3_1
+Added Pin To Net: NetName=NetR9_LV3_2 Pin=R9_LV3-2
+Added Pin To Net: NetName=NetR9_LV3_2 Pin=U4_LV3-7
+Added Net: Name=NetR9_LV3_2
+Added Pin To Net: NetName=NetR12_LV3_1 Pin=R12_LV3-1
+Added Pin To Net: NetName=NetR12_LV3_1 Pin=U4_LV3-16
+Added Net: Name=NetR12_LV3_1
+Added Pin To Net: NetName=NetR15_LV3_2 Pin=R15_LV3-2
+Added Pin To Net: NetName=NetR15_LV3_2 Pin=U4_LV3-12
+Added Net: Name=NetR15_LV3_2
+Added Class: Name=LV3
+Added Class: Name=LV2
+Added Member To Class: ClassName=LV1 Member=Component C3_a_LV1 (C3_a) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C3_b_LV1 (C3_b) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C22_LV1 (C22) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C23_LV1 (C23) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C24_LV1 (C24) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C25_LV1 (C25) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C26_LV1 (C26) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C27_LV1 (C27) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C28_LV1 (C28) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C29_LV1 (C29) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component D9_LV1 (D9) BAV20WS
+Added Member To Class: ClassName=LV1 Member=Component D11_LV1 (D11) PDS760-13
+Added Member To Class: ClassName=LV1 Member=Component D12_LV1 (D12) BZT52H-B5V6
+Added Member To Class: ClassName=LV1 Member=Component F1_LV1 (F1) MF-MSMF075-2
+Added Member To Class: ClassName=LV1 Member=Component Q1_LV1 (Q1) BSC320N20NS3 G
+Added Member To Class: ClassName=LV1 Member=Component Q3_LV1 (Q3) BSS131
+Added Member To Class: ClassName=LV1 Member=Component R3_LV1 (R3) Res3
+Added Member To Class: ClassName=LV1 Member=Component R4_LV1 (R4) Res3
+Added Member To Class: ClassName=LV1 Member=Component R9_LV1 (R9) Res3
+Added Member To Class: ClassName=LV1 Member=Component R10_LV1 (R10) Res3
+Added Member To Class: ClassName=LV1 Member=Component R11_LV1 (R11) Res3
+Added Member To Class: ClassName=LV1 Member=Component R12_LV1 (R12) Res3
+Added Member To Class: ClassName=LV1 Member=Component R13_LV1 (R13) Res3
+Added Member To Class: ClassName=LV1 Member=Component R14_LV1 (R14) Res3
+Added Member To Class: ClassName=LV1 Member=Component R15_LV1 (R15) Res3
+Added Member To Class: ClassName=LV1 Member=Component R16_LV1 (R16) Res3
+Added Member To Class: ClassName=LV1 Member=Component Rsense1_LV1 (Rsense1) Rsense
+Added Member To Class: ClassName=LV1 Member=Component T1_LV1 (T1) 750311597
+Added Member To Class: ClassName=LV1 Member=Component U4_LV1 (U4) LT3748IMS#PBF
+Added Member To Class: ClassName=LV1 Member=Component U5_LV1 (U5) INA138
+Added Room: Name=LV1
+Added Room: Name=LV3

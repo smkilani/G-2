@@ -1,0 +1,35 @@
+Change Component Designator: OldDesignator=AC? NewDesignator=AC1
+Change Component Designator: OldDesignator=AC? NewDesignator=AC2
+Change Component Designator: OldDesignator=AC? NewDesignator=AC3
+Change Component Designator: OldDesignator=AC? NewDesignator=AC4
+Change Component Designator: OldDesignator=AC? NewDesignator=AC5
+Change Component Designator: OldDesignator=AC? NewDesignator=AC6
+Change Component Designator: OldDesignator=AR? NewDesignator=AR2
+Change Component Designator: OldDesignator=C? NewDesignator=C20
+Change Component Designator: OldDesignator=C? NewDesignator=C21
+Change Component Designator: OldDesignator=DTVS? NewDesignator=DTVS
+Change Component Designator: OldDesignator=F? NewDesignator=F3
+Change Component Designator: OldDesignator=LDO? NewDesignator=LDO1
+Change Component Designator: OldDesignator=LED? NewDesignator=LED1
+Change Component Designator: OldDesignator=LED? NewDesignator=LED2
+Change Component Designator: OldDesignator=R_pu? NewDesignator=R_pu1
+Change Component Designator: OldDesignator=R_pu? NewDesignator=R_pu2
+Change Component Designator: OldDesignator=R_pu? NewDesignator=R_pu5
+Change Component Designator: OldDesignator=RESET? NewDesignator=RESET1
+Change Component Designator: OldDesignator=RLED? NewDesignator=RLED1
+Change Component Designator: OldDesignator=RLED? NewDesignator=RLED2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Change Net Name : Old Net Name=NetAC?_2 New Net Name=NetAC6_2
+Change Net Name : Old Net Name=NetLED?_2 New Net Name=NetLED1_2
+Change Net Name : Old Net Name=NetLED?_A New Net Name=NetLED2_A
+Added Member To Class: ClassName=U_controller Member=Component AC1 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component AC2 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component AC3 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component AC4 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component AC5 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component C20 
+Added Member To Class: ClassName=U_controller Member=Component LED1 LEDRED
+Added Member To Class: ClassName=U_controller Member=Component R_pu1 pullup
+Added Member To Class: ClassName=U_controller Member=Component R_pu5 pullup
+Added Member To Class: ClassName=U_controller Member=Component RLED1 
+Added Room: Name=LV1
