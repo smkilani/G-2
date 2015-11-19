@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane.PcbDoc
 Date     : 19/11/2015
-Time     : 12:49:51 PM
+Time     : 3:59:48 PM
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -9,72 +9,165 @@ Rule Violations :0
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ1_U_Connectors-0(96.52mm,144.78mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ1_U_Connectors-0(96.52mm,133.35mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ2_U_Connectors-0(96.52mm,114.3mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ2_U_Connectors-0(96.52mm,125.73mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB2_U_Connectors-0(93.32mm,155.145mm) on Multi-Layer Actual Hole Size = 3.26mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB2_U_Connectors-0(93.32mm,180.135mm) on Multi-Layer Actual Hole Size = 3.26mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB1_U_Connectors-0(69.24mm,180.135mm) on Multi-Layer Actual Hole Size = 3.26mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB1_U_Connectors-0(69.24mm,155.145mm) on Multi-Layer Actual Hole Size = 3.26mm
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ2_U_Connectors1-0(137.16mm,114.3mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ2_U_Connectors1-0(137.16mm,125.73mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ1_U_Connectors1-0(137.16mm,144.78mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.251mm > 2.54mm) Pad RJ1_U_Connectors1-0(137.16mm,133.35mm) on Multi-Layer Actual Hole Size = 3.251mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB2_U_Connectors1-0(133.96mm,155.145mm) on Multi-Layer Actual Hole Size = 3.26mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB2_U_Connectors1-0(133.96mm,180.135mm) on Multi-Layer Actual Hole Size = 3.26mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB1_U_Connectors1-0(109.88mm,180.135mm) on Multi-Layer Actual Hole Size = 3.26mm
-   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad DB1_U_Connectors1-0(109.88mm,155.145mm) on Multi-Layer Actual Hole Size = 3.26mm
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCA-0(7020mil,4370mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCA-0(7020mil,3920mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCB-0(7020mil,4650mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCB-0(7020mil,5100mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad A-0(5925.984mil,3631.929mil) on Multi-Layer Actual Hole Size = 128.346mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad A-0(5925.984mil,2648.071mil) on Multi-Layer Actual Hole Size = 128.346mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad B-0(6874.016mil,2648.071mil) on Multi-Layer Actual Hole Size = 128.346mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad B-0(6874.016mil,3631.929mil) on Multi-Layer Actual Hole Size = 128.346mil
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCB-0(5420mil,4650mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCB-0(5420mil,5100mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCA-0(5420mil,4370mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128mil > 100mil) Pad SCA-0(5420mil,3920mil) on Multi-Layer Actual Hole Size = 128mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad A-0(4325.984mil,3631.929mil) on Multi-Layer Actual Hole Size = 128.346mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad A-0(4325.984mil,2648.071mil) on Multi-Layer Actual Hole Size = 128.346mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad B-0(5274.016mil,2648.071mil) on Multi-Layer Actual Hole Size = 128.346mil
+   Violation between Hole Size Constraint: (128.346mil > 100mil) Pad B-0(5274.016mil,3631.929mil) on Multi-Layer Actual Hole Size = 128.346mil
 Rule Violations :16
 
-Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (48.356mm,113.084mm)(48.356mm,113.484mm) on Bottom Overlay And Pad RSDA-2(48.006mm,114.034mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (47.656mm,113.084mm)(47.656mm,113.484mm) on Bottom Overlay And Pad RSDA-2(48.006mm,114.034mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (48.356mm,113.084mm)(48.356mm,113.484mm) on Bottom Overlay And Pad RSDA-1(48.006mm,112.534mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (47.656mm,113.084mm)(47.656mm,113.484mm) on Bottom Overlay And Pad RSDA-1(48.006mm,112.534mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (50.196mm,110.798mm)(50.196mm,111.198mm) on Bottom Overlay And Pad RSCL-2(50.546mm,111.748mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (50.896mm,110.798mm)(50.896mm,111.198mm) on Bottom Overlay And Pad RSCL-2(50.546mm,111.748mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (50.196mm,110.798mm)(50.196mm,111.198mm) on Bottom Overlay And Pad RSCL-1(50.546mm,110.248mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Track (50.896mm,110.798mm)(50.896mm,111.198mm) on Bottom Overlay And Pad RSCL-1(50.546mm,110.248mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8696.22mil,5272.126mil)(8696.22mil,5287.874mil) on Bottom Overlay And Pad RSDA-2(8710mil,5250.472mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8723.78mil,5272.126mil)(8723.78mil,5287.874mil) on Bottom Overlay And Pad RSDA-2(8710mil,5250.472mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8696.22mil,5272.126mil)(8696.22mil,5287.874mil) on Bottom Overlay And Pad RSDA-1(8710mil,5309.528mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8723.78mil,5272.126mil)(8723.78mil,5287.874mil) on Bottom Overlay And Pad RSDA-1(8710mil,5309.528mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8596.22mil,5362.126mil)(8596.22mil,5377.874mil) on Bottom Overlay And Pad RSCL-2(8610mil,5340.472mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8623.78mil,5362.126mil)(8623.78mil,5377.874mil) on Bottom Overlay And Pad RSCL-2(8610mil,5340.472mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8596.22mil,5362.126mil)(8596.22mil,5377.874mil) on Bottom Overlay And Pad RSCL-1(8610mil,5399.528mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.937mil < 10mil) Between Track (8623.78mil,5362.126mil)(8623.78mil,5377.874mil) on Bottom Overlay And Pad RSCL-1(8610mil,5399.528mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.937mil]
 Rule Violations :8
 
-Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
-Rule Violations :0
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (1.088mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4357mil,6065mil)(4360mil,6065mil) on Bottom Overlay Silk Text to Silk Clearance [1.088mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4353mil,6068mil)(4362mil,6068mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (0.088mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4356mil,6070mil)(4366mil,6070mil) on Bottom Overlay Silk Text to Silk Clearance [0.088mil]
+   Violation between Silk To Silk Clearance Constraint: (9.088mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4365mil,6075mil)(4370mil,6075mil) on Bottom Overlay Silk Text to Silk Clearance [9.088mil]
+   Violation between Silk To Silk Clearance Constraint: (6.088mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4362mil,6078mil)(4372mil,6078mil) on Bottom Overlay Silk Text to Silk Clearance [6.088mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4319mil,6096mil)(4381mil,6096mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4316mil,6107mil)(4384mil,6107mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4316mil,6108mil)(4384mil,6108mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4317mil,6109mil)(4384mil,6109mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4317mil,6110mil)(4384mil,6110mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4318mil,6111mil)(4385mil,6111mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4318mil,6112mil)(4385mil,6112mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4319mil,6114mil)(4385mil,6114mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4319mil,6115mil)(4385mil,6115mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4319mil,6116mil)(4385mil,6116mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4319mil,6117mil)(4385mil,6117mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4319mil,6118mil)(4385mil,6118mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6119mil)(4385mil,6119mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6120mil)(4385mil,6120mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6121mil)(4385mil,6121mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6122mil)(4326mil,6122mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4327mil,6122mil)(4385mil,6122mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6123mil)(4386mil,6123mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6124mil)(4386mil,6124mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6125mil)(4386mil,6125mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (0.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6126mil)(4386mil,6126mil) on Bottom Overlay Silk Text to Silk Clearance [0.107mil]
+   Violation between Silk To Silk Clearance Constraint: (1.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6127mil)(4386mil,6127mil) on Bottom Overlay Silk Text to Silk Clearance [1.107mil]
+   Violation between Silk To Silk Clearance Constraint: (2.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6128mil)(4386mil,6128mil) on Bottom Overlay Silk Text to Silk Clearance [2.107mil]
+   Violation between Silk To Silk Clearance Constraint: (3.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6129mil)(4386mil,6129mil) on Bottom Overlay Silk Text to Silk Clearance [3.107mil]
+   Violation between Silk To Silk Clearance Constraint: (4.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6130mil)(4386mil,6130mil) on Bottom Overlay Silk Text to Silk Clearance [4.107mil]
+   Violation between Silk To Silk Clearance Constraint: (5.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6131mil)(4386mil,6131mil) on Bottom Overlay Silk Text to Silk Clearance [5.107mil]
+   Violation between Silk To Silk Clearance Constraint: (6.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6132mil)(4386mil,6132mil) on Bottom Overlay Silk Text to Silk Clearance [6.107mil]
+   Violation between Silk To Silk Clearance Constraint: (7.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6133mil)(4386mil,6133mil) on Bottom Overlay Silk Text to Silk Clearance [7.107mil]
+   Violation between Silk To Silk Clearance Constraint: (8.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6134mil)(4386mil,6134mil) on Bottom Overlay Silk Text to Silk Clearance [8.107mil]
+   Violation between Silk To Silk Clearance Constraint: (9.107mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4320mil,6135mil)(4386mil,6135mil) on Bottom Overlay Silk Text to Silk Clearance [9.107mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4265mil,6096mil)(4278mil,6096mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4319mil,6113mil)(4385mil,6113mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4227mil,6062mil)(4356mil,6062mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4226mil,6063mil)(4357mil,6063mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4224mil,6064mil)(4359mil,6064mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4230mil,6065mil)(4356mil,6065mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4222mil,6066mil)(4361mil,6066mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4221mil,6067mil)(4363mil,6067mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4219mil,6068mil)(4352mil,6068mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4223mil,6069mil)(4365mil,6069mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4228mil,6070mil)(4355mil,6070mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4216mil,6071mil)(4366mil,6071mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4215mil,6072mil)(4367mil,6072mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4215mil,6073mil)(4368mil,6073mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4218mil,6074mil)(4369mil,6074mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4223mil,6075mil)(4364mil,6075mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4212mil,6076mil)(4371mil,6076mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4211mil,6077mil)(4372mil,6077mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4220mil,6078mil)(4361mil,6078mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4210mil,6079mil)(4373mil,6079mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4209mil,6080mil)(4374mil,6080mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4208mil,6081mil)(4368mil,6081mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4207mil,6082mil)(4375mil,6082mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4207mil,6083mil)(4375mil,6083mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4206mil,6084mil)(4373mil,6084mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4212mil,6085mil)(4377mil,6085mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4205mil,6086mil)(4369mil,6086mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4205mil,6087mil)(4378mil,6087mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4204mil,6088mil)(4378mil,6088mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4204mil,6089mil)(4379mil,6089mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4203mil,6090mil)(4379mil,6090mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4203mil,6091mil)(4380mil,6091mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4202mil,6092mil)(4380mil,6092mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4202mil,6093mil)(4375mil,6093mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4201mil,6094mil)(4381mil,6094mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4207mil,6095mil)(4281mil,6095mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4299mil,6095mil)(4381mil,6095mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4303mil,6096mil)(4318mil,6096mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4200mil,6097mil)(4276mil,6097mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4305mil,6097mil)(4382mil,6097mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (0.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4200mil,6098mil)(4274mil,6098mil) on Bottom Overlay Silk Text to Silk Clearance [0.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4307mil,6098mil)(4382mil,6098mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (2.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4200mil,6099mil)(4272mil,6099mil) on Bottom Overlay Silk Text to Silk Clearance [2.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4309mil,6099mil)(4382mil,6099mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (4.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4204mil,6100mil)(4270mil,6100mil) on Bottom Overlay Silk Text to Silk Clearance [4.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4310mil,6100mil)(4377mil,6100mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (5.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4199mil,6101mil)(4269mil,6101mil) on Bottom Overlay Silk Text to Silk Clearance [5.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4311mil,6101mil)(4383mil,6101mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (6.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4199mil,6102mil)(4268mil,6102mil) on Bottom Overlay Silk Text to Silk Clearance [6.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4312mil,6102mil)(4383mil,6102mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (7.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4198mil,6103mil)(4267mil,6103mil) on Bottom Overlay Silk Text to Silk Clearance [7.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4313mil,6103mil)(4383mil,6103mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (8.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4198mil,6104mil)(4266mil,6104mil) on Bottom Overlay Silk Text to Silk Clearance [8.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4314mil,6104mil)(4383mil,6104mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (8.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4198mil,6105mil)(4266mil,6105mil) on Bottom Overlay Silk Text to Silk Clearance [8.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4315mil,6105mil)(4384mil,6105mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (9.111mil < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4197mil,6106mil)(4265mil,6106mil) on Bottom Overlay Silk Text to Silk Clearance [9.111mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "P1" (4350mil,6060mil) on Bottom Overlay And Track (4315mil,6106mil)(4384mil,6106mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
+Rule Violations :93
 
 Processing Rule : Silk primitive without silk layer
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.3mm) (Max=2.5mm) (Preferred=2.5mm) ((InNet('+5V') OR InNet('24V')))
+Processing Rule : Width Constraint (Min=11.811mil) (Max=98.425mil) (Preferred=98.425mil) ((InNet('+5V') OR InNet('24V')))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.256mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=10.079mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=2.5mm) (Preferred=0.254mm) (All)
+Processing Rule : Width Constraint (Min=10mil) (Max=98.425mil) (Preferred=10mil) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=1.5mm) (Max=1.5mm) (Preferred=1.5mm) ((InNet('NetDB1_1') OR InNet('NetDB1_4') OR InNet('NetDB1_6') OR InNet('NetDB1_8')))
+Processing Rule : Width Constraint (Min=59.055mil) (Max=59.055mil) (Preferred=59.055mil) ((InNet('NetDB1_1') OR InNet('NetDB1_4') OR InNet('NetDB1_6') OR InNet('NetDB1_8')))
 Rule Violations :0
 
 
-Violations Detected : 24
-Time Elapsed        : 00:00:01
+Violations Detected : 117
+Time Elapsed        : 00:00:02

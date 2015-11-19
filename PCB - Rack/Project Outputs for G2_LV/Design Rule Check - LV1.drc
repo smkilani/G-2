@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\smkilani\Documents\GitHub\G-2\PCB - Rack\LV1.PCBDOC
-Date     : 18/11/2015
-Time     : 2:40:43 PM
+Date     : 19/11/2015
+Time     : 4:00:36 PM
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
 Rule Violations :0
@@ -29,4 +29,4 @@ Rule Violations :0
 
 
 Violations Detected : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
