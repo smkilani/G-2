@@ -1,0 +1,8 @@
+Added Component: Designator=RSCL(J1-0603)
+Added Component: Designator=RSDA(J1-0603)
+Added Pin To Net: NetName=ADRSA3 Pin=RSCL-1
+Added Pin To Net: NetName=SCLNET Pin=RSCL-2
+Added Pin To Net: NetName=ADRSA3 Pin=RSDA-1
+Added Pin To Net: NetName=SDANET Pin=RSDA-2
+Added Member To Class: ClassName=Backplane Member=Component RSCL Res3
+Added Member To Class: ClassName=Backplane Member=Component RSDA Res3

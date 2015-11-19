@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-39
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-40
+Removed Pin From Net: NetName=ADRSA2 Pin=J1-41
+Added Pin To Net: NetName=ADRSA2 Pin=J1-8
+Added Pin To Net: NetName=ADRSA2 Pin=J1-9
+Added Pin To Net: NetName=ADRSA2 Pin=J1-10
+Added Pin To Net: NetName=NetJ1_39 Pin=J1-39
+Added Pin To Net: NetName=NetJ1_39 Pin=USB1-1
+Added Pin To Net: NetName=NetJ1_39 Pin=USB1-1
+Added Pin To Net: NetName=NetJ1_39 Pin=USB1-1
+Added Net: Name=NetJ1_39
+Added Pin To Net: NetName=NetJ1_40 Pin=J1-40
+Added Pin To Net: NetName=NetJ1_40 Pin=USB1-2
+Added Net: Name=NetJ1_40
+Added Pin To Net: NetName=NetJ1_41 Pin=J1-41
+Added Pin To Net: NetName=NetJ1_41 Pin=USB1-3
+Added Net: Name=NetJ1_41

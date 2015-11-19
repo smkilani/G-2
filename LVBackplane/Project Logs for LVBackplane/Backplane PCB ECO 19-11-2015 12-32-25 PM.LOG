@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=48V Pin=J1-0
+Removed Pin From Net: NetName=48V Pin=J1-1
+Removed Pin From Net: NetName=48V Pin=J1-32
+Removed Pin From Net: NetName=48V Pin=J1-33
+Removed Pin From Net: NetName=24V Pin=P1-1
+Added Pin To Net: NetName=24V Pin=J1-0
+Added Pin To Net: NetName=24V Pin=J1-1
+Added Pin To Net: NetName=24V Pin=J1-32
+Added Pin To Net: NetName=24V Pin=J1-33
+Added Pin To Net: NetName=48V Pin=P1-1
+Change Net Name : Old Net Name=24V New Net Name=48V
+Change Net Name : Old Net Name=48V New Net Name=24V

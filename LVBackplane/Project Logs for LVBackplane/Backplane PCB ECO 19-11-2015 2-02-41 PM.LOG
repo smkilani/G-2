@@ -1,0 +1,119 @@
+Removed Pin From Net: NetName=NetDB1_U_Connectors_1 Pin=J2-20
+Removed Pin From Net: NetName=NetDB1_U_Connectors_1 Pin=J2-21
+Removed Pin From Net: NetName=NetDB1_U_Connectors_6 Pin=J2-22
+Removed Pin From Net: NetName=NetDB1_U_Connectors_6 Pin=J2-23
+Removed Pin From Net: NetName=NetDB1_U_Connectors_8 Pin=J2-30
+Removed Pin From Net: NetName=NetDB1_U_Connectors_4 Pin=J2-31
+Removed Pin From Net: NetName=ADRSA3 Pin=J2-40
+Removed Pin From Net: NetName=ADRSA2 Pin=J2-41
+Removed Pin From Net: NetName=ADRSA3 Pin=J2-42
+Removed Pin From Net: NetName=ADRSA2 Pin=J2-43
+Removed Pin From Net: NetName=ADRSA2 Pin=J2-44
+Removed Pin From Net: NetName=ADRSA2 Pin=J2-45
+Removed Pin From Net: NetName=ADRSA2 Pin=J2-46
+Removed Pin From Net: NetName=ADRSA2 Pin=J2-47
+Removed Pin From Net: NetName=NetDB2_U_Connectors_8 Pin=J2-56
+Removed Pin From Net: NetName=NetDB2_U_Connectors_4 Pin=J2-57
+Removed Pin From Net: NetName=NetDB2_U_Connectors_1 Pin=J2-58
+Removed Pin From Net: NetName=NetDB2_U_Connectors_1 Pin=J2-59
+Removed Pin From Net: NetName=NetDB2_U_Connectors_6 Pin=J2-60
+Removed Pin From Net: NetName=NetDB2_U_Connectors_6 Pin=J2-61
+Removed Pin From Net: NetName=NetDB1_U_Connectors1_1 Pin=J3-20
+Removed Pin From Net: NetName=NetDB1_U_Connectors1_1 Pin=J3-21
+Removed Pin From Net: NetName=NetDB1_U_Connectors1_6 Pin=J3-22
+Removed Pin From Net: NetName=NetDB1_U_Connectors1_6 Pin=J3-23
+Removed Pin From Net: NetName=NetDB1_U_Connectors1_8 Pin=J3-30
+Removed Pin From Net: NetName=NetDB1_U_Connectors1_4 Pin=J3-31
+Removed Pin From Net: NetName=ADRSA2 Pin=J3-40
+Removed Pin From Net: NetName=ADRSA3 Pin=J3-41
+Removed Pin From Net: NetName=ADRSA2 Pin=J3-42
+Removed Pin From Net: NetName=ADRSA3 Pin=J3-43
+Removed Pin From Net: NetName=ADRSA2 Pin=J3-44
+Removed Pin From Net: NetName=ADRSA2 Pin=J3-45
+Removed Pin From Net: NetName=ADRSA2 Pin=J3-46
+Removed Pin From Net: NetName=ADRSA2 Pin=J3-47
+Removed Pin From Net: NetName=NetDB2_U_Connectors1_8 Pin=J3-56
+Removed Pin From Net: NetName=NetDB2_U_Connectors1_4 Pin=J3-57
+Removed Pin From Net: NetName=NetDB2_U_Connectors1_1 Pin=J3-58
+Removed Pin From Net: NetName=NetDB2_U_Connectors1_1 Pin=J3-59
+Removed Pin From Net: NetName=NetDB2_U_Connectors1_6 Pin=J3-60
+Removed Pin From Net: NetName=NetDB2_U_Connectors1_6 Pin=J3-61
+Removed Member From Class: ClassName=U_Connectors Member=A
+Removed Member From Class: ClassName=U_Connectors Member=B
+Removed Member From Class: ClassName=Backplane Member=J2
+Change Component Designator: OldDesignator=A NewDesignator=DB2_U_Connectors
+Change Component Designator: OldDesignator=A NewDesignator=DB2_U_Connectors1
+Change Component Designator: OldDesignator=B NewDesignator=DB1_U_Connectors
+Change Component Designator: OldDesignator=B NewDesignator=DB1_U_Connectors1
+Change Component Designator: OldDesignator=J2 NewDesignator=J1_U_Connectors
+Change Component Designator: OldDesignator=J3 NewDesignator=J1_U_Connectors1
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-8
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors1-9
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-10
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors1-11
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-12
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-13
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-14
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors1-15
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors-8
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors-9
+Added Pin To Net: NetName=ADRSA3 Pin=J1_U_Connectors-10
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors-11
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors-12
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors-13
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors-14
+Added Pin To Net: NetName=ADRSA2 Pin=J1_U_Connectors-15
+Added Pin To Net: NetName=NetJ1_U_Connectors1_40 Pin=J1_U_Connectors1-40
+Added Pin To Net: NetName=NetJ1_U_Connectors1_40 Pin=RJ2_U_Connectors1-3
+Added Net: Name=NetJ1_U_Connectors1_40
+Added Pin To Net: NetName=NetJ1_U_Connectors1_41 Pin=J1_U_Connectors1-41
+Added Pin To Net: NetName=NetJ1_U_Connectors1_41 Pin=RJ2_U_Connectors1-6
+Added Net: Name=NetJ1_U_Connectors1_41
+Added Pin To Net: NetName=NetJ1_U_Connectors1_42 Pin=J1_U_Connectors1-42
+Added Pin To Net: NetName=NetJ1_U_Connectors1_42 Pin=RJ2_U_Connectors1-1
+Added Net: Name=NetJ1_U_Connectors1_42
+Added Pin To Net: NetName=NetJ1_U_Connectors1_43 Pin=J1_U_Connectors1-43
+Added Pin To Net: NetName=NetJ1_U_Connectors1_43 Pin=RJ2_U_Connectors1-2
+Added Net: Name=NetJ1_U_Connectors1_43
+Added Pin To Net: NetName=NetJ1_U_Connectors1_44 Pin=J1_U_Connectors1-44
+Added Pin To Net: NetName=NetJ1_U_Connectors1_44 Pin=RJ1_U_Connectors1-3
+Added Net: Name=NetJ1_U_Connectors1_44
+Added Pin To Net: NetName=NetJ1_U_Connectors1_45 Pin=J1_U_Connectors1-45
+Added Pin To Net: NetName=NetJ1_U_Connectors1_45 Pin=RJ1_U_Connectors1-6
+Added Net: Name=NetJ1_U_Connectors1_45
+Added Pin To Net: NetName=NetJ1_U_Connectors1_46 Pin=J1_U_Connectors1-46
+Added Pin To Net: NetName=NetJ1_U_Connectors1_46 Pin=RJ1_U_Connectors1-1
+Added Net: Name=NetJ1_U_Connectors1_46
+Added Pin To Net: NetName=NetJ1_U_Connectors1_47 Pin=J1_U_Connectors1-47
+Added Pin To Net: NetName=NetJ1_U_Connectors1_47 Pin=RJ1_U_Connectors1-2
+Added Net: Name=NetJ1_U_Connectors1_47
+Added Pin To Net: NetName=NetJ1_U_Connectors_40 Pin=J1_U_Connectors-40
+Added Pin To Net: NetName=NetJ1_U_Connectors_40 Pin=RJ2_U_Connectors-3
+Added Net: Name=NetJ1_U_Connectors_40
+Added Pin To Net: NetName=NetJ1_U_Connectors_41 Pin=J1_U_Connectors-41
+Added Pin To Net: NetName=NetJ1_U_Connectors_41 Pin=RJ2_U_Connectors-6
+Added Net: Name=NetJ1_U_Connectors_41
+Added Pin To Net: NetName=NetJ1_U_Connectors_42 Pin=J1_U_Connectors-42
+Added Pin To Net: NetName=NetJ1_U_Connectors_42 Pin=RJ2_U_Connectors-1
+Added Net: Name=NetJ1_U_Connectors_42
+Added Pin To Net: NetName=NetJ1_U_Connectors_43 Pin=J1_U_Connectors-43
+Added Pin To Net: NetName=NetJ1_U_Connectors_43 Pin=RJ2_U_Connectors-2
+Added Net: Name=NetJ1_U_Connectors_43
+Added Pin To Net: NetName=NetJ1_U_Connectors_44 Pin=J1_U_Connectors-44
+Added Pin To Net: NetName=NetJ1_U_Connectors_44 Pin=RJ1_U_Connectors-3
+Added Net: Name=NetJ1_U_Connectors_44
+Added Pin To Net: NetName=NetJ1_U_Connectors_45 Pin=J1_U_Connectors-45
+Added Pin To Net: NetName=NetJ1_U_Connectors_45 Pin=RJ1_U_Connectors-6
+Added Net: Name=NetJ1_U_Connectors_45
+Added Pin To Net: NetName=NetJ1_U_Connectors_46 Pin=J1_U_Connectors-46
+Added Pin To Net: NetName=NetJ1_U_Connectors_46 Pin=RJ1_U_Connectors-1
+Added Net: Name=NetJ1_U_Connectors_46
+Added Pin To Net: NetName=NetJ1_U_Connectors_47 Pin=J1_U_Connectors-47
+Added Pin To Net: NetName=NetJ1_U_Connectors_47 Pin=RJ1_U_Connectors-2
+Added Net: Name=NetJ1_U_Connectors_47
+Added Member To Class: ClassName=U_Connectors Member=Component DB1_U_Connectors (DB1) D Connector 9
+Added Member To Class: ClassName=U_Connectors Member=Component DB2_U_Connectors (DB2) D Connector 9
+Added Member To Class: ClassName=Backplane Member=Component J1 DIN41612_64WAY
+Added Room: Name=Backplane
+Added Room: Name=U_Connectors1
+Added Room: Name=U_Connectors
