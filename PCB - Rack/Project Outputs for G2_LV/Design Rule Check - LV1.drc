@@ -1,9 +1,9 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\smkilani\Documents\GitHub\G-2\PCB - Rack\LV1.PCBDOC
 Date     : 19/11/2015
-Time     : 4:00:36 PM
+Time     : 4:15:16 PM
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GNDbottom')),(All)

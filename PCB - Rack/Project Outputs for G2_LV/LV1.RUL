@@ -1,5 +1,5 @@
 DRC Rules Export File for PCB: C:\Users\smkilani\Documents\GitHub\G-2\PCB - Rack\LV1.PCBDOC
-RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.87
 RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=7.87
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
 RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=10.00
