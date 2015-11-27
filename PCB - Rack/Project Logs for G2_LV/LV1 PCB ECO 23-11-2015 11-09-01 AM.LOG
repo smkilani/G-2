@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=MISO Pin=ICSP1-1
+Removed Pin From Net: NetName=SCK Pin=ICSP1-3
+Removed Pin From Net: NetName=MOSI Pin=ICSP1-4
+Change Component DesignItemId : Designator=ICSP1 Old DesignItemId=PINHD-2X3 New DesignItemId=PINHD-2X5
+Change Component Footprint: Designator=ICSP1 Old Footprint=2X03 New Footprint=2X05
+Change Component Comment : Designator=ICSP1 Old Comment=3x2 M New Comment=5x2 M
+Added Pin To Net: NetName=MOSI Pin=ICSP1-1
+Added Pin To Net: NetName=GND Pin=ICSP1-4
+Added Pin To Net: NetName=SCK Pin=ICSP1-7
+Added Pin To Net: NetName=GND Pin=ICSP1-8
+Added Pin To Net: NetName=MISO Pin=ICSP1-9
+Added Pin To Net: NetName=GND Pin=ICSP1-10

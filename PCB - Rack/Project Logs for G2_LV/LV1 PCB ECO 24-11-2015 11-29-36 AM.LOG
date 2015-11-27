@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=+5V Pin=ICSP1-2
+Added Component: Designator=D5V(SMB-403A)
+Added Pin To Net: NetName=+5V Pin=D5V-1
+Added Pin To Net: NetName=NetD5V_2 Pin=D5V-2
+Added Pin To Net: NetName=NetD5V_2 Pin=ICSP1-2
+Added Net: Name=NetD5V_2
+Added Member To Class: ClassName=U_controller Member=Component D5V MBRS130LT3G

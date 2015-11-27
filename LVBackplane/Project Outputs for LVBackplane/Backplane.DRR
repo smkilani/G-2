@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Backplane.PcbDoc   19/11/2015  4:00:18 PM
+NCDrill File Report For: Backplane.PcbDoc   24/11/2015  11:37:53 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : Backplane.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.91mm (36mil)                                            Round             32        PTH        175.00mm (6.89inch)
+T1      0.91mm (36mil)                                            Round             32        PTH        164.56mm (6.48inch)
 T2      0.92mm (36mil)                                            Round             4         PTH        8.21mm (0.32inch)
 T3      1mm (39mil)                                               Round             192       PTH        789.94mm (31.10inch)
 T4      1.09mm (43mil)                                            Round             36        PTH        201.50mm (7.93inch)
