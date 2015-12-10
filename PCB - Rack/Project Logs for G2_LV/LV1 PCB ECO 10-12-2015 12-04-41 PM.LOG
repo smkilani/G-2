@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+5VGNDA Pin=C30-2
+Removed Pin From Net: NetName=+5VGNDB Pin=C32-2
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-22
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-23
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-28
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-29
+Removed Pin From Net: NetName=+5VGNDA Pin=R_LED1-2
+Removed Pin From Net: NetName=+5VGNDB Pin=R_LED3-2
+Added Pin To Net: NetName=+5VGNDB Pin=C30-2
+Added Pin To Net: NetName=+5VGNDA Pin=C32-2
+Added Pin To Net: NetName=+5VGNDB Pin=J1-22
+Added Pin To Net: NetName=+5VGNDB Pin=J1-23
+Added Pin To Net: NetName=+5VGNDA Pin=J1-28
+Added Pin To Net: NetName=+5VGNDA Pin=J1-29
+Added Pin To Net: NetName=+5VGNDB Pin=R_LED1-2
+Added Pin To Net: NetName=+5VGNDA Pin=R_LED3-2
+Change Net Name : Old Net Name=+5VGNDA New Net Name=+5VGNDB
+Change Net Name : Old Net Name=+5VGNDB New Net Name=+5VGNDA

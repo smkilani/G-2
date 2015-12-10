@@ -16,11 +16,18 @@ bool statusA=false;
 bool statusB=false;
 char inputString[64]; 
 //-----------------------------
-const int ENApin = 22; 
-const int ENBpin = 23; 
-const int posA_ADC = A2; 
+//This has changed for v2.0 of the RACK LV Board
+//const int ENApin = 22; 
+//const int ENBpin = 23; 
+//const int posA_ADC = A2; 
+//const int negA_ADC = A1; 
+//const int posB_ADC = A3; 
+//const int negB_ADC = A4; 
+const int ENApin = 23; 
+const int ENBpin = 22; 
+const int posA_ADC = A3; 
 const int negA_ADC = A1; 
-const int posB_ADC = A3; 
+const int posB_ADC = A2; 
 const int negB_ADC = A4; 
 const int NTC_ADC = A0;
 const int ADRS0 = 24;

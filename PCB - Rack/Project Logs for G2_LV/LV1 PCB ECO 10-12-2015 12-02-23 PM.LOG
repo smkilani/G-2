@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+5VA Pin=D1-2
+Removed Pin From Net: NetName=+5VB Pin=D3-2
+Change Component Footprint: Designator=Q2_LV2 Old Footprint=SOT-23 New Footprint=SOT-23_2
+Change Component Footprint: Designator=Q2_LV4 Old Footprint=SOT-23 New Footprint=SOT-23_2
+Change Component Comment : Designator=F1_LV1 Old Comment=MF-MSMF075-2 New Comment=MINISMDC050F-2
+Change Component Comment : Designator=F1_LV3 Old Comment=MF-MSMF075-2 New Comment=MINISMDC050F-2
+Change Component Comment : Designator=F2_LV2 Old Comment=MF-MSMF075-2 New Comment=MINISMDC050F-2
+Change Component Comment : Designator=F2_LV4 Old Comment=MF-MSMF075-2 New Comment=MINISMDC050F-2
+Change Component Comment : Designator=DTVS Old Comment=SMBJ New Comment=SMBJ10CA
+Change Component Comment : Designator=U1 Old Comment=SP3084EEN-L New Comment=ADM4855ARZ
+Change Component Comment : Designator=U2 Old Comment=SP3084EEN-L New Comment=ADM4855ARZ
+Added Pin To Net: NetName=+5VB Pin=D1-2
+Added Pin To Net: NetName=+5VA Pin=D3-2
+Change Net Name : Old Net Name=+5VA New Net Name=+5VB
+Change Net Name : Old Net Name=+5VB New Net Name=+5VA

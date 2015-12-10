@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-22
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-23
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-28
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-29
+Added Pin To Net: NetName=+5VGNDB Pin=J1-22
+Added Pin To Net: NetName=+5VGNDB Pin=J1-23
+Added Pin To Net: NetName=+5VGNDA Pin=J1-28
+Added Pin To Net: NetName=+5VGNDA Pin=J1-29
+Added Room: Name=LV1

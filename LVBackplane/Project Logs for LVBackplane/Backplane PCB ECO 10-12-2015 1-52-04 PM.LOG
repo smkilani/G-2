@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=-5VGNDB Pin=DB1_U_Connectors1-8
+Removed Pin From Net: NetName=-5VGNDB Pin=DB1_U_Connectors1-9
+Removed Pin From Net: NetName=+5VGNDB Pin=DB1_U_Connectors-6
+Removed Pin From Net: NetName=+5VGNDB Pin=DB1_U_Connectors-7
+Removed Pin From Net: NetName=-5VGNDA Pin=DB2_U_Connectors1-8
+Removed Pin From Net: NetName=-5VGNDA Pin=DB2_U_Connectors1-9
+Removed Pin From Net: NetName=+5VGNDA Pin=DB2_U_Connectors-6
+Removed Pin From Net: NetName=+5VGNDA Pin=DB2_U_Connectors-7
+Removed Pin From Net: NetName=-5VGNDB Pin=J1_U_Connectors1-24
+Removed Pin From Net: NetName=-5VGNDA Pin=J1_U_Connectors1-30
+Removed Pin From Net: NetName=-5VGNDB Pin=J1_U_Connectors1-56
+Removed Pin From Net: NetName=-5VGNDA Pin=J1_U_Connectors1-62
+Removed Pin From Net: NetName=+5VGNDB Pin=J1_U_Connectors-22
+Removed Pin From Net: NetName=+5VGNDB Pin=J1_U_Connectors-23
+Removed Pin From Net: NetName=+5VGNDA Pin=J1_U_Connectors-28
+Removed Pin From Net: NetName=+5VGNDA Pin=J1_U_Connectors-29
+Removed Pin From Net: NetName=+5VGNDB Pin=J1_U_Connectors-54
+Removed Pin From Net: NetName=+5VGNDB Pin=J1_U_Connectors-55
+Removed Pin From Net: NetName=+5VGNDA Pin=J1_U_Connectors-60
+Removed Pin From Net: NetName=+5VGNDA Pin=J1_U_Connectors-61
+Change Net Name : Old Net Name=+5VGNDA New Net Name=+5VGNDA_U_Connectors1
+Change Net Name : Old Net Name=+5VGNDB New Net Name=+5VGNDB_U_Connectors1
+Change Net Name : Old Net Name=-5VGNDA New Net Name=-5VGNDA_U_Connectors
+Change Net Name : Old Net Name=-5VGNDB New Net Name=-5VGNDB_U_Connectors
+Added Pin To Net: NetName=+5VGNDA_U_Connectors Pin=DB2_U_Connectors-6
+Added Pin To Net: NetName=+5VGNDA_U_Connectors Pin=DB2_U_Connectors-7
+Added Pin To Net: NetName=+5VGNDA_U_Connectors Pin=J1_U_Connectors-28
+Added Pin To Net: NetName=+5VGNDA_U_Connectors Pin=J1_U_Connectors-29
+Added Pin To Net: NetName=+5VGNDA_U_Connectors Pin=J1_U_Connectors-60
+Added Pin To Net: NetName=+5VGNDA_U_Connectors Pin=J1_U_Connectors-61
+Added Net: Name=+5VGNDA_U_Connectors
+Added Pin To Net: NetName=+5VGNDB_U_Connectors Pin=DB1_U_Connectors-6
+Added Pin To Net: NetName=+5VGNDB_U_Connectors Pin=DB1_U_Connectors-7
+Added Pin To Net: NetName=+5VGNDB_U_Connectors Pin=J1_U_Connectors-22
+Added Pin To Net: NetName=+5VGNDB_U_Connectors Pin=J1_U_Connectors-23
+Added Pin To Net: NetName=+5VGNDB_U_Connectors Pin=J1_U_Connectors-54
+Added Pin To Net: NetName=+5VGNDB_U_Connectors Pin=J1_U_Connectors-55
+Added Net: Name=+5VGNDB_U_Connectors
+Added Pin To Net: NetName=-5VGNDA_U_Connectors1 Pin=DB2_U_Connectors1-8
+Added Pin To Net: NetName=-5VGNDA_U_Connectors1 Pin=DB2_U_Connectors1-9
+Added Pin To Net: NetName=-5VGNDA_U_Connectors1 Pin=J1_U_Connectors1-30
+Added Pin To Net: NetName=-5VGNDA_U_Connectors1 Pin=J1_U_Connectors1-62
+Added Net: Name=-5VGNDA_U_Connectors1
+Added Pin To Net: NetName=-5VGNDB_U_Connectors1 Pin=DB1_U_Connectors1-8
+Added Pin To Net: NetName=-5VGNDB_U_Connectors1 Pin=DB1_U_Connectors1-9
+Added Pin To Net: NetName=-5VGNDB_U_Connectors1 Pin=J1_U_Connectors1-24
+Added Pin To Net: NetName=-5VGNDB_U_Connectors1 Pin=J1_U_Connectors1-56
+Added Net: Name=-5VGNDB_U_Connectors1

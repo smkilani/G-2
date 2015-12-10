@@ -1,0 +1,77 @@
+Removed Member From Class: ClassName=U_Connectors Member=SCA
+Removed Member From Class: ClassName=U_Connectors Member=SCB
+Change Component Designator: OldDesignator=A NewDesignator=DB1_U_Connectors
+Change Component Designator: OldDesignator=A NewDesignator=DB1_U_Connectors1
+Change Component Designator: OldDesignator=B NewDesignator=DB2_U_Connectors
+Change Component Designator: OldDesignator=B NewDesignator=DB2_U_Connectors1
+Change Component Designator: OldDesignator=J2 NewDesignator=J1_U_Connectors
+Change Component Designator: OldDesignator=J3 NewDesignator=J1_U_Connectors1
+Change Component Designator: OldDesignator=SCA NewDesignator=RJ1_U_Connectors
+Change Component Designator: OldDesignator=SCA NewDesignator=RJ1_U_Connectors1
+Change Component Designator: OldDesignator=SCB NewDesignator=RJ2_U_Connectors
+Change Component Designator: OldDesignator=SCB NewDesignator=RJ2_U_Connectors1
+Added Pin To Net: NetName=NetDB1_U_Connectors_6 Pin=DB1_U_Connectors1-6
+Added Pin To Net: NetName=NetDB1_U_Connectors_6 Pin=DB1_U_Connectors1-7
+Added Pin To Net: NetName=NetDB2_U_Connectors1_6 Pin=DB2_U_Connectors-6
+Added Pin To Net: NetName=NetDB2_U_Connectors1_6 Pin=DB2_U_Connectors-7
+Added Pin To Net: NetName=NetDB1_U_Connectors_6 Pin=J1_U_Connectors1-22
+Added Pin To Net: NetName=NetDB1_U_Connectors_6 Pin=J1_U_Connectors1-23
+Added Pin To Net: NetName=NetDB1_U_Connectors_6 Pin=J1_U_Connectors1-54
+Added Pin To Net: NetName=NetDB1_U_Connectors_6 Pin=J1_U_Connectors1-55
+Added Pin To Net: NetName=NetDB2_U_Connectors1_6 Pin=J1_U_Connectors-28
+Added Pin To Net: NetName=NetDB2_U_Connectors1_6 Pin=J1_U_Connectors-29
+Added Pin To Net: NetName=NetDB2_U_Connectors1_6 Pin=J1_U_Connectors-60
+Added Pin To Net: NetName=NetDB2_U_Connectors1_6 Pin=J1_U_Connectors-61
+Change Net Name : Old Net Name=NetDB1_U_Connectors1_1 New Net Name=+5VB_U_Connectors1
+Change Net Name : Old Net Name=NetDB1_U_Connectors_1 New Net Name=+5VB_U_Connectors
+Change Net Name : Old Net Name=NetDB1_U_Connectors_6 New Net Name=+5VGNDB
+Change Net Name : Old Net Name=NetDB2_U_Connectors1_1 New Net Name=+5VA_U_Connectors1
+Change Net Name : Old Net Name=NetDB2_U_Connectors1_6 New Net Name=+5VGNDA
+Change Net Name : Old Net Name=NetDB2_U_Connectors_1 New Net Name=+5VA_U_Connectors
+Added Pin To Net: NetName=-5VA_U_Connectors1 Pin=DB2_U_Connectors1-4
+Added Pin To Net: NetName=-5VA_U_Connectors1 Pin=DB2_U_Connectors1-5
+Added Pin To Net: NetName=-5VA_U_Connectors1 Pin=J1_U_Connectors1-31
+Added Pin To Net: NetName=-5VA_U_Connectors1 Pin=J1_U_Connectors1-63
+Added Net: Name=-5VA_U_Connectors1
+Added Pin To Net: NetName=-5VA_U_Connectors Pin=DB2_U_Connectors-4
+Added Pin To Net: NetName=-5VA_U_Connectors Pin=DB2_U_Connectors-5
+Added Pin To Net: NetName=-5VA_U_Connectors Pin=J1_U_Connectors-31
+Added Pin To Net: NetName=-5VA_U_Connectors Pin=J1_U_Connectors-63
+Added Net: Name=-5VA_U_Connectors
+Added Pin To Net: NetName=-5VB_U_Connectors1 Pin=DB1_U_Connectors1-4
+Added Pin To Net: NetName=-5VB_U_Connectors1 Pin=DB1_U_Connectors1-5
+Added Pin To Net: NetName=-5VB_U_Connectors1 Pin=J1_U_Connectors1-25
+Added Pin To Net: NetName=-5VB_U_Connectors1 Pin=J1_U_Connectors1-57
+Added Net: Name=-5VB_U_Connectors1
+Added Pin To Net: NetName=-5VB_U_Connectors Pin=DB1_U_Connectors-4
+Added Pin To Net: NetName=-5VB_U_Connectors Pin=DB1_U_Connectors-5
+Added Pin To Net: NetName=-5VB_U_Connectors Pin=J1_U_Connectors-25
+Added Pin To Net: NetName=-5VB_U_Connectors Pin=J1_U_Connectors-57
+Added Net: Name=-5VB_U_Connectors
+Added Pin To Net: NetName=-5VGNDA Pin=DB2_U_Connectors1-8
+Added Pin To Net: NetName=-5VGNDA Pin=DB2_U_Connectors1-9
+Added Pin To Net: NetName=-5VGNDA Pin=DB2_U_Connectors-8
+Added Pin To Net: NetName=-5VGNDA Pin=DB2_U_Connectors-9
+Added Pin To Net: NetName=-5VGNDA Pin=J1_U_Connectors1-30
+Added Pin To Net: NetName=-5VGNDA Pin=J1_U_Connectors1-62
+Added Pin To Net: NetName=-5VGNDA Pin=J1_U_Connectors-30
+Added Pin To Net: NetName=-5VGNDA Pin=J1_U_Connectors-62
+Added Net: Name=-5VGNDA
+Added Pin To Net: NetName=-5VGNDB Pin=DB1_U_Connectors1-8
+Added Pin To Net: NetName=-5VGNDB Pin=DB1_U_Connectors1-9
+Added Pin To Net: NetName=-5VGNDB Pin=DB1_U_Connectors-8
+Added Pin To Net: NetName=-5VGNDB Pin=DB1_U_Connectors-9
+Added Pin To Net: NetName=-5VGNDB Pin=J1_U_Connectors1-24
+Added Pin To Net: NetName=-5VGNDB Pin=J1_U_Connectors1-56
+Added Pin To Net: NetName=-5VGNDB Pin=J1_U_Connectors-24
+Added Pin To Net: NetName=-5VGNDB Pin=J1_U_Connectors-56
+Added Net: Name=-5VGNDB
+Added Member To Class: ClassName=U_Connectors1 Member=Component DB1_U_Connectors1 (DB1) D Connector 9
+Added Member To Class: ClassName=U_Connectors Member=Component DB1_U_Connectors (DB1) D Connector 9
+Added Member To Class: ClassName=U_Connectors1 Member=Component DB2_U_Connectors1 (DB2) D Connector 9
+Added Member To Class: ClassName=U_Connectors Member=Component DB2_U_Connectors (DB2) D Connector 9
+Added Member To Class: ClassName=U_Connectors1 Member=Component J1_U_Connectors1 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Backplane Member=Component J1 DIN41612_64WAY
+Added Member To Class: ClassName=U_Connectors Member=Component RJ1_U_Connectors (RJ1) 85504-5001
+Added Member To Class: ClassName=U_Connectors Member=Component RJ2_U_Connectors (RJ2) 85504-5001
+Added Member To Class: ClassName=Backplane Member=Component USB1 USB_B
