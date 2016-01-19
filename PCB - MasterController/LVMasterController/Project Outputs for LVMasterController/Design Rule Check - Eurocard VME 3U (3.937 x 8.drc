@@ -1,0 +1,53 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\smkilani\Documents\GitHub\G-2\PCB - MasterController\LVMasterController\Eurocard VME 3U (3.937 x 8.660 inches).PCBDOC
+Date     : 7/1/2016
+Time     : 11:53:18 AM
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=1.3mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net XVCC Between Track (291.905mm,218.807mm)(292.876mm,217.836mm) on TopLayer And Pad J1-39(310.896mm,224.079mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net NetL1_2 Between Track (290.59mm,214.407mm)(290.59mm,215.327mm) on TopLayer And Track (290.59mm,214.407mm)(290.59mm,215.327mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net NetL1_2 Between Track (289.478mm,202.215mm)(290.59mm,203.327mm) on TopLayer And Track (290.59mm,203.327mm)(290.59mm,204.247mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net UGND Between Track (287.88mm,210.577mm)(287.88mm,210.894mm) on BottomLayer And Track (287.88mm,210.577mm)(287.9mm,210.597mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net UGND Between Track (289.32mm,210.597mm)(289.955mm,209.962mm) on TopLayer And Pad J1-42(310.896mm,216.459mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net SDANET Between Pad J1-37(310.896mm,229.159mm) on MultiLayer And Pad J1-5(315.976mm,229.159mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net SCLNET Between Pad J1-36(310.896mm,231.699mm) on MultiLayer And Pad J1-4(315.976mm,231.699mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net RESET Between Track (215.687mm,221.392mm)(224.931mm,221.392mm) on TopLayer And Pad RESET-3(217.982mm,223.687mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net RESET Between Track (226.785mm,223.246mm)(229.554mm,223.246mm) on TopLayer And Pad ICSP-5(230.773mm,219.487mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net RESET Between Track (226.785mm,223.246mm)(229.554mm,223.246mm) on TopLayer And Track (227.725mm,232.06mm)(230.138mm,229.647mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net PB3 Between Track (227.217mm,230.79mm)(229.3mm,228.707mm) on BottomLayer And Pad ICSP-9(230.773mm,224.567mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net PB2 Between Track (227.09mm,220.376mm)(227.09mm,222.662mm) on BottomLayer And Track (226.908mm,230.155mm)(228.741mm,228.322mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net PB2 Between Track (227.09mm,220.376mm)(227.09mm,222.662mm) on BottomLayer And Pad ICSP-1(230.773mm,214.407mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net PB1 Between Track (227.4mm,231.425mm)(229.706mm,229.119mm) on BottomLayer And Pad ICSP-7(230.773mm,222.027mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net NetD5V_2 Between Pad ICSP-2(228.233mm,214.407mm) on MultiLayer And Pad D5V-2(344.881mm,244.297mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad GROUND-2(282.843mm,214.407mm) on BottomLayer And Pad C8-2(283.224mm,216.439mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-45(310.896mm,208.839mm) on MultiLayer And Pad J1-44(310.896mm,211.379mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-16(315.976mm,201.219mm) on MultiLayer And Pad J1-15(315.976mm,203.759mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-21(315.976mm,188.519mm) on MultiLayer And Pad J1-20(315.976mm,191.059mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-14(315.976mm,206.299mm) on MultiLayer And Pad J1-13(315.976mm,208.839mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-27(315.976mm,173.279mm) on MultiLayer And Pad J1-26(315.976mm,175.819mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-31(315.976mm,163.119mm) on MultiLayer And Pad J1-30(315.976mm,165.659mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-28(315.976mm,170.739mm) on MultiLayer And Pad J1-27(315.976mm,173.279mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-30(315.976mm,165.659mm) on MultiLayer And Pad J1-29(315.976mm,168.199mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-11(315.976mm,213.919mm) on MultiLayer And Pad J1-10(315.976mm,216.459mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-9(315.976mm,218.999mm) on MultiLayer And Pad J1-8(315.976mm,221.539mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-7(315.976mm,224.079mm) on MultiLayer And Pad J1-6(315.976mm,226.619mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-13(315.976mm,208.839mm) on MultiLayer And Pad J1-12(315.976mm,211.379mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-20(315.976mm,191.059mm) on MultiLayer And Pad J1-19(315.976mm,193.599mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-17(315.976mm,198.679mm) on MultiLayer And Pad J1-16(315.976mm,201.219mm) on MultiLayer 
+Rule Violations :30
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 30
+Time Elapsed        : 00:00:01

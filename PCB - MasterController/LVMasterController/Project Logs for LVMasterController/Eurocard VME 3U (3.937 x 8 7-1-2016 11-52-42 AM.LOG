@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=XVCC Pin=X2-1
+Removed Pin From Net: NetName=D- Pin=X2-2
+Removed Pin From Net: NetName=D+ Pin=X2-3
+Removed Pin From Net: NetName=UGND Pin=X2-4
+Removed Pin From Net: NetName=USHIELD Pin=X2-P$1
+Removed Pin From Net: NetName=USHIELD Pin=X2-P$2
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=X2
+Added Pin To Net: NetName=XVCC Pin=J1-39
+Added Pin To Net: NetName=D- Pin=J1-40
+Added Pin To Net: NetName=D+ Pin=J1-41
+Added Pin To Net: NetName=UGND Pin=J1-42
+Change Net Name : Old Net Name=USHIELD New Net Name=NetL1_2

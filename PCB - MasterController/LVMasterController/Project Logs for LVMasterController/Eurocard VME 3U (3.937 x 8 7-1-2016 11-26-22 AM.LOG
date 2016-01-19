@@ -1,0 +1,233 @@
+Change Component Comment : Designator=ICSP Old Comment=3x2M New Comment=5x2 M
+Added Pin To Net: NetName=+3V3 Pin=C13-2
+Added Pin To Net: NetName=+3V3 Pin=IC6-5
+Added Pin To Net: NetName=+3V3 Pin=IC7-6
+Added Net: Name=+3V3
+Added Net: Name=+5VRAW
+Added Pin To Net: NetName=+5V Pin=C4-1
+Added Pin To Net: NetName=+5V Pin=C5-1
+Added Pin To Net: NetName=+5V Pin=C6-1
+Added Pin To Net: NetName=+5V Pin=C9-1
+Added Pin To Net: NetName=+5V Pin=C11-2
+Added Pin To Net: NetName=+5V Pin=D2-C
+Added Pin To Net: NetName=+5V Pin=D3-C
+Added Pin To Net: NetName=+5V Pin=IC1-2
+Added Pin To Net: NetName=+5V Pin=IC1-4
+Added Pin To Net: NetName=+5V Pin=IC3-10
+Added Pin To Net: NetName=+5V Pin=IC3-31
+Added Pin To Net: NetName=+5V Pin=IC3-61
+Added Pin To Net: NetName=+5V Pin=IC3-80
+Added Pin To Net: NetName=+5V Pin=IC3-100
+Added Pin To Net: NetName=+5V Pin=IC4-4
+Added Pin To Net: NetName=+5V Pin=IC4-32
+Added Pin To Net: NetName=+5V Pin=IC6-1
+Added Pin To Net: NetName=+5V Pin=IC6-3
+Added Pin To Net: NetName=+5V Pin=IC7-8
+Added Pin To Net: NetName=+5V Pin=ICSP1-2
+Added Pin To Net: NetName=+5V Pin=PC2-+
+Added Pin To Net: NetName=+5V Pin=RN1-6
+Added Pin To Net: NetName=+5V Pin=RN1-7
+Added Pin To Net: NetName=+5V Pin=RN3-1
+Added Pin To Net: NetName=+5V Pin=RN4-5
+Added Pin To Net: NetName=+5V Pin=RN4-6
+Added Pin To Net: NetName=+5V Pin=RN5-2
+Added Pin To Net: NetName=+5V Pin=RN5-8
+Added Pin To Net: NetName=+5V Pin=T1-2
+Added Net: Name=+5V
+Added Pin To Net: NetName=8PB4 Pin=IC4-18
+Added Pin To Net: NetName=8PB4 Pin=JP5-1
+Added Net: Name=8PB4
+Added Pin To Net: NetName=8PB5 Pin=IC4-19
+Added Pin To Net: NetName=8PB5 Pin=JP5-3
+Added Net: Name=8PB5
+Added Pin To Net: NetName=8PB6 Pin=IC4-20
+Added Pin To Net: NetName=8PB6 Pin=JP5-2
+Added Net: Name=8PB6
+Added Pin To Net: NetName=8PB7 Pin=IC4-21
+Added Pin To Net: NetName=8PB7 Pin=JP5-4
+Added Net: Name=8PB7
+Added Net: Name=48V
+Added Pin To Net: NetName=AREF Pin=C3-1
+Added Pin To Net: NetName=AREF Pin=IC3-98
+Added Net: Name=AREF
+Added Pin To Net: NetName=CMP Pin=C12-2
+Added Pin To Net: NetName=CMP Pin=IC7-5
+Added Pin To Net: NetName=CMP Pin=RN5-3
+Added Pin To Net: NetName=CMP Pin=RN5-5
+Added Net: Name=CMP
+Added Pin To Net: NetName=D+ Pin=RN2-5
+Added Pin To Net: NetName=D+ Pin=X2-3
+Added Pin To Net: NetName=D+ Pin=Z2-2
+Added Net: Name=D+
+Added Pin To Net: NetName=D- Pin=RN2-8
+Added Pin To Net: NetName=D- Pin=X2-2
+Added Pin To Net: NetName=D- Pin=Z1-2
+Added Net: Name=D-
+Added Pin To Net: NetName=DTR Pin=C7-1
+Added Pin To Net: NetName=DTR Pin=IC4-13
+Added Pin To Net: NetName=DTR Pin=RN3-4
+Added Net: Name=DTR
+Added Pin To Net: NetName=GATE_CMD Pin=IC7-7
+Added Pin To Net: NetName=GATE_CMD Pin=T1-3
+Added Net: Name=GATE_CMD
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=GROUND-2
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=GND Pin=IC3-11
+Added Pin To Net: NetName=GND Pin=IC3-32
+Added Pin To Net: NetName=GND Pin=IC3-62
+Added Pin To Net: NetName=GND Pin=IC3-81
+Added Pin To Net: NetName=GND Pin=IC3-99
+Added Pin To Net: NetName=GND Pin=IC4-3
+Added Pin To Net: NetName=GND Pin=IC4-33
+Added Pin To Net: NetName=GND Pin=IC6-2
+Added Pin To Net: NetName=GND Pin=IC7-4
+Added Pin To Net: NetName=GND Pin=ICSP1-6
+Added Pin To Net: NetName=GND Pin=ICSP-4
+Added Pin To Net: NetName=GND Pin=ICSP-6
+Added Pin To Net: NetName=GND Pin=ON-C
+Added Pin To Net: NetName=GND Pin=PC1--
+Added Pin To Net: NetName=GND Pin=PC2--
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=GND Pin=RESET-2
+Added Pin To Net: NetName=GND Pin=RN3-5
+Added Pin To Net: NetName=GND Pin=RN5-4
+Added Pin To Net: NetName=GND Pin=Y1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=M8RXD Pin=IC4-9
+Added Pin To Net: NetName=M8RXD Pin=RN4-7
+Added Net: Name=M8RXD
+Added Pin To Net: NetName=M8TXD Pin=IC4-8
+Added Pin To Net: NetName=M8TXD Pin=RN4-8
+Added Net: Name=M8TXD
+Added Pin To Net: NetName=MISO2 Pin=IC4-17
+Added Pin To Net: NetName=MISO2 Pin=ICSP1-1
+Added Net: Name=MISO2
+Added Pin To Net: NetName=MOSI2 Pin=IC4-16
+Added Pin To Net: NetName=MOSI2 Pin=ICSP1-4
+Added Net: Name=MOSI2
+Added Pin To Net: NetName=NetD5V_2 Pin=ICSP-2
+Added Net: Name=NetD5V_2
+Added Pin To Net: NetName=NetON_A Pin=ON-A
+Added Pin To Net: NetName=NetON_A Pin=RN3-8
+Added Net: Name=NetON_A
+Added Pin To Net: NetName=NetRN4_3 Pin=RN4-3
+Added Pin To Net: NetName=NetRN4_3 Pin=TX-A
+Added Net: Name=NetRN4_3
+Added Pin To Net: NetName=NetRN4_4 Pin=RN4-4
+Added Pin To Net: NetName=NetRN4_4 Pin=RX-A
+Added Net: Name=NetRN4_4
+Added Pin To Net: NetName=PB1 Pin=IC3-20
+Added Net: Name=PB1
+Added Pin To Net: NetName=PB2 Pin=IC3-21
+Added Pin To Net: NetName=PB2 Pin=ICSP-1
+Added Net: Name=PB2
+Added Pin To Net: NetName=PB3 Pin=IC3-22
+Added Net: Name=PB3
+Added Pin To Net: NetName=PE0 Pin=IC3-2
+Added Pin To Net: NetName=PE0 Pin=RN4-2
+Added Net: Name=PE0
+Added Pin To Net: NetName=PE1 Pin=IC3-3
+Added Pin To Net: NetName=PE1 Pin=RN4-1
+Added Net: Name=PE1
+Added Pin To Net: NetName=PWRIN Pin=D1-A
+Added Net: Name=PWRIN
+Added Pin To Net: NetName=RD+ Pin=IC4-29
+Added Pin To Net: NetName=RD+ Pin=RN2-4
+Added Net: Name=RD+
+Added Pin To Net: NetName=RD- Pin=IC4-30
+Added Pin To Net: NetName=RD- Pin=RN2-1
+Added Net: Name=RD-
+Added Pin To Net: NetName=RESET2 Pin=D2-A
+Added Pin To Net: NetName=RESET2 Pin=IC4-24
+Added Pin To Net: NetName=RESET2 Pin=ICSP1-5
+Added Pin To Net: NetName=RESET2 Pin=RN5-7
+Added Net: Name=RESET2
+Added Pin To Net: NetName=RESET Pin=C1-1
+Added Pin To Net: NetName=RESET Pin=C7-2
+Added Pin To Net: NetName=RESET Pin=D3-A
+Added Pin To Net: NetName=RESET Pin=IC3-30
+Added Pin To Net: NetName=RESET Pin=ICSP-5
+Added Pin To Net: NetName=RESET Pin=RESET-3
+Added Pin To Net: NetName=RESET Pin=RESET-4
+Added Pin To Net: NetName=RESET Pin=RESET-EN-1
+Added Pin To Net: NetName=RESET Pin=RESET-EN-2
+Added Pin To Net: NetName=RESET Pin=RN5-1
+Added Net: Name=RESET
+Added Pin To Net: NetName=RXL Pin=IC4-10
+Added Pin To Net: NetName=RXL Pin=RX-C
+Added Net: Name=RXL
+Added Pin To Net: NetName=SCK2 Pin=IC4-15
+Added Pin To Net: NetName=SCK2 Pin=ICSP1-3
+Added Net: Name=SCK2
+Added Net: Name=SCLNET
+Added Pin To Net: NetName=SCL Pin=IC3-43
+Added Pin To Net: NetName=SCL Pin=RN1-2
+Added Net: Name=SCL
+Added Net: Name=SDANET
+Added Pin To Net: NetName=SDA Pin=IC3-44
+Added Pin To Net: NetName=SDA Pin=RN1-3
+Added Net: Name=SDA
+Added Pin To Net: NetName=TXL Pin=IC4-11
+Added Pin To Net: NetName=TXL Pin=TX-C
+Added Net: Name=TXL
+Added Pin To Net: NetName=UGND Pin=C10-2
+Added Pin To Net: NetName=UGND Pin=GROUND-1
+Added Pin To Net: NetName=UGND Pin=IC4-28
+Added Pin To Net: NetName=UGND Pin=L1-1
+Added Pin To Net: NetName=UGND Pin=X2-4
+Added Net: Name=UGND
+Added Pin To Net: NetName=USBVCC Pin=C8-1
+Added Pin To Net: NetName=USBVCC Pin=F1-1
+Added Pin To Net: NetName=USBVCC Pin=IC4-31
+Added Pin To Net: NetName=USBVCC Pin=T1-1
+Added Net: Name=USBVCC
+Added Pin To Net: NetName=USHIELD Pin=L1-2
+Added Pin To Net: NetName=USHIELD Pin=X2-P$1
+Added Pin To Net: NetName=USHIELD Pin=X2-P$2
+Added Pin To Net: NetName=USHIELD Pin=Z1-1
+Added Pin To Net: NetName=USHIELD Pin=Z2-1
+Added Net: Name=USHIELD
+Added Pin To Net: NetName=VIN Pin=C2-1
+Added Pin To Net: NetName=VIN Pin=D1-C
+Added Pin To Net: NetName=VIN Pin=IC1-3
+Added Pin To Net: NetName=VIN Pin=PC1-+
+Added Pin To Net: NetName=VIN Pin=RN5-6
+Added Net: Name=VIN
+Added Pin To Net: NetName=VUCAP Pin=C10-1
+Added Pin To Net: NetName=VUCAP Pin=IC4-27
+Added Net: Name=VUCAP
+Added Pin To Net: NetName=XT1 Pin=C14-1
+Added Pin To Net: NetName=XT1 Pin=IC4-1
+Added Pin To Net: NetName=XT1 Pin=R2-1
+Added Pin To Net: NetName=XT1 Pin=Y2-2
+Added Net: Name=XT1
+Added Pin To Net: NetName=XT2 Pin=C15-1
+Added Pin To Net: NetName=XT2 Pin=IC4-2
+Added Pin To Net: NetName=XT2 Pin=R2-2
+Added Pin To Net: NetName=XT2 Pin=Y2-1
+Added Net: Name=XT2
+Added Pin To Net: NetName=XTAL1 Pin=IC3-34
+Added Pin To Net: NetName=XTAL1 Pin=R1-1
+Added Pin To Net: NetName=XTAL1 Pin=Y1-3
+Added Net: Name=XTAL1
+Added Pin To Net: NetName=XTAL2 Pin=IC3-33
+Added Pin To Net: NetName=XTAL2 Pin=R1-2
+Added Pin To Net: NetName=XTAL2 Pin=Y1-1
+Added Net: Name=XTAL2
+Added Pin To Net: NetName=XVCC Pin=F1-2
+Added Pin To Net: NetName=XVCC Pin=X2-1
+Added Net: Name=XVCC
+Added Class: Name=Eurocard VME 3U (3.937 x 8.660 inches)
