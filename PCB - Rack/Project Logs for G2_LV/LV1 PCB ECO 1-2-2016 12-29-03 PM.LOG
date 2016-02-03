@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=NetC23_LV1_2 Pin=C23_LV1-2
+Removed Pin From Net: NetName=NetC23_LV3_2 Pin=C23_LV3-2
+Removed Pin From Net: NetName=GND Pin=C30_LV1-1
+Removed Pin From Net: NetName=NetC23_LV1_2 Pin=C30_LV1-2
+Removed Pin From Net: NetName=GND Pin=C30_LV3-1
+Removed Pin From Net: NetName=NetC23_LV3_2 Pin=C30_LV3-2
+Removed Pin From Net: NetName=NetC23_LV1_1 Pin=R13_LV1-2
+Removed Pin From Net: NetName=NetC23_LV3_1 Pin=R13_LV3-2
+Change Component Designator: OldDesignator=C31_LV1 NewDesignator=C30_LV1
+Change Component Designator: OldDesignator=C31_LV3 NewDesignator=C30_LV3
+Added Component: Designator=C31_LV1(C1210)
+Added Component: Designator=C31_LV3(C1210)
+Added Component: Designator=R13b_LV1(C1206)
+Added Component: Designator=R13b_LV3(C1206)
+Added Pin To Net: NetName=GND Pin=C31_LV1-1
+Added Pin To Net: NetName=NetC23_LV1_2 Pin=C31_LV1-2
+Added Pin To Net: NetName=GND Pin=C31_LV3-1
+Added Pin To Net: NetName=NetC23_LV3_2 Pin=C31_LV3-2
+Added Pin To Net: NetName=NetC23_LV1_2 Pin=R13b_LV1-1
+Added Pin To Net: NetName=NetC23_LV3_2 Pin=R13b_LV3-1
+Change Net Name : Old Net Name=NetC23_LV1_2 New Net Name=NetC29_LV1_2
+Change Net Name : Old Net Name=NetC23_LV3_2 New Net Name=NetC29_LV3_2
+Added Pin To Net: NetName=NetC23_LV1_2 Pin=C23_LV1-2
+Added Pin To Net: NetName=NetC23_LV1_2 Pin=R13_LV1-2
+Added Pin To Net: NetName=NetC23_LV1_2 Pin=R13b_LV1-2
+Added Net: Name=NetC23_LV1_2
+Added Pin To Net: NetName=NetC23_LV3_2 Pin=C23_LV3-2
+Added Pin To Net: NetName=NetC23_LV3_2 Pin=R13_LV3-2
+Added Pin To Net: NetName=NetC23_LV3_2 Pin=R13b_LV3-2
+Added Net: Name=NetC23_LV3_2
+Added Member To Class: ClassName=LV1 Member=Component C31_LV1 (C31) Cap Semi
+Added Member To Class: ClassName=LV3 Member=Component C31_LV3 (C31) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C32_LV1 (C32) Cap Semi
+Added Member To Class: ClassName=LV3 Member=Component C32_LV3 (C32) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component C33_LV1 (C33) Cap Semi
+Added Member To Class: ClassName=LV3 Member=Component C33_LV3 (C33) Cap Semi
+Added Member To Class: ClassName=LV1 Member=Component R13b_LV1 (R13b) Res3
+Added Member To Class: ClassName=LV3 Member=Component R13b_LV3 (R13b) Res3
+Added Room: Name=LV1
