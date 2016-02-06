@@ -32,6 +32,7 @@ int y=0;
 void setup()
 {
   Wire.begin(); // join i2c bus (address optional for master)
+  
   Serial.begin(9600);  // start serial for output
   Serial.print('>');
 }
@@ -151,6 +152,7 @@ void loop()
             Serial.print(slave_adrs);
             Serial.println(" A");
             sc_mode=true;    // stop transmitting
+			Wire.onReceive(Wireevent); //Attach the wire to an onreceive function
           }
           else {
             Serial.println("Error");
@@ -239,6 +241,19 @@ void loop()
   }
 }
 
+void Wireevent() {
+	if (sc_mode){
+		
+	while (Wire.available())   // slave may send less than requested
+      {
+        char c = Wire.read(); // receive a byte as character
+        if (c<=0) break;
+        Serial.print(c);
+      }
+	}
+	
+}
+
 void serialEvent() {
   while (Serial.available()) {
     // get the new byte:
@@ -264,6 +279,7 @@ void serialEvent() {
  //break @ CTRL+C
       sc_mode=false;
       Serial.print("SC mode ended\n>");
+	  Wire.onReceive(); //detach onreceive function
       for( int i = 0; i < sizeof(inputString);  ++i )
       inputString[i] = (char)0;
       y=0;
