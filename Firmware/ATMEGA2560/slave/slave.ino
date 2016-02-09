@@ -14,7 +14,7 @@ bool SCA=false;
 bool SCB=false;
 bool statusA=false;
 bool statusB=false;
-char inputString[64]; 
+char inputString[128]; 
 //-----------------------------
 //This has changed for v2.0 of the RACK LV Board
 //const int ENApin = 22; 
@@ -62,6 +62,38 @@ void loop()
   delay(100);
 }
 
+void serialEvent(){
+	    //Serial.println("requested2");
+    if (SCA) {
+      while (Serial.available()) { 
+      char inChar = Serial.read();
+      inputString[y] = inChar;
+      y++;
+    }
+	Wire.beginTransmission(1); //talk to the master as address 0x1.
+    Wire.write(inputString);
+	Wire.endTransmission();
+	y=0;
+    for( int i = 0; i < sizeof(inputString);  ++i )
+    inputString[i] = (char)0;
+    }
+    else if (SCB) {
+      while (Serial1.available()) { 
+      char inChar = Serial1.read();
+      inputString[y] = inChar;
+      y++;
+    }
+	Wire.beginTransmission(1); //talk to the master as address 0x1.
+    Wire.write(inputString);
+	Wire.endTransmission();
+	y=0;
+    for( int i = 0; i < sizeof(inputString);  ++i )
+    inputString[i] = (char)0;
+    }
+
+}
+
+
 // function that executes whenever data is received from master
 // this function is registered as an event, see setup()
 void receiveEvent(int howMany)
@@ -69,10 +101,14 @@ void receiveEvent(int howMany)
   while (Wire.available()) // loop through all but the last
   {
       if (SCA) {
+             
             char c = Wire.read(); // receive byte as a character
+            if (c==0x03) SCA=false; 
             Serial.print(c);      
       } else if (SCB) {
+             
             char c = Wire.read(); // receive byte as a character
+            if (c==0x03) SCB=false; 
             Serial1.print(c);           
       }else {
 
@@ -95,6 +131,7 @@ void requestEvent()
 {
   //Serial.println("requested");
   if (!SCA && !SCB){
+	 // Serial.println("hello");
     byte data[12];
 
     boolean lvstatusA = digitalRead(ENApin);
@@ -155,6 +192,9 @@ void requestEvent()
     
     
   } else {
+	  
+	/*
+	  
     //Serial.println("requested2");
     if (SCA) {
       while (Serial.available()) { 
@@ -174,6 +214,7 @@ void requestEvent()
     Wire.write(inputString);
     for( int i = 0; i < sizeof(inputString);  ++i )
     inputString[i] = (char)0;
+*/
   }
 }
 

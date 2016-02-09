@@ -31,9 +31,8 @@ byte x=0;
 int y=0;
 void setup()
 {
-  Wire.begin(); // join i2c bus (address optional for master)
-  
-  Serial.begin(9600);  // start serial for output
+  Wire.begin(1); // join i2c bus (address optional for master but it is assigned as 1 to allow slaves to send back data when they receive it through the SC)
+  Serial.begin(230400);  // start serial for output
   Serial.print('>');
 }
 
@@ -152,7 +151,7 @@ void loop()
             Serial.print(slave_adrs);
             Serial.println(" A");
             sc_mode=true;    // stop transmitting
-			Wire.onReceive(Wireevent); //Attach the wire to an onreceive function
+			Wire.onReceive(WireEvent); //Attach the wire to an onreceive function
           }
           else {
             Serial.println("Error");
@@ -179,7 +178,7 @@ void loop()
         case 8:
         for (int i = 0;i<9;i++) Serial.println(menu[i]);
         break;
-        default: 
+        default:
         Serial.println("Bad command");   
       }
       /*
@@ -241,7 +240,8 @@ void loop()
   }
 }
 
-void Wireevent() {
+void WireEvent(int numBytes) {
+  //Serial.println("testtt");
 	if (sc_mode){
 		
 	while (Wire.available())   // slave may send less than requested
@@ -266,7 +266,7 @@ void serialEvent() {
         Wire.write(inChar);
         Wire.endTransmission();
         //Serial.println("SC sent");
-        delay(10);
+        /*delay(10);
         Wire.requestFrom(slave_adrs, 64); 
 
       while (Wire.available())   // slave may send less than requested
@@ -274,12 +274,15 @@ void serialEvent() {
         char c = Wire.read(); // receive a byte as character
         if (c<=0) break;
         Serial.print(c);
-      }
+      }*/
     } else if (inChar==0x03 && sc_mode) {
+        Wire.beginTransmission(slave_adrs);
+        Wire.write(inChar);
+        Wire.endTransmission();
  //break @ CTRL+C
       sc_mode=false;
       Serial.print("SC mode ended\n>");
-	  Wire.onReceive(); //detach onreceive function
+	  Wire.onReceive(0); //detach onreceive function
       for( int i = 0; i < sizeof(inputString);  ++i )
       inputString[i] = (char)0;
       y=0;
