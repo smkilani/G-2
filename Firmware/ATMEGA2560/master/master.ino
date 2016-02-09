@@ -4,6 +4,16 @@
 //09/02/2016
 
 #include <Wire.h>
+
+//---------------- IMPORTANT ----------------------------//
+//Wire.h library needs to be modified
+//in Wire.h #define BUFFER_LENGTH 32 >>> #define BUFFER_LENGTH 64
+//in twi.h   #define TWI_BUFFER_LENGTH 32 >>>   #define TWI_BUFFER_LENGTH 64
+//The above two lines increase the i2c buffer from 32bytes to 64bytes (which matches the serial buffer size)
+//in twi.h   #define TWI_FREQ 100000L >>>   #define TWI_FREQ 400000L.
+//The above line increases the frequency of i2c from 100kHz to 400kHz.
+//---------------- IMPORTANT ----------------------------//
+
 #include <math.h>
 #include "commands.h"
 //#include <avr/pgmspace.h>
@@ -32,6 +42,7 @@ int y=0;
 void setup()
 {
   Wire.begin(1); // join i2c bus (address optional for master but it is assigned as 1 to allow slaves to send back data when they receive it through the SC)
+  //Wire.setClock(400000L); //setting the i2c to run at 400kHz
   Serial.begin(230400);  // start serial for output
   Serial.print('>');
 }
@@ -166,6 +177,7 @@ void loop()
             Serial.print(slave_adrs);
             Serial.println(" B");
             sc_mode=true;    // stop transmitting
+			Wire.onReceive(WireEvent); //Attach the wire to an onreceive function
           }
           else {
             Serial.println("Error");
@@ -241,17 +253,15 @@ void loop()
 }
 
 void WireEvent(int numBytes) {
-  //Serial.println("testtt");
-	if (sc_mode){
-		
-	while (Wire.available())   // slave may send less than requested
-      {
-        char c = Wire.read(); // receive a byte as character
-        //if (c<=0) break;
-        Serial.print(c);
-      }
+  
+	if (sc_mode){	
+	//Serial.println("testtt");
+  	  while (Wire.available()) {  // slave may send less than requested
+            char c = Wire.read(); // receive a byte as character
+            if (c<=0) break;
+            Serial.print(c);
+          }
 	}
-	
 }
 
 void serialEvent() {

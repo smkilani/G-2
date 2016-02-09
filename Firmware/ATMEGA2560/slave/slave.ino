@@ -1,20 +1,30 @@
 //LV Slave reader/writer
 //Crate version
 //Author: Samer Kilani
-//30/09/2015
+//09/02/2016
 
 
 
 
 #include <Wire.h>
 #include "commands.h"
+//---------------- IMPORTANT ----------------------------//
+//Wire.h library needs to be modified
+//in Wire.h #define BUFFER_LENGTH 32 >>> #define BUFFER_LENGTH 64
+//in twi.h   #define TWI_BUFFER_LENGTH 32 >>>   #define TWI_BUFFER_LENGTH 64
+//The above two lines increase the i2c buffer from 32bytes to 64bytes (which matches the serial buffer size)
+//in twi.h   #define TWI_FREQ 100000L >>>   #define TWI_FREQ 400000L.
+//The above line increases the frequency of i2c from 100kHz to 400kHz.
+//---------------- IMPORTANT ----------------------------//
+
 byte x =0;
 int y=0;
 bool SCA=false;
 bool SCB=false;
 bool statusA=false;
 bool statusB=false;
-char inputString[128]; 
+char inputString[64]; //this is equal to the i2c buffer size
+
 //-----------------------------
 //This has changed for v2.0 of the RACK LV Board
 //const int ENApin = 22; 
@@ -41,6 +51,7 @@ void setup()
   //calculate adrs
   ADRS=(digitalRead(ADRS0)*8)+(digitalRead(ADRS1)*4)+(digitalRead(ADRS2)*2)+(digitalRead(ADRS3)*1);
   Wire.begin(ADRS);                // join i2c bus with address #2
+  
   TWAR = (ADRS << 1) | 1;
   Wire.onReceive(receiveEvent); // register event
   Wire.onRequest(requestEvent); // register event
@@ -59,40 +70,66 @@ void setup()
 
 void loop()
 {
-  delay(100);
+  //delay(100);
 }
 
 void serialEvent(){
-	    //Serial.println("requested2");
+ // Serial.println("requested");
     if (SCA) {
       while (Serial.available()) { 
-      char inChar = Serial.read();
-      inputString[y] = inChar;
-      y++;
+        char inChar = Serial.read();
+        inputString[y] = inChar;
+        y++;
+        if (y==64){
+    	  Wire.beginTransmission(1); //talk to the master as address 0x1.
+          Wire.write(inputString);
+    	  Wire.endTransmission();
+		  for( int i = 0; i < sizeof(inputString);  ++i )
+		  inputString[i] = (char)0;  
+		  y=0;        
+        }
+      }
+      Wire.beginTransmission(1); //talk to the master as address 0x1.
+      Wire.write(inputString);
+      Wire.endTransmission();
+      y=0;
+      for( int i = 0; i < sizeof(inputString);  ++i )
+      inputString[i] = (char)0;  
     }
-	Wire.beginTransmission(1); //talk to the master as address 0x1.
-    Wire.write(inputString);
-	Wire.endTransmission();
-	y=0;
-    for( int i = 0; i < sizeof(inputString);  ++i )
-    inputString[i] = (char)0;
-    }
-    else if (SCB) {
-      while (Serial1.available()) { 
-      char inChar = Serial1.read();
-      inputString[y] = inChar;
-      y++;
-    }
-	Wire.beginTransmission(1); //talk to the master as address 0x1.
-    Wire.write(inputString);
-	Wire.endTransmission();
-	y=0;
-    for( int i = 0; i < sizeof(inputString);  ++i )
-    inputString[i] = (char)0;
-    }
-
 }
 
+
+void serialEvent1(){
+  //Serial1.println("requested1");
+	if (SCB) {
+		
+      while (Serial1.available()) { 
+        char inChar = Serial1.read();
+        inputString[y] = inChar;
+		
+        y++;
+        if (y==64){
+			
+  	      Wire.beginTransmission(1); //talk to the master as address 0x1.
+          Wire.write(inputString);
+  	      Wire.endTransmission();
+		  for( int i = 0; i < sizeof(inputString);  ++i )
+		  inputString[i] = (char)0;  
+		  y=0;    
+        }
+      }
+	  //Serial1.println("requested2");
+      Wire.beginTransmission(1); //talk to the master as address 0x1.
+      Wire.write(inputString);
+      Wire.endTransmission();
+      y=0;
+      for( int i = 0; i < sizeof(inputString);  ++i )
+      inputString[i] = (char)0;  
+    }
+    
+  
+
+}
 
 // function that executes whenever data is received from master
 // this function is registered as an event, see setup()
