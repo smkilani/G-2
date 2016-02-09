@@ -6,3 +6,5 @@
 #define CMD_statusB 0x6
 #define CMD_SCA 0x7
 #define CMD_SCB 0x8
+#define CMD_BRDSCB 0x9
+#define CMD_BRDSCB 0xA

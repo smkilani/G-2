@@ -30,12 +30,15 @@ char inputString[50];
 
 //const PROGMEM  String menu[6]  = {"on\r","off\r","status\r","sc\r","version\r","help\r"};
 
-String menu[9] = {"ona","onb","offa","offb","status","sca","scb","version","help"};
+String menu[9] = {"ona","onb","offa","offb","status","sca","scb","brdsca","brdscb","version","help"};
 //String adrs_rsp = "Enter LV board address";
 String reply[2] = {"OK","Error"};
 int selected_menu=-1;
-int slave_adrs=0;
-bool sc_mode = false;;
+int arg=0;
+int sc_mode = 0; //0 normal mode, 1 SC mode, 2 Broadcast SC mode
+int brdcst_size=0;
+int brdcst_count=0;
+char i2cpacket[64]; //defined by the serial and wire buffer sizes
 bool stringComplete = false;  // whether the string is complete
 byte x=0;
 int y=0;
@@ -60,7 +63,7 @@ void loop()
       for (int i=0;i<10;i++){
         if (((String)inputString).startsWith(menu[i])) selected_menu=i;
       }
-      slave_adrs=((String)inputString).substring((menu[selected_menu].length())+1,((String)inputString).length()).toInt();
+      arg=((String)inputString).substring((menu[selected_menu].length())+1,((String)inputString).length()).toInt();
       //Serial.println(inputString);
       //Serial.println( menu[0]);
 
@@ -68,25 +71,25 @@ void loop()
 
       switch (selected_menu){
         case 0:
-          Wire.beginTransmission(slave_adrs); // transmit to device #
+          Wire.beginTransmission(arg); // transmit to device #
           Wire.write(CMD_ONA);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
         break;
         case 1:
-          Wire.beginTransmission(slave_adrs); // transmit to device #
+          Wire.beginTransmission(arg); // transmit to device #
           Wire.write(CMD_ONB);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
         break;
         case 2:
-          Wire.beginTransmission(slave_adrs); // transmit to device #
+          Wire.beginTransmission(arg); // transmit to device #
           Wire.write(CMD_OFFA);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
         break;
         case 3:
-          Wire.beginTransmission(slave_adrs); // transmit to device #
+          Wire.beginTransmission(arg); // transmit to device #
           Wire.write(CMD_OFFB);              // sends one byte
           if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
           else Serial.println(reply[1]);
@@ -96,7 +99,7 @@ void loop()
             byte datain[12];
             int j=0;
             
-            if (Wire.requestFrom(slave_adrs, 12)<12) Serial.println("Error");    // request 3 byte from slave device #
+            if (Wire.requestFrom(arg, 12)<12) Serial.println("Error");    // request 3 byte from slave device #
             else {
               delay(100);
               while (Wire.available())   // slave may send less than requested
@@ -155,90 +158,71 @@ void loop()
         }
         break;
         case 5:
-          Wire.beginTransmission(slave_adrs); // transmit to device #
+          Wire.beginTransmission(arg); // transmit to device #
           Wire.write(CMD_SCA);              // sends one byte
           if (Wire.endTransmission()==0) {
             Serial.print("SC on device ");
-            Serial.print(slave_adrs);
+            Serial.print(arg);
             Serial.println(" A");
-            sc_mode=true;    // stop transmitting
+            sc_mode=1;    // stop transmitting
 			Wire.onReceive(WireEvent); //Attach the wire to an onreceive function
           }
           else {
             Serial.println("Error");
-            sc_mode=false; 
+            sc_mode=0; 
           }
         break;
         case 6:
-          Wire.beginTransmission(slave_adrs); // transmit to device #
+          Wire.beginTransmission(arg); // transmit to device #
           Wire.write(CMD_SCB);              // sends one byte
           if (Wire.endTransmission()==0) {
             Serial.print("SC on device ");
-            Serial.print(slave_adrs);
+            Serial.print(arg);
             Serial.println(" B");
-            sc_mode=true;    // stop transmitting
+            sc_mode=1;    // stop transmitting
 			Wire.onReceive(WireEvent); //Attach the wire to an onreceive function
           }
           else {
             Serial.println("Error");
-            sc_mode=false; 
+            sc_mode=0; 
           }
         break;
-        case 7:
+		case 7:
+          Wire.beginTransmission(0); // transmit to device #
+          Wire.write(CMD_BRDSCA);              // sends one byte
+		  brdcst_size=arg;
+          if (Wire.endTransmission()==0) {
+            Serial.print("Broadcast SC mode on channel A");
+            sc_mode=2;   
+          }
+          else {
+            Serial.println("Error");
+            sc_mode=0; 
+          }
+        break;
+		case 8:
+          Wire.beginTransmission(0); // transmit to device #
+          Wire.write(CMD_BRDSCB);              // sends one byte
+		  brdcst_size=arg;
+          if (Wire.endTransmission()==0) {
+            Serial.print("Broadcast SC mode on channel B");
+            sc_mode=2;  
+          }
+          else {
+            Serial.println("Error");
+            sc_mode=0; 
+          }
+        break;
+        case 9:
         Serial.println(ver);
         break;
-        case 8:
+        case 10:
         for (int i = 0;i<9;i++) Serial.println(menu[i]);
         break;
         default:
         Serial.println("Bad command");   
       }
-      /*
-        if (((String)inputString).startsWith(menu[0])) {
-          //slave_adrs=((String)inputString).substring((menu[0].length())+1,((String)inputString).length()).toInt(); //generalize this
-          Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x02);              // sends one byte
-          if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
-          else Serial.println(reply[1]);
-        }
-        else if (((String)inputString).startsWith(menu[1])) {
-          //slave_adrs=((String)inputString).substring(4,((String)inputString).length()).toInt();
-          Wire.beginTransmission(slave_adrs); // transmit to device #
-          Wire.write(0x01);              // sends one byte
-          if (Wire.endTransmission()==0) Serial.println(reply[0]);  // stop transmitting
-          else Serial.println(reply[1]);
-        }  
-        else if (((String)inputString).startsWith(menu[2])) {
 
-            }
-        }
-        else if (((String)inputString).startsWith(menu[3])) {
-            //slave_adrs=((String)inputString).substring(3,((String)inputString).length()).toInt();
-            Wire.beginTransmission(slave_adrs); // transmit to device #
-            Wire.write(0x03);              // sends one byte
-            if (Wire.endTransmission()==0) {
-              Serial.print("SC on device ");
-              Serial.println(slave_adrs);
-              sc_mode=true;    // stop transmitting
-            }
-            else {
-              Serial.println("Error");
-              sc_mode=false; 
-            }
-        }
-        else if (((String)inputString).startsWith(menu[4])) {
-          Serial.println(ver);
-          //Serial.print('>');
-        }
-        
-        else if ((((String)inputString).startsWith(menu[5]))) {
-          for (int i = 0;i<6;i++) Serial.println(menu[i]);
-          //Serial.print('>');
-        }
-        else {
-          Serial.println("Bad command");
-        }
-    */
     }
     
     
@@ -248,13 +232,13 @@ void loop()
     inputString[i] = (char)0;
     y=0;
     stringComplete = false;
-    if (!sc_mode) Serial.print('>');
+    if (sc_mode==0) Serial.print('>');
   }
 }
 
 void WireEvent(int numBytes) {
   
-	if (sc_mode){	
+	if (sc_mode==1){	
 	//Serial.println("testtt");
   	  while (Wire.available()) {  // slave may send less than requested
             char c = Wire.read(); // receive a byte as character
@@ -270,47 +254,44 @@ void serialEvent() {
     
     
     char inChar = (char)Serial.read();
-    if (inChar!=0x03 && sc_mode)
-    {
-        Wire.beginTransmission(slave_adrs);
-        Wire.write(inChar);
-        Wire.endTransmission();
-        //Serial.println("SC sent");
-        /*delay(10);
-        Wire.requestFrom(slave_adrs, 64); 
-
-      while (Wire.available())   // slave may send less than requested
-      {
-        char c = Wire.read(); // receive a byte as character
-        if (c<=0) break;
-        Serial.print(c);
-      }*/
-    } else if (inChar==0x03 && sc_mode) {
-        Wire.beginTransmission(slave_adrs);
-        Wire.write(inChar);
-        Wire.endTransmission();
- //break @ CTRL+C
-      sc_mode=false;
-      Serial.print("SC mode ended\n>");
-	  Wire.onReceive(0); //detach onreceive function
-      for( int i = 0; i < sizeof(inputString);  ++i )
-      inputString[i] = (char)0;
-      y=0;
-    }
-    else {
-      
-      //Serial.print(y);
-      inputString[y] = inChar;
-      if (inChar==0x08 & y>0) { 
-        Serial.write(inChar); 
-        y--; 
-      }
-      else {
-        Serial.write(inChar); 
-        y++;
-      }
-      if (inChar == '\r') stringComplete = true;
-    }
+	
+	if (sc_mode==1)
+	{
+		if (inChar!=0x03){//improve this to send packets **************
+			Wire.beginTransmission(arg);
+			Wire.write(inChar);
+			Wire.endTransmission();
+		}
+		else{
+			//break @ CTRL+C
+			sc_mode=0;
+			Serial.print("SC mode ended\n>");
+			Wire.onReceive(0); //detach onreceive function
+			for( int i = 0; i < sizeof(inputString);  ++i )
+			inputString[i] = (char)0;
+			y=0;
+			
+		}
+	}else if (sc_mode==2){
+		//improve this to send packets **************
+		brdcst_count++;
+		Wire.beginTransmission(0);
+		Wire.write(inChar);
+		Wire.endTransmission();
+		if (brdcst_count==brdcst_size) sc_mode=0;
+	} else {
+		//Serial.print(y);
+		inputString[y] = inChar;
+		if (inChar==0x08 & y>0) { 
+		Serial.write(inChar); 
+		y--; 
+		}
+		else {
+		Serial.write(inChar); 
+		y++;
+		}
+		if (inChar == '\r') stringComplete = true;		
+	}
   }
 }
 
