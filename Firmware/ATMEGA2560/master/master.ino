@@ -18,13 +18,13 @@
 #include "commands.h"
 //#include <avr/pgmspace.h>
 
-#define ver "1.0"
-
+#define ver "2.0"
+#define packetsize 64
 
 String wireString="";
 
 
-char inputString[50];  
+char inputString[packetsize];  
 
 //const char MEM_adrs_rsp[] PROGMEM  = {"Enter LV board address"};
 
@@ -38,10 +38,11 @@ int arg=0;
 int sc_mode = 0; //0 normal mode, 1 SC mode, 2 Broadcast SC mode
 int brdcst_size=0;
 int brdcst_count=0;
-char i2cpacket[64]; //defined by the serial and wire buffer sizes
+char i2cpacket[packetsize]; //defined by the serial and wire buffer sizes
 bool stringComplete = false;  // whether the string is complete
 byte x=0;
-int y=0;
+int pointer=0;
+int scpointer=0;
 void setup()
 {
   Wire.begin(1); // join i2c bus (address optional for master but it is assigned as 1 to allow slaves to send back data when they receive it through the SC)
@@ -58,7 +59,7 @@ void loop()
     // print the string when a newline arrives:
     
   if (stringComplete) {
-  if (y>1) { //to check if the command is not empty
+  if (pointer>1) { //to check if the command is not empty
       selected_menu=-1;
       for (int i=0;i<10;i++){
         if (((String)inputString).startsWith(menu[i])) selected_menu=i;
@@ -228,9 +229,9 @@ void loop()
     
     
     // clear the string:
-    for( int i = 0; i < sizeof(inputString);  ++i )
+    for( int i = 0; i < packetsize;  ++i )
     inputString[i] = (char)0;
-    y=0;
+    pointer=0;
     stringComplete = false;
     if (sc_mode==0) Serial.print('>');
   }
@@ -258,37 +259,57 @@ void serialEvent() {
 	if (sc_mode==1)
 	{
 		if (inChar!=0x03){//improve this to send packets **************
-			Wire.beginTransmission(arg);
-			Wire.write(inChar);
-			Wire.endTransmission();
+			if (scpointer<packetsize)
+			{
+				i2cpacket[scpointer]=inChar;
+				scpointer++;
+			}else{
+				Wire.beginTransmission(arg);
+				Wire.write(i2cpacket);
+				Wire.endTransmission();	
+				scpointer=0;
+				for( int i = 0; i < packetsize;  ++i )
+				i2cpacket[i] = (char)0;  
+			}
+
 		}
 		else{
 			//break @ CTRL+C
 			sc_mode=0;
 			Serial.print("SC mode ended\n>");
 			Wire.onReceive(0); //detach onreceive function
-			for( int i = 0; i < sizeof(inputString);  ++i )
+			for( int i = 0; i < packetsize;  ++i )
 			inputString[i] = (char)0;
-			y=0;
+			pointer=0;
 			
 		}
 	}else if (sc_mode==2){
-		//improve this to send packets **************
-		brdcst_count++;
-		Wire.beginTransmission(0);
-		Wire.write(inChar);
-		Wire.endTransmission();
+		//improve this to send packets ************** This will not completely work
+		//if the data is less than 64 nothing will be sent!!!
+			if (scpointer<packetsize)
+			{
+				i2cpacket[scpointer]=inChar;
+				scpointer++;
+				brdcst_count++;
+			}else{
+				Wire.beginTransmission(0);
+				Wire.write(i2cpacket);
+				Wire.endTransmission();	
+				scpointer=0;
+				for( int i = 0; i < packetsize;  ++i )
+				i2cpacket[i] = (char)0;  
+			}
 		if (brdcst_count==brdcst_size) sc_mode=0;
 	} else {
 		//Serial.print(y);
-		inputString[y] = inChar;
-		if (inChar==0x08 & y>0) { 
+		inputString[pointer] = inChar;
+		if (inChar==0x08 & pointer>0) { 
 		Serial.write(inChar); 
-		y--; 
+		pointer--; 
 		}
 		else {
 		Serial.write(inChar); 
-		y++;
+		pointer++;
 		}
 		if (inChar == '\r') stringComplete = true;		
 	}

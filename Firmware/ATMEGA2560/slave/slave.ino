@@ -8,6 +8,7 @@
 
 #include <Wire.h>
 #include "commands.h"
+
 //---------------- IMPORTANT ----------------------------//
 //Wire.h library needs to be modified
 //in Wire.h #define BUFFER_LENGTH 32 >>> #define BUFFER_LENGTH 64
@@ -17,13 +18,15 @@
 //The above line increases the frequency of i2c from 100kHz to 400kHz.
 //---------------- IMPORTANT ----------------------------//
 
+#define packetsize 64
+
 byte x =0;
 int y=0;
 bool SCA=false;
 bool SCB=false;
 bool statusA=false;
 bool statusB=false;
-char inputString[64]; //this is equal to the i2c buffer size
+char inputString[packetsize]; //this is equal to the i2c buffer size
 
 //-----------------------------
 //This has changed for v2.0 of the RACK LV Board
@@ -63,7 +66,7 @@ void setup()
   digitalWrite(ENApin, HIGH);
   digitalWrite(ENBpin, HIGH);
   
-  for( int i = 0; i < sizeof(inputString);  ++i )
+  for( int i = 0; i < packetsize;  ++i )
   inputString[i] = (char)0;
   //Serial.begin(9600);  // start serial for output
 }
@@ -84,7 +87,7 @@ void serialEvent(){
     	  Wire.beginTransmission(1); //talk to the master as address 0x1.
           Wire.write(inputString);
     	  Wire.endTransmission();
-		  for( int i = 0; i < sizeof(inputString);  ++i )
+		  for( int i = 0; i < packetsize;  ++i )
 		  inputString[i] = (char)0;  
 		  y=0;        
         }
@@ -93,7 +96,7 @@ void serialEvent(){
       Wire.write(inputString);
       Wire.endTransmission();
       y=0;
-      for( int i = 0; i < sizeof(inputString);  ++i )
+      for( int i = 0; i < packetsize;  ++i )
       inputString[i] = (char)0;  
     }
 }
@@ -113,7 +116,7 @@ void serialEvent1(){
   	      Wire.beginTransmission(1); //talk to the master as address 0x1.
           Wire.write(inputString);
   	      Wire.endTransmission();
-		  for( int i = 0; i < sizeof(inputString);  ++i )
+		  for( int i = 0; i < packetsize;  ++i )
 		  inputString[i] = (char)0;  
 		  y=0;    
         }
@@ -123,7 +126,7 @@ void serialEvent1(){
       Wire.write(inputString);
       Wire.endTransmission();
       y=0;
-      for( int i = 0; i < sizeof(inputString);  ++i )
+      for( int i = 0; i < packetsize;  ++i )
       inputString[i] = (char)0;  
     }
     
