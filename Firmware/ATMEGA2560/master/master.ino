@@ -1,7 +1,7 @@
 //LV Master reader/writer
 //Author: Samer Kilani
 //Crate version
-//30/09/2015
+//09/02/2016
 
 #include <Wire.h>
 #include <math.h>
@@ -247,7 +247,7 @@ void WireEvent(int numBytes) {
 	while (Wire.available())   // slave may send less than requested
       {
         char c = Wire.read(); // receive a byte as character
-        if (c<=0) break;
+        //if (c<=0) break;
         Serial.print(c);
       }
 	}
