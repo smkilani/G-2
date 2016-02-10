@@ -47,10 +47,13 @@ void setup()
 {
   Wire.begin(1); // join i2c bus (address optional for master but it is assigned as 1 to allow slaves to send back data when they receive it through the SC)
   //Wire.setClock(400000L); //setting the i2c to run at 400kHz
-  Serial.begin(230400);  // start serial for output
-  Serial.print('>');
+
   for( int i = 0; i < packetsize;  ++i )
   i2cpacket[i] = (char)0;  
+
+  Serial.begin(115200);  // start serial for output
+  delay(1000);
+  Serial.print('>');
   
 }
 
@@ -193,9 +196,21 @@ void runCMD(){
           }
         break;
 		case 7:
-          Wire.beginTransmission(0); // transmit to device #
-          Wire.write(CMD_BRDSCA);              // sends one byte
 		  brdcst_size=arg;
+		  brdcst_count=0;
+		  Serial.print("BRD size=");
+		  Serial.println(brdcst_size);
+		  
+          Wire.beginTransmission(0); // transmit to device #
+          byte dd[3];
+		  dd[0]=CMD_BRDSCA;
+		  dd[1]=((brdcst_size & 0xff00)>>8);
+		  //Serial.println((byte)dd[1]);
+		  dd[2]=(brdcst_size & 0xff);
+		//	Serial.println((byte)dd[2]);
+		  Wire.write(dd,3);              // sends one byte
+		  //Wire.write(brdcst_size);
+		  
           if (Wire.endTransmission()==0) {
             Serial.print("Broadcast SC mode on channel A");
             sc_mode=2;   
@@ -207,9 +222,13 @@ void runCMD(){
         break;
 		case 8:
 		  brdcst_size=arg;
+		  brdcst_count=0;
           Wire.beginTransmission(0); // transmit to device #
-          Wire.write(CMD_BRDSCB);              // sends one byte
-		  Wire.write(brdcst_size); //check if this is allowed. I might need to concatenate the two bytes together
+          byte ff[3];
+		  ff[0]=CMD_BRDSCB;
+		  ff[1]=((brdcst_size & 0xff00)>>8);
+		  ff[2]=(brdcst_size & 0xff);
+		  Wire.write(ff,3);              // sends one byte
           if (Wire.endTransmission()==0) {
             Serial.print("Broadcast SC mode on channel B");
             sc_mode=2;  
@@ -256,8 +275,8 @@ void WireEvent(int numBytes) {
 
 void serialEvent() {
 	int scpointer=0;
-int savailable=Serial.available();
-Serial.println(savailable);
+//int savailable=Serial.available();
+
 	while (Serial.available()) {
     // get the new byte:
     
@@ -274,11 +293,11 @@ Serial.println(savailable);
 				scpointer++;
 			}else{
 				Wire.beginTransmission(arg);
-				Serial.println("begin");
+				
 				Wire.write(i2cpacket);
-				Serial.println("sent");
+				
 				Wire.endTransmission();	
-				Serial.println("end");
+				
 				scpointer=0;
 				for( int i = 0; i < packetsize;  ++i )
 				i2cpacket[i] = (char)0;  
@@ -309,7 +328,7 @@ Serial.println(savailable);
 				for( int i = 0; i < packetsize;  ++i )
 				i2cpacket[i] = (char)0;  
 			}
-		if (brdcst_count==brdcst_size) sc_mode=0;
+		if (brdcst_count==brdcst_size+1) sc_mode=0;
 	} else {
 		//Serial.print(y);
 		inputString[pointer] = inChar;
@@ -327,8 +346,12 @@ Serial.println(savailable);
   if ((sc_mode>0) && (scpointer>0)){
 	if (sc_mode==1) Wire.beginTransmission(arg);
 	else if (sc_mode==2) Wire.beginTransmission(0);
+	//Serial.print("begin");
+	//Serial.println(sc_mode);
 	Wire.write(i2cpacket);
+	//Serial.println("sent");
 	Wire.endTransmission();	
+	//Serial.println("end");
 	scpointer=0;
 	for( int i = 0; i < packetsize;  ++i )
 	i2cpacket[i] = (char)0;  
