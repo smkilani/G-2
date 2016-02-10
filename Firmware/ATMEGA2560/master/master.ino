@@ -30,7 +30,7 @@ char inputString[packetsize];
 
 //const PROGMEM  String menu[6]  = {"on\r","off\r","status\r","sc\r","version\r","help\r"};
 
-String menu[9] = {"ona","onb","offa","offb","status","sca","scb","brdsca","brdscb","version","help"};
+String menu[11] = {"ona","onb","offa","offb","status","sca","scb","brdsca","brdscb","version","help"};
 //String adrs_rsp = "Enter LV board address";
 String reply[2] = {"OK","Error"};
 int selected_menu=-1;
@@ -42,30 +42,34 @@ char i2cpacket[packetsize]; //defined by the serial and wire buffer sizes
 bool stringComplete = false;  // whether the string is complete
 byte x=0;
 int pointer=0;
-int scpointer=0;
+
 void setup()
 {
   Wire.begin(1); // join i2c bus (address optional for master but it is assigned as 1 to allow slaves to send back data when they receive it through the SC)
   //Wire.setClock(400000L); //setting the i2c to run at 400kHz
   Serial.begin(230400);  // start serial for output
   Serial.print('>');
+  for( int i = 0; i < packetsize;  ++i )
+  i2cpacket[i] = (char)0;  
+  
 }
 
 
 void loop()
 {
-  
-  //serialEvent(); //This is only needed for the Arduino micro
-    // print the string when a newline arrives:
     
-  if (stringComplete) {
+}
+
+void runCMD(){
+  //if (stringComplete) {
   if (pointer>1) { //to check if the command is not empty
       selected_menu=-1;
-      for (int i=0;i<10;i++){
+      for (int i=0;i<11;i++){
         if (((String)inputString).startsWith(menu[i])) selected_menu=i;
       }
       arg=((String)inputString).substring((menu[selected_menu].length())+1,((String)inputString).length()).toInt();
-      //Serial.println(inputString);
+	  
+      //Serial.println(arg);
       //Serial.println( menu[0]);
 
 
@@ -202,9 +206,10 @@ void loop()
           }
         break;
 		case 8:
+		  brdcst_size=arg;
           Wire.beginTransmission(0); // transmit to device #
           Wire.write(CMD_BRDSCB);              // sends one byte
-		  brdcst_size=arg;
+		  Wire.write(brdcst_size); //check if this is allowed. I might need to concatenate the two bytes together
           if (Wire.endTransmission()==0) {
             Serial.print("Broadcast SC mode on channel B");
             sc_mode=2;  
@@ -218,7 +223,7 @@ void loop()
         Serial.println(ver);
         break;
         case 10:
-        for (int i = 0;i<9;i++) Serial.println(menu[i]);
+        for (int i = 0;i<11;i++) Serial.println(menu[i]);
         break;
         default:
         Serial.println("Bad command");   
@@ -232,9 +237,9 @@ void loop()
     for( int i = 0; i < packetsize;  ++i )
     inputString[i] = (char)0;
     pointer=0;
-    stringComplete = false;
+    //stringComplete = false;
     if (sc_mode==0) Serial.print('>');
-  }
+  //}
 }
 
 void WireEvent(int numBytes) {
@@ -250,7 +255,10 @@ void WireEvent(int numBytes) {
 }
 
 void serialEvent() {
-  while (Serial.available()) {
+	int scpointer=0;
+int savailable=Serial.available();
+Serial.println(savailable);
+	while (Serial.available()) {
     // get the new byte:
     
     
@@ -258,15 +266,19 @@ void serialEvent() {
 	
 	if (sc_mode==1)
 	{
-		if (inChar!=0x03){//improve this to send packets **************
-			if (scpointer<packetsize)
+		if (inChar!=0x03){
+			if (scpointer<packetsize) //this will make sure that the SC data is sent in 64byte chunks. 
+									  //if the total data send is less that 64 or not a multiple of 64, then the data will be sent at the end of the serialevent
 			{
 				i2cpacket[scpointer]=inChar;
 				scpointer++;
 			}else{
 				Wire.beginTransmission(arg);
+				Serial.println("begin");
 				Wire.write(i2cpacket);
+				Serial.println("sent");
 				Wire.endTransmission();	
+				Serial.println("end");
 				scpointer=0;
 				for( int i = 0; i < packetsize;  ++i )
 				i2cpacket[i] = (char)0;  
@@ -284,8 +296,6 @@ void serialEvent() {
 			
 		}
 	}else if (sc_mode==2){
-		//improve this to send packets ************** This will not completely work
-		//if the data is less than 64 nothing will be sent!!!
 			if (scpointer<packetsize)
 			{
 				i2cpacket[scpointer]=inChar;
@@ -311,8 +321,17 @@ void serialEvent() {
 		Serial.write(inChar); 
 		pointer++;
 		}
-		if (inChar == '\r') stringComplete = true;		
+		if (inChar == '\r') runCMD();		
 	}
+  }
+  if ((sc_mode>0) && (scpointer>0)){
+	if (sc_mode==1) Wire.beginTransmission(arg);
+	else if (sc_mode==2) Wire.beginTransmission(0);
+	Wire.write(i2cpacket);
+	Wire.endTransmission();	
+	scpointer=0;
+	for( int i = 0; i < packetsize;  ++i )
+	i2cpacket[i] = (char)0;  
   }
 }
 
