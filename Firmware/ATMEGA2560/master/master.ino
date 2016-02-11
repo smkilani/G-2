@@ -66,6 +66,9 @@ void loop()
 void runCMD(){
   //if (stringComplete) {
   if (pointer>1) { //to check if the command is not empty
+  //Serial.println(inputString);
+  
+  //for (int i=0; i<packetsize;i++) Serial.println((byte)inputString[i]);
       selected_menu=-1;
       for (int i=0;i<11;i++){
         if (((String)inputString).startsWith(menu[i])) selected_menu=i;
@@ -198,8 +201,8 @@ void runCMD(){
 		case 7:
 		  brdcst_size=arg;
 		  brdcst_count=0;
-		  Serial.print("BRD size=");
-		  Serial.println(brdcst_size);
+		  //Serial.print("BRD size=");
+		  //Serial.println(brdcst_size);
 		  
           Wire.beginTransmission(0); // transmit to device #
           byte dd[3];
@@ -295,7 +298,6 @@ void serialEvent() {
 				Wire.beginTransmission(arg);
 				
 				Wire.write(i2cpacket);
-				
 				Wire.endTransmission();	
 				
 				scpointer=0;
@@ -308,6 +310,9 @@ void serialEvent() {
 			//break @ CTRL+C
 			sc_mode=0;
 			Serial.print("SC mode ended\n>");
+			Wire.beginTransmission(arg);
+			Wire.write(0x03);
+			Wire.endTransmission();	
 			Wire.onReceive(0); //detach onreceive function
 			for( int i = 0; i < packetsize;  ++i )
 			inputString[i] = (char)0;
@@ -328,12 +333,12 @@ void serialEvent() {
 				for( int i = 0; i < packetsize;  ++i )
 				i2cpacket[i] = (char)0;  
 			}
-		if (brdcst_count==brdcst_size+1) sc_mode=0;
 	} else {
-		//Serial.print(y);
+		//Serial.print((byte)inChar);
 		inputString[pointer] = inChar;
-		if (inChar==0x08 & pointer>0) { 
+		if ((inChar==0x7F | inChar==0x8) & pointer>0) { //backspace or delete
 		Serial.write(inChar); 
+		inputString[pointer] = (char)0;
 		pointer--; 
 		}
 		else {
@@ -355,6 +360,7 @@ void serialEvent() {
 	scpointer=0;
 	for( int i = 0; i < packetsize;  ++i )
 	i2cpacket[i] = (char)0;  
+	if (brdcst_count==brdcst_size) sc_mode=0;
   }
 }
 

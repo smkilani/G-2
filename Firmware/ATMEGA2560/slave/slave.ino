@@ -151,41 +151,47 @@ void receiveEvent(int howMany)
 	//Serial.println(howMany);
   while (Wire.available()) // loop through all but the last
   {
-
+x = Wire.read();
+//Serial.println(x);
       if (SCA) {
-            char c = Wire.read(); // receive byte as a character
-			if (c>0) {
-            if (c==0x03) SCterminate=true; 
-			receivedData[data_pointer]=c;
+            //char c = Wire.read(); // receive byte as a character
+			if (x>0) {
+            if (x==0x03) SCterminate=true; 
+			receivedData[data_pointer]=(char)x;
 			data_pointer++;     
 			}
 				//Serial.println(data_pointer);
       } else if (SCB) {
             
-            char c = Wire.read(); // receive byte as a character
-            if (c==0x03) SCterminate=true; 
-			receivedData[data_pointer]=c;
+            //char c = Wire.read(); // receive byte as a character
+            if (x==0x03) SCterminate=true; 
+			receivedData[data_pointer]=(char)x;
 			data_pointer++;   
       } else if (BRDCSTSCA) {
 	
-            char c = Wire.read(); // receive byte as a character 
-			receivedData[data_pointer]=c;
+            //char c = Wire.read(); // receive byte as a character 
+			
+			receivedData[data_pointer]=(char)x;
+			
 			BRDCST_pointer++;
 			data_pointer++;  
+			if (BRDCST_pointer==BRDCST_size) SCterminate=true;
 			//Serial.println(BRDCST_pointer);
 			
-			if (BRDCST_pointer==BRDCST_size) SCterminate=true;
+			
 			
       } else if (BRDCSTSCB) {
 		
-            char c = Wire.read(); // receive byte as a character
-			receivedData[data_pointer]=c;
+            //char c = Wire.read(); // receive byte as a character
+			receivedData[data_pointer]=(char)x;
+			
 			BRDCST_pointer++;
 			data_pointer++;  
-			if (BRDCST_pointer==BRDCST_size) SCterminate=true;		
+			if (BRDCST_pointer==BRDCST_size) SCterminate=true;
+					
       }else {
-
-        x = Wire.read();    // receive byte as an integer
+		for( int i = 0; i < packetsize;  ++i ) receivedData[i] = (char)0;
+        //x = Wire.read();    // receive byte as an integer
 		//Serial.println(x);
         if (x==CMD_OFFA) digitalWrite(ENApin, HIGH);
         else if (x==CMD_ONA) digitalWrite(ENApin, LOW);
@@ -197,6 +203,7 @@ void receiveEvent(int howMany)
 			byte b2=Wire.read();
 			//Serial.println(b2);
 			byte b1=Wire.read();
+		
 			//Serial.println(b1);
 			BRDCST_size= ((b2<<8) & 0xff00) | (0xff & b1); 
 			//Serial.println(BRDCST_size);
@@ -205,6 +212,7 @@ void receiveEvent(int howMany)
 		else if (x==CMD_BRDSCB) {
 			byte b2=Wire.read();
 			byte b1=Wire.read();
+			
 			BRDCST_size= ((b2<<8) & 0xff00) | (0xff & b1); 
 			BRDCSTSCB=true;
 			}//the size of the broadcast data is send immediately after the broadcast command
@@ -212,10 +220,11 @@ void receiveEvent(int howMany)
         //else if (x==CMD_statusB) statusB=true;
       }   
   }
+  if (BRDCST_pointer>0){
 	if (SCA || BRDCSTSCA) {
 		Serial.print(receivedData);
 		for( int i = 0; i < packetsize;  ++i ) receivedData[i] = (char)0; 
-		if (SCterminate) {SCA=false; BRDCSTSCA=false; SCterminate=false; Serial.println("terminated");}
+		if (SCterminate) {SCA=false; BRDCSTSCA=false; SCterminate=false;}
 	} else if (SCB || BRDCSTSCB) {
 		Serial1.print(receivedData);
 		for( int i = 0; i < packetsize;  ++i ) receivedData[i] = (char)0;
@@ -223,6 +232,7 @@ void receiveEvent(int howMany)
 	} 
 	
 	data_pointer=0;
+  }
 }
 
 void requestEvent()
