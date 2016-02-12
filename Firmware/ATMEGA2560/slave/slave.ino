@@ -152,6 +152,7 @@ void receiveEvent(int howMany)
   while (Wire.available()) // loop through all but the last
   {
 x = Wire.read();
+Serial1.print("wire:");
 Serial1.println((char)x);
       if (SCA) {
             //char c = Wire.read(); // receive byte as a character
@@ -197,7 +198,7 @@ Serial1.println((char)x);
         else if (x==CMD_ONA) digitalWrite(ENApin, LOW);
         else if (x==CMD_OFFB) digitalWrite(ENBpin, HIGH);
         else if (x==CMD_ONB) digitalWrite(ENBpin, LOW);
-        else if (x==CMD_SCA) SCA=true;
+        else if (x==CMD_SCA)  SCA=true;
         else if (x==CMD_SCB)  SCB=true;
 		else if (x==CMD_BRDSCA) {
 			byte b2=Wire.read();
@@ -222,9 +223,11 @@ Serial1.println((char)x);
         //else if (x==CMD_statusB) statusB=true;
       }   
   }
-  if (BRDCST_pointer>0){
+  if (data_pointer>0){
 	if (SCA || BRDCSTSCA) {
 		Serial.print(receivedData);
+		Serial1.print("sent:");
+		Serial1.println(receivedData);
 		for( int i = 0; i < packetsize;  ++i ) receivedData[i] = (char)0; 
 		if (SCterminate) {SCA=false; BRDCSTSCA=false; SCterminate=false;}
 	} else if (SCB || BRDCSTSCB) {
