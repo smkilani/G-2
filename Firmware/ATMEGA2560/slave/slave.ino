@@ -152,7 +152,7 @@ void receiveEvent(int howMany)
   while (Wire.available()) // loop through all but the last
   {
 x = Wire.read();
-//Serial.println(x);
+Serial1.println((char)x);
       if (SCA) {
             //char c = Wire.read(); // receive byte as a character
 			if (x>0) {

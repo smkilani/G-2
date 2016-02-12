@@ -354,7 +354,8 @@ void serialEvent() {
 	//Serial.print("begin");
 	//Serial.println(sc_mode);
 	Wire.write(i2cpacket);
-	//Serial.println("sent");
+	//Serial.print("sent:");
+  //Serial.println(i2cpacket);
 	Wire.endTransmission();	
 	//Serial.println("end");
 	scpointer=0;
