@@ -148,10 +148,11 @@ void receiveEvent(int howMany)
 	int data_pointer=0;
 
 	bool SCterminate=false;
-	//Serial.println(howMany);
+	Serial1.println(howMany);
   while (Wire.available()) // loop through all but the last
   {
-x = Wire.read();
+Serial1.print("read");
+ x = Wire.read();
 Serial1.print("wire:");
 Serial1.println((char)x);
       if (SCA) {
