@@ -208,6 +208,7 @@ x = Wire.read();
 			BRDCST_size= ((b2<<8) & 0xff00) | (0xff & b1); 
 			//Serial.println(BRDCST_size);
 			BRDCSTSCA=true;
+			BRDCST_pointer=0;
 			}//the size of the broadcast data is send immediately after the broadcast command
 		else if (x==CMD_BRDSCB) {
 			byte b2=Wire.read();
@@ -215,6 +216,7 @@ x = Wire.read();
 			
 			BRDCST_size= ((b2<<8) & 0xff00) | (0xff & b1); 
 			BRDCSTSCB=true;
+			BRDCST_pointer=0;
 			}//the size of the broadcast data is send immediately after the broadcast command
         //else if (x==CMD_statusA) statusA=true;
         //else if (x==CMD_statusB) statusB=true;

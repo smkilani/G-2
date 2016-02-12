@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=RX2 Pin=U3-12
+Added Net: Name=RX2
+Added Pin To Net: NetName=TX2 Pin=U3-13
+Added Net: Name=TX2
+Added Member To Class: ClassName=LV1 Member=Component C30_LV1 (C30) Cap Semi
+Added Member To Class: ClassName=LV3 Member=Component C30_LV3 (C30) Cap Semi

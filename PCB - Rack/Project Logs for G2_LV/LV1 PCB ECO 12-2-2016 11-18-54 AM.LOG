@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=+5V Pin=R_pu1-1
+Removed Pin From Net: NetName=+5V Pin=R_pu2-1
+Removed Pin From Net: NetName=RX2 Pin=U3-12
+Removed Pin From Net: NetName=TX2 Pin=U3-13
+Change Component Comment : Designator=R_pu1 Old Comment=pullup New Comment=pulldown
+Change Component Comment : Designator=R_pu2 Old Comment=pullup New Comment=pulldown
+Added Pin To Net: NetName=GND Pin=R_pu1-1
+Added Pin To Net: NetName=GND Pin=R_pu2-1
+Added Pin To Net: NetName=RX3 Pin=U3-63
+Added Net: Name=RX3
+Added Pin To Net: NetName=TX3 Pin=U3-64
+Added Net: Name=TX3

@@ -343,7 +343,7 @@ void serialEvent() {
 		}
 		else {
 		Serial.write(inChar); 
-		pointer++;
+		if (pointer<packetsize) pointer++;
 		}
 		if (inChar == '\r') runCMD();		
 	}
@@ -360,7 +360,7 @@ void serialEvent() {
 	scpointer=0;
 	for( int i = 0; i < packetsize;  ++i )
 	i2cpacket[i] = (char)0;  
-	if (brdcst_count==brdcst_size) sc_mode=0;
+	if ((brdcst_count==brdcst_size) && (sc_mode==2)) sc_mode=0;
   }
 }
 
