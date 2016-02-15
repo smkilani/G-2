@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=RJ1_Conn1 Old Footprint=RJ45.STRAIGHT New Footprint=RJ45_SMD_VERT
+Change Component Footprint: Designator=RJ2_Conn1 Old Footprint=RJ45.STRAIGHT New Footprint=RJ45_SMD_VERT
