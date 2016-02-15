@@ -1,0 +1,32 @@
+Added Component: Designator=C30_LV2(C1210)
+Added Component: Designator=C30_LV4(C1210)
+Added Component: Designator=C31_LV2(C1210)
+Added Component: Designator=C31_LV4(C1210)
+Added Component: Designator=C32_LV2(C1210)
+Added Component: Designator=C32_LV4(C1210)
+Added Component: Designator=C33_LV2(C1210)
+Added Component: Designator=C33_LV4(C1210)
+Added Pin To Net: NetName=GND Pin=C30_LV2-1
+Added Pin To Net: NetName=NetC11_LV2_2 Pin=C30_LV2-2
+Added Pin To Net: NetName=GND Pin=C30_LV4-1
+Added Pin To Net: NetName=NetC11_LV4_2 Pin=C30_LV4-2
+Added Pin To Net: NetName=GND Pin=C31_LV2-1
+Added Pin To Net: NetName=NetC11_LV2_2 Pin=C31_LV2-2
+Added Pin To Net: NetName=GND Pin=C31_LV4-1
+Added Pin To Net: NetName=NetC11_LV4_2 Pin=C31_LV4-2
+Added Pin To Net: NetName=GND Pin=C32_LV2-1
+Added Pin To Net: NetName=NetC11_LV2_2 Pin=C32_LV2-2
+Added Pin To Net: NetName=GND Pin=C32_LV4-1
+Added Pin To Net: NetName=NetC11_LV4_2 Pin=C32_LV4-2
+Added Pin To Net: NetName=GND Pin=C33_LV2-1
+Added Pin To Net: NetName=NetC11_LV2_2 Pin=C33_LV2-2
+Added Pin To Net: NetName=GND Pin=C33_LV4-1
+Added Pin To Net: NetName=NetC11_LV4_2 Pin=C33_LV4-2
+Added Member To Class: ClassName=LV2 Member=Component C30_LV2 (C30) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C30_LV4 (C30) Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C31_LV2 (C31) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C31_LV4 (C31) Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C32_LV2 (C32) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C32_LV4 (C32) Cap Semi
+Added Member To Class: ClassName=LV2 Member=Component C33_LV2 (C33) Cap Semi
+Added Member To Class: ClassName=LV4 Member=Component C33_LV4 (C33) Cap Semi

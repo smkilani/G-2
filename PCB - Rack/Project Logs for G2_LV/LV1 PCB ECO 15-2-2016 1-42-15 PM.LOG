@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=C33_LV2-1
+Removed Pin From Net: NetName=NetC11_LV2_2 Pin=C33_LV2-2
+Removed Pin From Net: NetName=GND Pin=C33_LV4-1
+Removed Pin From Net: NetName=NetC11_LV4_2 Pin=C33_LV4-2
+Removed Member From Class: ClassName=LV2 Member=C33_LV2
+Removed Member From Class: ClassName=LV4 Member=C33_LV4

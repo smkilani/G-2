@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=J1-9
+Removed Pin From Net: NetName=GND Pin=J1-10
+Removed Pin From Net: NetName=RX0 Pin=U2-2
+Removed Pin From Net: NetName=TX0 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=J1-39
+Added Pin To Net: NetName=GND Pin=J1-40
+Added Pin To Net: NetName=RXA Pin=J1-7
+Added Pin To Net: NetName=RXA Pin=U1-2
+Added Net: Name=RXA
+Added Pin To Net: NetName=RXB Pin=J1-9
+Added Pin To Net: NetName=RXB Pin=U2-2
+Added Net: Name=RXB
+Added Pin To Net: NetName=TXA Pin=J1-8
+Added Pin To Net: NetName=TXA Pin=U1-3
+Added Net: Name=TXA
+Added Pin To Net: NetName=TXB Pin=J1-10
+Added Pin To Net: NetName=TXB Pin=U2-3
+Added Net: Name=TXB
