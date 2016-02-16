@@ -1,0 +1,774 @@
+Removed Pin From Net: NetName=GND Pin=J1_Conn1-7
+Removed Pin From Net: NetName=GND Pin=J1_Conn1-8
+Removed Pin From Net: NetName=GND Pin=J1_Conn1-9
+Removed Pin From Net: NetName=RXA1 Pin=J1_Conn1-10
+Removed Pin From Net: NetName=TXA1 Pin=J1_Conn1-11
+Added Component: Designator=DB1_Conn2(DSUB1.STRAIGHT)
+Added Component: Designator=DB1_Conn3(DSUB1.STRAIGHT)
+Added Component: Designator=DB1_Conn4(DSUB1.STRAIGHT)
+Added Component: Designator=DB1_Conn5(DSUB1.STRAIGHT)
+Added Component: Designator=DB1_Conn6(DSUB1.STRAIGHT)
+Added Component: Designator=DB1_Conn7(DSUB1.STRAIGHT)
+Added Component: Designator=DB1_Conn8(DSUB1.STRAIGHT)
+Added Component: Designator=DB2_Conn2(DSUB1.STRAIGHT)
+Added Component: Designator=DB2_Conn3(DSUB1.STRAIGHT)
+Added Component: Designator=DB2_Conn4(DSUB1.STRAIGHT)
+Added Component: Designator=DB2_Conn5(DSUB1.STRAIGHT)
+Added Component: Designator=DB2_Conn6(DSUB1.STRAIGHT)
+Added Component: Designator=DB2_Conn7(DSUB1.STRAIGHT)
+Added Component: Designator=DB2_Conn8(DSUB1.STRAIGHT)
+Added Component: Designator=J1_Conn2(09 03 164 6919)
+Added Component: Designator=J1_Conn3(09 03 164 6919)
+Added Component: Designator=J1_Conn4(09 03 164 6919)
+Added Component: Designator=J1_Conn5(09 03 164 6919)
+Added Component: Designator=J1_Conn6(09 03 164 6919)
+Added Component: Designator=J1_Conn7(09 03 164 6919)
+Added Component: Designator=J1_Conn8(09 03 164 6919)
+Added Component: Designator=RJ1_Conn2(RJ45_SMD_VERT)
+Added Component: Designator=RJ1_Conn3(RJ45_SMD_VERT)
+Added Component: Designator=RJ1_Conn4(RJ45_SMD_VERT)
+Added Component: Designator=RJ1_Conn5(RJ45_SMD_VERT)
+Added Component: Designator=RJ1_Conn6(RJ45_SMD_VERT)
+Added Component: Designator=RJ1_Conn7(RJ45_SMD_VERT)
+Added Component: Designator=RJ1_Conn8(RJ45_SMD_VERT)
+Added Component: Designator=RJ2_Conn2(RJ45_SMD_VERT)
+Added Component: Designator=RJ2_Conn3(RJ45_SMD_VERT)
+Added Component: Designator=RJ2_Conn4(RJ45_SMD_VERT)
+Added Component: Designator=RJ2_Conn5(RJ45_SMD_VERT)
+Added Component: Designator=RJ2_Conn6(RJ45_SMD_VERT)
+Added Component: Designator=RJ2_Conn7(RJ45_SMD_VERT)
+Added Component: Designator=RJ2_Conn8(RJ45_SMD_VERT)
+Added Pin To Net: NetName=+5VB_Conn2 Pin=DB1_Conn2-1
+Added Pin To Net: NetName=+5VB_Conn2 Pin=DB1_Conn2-2
+Added Pin To Net: NetName=-5VB_Conn2 Pin=DB1_Conn2-4
+Added Pin To Net: NetName=-5VB_Conn2 Pin=DB1_Conn2-5
+Added Pin To Net: NetName=+5VGNDB_Conn2 Pin=DB1_Conn2-6
+Added Pin To Net: NetName=+5VGNDB_Conn2 Pin=DB1_Conn2-7
+Added Pin To Net: NetName=-5VGNDB_Conn2 Pin=DB1_Conn2-8
+Added Pin To Net: NetName=-5VGNDB_Conn2 Pin=DB1_Conn2-9
+Added Pin To Net: NetName=+5VB_Conn3 Pin=DB1_Conn3-1
+Added Pin To Net: NetName=+5VB_Conn3 Pin=DB1_Conn3-2
+Added Pin To Net: NetName=-5VB_Conn3 Pin=DB1_Conn3-4
+Added Pin To Net: NetName=-5VB_Conn3 Pin=DB1_Conn3-5
+Added Pin To Net: NetName=+5VGNDB_Conn3 Pin=DB1_Conn3-6
+Added Pin To Net: NetName=+5VGNDB_Conn3 Pin=DB1_Conn3-7
+Added Pin To Net: NetName=-5VGNDB_Conn3 Pin=DB1_Conn3-8
+Added Pin To Net: NetName=-5VGNDB_Conn3 Pin=DB1_Conn3-9
+Added Pin To Net: NetName=+5VB_Conn4 Pin=DB1_Conn4-1
+Added Pin To Net: NetName=+5VB_Conn4 Pin=DB1_Conn4-2
+Added Pin To Net: NetName=-5VB_Conn4 Pin=DB1_Conn4-4
+Added Pin To Net: NetName=-5VB_Conn4 Pin=DB1_Conn4-5
+Added Pin To Net: NetName=+5VGNDB_Conn4 Pin=DB1_Conn4-6
+Added Pin To Net: NetName=+5VGNDB_Conn4 Pin=DB1_Conn4-7
+Added Pin To Net: NetName=-5VGNDB_Conn4 Pin=DB1_Conn4-8
+Added Pin To Net: NetName=-5VGNDB_Conn4 Pin=DB1_Conn4-9
+Added Pin To Net: NetName=+5VB_Conn5 Pin=DB1_Conn5-1
+Added Pin To Net: NetName=+5VB_Conn5 Pin=DB1_Conn5-2
+Added Pin To Net: NetName=-5VB_Conn5 Pin=DB1_Conn5-4
+Added Pin To Net: NetName=-5VB_Conn5 Pin=DB1_Conn5-5
+Added Pin To Net: NetName=+5VGNDB_Conn5 Pin=DB1_Conn5-6
+Added Pin To Net: NetName=+5VGNDB_Conn5 Pin=DB1_Conn5-7
+Added Pin To Net: NetName=-5VGNDB_Conn5 Pin=DB1_Conn5-8
+Added Pin To Net: NetName=-5VGNDB_Conn5 Pin=DB1_Conn5-9
+Added Pin To Net: NetName=+5VB_Conn6 Pin=DB1_Conn6-1
+Added Pin To Net: NetName=+5VB_Conn6 Pin=DB1_Conn6-2
+Added Pin To Net: NetName=-5VB_Conn6 Pin=DB1_Conn6-4
+Added Pin To Net: NetName=-5VB_Conn6 Pin=DB1_Conn6-5
+Added Pin To Net: NetName=+5VGNDB_Conn6 Pin=DB1_Conn6-6
+Added Pin To Net: NetName=+5VGNDB_Conn6 Pin=DB1_Conn6-7
+Added Pin To Net: NetName=-5VGNDB_Conn6 Pin=DB1_Conn6-8
+Added Pin To Net: NetName=-5VGNDB_Conn6 Pin=DB1_Conn6-9
+Added Pin To Net: NetName=+5VB_Conn7 Pin=DB1_Conn7-1
+Added Pin To Net: NetName=+5VB_Conn7 Pin=DB1_Conn7-2
+Added Pin To Net: NetName=-5VB_Conn7 Pin=DB1_Conn7-4
+Added Pin To Net: NetName=-5VB_Conn7 Pin=DB1_Conn7-5
+Added Pin To Net: NetName=+5VGNDB_Conn7 Pin=DB1_Conn7-6
+Added Pin To Net: NetName=+5VGNDB_Conn7 Pin=DB1_Conn7-7
+Added Pin To Net: NetName=-5VGNDB_Conn7 Pin=DB1_Conn7-8
+Added Pin To Net: NetName=-5VGNDB_Conn7 Pin=DB1_Conn7-9
+Added Pin To Net: NetName=+5VB_Conn8 Pin=DB1_Conn8-1
+Added Pin To Net: NetName=+5VB_Conn8 Pin=DB1_Conn8-2
+Added Pin To Net: NetName=-5VB_Conn8 Pin=DB1_Conn8-4
+Added Pin To Net: NetName=-5VB_Conn8 Pin=DB1_Conn8-5
+Added Pin To Net: NetName=+5VGNDB_Conn8 Pin=DB1_Conn8-6
+Added Pin To Net: NetName=+5VGNDB_Conn8 Pin=DB1_Conn8-7
+Added Pin To Net: NetName=-5VGNDB_Conn8 Pin=DB1_Conn8-8
+Added Pin To Net: NetName=-5VGNDB_Conn8 Pin=DB1_Conn8-9
+Added Pin To Net: NetName=+5VA_Conn2 Pin=DB2_Conn2-1
+Added Pin To Net: NetName=+5VA_Conn2 Pin=DB2_Conn2-2
+Added Pin To Net: NetName=-5VA_Conn2 Pin=DB2_Conn2-4
+Added Pin To Net: NetName=-5VA_Conn2 Pin=DB2_Conn2-5
+Added Pin To Net: NetName=+5VGNDA_Conn2 Pin=DB2_Conn2-6
+Added Pin To Net: NetName=+5VGNDA_Conn2 Pin=DB2_Conn2-7
+Added Pin To Net: NetName=-5VGNDA_Conn2 Pin=DB2_Conn2-8
+Added Pin To Net: NetName=-5VGNDA_Conn2 Pin=DB2_Conn2-9
+Added Pin To Net: NetName=+5VA_Conn3 Pin=DB2_Conn3-1
+Added Pin To Net: NetName=+5VA_Conn3 Pin=DB2_Conn3-2
+Added Pin To Net: NetName=-5VA_Conn3 Pin=DB2_Conn3-4
+Added Pin To Net: NetName=-5VA_Conn3 Pin=DB2_Conn3-5
+Added Pin To Net: NetName=+5VGNDA_Conn3 Pin=DB2_Conn3-6
+Added Pin To Net: NetName=+5VGNDA_Conn3 Pin=DB2_Conn3-7
+Added Pin To Net: NetName=-5VGNDA_Conn3 Pin=DB2_Conn3-8
+Added Pin To Net: NetName=-5VGNDA_Conn3 Pin=DB2_Conn3-9
+Added Pin To Net: NetName=+5VA_Conn4 Pin=DB2_Conn4-1
+Added Pin To Net: NetName=+5VA_Conn4 Pin=DB2_Conn4-2
+Added Pin To Net: NetName=-5VA_Conn4 Pin=DB2_Conn4-4
+Added Pin To Net: NetName=-5VA_Conn4 Pin=DB2_Conn4-5
+Added Pin To Net: NetName=+5VGNDA_Conn4 Pin=DB2_Conn4-6
+Added Pin To Net: NetName=+5VGNDA_Conn4 Pin=DB2_Conn4-7
+Added Pin To Net: NetName=-5VGNDA_Conn4 Pin=DB2_Conn4-8
+Added Pin To Net: NetName=-5VGNDA_Conn4 Pin=DB2_Conn4-9
+Added Pin To Net: NetName=+5VA_Conn5 Pin=DB2_Conn5-1
+Added Pin To Net: NetName=+5VA_Conn5 Pin=DB2_Conn5-2
+Added Pin To Net: NetName=-5VA_Conn5 Pin=DB2_Conn5-4
+Added Pin To Net: NetName=-5VA_Conn5 Pin=DB2_Conn5-5
+Added Pin To Net: NetName=+5VGNDA_Conn5 Pin=DB2_Conn5-6
+Added Pin To Net: NetName=+5VGNDA_Conn5 Pin=DB2_Conn5-7
+Added Pin To Net: NetName=-5VGNDA_Conn5 Pin=DB2_Conn5-8
+Added Pin To Net: NetName=-5VGNDA_Conn5 Pin=DB2_Conn5-9
+Added Pin To Net: NetName=+5VA_Conn6 Pin=DB2_Conn6-1
+Added Pin To Net: NetName=+5VA_Conn6 Pin=DB2_Conn6-2
+Added Pin To Net: NetName=-5VA_Conn6 Pin=DB2_Conn6-4
+Added Pin To Net: NetName=-5VA_Conn6 Pin=DB2_Conn6-5
+Added Pin To Net: NetName=+5VGNDA_Conn6 Pin=DB2_Conn6-6
+Added Pin To Net: NetName=+5VGNDA_Conn6 Pin=DB2_Conn6-7
+Added Pin To Net: NetName=-5VGNDA_Conn6 Pin=DB2_Conn6-8
+Added Pin To Net: NetName=-5VGNDA_Conn6 Pin=DB2_Conn6-9
+Added Pin To Net: NetName=+5VA_Conn7 Pin=DB2_Conn7-1
+Added Pin To Net: NetName=+5VA_Conn7 Pin=DB2_Conn7-2
+Added Pin To Net: NetName=-5VA_Conn7 Pin=DB2_Conn7-4
+Added Pin To Net: NetName=-5VA_Conn7 Pin=DB2_Conn7-5
+Added Pin To Net: NetName=+5VGNDA_Conn7 Pin=DB2_Conn7-6
+Added Pin To Net: NetName=+5VGNDA_Conn7 Pin=DB2_Conn7-7
+Added Pin To Net: NetName=-5VGNDA_Conn7 Pin=DB2_Conn7-8
+Added Pin To Net: NetName=-5VGNDA_Conn7 Pin=DB2_Conn7-9
+Added Pin To Net: NetName=+5VA_Conn8 Pin=DB2_Conn8-1
+Added Pin To Net: NetName=+5VA_Conn8 Pin=DB2_Conn8-2
+Added Pin To Net: NetName=-5VA_Conn8 Pin=DB2_Conn8-4
+Added Pin To Net: NetName=-5VA_Conn8 Pin=DB2_Conn8-5
+Added Pin To Net: NetName=+5VGNDA_Conn8 Pin=DB2_Conn8-6
+Added Pin To Net: NetName=+5VGNDA_Conn8 Pin=DB2_Conn8-7
+Added Pin To Net: NetName=-5VGNDA_Conn8 Pin=DB2_Conn8-8
+Added Pin To Net: NetName=-5VGNDA_Conn8 Pin=DB2_Conn8-9
+Added Pin To Net: NetName=GND Pin=J1_Conn1-15
+Added Pin To Net: NetName=GND Pin=J1_Conn1-16
+Added Pin To Net: NetName=RXA1 Pin=J1_Conn1-17
+Added Pin To Net: NetName=TXA1 Pin=J1_Conn1-18
+Added Pin To Net: NetName=GND Pin=J1_Conn1-19
+Added Pin To Net: NetName=48V Pin=J1_Conn2-0
+Added Pin To Net: NetName=48V Pin=J1_Conn2-1
+Added Pin To Net: NetName=+9V Pin=J1_Conn2-2
+Added Pin To Net: NetName=GND Pin=J1_Conn2-3
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn2-4
+Added Pin To Net: NetName=SDANET Pin=J1_Conn2-5
+Added Pin To Net: NetName=GND Pin=J1_Conn2-6
+Added Pin To Net: NetName=GND Pin=J1_Conn2-12
+Added Pin To Net: NetName=GND Pin=J1_Conn2-13
+Added Pin To Net: NetName=GND Pin=J1_Conn2-14
+Added Pin To Net: NetName=GND Pin=J1_Conn2-15
+Added Pin To Net: NetName=GND Pin=J1_Conn2-16
+Added Pin To Net: NetName=RXA2 Pin=J1_Conn2-17
+Added Pin To Net: NetName=TXA2 Pin=J1_Conn2-18
+Added Pin To Net: NetName=GND Pin=J1_Conn2-19
+Added Pin To Net: NetName=+5VB_Conn2 Pin=J1_Conn2-20
+Added Pin To Net: NetName=+5VB_Conn2 Pin=J1_Conn2-21
+Added Pin To Net: NetName=+5VGNDB_Conn2 Pin=J1_Conn2-22
+Added Pin To Net: NetName=+5VGNDB_Conn2 Pin=J1_Conn2-23
+Added Pin To Net: NetName=-5VGNDB_Conn2 Pin=J1_Conn2-24
+Added Pin To Net: NetName=-5VB_Conn2 Pin=J1_Conn2-25
+Added Pin To Net: NetName=+5VA_Conn2 Pin=J1_Conn2-26
+Added Pin To Net: NetName=+5VA_Conn2 Pin=J1_Conn2-27
+Added Pin To Net: NetName=+5VGNDA_Conn2 Pin=J1_Conn2-28
+Added Pin To Net: NetName=+5VGNDA_Conn2 Pin=J1_Conn2-29
+Added Pin To Net: NetName=-5VGNDA_Conn2 Pin=J1_Conn2-30
+Added Pin To Net: NetName=-5VA_Conn2 Pin=J1_Conn2-31
+Added Pin To Net: NetName=48V Pin=J1_Conn2-32
+Added Pin To Net: NetName=48V Pin=J1_Conn2-33
+Added Pin To Net: NetName=+9V Pin=J1_Conn2-34
+Added Pin To Net: NetName=GND Pin=J1_Conn2-35
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn2-36
+Added Pin To Net: NetName=SDANET Pin=J1_Conn2-37
+Added Pin To Net: NetName=GND Pin=J1_Conn2-38
+Added Pin To Net: NetName=NetJ1_Conn2_39 Pin=J1_Conn2-39
+Added Pin To Net: NetName=NetJ1_Conn2_40 Pin=J1_Conn2-40
+Added Pin To Net: NetName=NetJ1_Conn2_41 Pin=J1_Conn2-41
+Added Pin To Net: NetName=NetJ1_Conn2_42 Pin=J1_Conn2-42
+Added Pin To Net: NetName=NetJ1_Conn2_43 Pin=J1_Conn2-43
+Added Pin To Net: NetName=GND Pin=J1_Conn2-44
+Added Pin To Net: NetName=TXB2 Pin=J1_Conn2-45
+Added Pin To Net: NetName=RXB2 Pin=J1_Conn2-46
+Added Pin To Net: NetName=NetJ1_Conn2_47 Pin=J1_Conn2-47
+Added Pin To Net: NetName=NetJ1_Conn2_48 Pin=J1_Conn2-48
+Added Pin To Net: NetName=NetJ1_Conn2_49 Pin=J1_Conn2-49
+Added Pin To Net: NetName=NetJ1_Conn2_50 Pin=J1_Conn2-50
+Added Pin To Net: NetName=GND Pin=J1_Conn2-51
+Added Pin To Net: NetName=+5VB_Conn2 Pin=J1_Conn2-52
+Added Pin To Net: NetName=+5VB_Conn2 Pin=J1_Conn2-53
+Added Pin To Net: NetName=+5VGNDB_Conn2 Pin=J1_Conn2-54
+Added Pin To Net: NetName=+5VGNDB_Conn2 Pin=J1_Conn2-55
+Added Pin To Net: NetName=-5VGNDB_Conn2 Pin=J1_Conn2-56
+Added Pin To Net: NetName=-5VB_Conn2 Pin=J1_Conn2-57
+Added Pin To Net: NetName=+5VA_Conn2 Pin=J1_Conn2-58
+Added Pin To Net: NetName=+5VA_Conn2 Pin=J1_Conn2-59
+Added Pin To Net: NetName=+5VGNDA_Conn2 Pin=J1_Conn2-60
+Added Pin To Net: NetName=+5VGNDA_Conn2 Pin=J1_Conn2-61
+Added Pin To Net: NetName=-5VGNDA_Conn2 Pin=J1_Conn2-62
+Added Pin To Net: NetName=-5VA_Conn2 Pin=J1_Conn2-63
+Added Pin To Net: NetName=48V Pin=J1_Conn3-0
+Added Pin To Net: NetName=48V Pin=J1_Conn3-1
+Added Pin To Net: NetName=+9V Pin=J1_Conn3-2
+Added Pin To Net: NetName=GND Pin=J1_Conn3-3
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn3-4
+Added Pin To Net: NetName=SDANET Pin=J1_Conn3-5
+Added Pin To Net: NetName=GND Pin=J1_Conn3-6
+Added Pin To Net: NetName=GND Pin=J1_Conn3-12
+Added Pin To Net: NetName=GND Pin=J1_Conn3-13
+Added Pin To Net: NetName=GND Pin=J1_Conn3-14
+Added Pin To Net: NetName=GND Pin=J1_Conn3-15
+Added Pin To Net: NetName=GND Pin=J1_Conn3-16
+Added Pin To Net: NetName=RXA3 Pin=J1_Conn3-17
+Added Pin To Net: NetName=TXA3 Pin=J1_Conn3-18
+Added Pin To Net: NetName=GND Pin=J1_Conn3-19
+Added Pin To Net: NetName=+5VB_Conn3 Pin=J1_Conn3-20
+Added Pin To Net: NetName=+5VB_Conn3 Pin=J1_Conn3-21
+Added Pin To Net: NetName=+5VGNDB_Conn3 Pin=J1_Conn3-22
+Added Pin To Net: NetName=+5VGNDB_Conn3 Pin=J1_Conn3-23
+Added Pin To Net: NetName=-5VGNDB_Conn3 Pin=J1_Conn3-24
+Added Pin To Net: NetName=-5VB_Conn3 Pin=J1_Conn3-25
+Added Pin To Net: NetName=+5VA_Conn3 Pin=J1_Conn3-26
+Added Pin To Net: NetName=+5VA_Conn3 Pin=J1_Conn3-27
+Added Pin To Net: NetName=+5VGNDA_Conn3 Pin=J1_Conn3-28
+Added Pin To Net: NetName=+5VGNDA_Conn3 Pin=J1_Conn3-29
+Added Pin To Net: NetName=-5VGNDA_Conn3 Pin=J1_Conn3-30
+Added Pin To Net: NetName=-5VA_Conn3 Pin=J1_Conn3-31
+Added Pin To Net: NetName=48V Pin=J1_Conn3-32
+Added Pin To Net: NetName=48V Pin=J1_Conn3-33
+Added Pin To Net: NetName=+9V Pin=J1_Conn3-34
+Added Pin To Net: NetName=GND Pin=J1_Conn3-35
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn3-36
+Added Pin To Net: NetName=SDANET Pin=J1_Conn3-37
+Added Pin To Net: NetName=GND Pin=J1_Conn3-38
+Added Pin To Net: NetName=NetJ1_Conn3_39 Pin=J1_Conn3-39
+Added Pin To Net: NetName=NetJ1_Conn3_40 Pin=J1_Conn3-40
+Added Pin To Net: NetName=NetJ1_Conn3_41 Pin=J1_Conn3-41
+Added Pin To Net: NetName=NetJ1_Conn3_42 Pin=J1_Conn3-42
+Added Pin To Net: NetName=NetJ1_Conn3_43 Pin=J1_Conn3-43
+Added Pin To Net: NetName=GND Pin=J1_Conn3-44
+Added Pin To Net: NetName=TXB3 Pin=J1_Conn3-45
+Added Pin To Net: NetName=RXB3 Pin=J1_Conn3-46
+Added Pin To Net: NetName=NetJ1_Conn3_47 Pin=J1_Conn3-47
+Added Pin To Net: NetName=NetJ1_Conn3_48 Pin=J1_Conn3-48
+Added Pin To Net: NetName=NetJ1_Conn3_49 Pin=J1_Conn3-49
+Added Pin To Net: NetName=NetJ1_Conn3_50 Pin=J1_Conn3-50
+Added Pin To Net: NetName=GND Pin=J1_Conn3-51
+Added Pin To Net: NetName=+5VB_Conn3 Pin=J1_Conn3-52
+Added Pin To Net: NetName=+5VB_Conn3 Pin=J1_Conn3-53
+Added Pin To Net: NetName=+5VGNDB_Conn3 Pin=J1_Conn3-54
+Added Pin To Net: NetName=+5VGNDB_Conn3 Pin=J1_Conn3-55
+Added Pin To Net: NetName=-5VGNDB_Conn3 Pin=J1_Conn3-56
+Added Pin To Net: NetName=-5VB_Conn3 Pin=J1_Conn3-57
+Added Pin To Net: NetName=+5VA_Conn3 Pin=J1_Conn3-58
+Added Pin To Net: NetName=+5VA_Conn3 Pin=J1_Conn3-59
+Added Pin To Net: NetName=+5VGNDA_Conn3 Pin=J1_Conn3-60
+Added Pin To Net: NetName=+5VGNDA_Conn3 Pin=J1_Conn3-61
+Added Pin To Net: NetName=-5VGNDA_Conn3 Pin=J1_Conn3-62
+Added Pin To Net: NetName=-5VA_Conn3 Pin=J1_Conn3-63
+Added Pin To Net: NetName=48V Pin=J1_Conn4-0
+Added Pin To Net: NetName=48V Pin=J1_Conn4-1
+Added Pin To Net: NetName=+9V Pin=J1_Conn4-2
+Added Pin To Net: NetName=GND Pin=J1_Conn4-3
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn4-4
+Added Pin To Net: NetName=SDANET Pin=J1_Conn4-5
+Added Pin To Net: NetName=GND Pin=J1_Conn4-6
+Added Pin To Net: NetName=GND Pin=J1_Conn4-12
+Added Pin To Net: NetName=GND Pin=J1_Conn4-13
+Added Pin To Net: NetName=GND Pin=J1_Conn4-14
+Added Pin To Net: NetName=GND Pin=J1_Conn4-15
+Added Pin To Net: NetName=GND Pin=J1_Conn4-16
+Added Pin To Net: NetName=RXA4 Pin=J1_Conn4-17
+Added Pin To Net: NetName=TXA4 Pin=J1_Conn4-18
+Added Pin To Net: NetName=GND Pin=J1_Conn4-19
+Added Pin To Net: NetName=+5VB_Conn4 Pin=J1_Conn4-20
+Added Pin To Net: NetName=+5VB_Conn4 Pin=J1_Conn4-21
+Added Pin To Net: NetName=+5VGNDB_Conn4 Pin=J1_Conn4-22
+Added Pin To Net: NetName=+5VGNDB_Conn4 Pin=J1_Conn4-23
+Added Pin To Net: NetName=-5VGNDB_Conn4 Pin=J1_Conn4-24
+Added Pin To Net: NetName=-5VB_Conn4 Pin=J1_Conn4-25
+Added Pin To Net: NetName=+5VA_Conn4 Pin=J1_Conn4-26
+Added Pin To Net: NetName=+5VA_Conn4 Pin=J1_Conn4-27
+Added Pin To Net: NetName=+5VGNDA_Conn4 Pin=J1_Conn4-28
+Added Pin To Net: NetName=+5VGNDA_Conn4 Pin=J1_Conn4-29
+Added Pin To Net: NetName=-5VGNDA_Conn4 Pin=J1_Conn4-30
+Added Pin To Net: NetName=-5VA_Conn4 Pin=J1_Conn4-31
+Added Pin To Net: NetName=48V Pin=J1_Conn4-32
+Added Pin To Net: NetName=48V Pin=J1_Conn4-33
+Added Pin To Net: NetName=+9V Pin=J1_Conn4-34
+Added Pin To Net: NetName=GND Pin=J1_Conn4-35
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn4-36
+Added Pin To Net: NetName=SDANET Pin=J1_Conn4-37
+Added Pin To Net: NetName=GND Pin=J1_Conn4-38
+Added Pin To Net: NetName=NetJ1_Conn4_39 Pin=J1_Conn4-39
+Added Pin To Net: NetName=NetJ1_Conn4_40 Pin=J1_Conn4-40
+Added Pin To Net: NetName=NetJ1_Conn4_41 Pin=J1_Conn4-41
+Added Pin To Net: NetName=NetJ1_Conn4_42 Pin=J1_Conn4-42
+Added Pin To Net: NetName=NetJ1_Conn4_43 Pin=J1_Conn4-43
+Added Pin To Net: NetName=GND Pin=J1_Conn4-44
+Added Pin To Net: NetName=TXB4 Pin=J1_Conn4-45
+Added Pin To Net: NetName=RXB4 Pin=J1_Conn4-46
+Added Pin To Net: NetName=NetJ1_Conn4_47 Pin=J1_Conn4-47
+Added Pin To Net: NetName=NetJ1_Conn4_48 Pin=J1_Conn4-48
+Added Pin To Net: NetName=NetJ1_Conn4_49 Pin=J1_Conn4-49
+Added Pin To Net: NetName=NetJ1_Conn4_50 Pin=J1_Conn4-50
+Added Pin To Net: NetName=GND Pin=J1_Conn4-51
+Added Pin To Net: NetName=+5VB_Conn4 Pin=J1_Conn4-52
+Added Pin To Net: NetName=+5VB_Conn4 Pin=J1_Conn4-53
+Added Pin To Net: NetName=+5VGNDB_Conn4 Pin=J1_Conn4-54
+Added Pin To Net: NetName=+5VGNDB_Conn4 Pin=J1_Conn4-55
+Added Pin To Net: NetName=-5VGNDB_Conn4 Pin=J1_Conn4-56
+Added Pin To Net: NetName=-5VB_Conn4 Pin=J1_Conn4-57
+Added Pin To Net: NetName=+5VA_Conn4 Pin=J1_Conn4-58
+Added Pin To Net: NetName=+5VA_Conn4 Pin=J1_Conn4-59
+Added Pin To Net: NetName=+5VGNDA_Conn4 Pin=J1_Conn4-60
+Added Pin To Net: NetName=+5VGNDA_Conn4 Pin=J1_Conn4-61
+Added Pin To Net: NetName=-5VGNDA_Conn4 Pin=J1_Conn4-62
+Added Pin To Net: NetName=-5VA_Conn4 Pin=J1_Conn4-63
+Added Pin To Net: NetName=48V Pin=J1_Conn5-0
+Added Pin To Net: NetName=48V Pin=J1_Conn5-1
+Added Pin To Net: NetName=+9V Pin=J1_Conn5-2
+Added Pin To Net: NetName=GND Pin=J1_Conn5-3
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn5-4
+Added Pin To Net: NetName=SDANET Pin=J1_Conn5-5
+Added Pin To Net: NetName=GND Pin=J1_Conn5-6
+Added Pin To Net: NetName=GND Pin=J1_Conn5-12
+Added Pin To Net: NetName=GND Pin=J1_Conn5-13
+Added Pin To Net: NetName=GND Pin=J1_Conn5-14
+Added Pin To Net: NetName=GND Pin=J1_Conn5-15
+Added Pin To Net: NetName=GND Pin=J1_Conn5-16
+Added Pin To Net: NetName=RXA5 Pin=J1_Conn5-17
+Added Pin To Net: NetName=TXA5 Pin=J1_Conn5-18
+Added Pin To Net: NetName=GND Pin=J1_Conn5-19
+Added Pin To Net: NetName=+5VB_Conn5 Pin=J1_Conn5-20
+Added Pin To Net: NetName=+5VB_Conn5 Pin=J1_Conn5-21
+Added Pin To Net: NetName=+5VGNDB_Conn5 Pin=J1_Conn5-22
+Added Pin To Net: NetName=+5VGNDB_Conn5 Pin=J1_Conn5-23
+Added Pin To Net: NetName=-5VGNDB_Conn5 Pin=J1_Conn5-24
+Added Pin To Net: NetName=-5VB_Conn5 Pin=J1_Conn5-25
+Added Pin To Net: NetName=+5VA_Conn5 Pin=J1_Conn5-26
+Added Pin To Net: NetName=+5VA_Conn5 Pin=J1_Conn5-27
+Added Pin To Net: NetName=+5VGNDA_Conn5 Pin=J1_Conn5-28
+Added Pin To Net: NetName=+5VGNDA_Conn5 Pin=J1_Conn5-29
+Added Pin To Net: NetName=-5VGNDA_Conn5 Pin=J1_Conn5-30
+Added Pin To Net: NetName=-5VA_Conn5 Pin=J1_Conn5-31
+Added Pin To Net: NetName=48V Pin=J1_Conn5-32
+Added Pin To Net: NetName=48V Pin=J1_Conn5-33
+Added Pin To Net: NetName=+9V Pin=J1_Conn5-34
+Added Pin To Net: NetName=GND Pin=J1_Conn5-35
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn5-36
+Added Pin To Net: NetName=SDANET Pin=J1_Conn5-37
+Added Pin To Net: NetName=GND Pin=J1_Conn5-38
+Added Pin To Net: NetName=NetJ1_Conn5_39 Pin=J1_Conn5-39
+Added Pin To Net: NetName=NetJ1_Conn5_40 Pin=J1_Conn5-40
+Added Pin To Net: NetName=NetJ1_Conn5_41 Pin=J1_Conn5-41
+Added Pin To Net: NetName=NetJ1_Conn5_42 Pin=J1_Conn5-42
+Added Pin To Net: NetName=NetJ1_Conn5_43 Pin=J1_Conn5-43
+Added Pin To Net: NetName=GND Pin=J1_Conn5-44
+Added Pin To Net: NetName=TXB5 Pin=J1_Conn5-45
+Added Pin To Net: NetName=RXB5 Pin=J1_Conn5-46
+Added Pin To Net: NetName=NetJ1_Conn5_47 Pin=J1_Conn5-47
+Added Pin To Net: NetName=NetJ1_Conn5_48 Pin=J1_Conn5-48
+Added Pin To Net: NetName=NetJ1_Conn5_49 Pin=J1_Conn5-49
+Added Pin To Net: NetName=NetJ1_Conn5_50 Pin=J1_Conn5-50
+Added Pin To Net: NetName=GND Pin=J1_Conn5-51
+Added Pin To Net: NetName=+5VB_Conn5 Pin=J1_Conn5-52
+Added Pin To Net: NetName=+5VB_Conn5 Pin=J1_Conn5-53
+Added Pin To Net: NetName=+5VGNDB_Conn5 Pin=J1_Conn5-54
+Added Pin To Net: NetName=+5VGNDB_Conn5 Pin=J1_Conn5-55
+Added Pin To Net: NetName=-5VGNDB_Conn5 Pin=J1_Conn5-56
+Added Pin To Net: NetName=-5VB_Conn5 Pin=J1_Conn5-57
+Added Pin To Net: NetName=+5VA_Conn5 Pin=J1_Conn5-58
+Added Pin To Net: NetName=+5VA_Conn5 Pin=J1_Conn5-59
+Added Pin To Net: NetName=+5VGNDA_Conn5 Pin=J1_Conn5-60
+Added Pin To Net: NetName=+5VGNDA_Conn5 Pin=J1_Conn5-61
+Added Pin To Net: NetName=-5VGNDA_Conn5 Pin=J1_Conn5-62
+Added Pin To Net: NetName=-5VA_Conn5 Pin=J1_Conn5-63
+Added Pin To Net: NetName=48V Pin=J1_Conn6-0
+Added Pin To Net: NetName=48V Pin=J1_Conn6-1
+Added Pin To Net: NetName=+9V Pin=J1_Conn6-2
+Added Pin To Net: NetName=GND Pin=J1_Conn6-3
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn6-4
+Added Pin To Net: NetName=SDANET Pin=J1_Conn6-5
+Added Pin To Net: NetName=GND Pin=J1_Conn6-6
+Added Pin To Net: NetName=GND Pin=J1_Conn6-12
+Added Pin To Net: NetName=GND Pin=J1_Conn6-13
+Added Pin To Net: NetName=GND Pin=J1_Conn6-14
+Added Pin To Net: NetName=GND Pin=J1_Conn6-15
+Added Pin To Net: NetName=GND Pin=J1_Conn6-16
+Added Pin To Net: NetName=RXA6 Pin=J1_Conn6-17
+Added Pin To Net: NetName=TXA6 Pin=J1_Conn6-18
+Added Pin To Net: NetName=GND Pin=J1_Conn6-19
+Added Pin To Net: NetName=+5VB_Conn6 Pin=J1_Conn6-20
+Added Pin To Net: NetName=+5VB_Conn6 Pin=J1_Conn6-21
+Added Pin To Net: NetName=+5VGNDB_Conn6 Pin=J1_Conn6-22
+Added Pin To Net: NetName=+5VGNDB_Conn6 Pin=J1_Conn6-23
+Added Pin To Net: NetName=-5VGNDB_Conn6 Pin=J1_Conn6-24
+Added Pin To Net: NetName=-5VB_Conn6 Pin=J1_Conn6-25
+Added Pin To Net: NetName=+5VA_Conn6 Pin=J1_Conn6-26
+Added Pin To Net: NetName=+5VA_Conn6 Pin=J1_Conn6-27
+Added Pin To Net: NetName=+5VGNDA_Conn6 Pin=J1_Conn6-28
+Added Pin To Net: NetName=+5VGNDA_Conn6 Pin=J1_Conn6-29
+Added Pin To Net: NetName=-5VGNDA_Conn6 Pin=J1_Conn6-30
+Added Pin To Net: NetName=-5VA_Conn6 Pin=J1_Conn6-31
+Added Pin To Net: NetName=48V Pin=J1_Conn6-32
+Added Pin To Net: NetName=48V Pin=J1_Conn6-33
+Added Pin To Net: NetName=+9V Pin=J1_Conn6-34
+Added Pin To Net: NetName=GND Pin=J1_Conn6-35
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn6-36
+Added Pin To Net: NetName=SDANET Pin=J1_Conn6-37
+Added Pin To Net: NetName=GND Pin=J1_Conn6-38
+Added Pin To Net: NetName=NetJ1_Conn6_39 Pin=J1_Conn6-39
+Added Pin To Net: NetName=NetJ1_Conn6_40 Pin=J1_Conn6-40
+Added Pin To Net: NetName=NetJ1_Conn6_41 Pin=J1_Conn6-41
+Added Pin To Net: NetName=NetJ1_Conn6_42 Pin=J1_Conn6-42
+Added Pin To Net: NetName=NetJ1_Conn6_43 Pin=J1_Conn6-43
+Added Pin To Net: NetName=GND Pin=J1_Conn6-44
+Added Pin To Net: NetName=TXB6 Pin=J1_Conn6-45
+Added Pin To Net: NetName=RXB6 Pin=J1_Conn6-46
+Added Pin To Net: NetName=NetJ1_Conn6_47 Pin=J1_Conn6-47
+Added Pin To Net: NetName=NetJ1_Conn6_48 Pin=J1_Conn6-48
+Added Pin To Net: NetName=NetJ1_Conn6_49 Pin=J1_Conn6-49
+Added Pin To Net: NetName=NetJ1_Conn6_50 Pin=J1_Conn6-50
+Added Pin To Net: NetName=GND Pin=J1_Conn6-51
+Added Pin To Net: NetName=+5VB_Conn6 Pin=J1_Conn6-52
+Added Pin To Net: NetName=+5VB_Conn6 Pin=J1_Conn6-53
+Added Pin To Net: NetName=+5VGNDB_Conn6 Pin=J1_Conn6-54
+Added Pin To Net: NetName=+5VGNDB_Conn6 Pin=J1_Conn6-55
+Added Pin To Net: NetName=-5VGNDB_Conn6 Pin=J1_Conn6-56
+Added Pin To Net: NetName=-5VB_Conn6 Pin=J1_Conn6-57
+Added Pin To Net: NetName=+5VA_Conn6 Pin=J1_Conn6-58
+Added Pin To Net: NetName=+5VA_Conn6 Pin=J1_Conn6-59
+Added Pin To Net: NetName=+5VGNDA_Conn6 Pin=J1_Conn6-60
+Added Pin To Net: NetName=+5VGNDA_Conn6 Pin=J1_Conn6-61
+Added Pin To Net: NetName=-5VGNDA_Conn6 Pin=J1_Conn6-62
+Added Pin To Net: NetName=-5VA_Conn6 Pin=J1_Conn6-63
+Added Pin To Net: NetName=48V Pin=J1_Conn7-0
+Added Pin To Net: NetName=48V Pin=J1_Conn7-1
+Added Pin To Net: NetName=+9V Pin=J1_Conn7-2
+Added Pin To Net: NetName=GND Pin=J1_Conn7-3
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn7-4
+Added Pin To Net: NetName=SDANET Pin=J1_Conn7-5
+Added Pin To Net: NetName=GND Pin=J1_Conn7-6
+Added Pin To Net: NetName=GND Pin=J1_Conn7-12
+Added Pin To Net: NetName=GND Pin=J1_Conn7-13
+Added Pin To Net: NetName=GND Pin=J1_Conn7-14
+Added Pin To Net: NetName=GND Pin=J1_Conn7-15
+Added Pin To Net: NetName=GND Pin=J1_Conn7-16
+Added Pin To Net: NetName=RXA7 Pin=J1_Conn7-17
+Added Pin To Net: NetName=TXA7 Pin=J1_Conn7-18
+Added Pin To Net: NetName=GND Pin=J1_Conn7-19
+Added Pin To Net: NetName=+5VB_Conn7 Pin=J1_Conn7-20
+Added Pin To Net: NetName=+5VB_Conn7 Pin=J1_Conn7-21
+Added Pin To Net: NetName=+5VGNDB_Conn7 Pin=J1_Conn7-22
+Added Pin To Net: NetName=+5VGNDB_Conn7 Pin=J1_Conn7-23
+Added Pin To Net: NetName=-5VGNDB_Conn7 Pin=J1_Conn7-24
+Added Pin To Net: NetName=-5VB_Conn7 Pin=J1_Conn7-25
+Added Pin To Net: NetName=+5VA_Conn7 Pin=J1_Conn7-26
+Added Pin To Net: NetName=+5VA_Conn7 Pin=J1_Conn7-27
+Added Pin To Net: NetName=+5VGNDA_Conn7 Pin=J1_Conn7-28
+Added Pin To Net: NetName=+5VGNDA_Conn7 Pin=J1_Conn7-29
+Added Pin To Net: NetName=-5VGNDA_Conn7 Pin=J1_Conn7-30
+Added Pin To Net: NetName=-5VA_Conn7 Pin=J1_Conn7-31
+Added Pin To Net: NetName=48V Pin=J1_Conn7-32
+Added Pin To Net: NetName=48V Pin=J1_Conn7-33
+Added Pin To Net: NetName=+9V Pin=J1_Conn7-34
+Added Pin To Net: NetName=GND Pin=J1_Conn7-35
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn7-36
+Added Pin To Net: NetName=SDANET Pin=J1_Conn7-37
+Added Pin To Net: NetName=GND Pin=J1_Conn7-38
+Added Pin To Net: NetName=NetJ1_Conn7_39 Pin=J1_Conn7-39
+Added Pin To Net: NetName=NetJ1_Conn7_40 Pin=J1_Conn7-40
+Added Pin To Net: NetName=NetJ1_Conn7_41 Pin=J1_Conn7-41
+Added Pin To Net: NetName=NetJ1_Conn7_42 Pin=J1_Conn7-42
+Added Pin To Net: NetName=NetJ1_Conn7_43 Pin=J1_Conn7-43
+Added Pin To Net: NetName=GND Pin=J1_Conn7-44
+Added Pin To Net: NetName=TXB7 Pin=J1_Conn7-45
+Added Pin To Net: NetName=RXB7 Pin=J1_Conn7-46
+Added Pin To Net: NetName=NetJ1_Conn7_47 Pin=J1_Conn7-47
+Added Pin To Net: NetName=NetJ1_Conn7_48 Pin=J1_Conn7-48
+Added Pin To Net: NetName=NetJ1_Conn7_49 Pin=J1_Conn7-49
+Added Pin To Net: NetName=NetJ1_Conn7_50 Pin=J1_Conn7-50
+Added Pin To Net: NetName=GND Pin=J1_Conn7-51
+Added Pin To Net: NetName=+5VB_Conn7 Pin=J1_Conn7-52
+Added Pin To Net: NetName=+5VB_Conn7 Pin=J1_Conn7-53
+Added Pin To Net: NetName=+5VGNDB_Conn7 Pin=J1_Conn7-54
+Added Pin To Net: NetName=+5VGNDB_Conn7 Pin=J1_Conn7-55
+Added Pin To Net: NetName=-5VGNDB_Conn7 Pin=J1_Conn7-56
+Added Pin To Net: NetName=-5VB_Conn7 Pin=J1_Conn7-57
+Added Pin To Net: NetName=+5VA_Conn7 Pin=J1_Conn7-58
+Added Pin To Net: NetName=+5VA_Conn7 Pin=J1_Conn7-59
+Added Pin To Net: NetName=+5VGNDA_Conn7 Pin=J1_Conn7-60
+Added Pin To Net: NetName=+5VGNDA_Conn7 Pin=J1_Conn7-61
+Added Pin To Net: NetName=-5VGNDA_Conn7 Pin=J1_Conn7-62
+Added Pin To Net: NetName=-5VA_Conn7 Pin=J1_Conn7-63
+Added Pin To Net: NetName=48V Pin=J1_Conn8-0
+Added Pin To Net: NetName=48V Pin=J1_Conn8-1
+Added Pin To Net: NetName=+9V Pin=J1_Conn8-2
+Added Pin To Net: NetName=GND Pin=J1_Conn8-3
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn8-4
+Added Pin To Net: NetName=SDANET Pin=J1_Conn8-5
+Added Pin To Net: NetName=GND Pin=J1_Conn8-6
+Added Pin To Net: NetName=GND Pin=J1_Conn8-12
+Added Pin To Net: NetName=GND Pin=J1_Conn8-13
+Added Pin To Net: NetName=GND Pin=J1_Conn8-14
+Added Pin To Net: NetName=GND Pin=J1_Conn8-15
+Added Pin To Net: NetName=GND Pin=J1_Conn8-16
+Added Pin To Net: NetName=RXA8 Pin=J1_Conn8-17
+Added Pin To Net: NetName=TXA8 Pin=J1_Conn8-18
+Added Pin To Net: NetName=GND Pin=J1_Conn8-19
+Added Pin To Net: NetName=+5VB_Conn8 Pin=J1_Conn8-20
+Added Pin To Net: NetName=+5VB_Conn8 Pin=J1_Conn8-21
+Added Pin To Net: NetName=+5VGNDB_Conn8 Pin=J1_Conn8-22
+Added Pin To Net: NetName=+5VGNDB_Conn8 Pin=J1_Conn8-23
+Added Pin To Net: NetName=-5VGNDB_Conn8 Pin=J1_Conn8-24
+Added Pin To Net: NetName=-5VB_Conn8 Pin=J1_Conn8-25
+Added Pin To Net: NetName=+5VA_Conn8 Pin=J1_Conn8-26
+Added Pin To Net: NetName=+5VA_Conn8 Pin=J1_Conn8-27
+Added Pin To Net: NetName=+5VGNDA_Conn8 Pin=J1_Conn8-28
+Added Pin To Net: NetName=+5VGNDA_Conn8 Pin=J1_Conn8-29
+Added Pin To Net: NetName=-5VGNDA_Conn8 Pin=J1_Conn8-30
+Added Pin To Net: NetName=-5VA_Conn8 Pin=J1_Conn8-31
+Added Pin To Net: NetName=48V Pin=J1_Conn8-32
+Added Pin To Net: NetName=48V Pin=J1_Conn8-33
+Added Pin To Net: NetName=+9V Pin=J1_Conn8-34
+Added Pin To Net: NetName=GND Pin=J1_Conn8-35
+Added Pin To Net: NetName=SCLNET Pin=J1_Conn8-36
+Added Pin To Net: NetName=SDANET Pin=J1_Conn8-37
+Added Pin To Net: NetName=GND Pin=J1_Conn8-38
+Added Pin To Net: NetName=NetJ1_Conn8_39 Pin=J1_Conn8-39
+Added Pin To Net: NetName=NetJ1_Conn8_40 Pin=J1_Conn8-40
+Added Pin To Net: NetName=NetJ1_Conn8_41 Pin=J1_Conn8-41
+Added Pin To Net: NetName=NetJ1_Conn8_42 Pin=J1_Conn8-42
+Added Pin To Net: NetName=NetJ1_Conn8_43 Pin=J1_Conn8-43
+Added Pin To Net: NetName=GND Pin=J1_Conn8-44
+Added Pin To Net: NetName=TXB8 Pin=J1_Conn8-45
+Added Pin To Net: NetName=RXB8 Pin=J1_Conn8-46
+Added Pin To Net: NetName=NetJ1_Conn8_47 Pin=J1_Conn8-47
+Added Pin To Net: NetName=NetJ1_Conn8_48 Pin=J1_Conn8-48
+Added Pin To Net: NetName=+5V Pin=J1_Conn8-49
+Added Pin To Net: NetName=GND Pin=J1_Conn8-50
+Added Pin To Net: NetName=GND Pin=J1_Conn8-51
+Added Pin To Net: NetName=+5VB_Conn8 Pin=J1_Conn8-52
+Added Pin To Net: NetName=+5VB_Conn8 Pin=J1_Conn8-53
+Added Pin To Net: NetName=+5VGNDB_Conn8 Pin=J1_Conn8-54
+Added Pin To Net: NetName=+5VGNDB_Conn8 Pin=J1_Conn8-55
+Added Pin To Net: NetName=-5VGNDB_Conn8 Pin=J1_Conn8-56
+Added Pin To Net: NetName=-5VB_Conn8 Pin=J1_Conn8-57
+Added Pin To Net: NetName=+5VA_Conn8 Pin=J1_Conn8-58
+Added Pin To Net: NetName=+5VA_Conn8 Pin=J1_Conn8-59
+Added Pin To Net: NetName=+5VGNDA_Conn8 Pin=J1_Conn8-60
+Added Pin To Net: NetName=+5VGNDA_Conn8 Pin=J1_Conn8-61
+Added Pin To Net: NetName=-5VGNDA_Conn8 Pin=J1_Conn8-62
+Added Pin To Net: NetName=-5VA_Conn8 Pin=J1_Conn8-63
+Added Pin To Net: NetName=GND Pin=RJ1_Conn2-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn3-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn4-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn5-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn6-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn7-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn8-8
+Added Pin To Net: NetName=NetJ1_Conn2_39 Pin=RJ2_Conn2-1
+Added Pin To Net: NetName=NetJ1_Conn2_40 Pin=RJ2_Conn2-2
+Added Pin To Net: NetName=NetJ1_Conn2_41 Pin=RJ2_Conn2-3
+Added Pin To Net: NetName=NetJ1_Conn2_42 Pin=RJ2_Conn2-6
+Added Pin To Net: NetName=NetJ1_Conn2_43 Pin=RJ2_Conn2-7
+Added Pin To Net: NetName=GND Pin=RJ2_Conn2-8
+Added Pin To Net: NetName=NetJ1_Conn3_39 Pin=RJ2_Conn3-1
+Added Pin To Net: NetName=NetJ1_Conn3_40 Pin=RJ2_Conn3-2
+Added Pin To Net: NetName=NetJ1_Conn3_41 Pin=RJ2_Conn3-3
+Added Pin To Net: NetName=NetJ1_Conn3_42 Pin=RJ2_Conn3-6
+Added Pin To Net: NetName=NetJ1_Conn3_43 Pin=RJ2_Conn3-7
+Added Pin To Net: NetName=GND Pin=RJ2_Conn3-8
+Added Pin To Net: NetName=NetJ1_Conn4_39 Pin=RJ2_Conn4-1
+Added Pin To Net: NetName=NetJ1_Conn4_40 Pin=RJ2_Conn4-2
+Added Pin To Net: NetName=NetJ1_Conn4_41 Pin=RJ2_Conn4-3
+Added Pin To Net: NetName=NetJ1_Conn4_42 Pin=RJ2_Conn4-6
+Added Pin To Net: NetName=NetJ1_Conn4_43 Pin=RJ2_Conn4-7
+Added Pin To Net: NetName=GND Pin=RJ2_Conn4-8
+Added Pin To Net: NetName=NetJ1_Conn5_39 Pin=RJ2_Conn5-1
+Added Pin To Net: NetName=NetJ1_Conn5_40 Pin=RJ2_Conn5-2
+Added Pin To Net: NetName=NetJ1_Conn5_41 Pin=RJ2_Conn5-3
+Added Pin To Net: NetName=NetJ1_Conn5_42 Pin=RJ2_Conn5-6
+Added Pin To Net: NetName=NetJ1_Conn5_43 Pin=RJ2_Conn5-7
+Added Pin To Net: NetName=GND Pin=RJ2_Conn5-8
+Added Pin To Net: NetName=NetJ1_Conn6_39 Pin=RJ2_Conn6-1
+Added Pin To Net: NetName=NetJ1_Conn6_40 Pin=RJ2_Conn6-2
+Added Pin To Net: NetName=NetJ1_Conn6_41 Pin=RJ2_Conn6-3
+Added Pin To Net: NetName=NetJ1_Conn6_42 Pin=RJ2_Conn6-6
+Added Pin To Net: NetName=NetJ1_Conn6_43 Pin=RJ2_Conn6-7
+Added Pin To Net: NetName=GND Pin=RJ2_Conn6-8
+Added Pin To Net: NetName=NetJ1_Conn7_39 Pin=RJ2_Conn7-1
+Added Pin To Net: NetName=NetJ1_Conn7_40 Pin=RJ2_Conn7-2
+Added Pin To Net: NetName=NetJ1_Conn7_41 Pin=RJ2_Conn7-3
+Added Pin To Net: NetName=NetJ1_Conn7_42 Pin=RJ2_Conn7-6
+Added Pin To Net: NetName=NetJ1_Conn7_43 Pin=RJ2_Conn7-7
+Added Pin To Net: NetName=GND Pin=RJ2_Conn7-8
+Added Pin To Net: NetName=NetJ1_Conn8_39 Pin=RJ2_Conn8-1
+Added Pin To Net: NetName=NetJ1_Conn8_40 Pin=RJ2_Conn8-2
+Added Pin To Net: NetName=NetJ1_Conn8_41 Pin=RJ2_Conn8-3
+Added Pin To Net: NetName=NetJ1_Conn8_42 Pin=RJ2_Conn8-6
+Added Pin To Net: NetName=NetJ1_Conn8_43 Pin=RJ2_Conn8-7
+Added Pin To Net: NetName=GND Pin=RJ2_Conn8-8
+Added Pin To Net: NetName=NetJ1_Conn1_7 Pin=J1_Conn1-7
+Added Pin To Net: NetName=NetJ1_Conn1_7 Pin=RJ1_Conn1-1
+Added Net: Name=NetJ1_Conn1_7
+Added Pin To Net: NetName=NetJ1_Conn1_8 Pin=J1_Conn1-8
+Added Pin To Net: NetName=NetJ1_Conn1_8 Pin=RJ1_Conn1-2
+Added Net: Name=NetJ1_Conn1_8
+Added Pin To Net: NetName=NetJ1_Conn1_9 Pin=J1_Conn1-9
+Added Pin To Net: NetName=NetJ1_Conn1_9 Pin=RJ1_Conn1-3
+Added Net: Name=NetJ1_Conn1_9
+Added Pin To Net: NetName=NetJ1_Conn1_10 Pin=J1_Conn1-10
+Added Pin To Net: NetName=NetJ1_Conn1_10 Pin=RJ1_Conn1-6
+Added Net: Name=NetJ1_Conn1_10
+Added Pin To Net: NetName=NetJ1_Conn1_11 Pin=J1_Conn1-11
+Added Pin To Net: NetName=NetJ1_Conn1_11 Pin=RJ1_Conn1-7
+Added Net: Name=NetJ1_Conn1_11
+Added Pin To Net: NetName=NetJ1_Conn2_7 Pin=J1_Conn2-7
+Added Pin To Net: NetName=NetJ1_Conn2_7 Pin=RJ1_Conn2-1
+Added Net: Name=NetJ1_Conn2_7
+Added Pin To Net: NetName=NetJ1_Conn2_8 Pin=J1_Conn2-8
+Added Pin To Net: NetName=NetJ1_Conn2_8 Pin=RJ1_Conn2-2
+Added Net: Name=NetJ1_Conn2_8
+Added Pin To Net: NetName=NetJ1_Conn2_9 Pin=J1_Conn2-9
+Added Pin To Net: NetName=NetJ1_Conn2_9 Pin=RJ1_Conn2-3
+Added Net: Name=NetJ1_Conn2_9
+Added Pin To Net: NetName=NetJ1_Conn2_10 Pin=J1_Conn2-10
+Added Pin To Net: NetName=NetJ1_Conn2_10 Pin=RJ1_Conn2-6
+Added Net: Name=NetJ1_Conn2_10
+Added Pin To Net: NetName=NetJ1_Conn2_11 Pin=J1_Conn2-11
+Added Pin To Net: NetName=NetJ1_Conn2_11 Pin=RJ1_Conn2-7
+Added Net: Name=NetJ1_Conn2_11
+Added Pin To Net: NetName=NetJ1_Conn3_7 Pin=J1_Conn3-7
+Added Pin To Net: NetName=NetJ1_Conn3_7 Pin=RJ1_Conn3-1
+Added Net: Name=NetJ1_Conn3_7
+Added Pin To Net: NetName=NetJ1_Conn3_8 Pin=J1_Conn3-8
+Added Pin To Net: NetName=NetJ1_Conn3_8 Pin=RJ1_Conn3-2
+Added Net: Name=NetJ1_Conn3_8
+Added Pin To Net: NetName=NetJ1_Conn3_9 Pin=J1_Conn3-9
+Added Pin To Net: NetName=NetJ1_Conn3_9 Pin=RJ1_Conn3-3
+Added Net: Name=NetJ1_Conn3_9
+Added Pin To Net: NetName=NetJ1_Conn3_10 Pin=J1_Conn3-10
+Added Pin To Net: NetName=NetJ1_Conn3_10 Pin=RJ1_Conn3-6
+Added Net: Name=NetJ1_Conn3_10
+Added Pin To Net: NetName=NetJ1_Conn3_11 Pin=J1_Conn3-11
+Added Pin To Net: NetName=NetJ1_Conn3_11 Pin=RJ1_Conn3-7
+Added Net: Name=NetJ1_Conn3_11
+Added Pin To Net: NetName=NetJ1_Conn4_7 Pin=J1_Conn4-7
+Added Pin To Net: NetName=NetJ1_Conn4_7 Pin=RJ1_Conn4-1
+Added Net: Name=NetJ1_Conn4_7
+Added Pin To Net: NetName=NetJ1_Conn4_8 Pin=J1_Conn4-8
+Added Pin To Net: NetName=NetJ1_Conn4_8 Pin=RJ1_Conn4-2
+Added Net: Name=NetJ1_Conn4_8
+Added Pin To Net: NetName=NetJ1_Conn4_9 Pin=J1_Conn4-9
+Added Pin To Net: NetName=NetJ1_Conn4_9 Pin=RJ1_Conn4-3
+Added Net: Name=NetJ1_Conn4_9
+Added Pin To Net: NetName=NetJ1_Conn4_10 Pin=J1_Conn4-10
+Added Pin To Net: NetName=NetJ1_Conn4_10 Pin=RJ1_Conn4-6
+Added Net: Name=NetJ1_Conn4_10
+Added Pin To Net: NetName=NetJ1_Conn4_11 Pin=J1_Conn4-11
+Added Pin To Net: NetName=NetJ1_Conn4_11 Pin=RJ1_Conn4-7
+Added Net: Name=NetJ1_Conn4_11
+Added Pin To Net: NetName=NetJ1_Conn5_7 Pin=J1_Conn5-7
+Added Pin To Net: NetName=NetJ1_Conn5_7 Pin=RJ1_Conn5-1
+Added Net: Name=NetJ1_Conn5_7
+Added Pin To Net: NetName=NetJ1_Conn5_8 Pin=J1_Conn5-8
+Added Pin To Net: NetName=NetJ1_Conn5_8 Pin=RJ1_Conn5-2
+Added Net: Name=NetJ1_Conn5_8
+Added Pin To Net: NetName=NetJ1_Conn5_9 Pin=J1_Conn5-9
+Added Pin To Net: NetName=NetJ1_Conn5_9 Pin=RJ1_Conn5-3
+Added Net: Name=NetJ1_Conn5_9
+Added Pin To Net: NetName=NetJ1_Conn5_10 Pin=J1_Conn5-10
+Added Pin To Net: NetName=NetJ1_Conn5_10 Pin=RJ1_Conn5-6
+Added Net: Name=NetJ1_Conn5_10
+Added Pin To Net: NetName=NetJ1_Conn5_11 Pin=J1_Conn5-11
+Added Pin To Net: NetName=NetJ1_Conn5_11 Pin=RJ1_Conn5-7
+Added Net: Name=NetJ1_Conn5_11
+Added Pin To Net: NetName=NetJ1_Conn6_7 Pin=J1_Conn6-7
+Added Pin To Net: NetName=NetJ1_Conn6_7 Pin=RJ1_Conn6-1
+Added Net: Name=NetJ1_Conn6_7
+Added Pin To Net: NetName=NetJ1_Conn6_8 Pin=J1_Conn6-8
+Added Pin To Net: NetName=NetJ1_Conn6_8 Pin=RJ1_Conn6-2
+Added Net: Name=NetJ1_Conn6_8
+Added Pin To Net: NetName=NetJ1_Conn6_9 Pin=J1_Conn6-9
+Added Pin To Net: NetName=NetJ1_Conn6_9 Pin=RJ1_Conn6-3
+Added Net: Name=NetJ1_Conn6_9
+Added Pin To Net: NetName=NetJ1_Conn6_10 Pin=J1_Conn6-10
+Added Pin To Net: NetName=NetJ1_Conn6_10 Pin=RJ1_Conn6-6
+Added Net: Name=NetJ1_Conn6_10
+Added Pin To Net: NetName=NetJ1_Conn6_11 Pin=J1_Conn6-11
+Added Pin To Net: NetName=NetJ1_Conn6_11 Pin=RJ1_Conn6-7
+Added Net: Name=NetJ1_Conn6_11
+Added Pin To Net: NetName=NetJ1_Conn7_7 Pin=J1_Conn7-7
+Added Pin To Net: NetName=NetJ1_Conn7_7 Pin=RJ1_Conn7-1
+Added Net: Name=NetJ1_Conn7_7
+Added Pin To Net: NetName=NetJ1_Conn7_8 Pin=J1_Conn7-8
+Added Pin To Net: NetName=NetJ1_Conn7_8 Pin=RJ1_Conn7-2
+Added Net: Name=NetJ1_Conn7_8
+Added Pin To Net: NetName=NetJ1_Conn7_9 Pin=J1_Conn7-9
+Added Pin To Net: NetName=NetJ1_Conn7_9 Pin=RJ1_Conn7-3
+Added Net: Name=NetJ1_Conn7_9
+Added Pin To Net: NetName=NetJ1_Conn7_10 Pin=J1_Conn7-10
+Added Pin To Net: NetName=NetJ1_Conn7_10 Pin=RJ1_Conn7-6
+Added Net: Name=NetJ1_Conn7_10
+Added Pin To Net: NetName=NetJ1_Conn7_11 Pin=J1_Conn7-11
+Added Pin To Net: NetName=NetJ1_Conn7_11 Pin=RJ1_Conn7-7
+Added Net: Name=NetJ1_Conn7_11
+Added Pin To Net: NetName=NetJ1_Conn8_7 Pin=J1_Conn8-7
+Added Pin To Net: NetName=NetJ1_Conn8_7 Pin=RJ1_Conn8-1
+Added Net: Name=NetJ1_Conn8_7
+Added Pin To Net: NetName=NetJ1_Conn8_8 Pin=J1_Conn8-8
+Added Pin To Net: NetName=NetJ1_Conn8_8 Pin=RJ1_Conn8-2
+Added Net: Name=NetJ1_Conn8_8
+Added Pin To Net: NetName=NetJ1_Conn8_9 Pin=J1_Conn8-9
+Added Pin To Net: NetName=NetJ1_Conn8_9 Pin=RJ1_Conn8-3
+Added Net: Name=NetJ1_Conn8_9
+Added Pin To Net: NetName=NetJ1_Conn8_10 Pin=J1_Conn8-10
+Added Pin To Net: NetName=NetJ1_Conn8_10 Pin=RJ1_Conn8-6
+Added Net: Name=NetJ1_Conn8_10
+Added Pin To Net: NetName=NetJ1_Conn8_11 Pin=J1_Conn8-11
+Added Pin To Net: NetName=NetJ1_Conn8_11 Pin=RJ1_Conn8-7
+Added Net: Name=NetJ1_Conn8_11
+Added Member To Class: ClassName=Conn2 Member=Component DB1_Conn2 (DB1) D Connector 9
+Added Member To Class: ClassName=Conn3 Member=Component DB1_Conn3 (DB1) D Connector 9
+Added Member To Class: ClassName=Conn4 Member=Component DB1_Conn4 (DB1) D Connector 9
+Added Member To Class: ClassName=Conn5 Member=Component DB1_Conn5 (DB1) D Connector 9
+Added Member To Class: ClassName=Conn6 Member=Component DB1_Conn6 (DB1) D Connector 9
+Added Member To Class: ClassName=Conn7 Member=Component DB1_Conn7 (DB1) D Connector 9
+Added Member To Class: ClassName=Conn8 Member=Component DB1_Conn8 (DB1) D Connector 9
+Added Member To Class: ClassName=Conn2 Member=Component DB2_Conn2 (DB2) D Connector 9
+Added Member To Class: ClassName=Conn3 Member=Component DB2_Conn3 (DB2) D Connector 9
+Added Member To Class: ClassName=Conn4 Member=Component DB2_Conn4 (DB2) D Connector 9
+Added Member To Class: ClassName=Conn5 Member=Component DB2_Conn5 (DB2) D Connector 9
+Added Member To Class: ClassName=Conn6 Member=Component DB2_Conn6 (DB2) D Connector 9
+Added Member To Class: ClassName=Conn7 Member=Component DB2_Conn7 (DB2) D Connector 9
+Added Member To Class: ClassName=Conn8 Member=Component DB2_Conn8 (DB2) D Connector 9
+Added Member To Class: ClassName=Conn2 Member=Component J1_Conn2 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Conn3 Member=Component J1_Conn3 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Conn4 Member=Component J1_Conn4 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Conn5 Member=Component J1_Conn5 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Conn6 Member=Component J1_Conn6 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Conn7 Member=Component J1_Conn7 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Conn8 Member=Component J1_Conn8 (J1) DIN41612_64WAY
+Added Member To Class: ClassName=Conn2 Member=Component RJ1_Conn2 (RJ1) 85504-5001
+Added Member To Class: ClassName=Conn3 Member=Component RJ1_Conn3 (RJ1) 85504-5001
+Added Member To Class: ClassName=Conn4 Member=Component RJ1_Conn4 (RJ1) 85504-5001
+Added Member To Class: ClassName=Conn5 Member=Component RJ1_Conn5 (RJ1) 85504-5001
+Added Member To Class: ClassName=Conn6 Member=Component RJ1_Conn6 (RJ1) 85504-5001
+Added Member To Class: ClassName=Conn7 Member=Component RJ1_Conn7 (RJ1) 85504-5001
+Added Member To Class: ClassName=Conn8 Member=Component RJ1_Conn8 (RJ1) 85504-5001
+Added Member To Class: ClassName=Conn2 Member=Component RJ2_Conn2 (RJ2) 85504-5001
+Added Member To Class: ClassName=Conn3 Member=Component RJ2_Conn3 (RJ2) 85504-5001
+Added Member To Class: ClassName=Conn4 Member=Component RJ2_Conn4 (RJ2) 85504-5001
+Added Member To Class: ClassName=Conn5 Member=Component RJ2_Conn5 (RJ2) 85504-5001
+Added Member To Class: ClassName=Conn6 Member=Component RJ2_Conn6 (RJ2) 85504-5001
+Added Member To Class: ClassName=Conn7 Member=Component RJ2_Conn7 (RJ2) 85504-5001
+Added Member To Class: ClassName=Conn8 Member=Component RJ2_Conn8 (RJ2) 85504-5001
