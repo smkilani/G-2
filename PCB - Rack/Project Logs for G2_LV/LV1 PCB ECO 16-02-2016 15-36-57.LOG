@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=GND Pin=J1-7
+Removed Pin From Net: NetName=GND Pin=J1-8
+Removed Pin From Net: NetName=RXA Pin=J1-9
+Removed Pin From Net: NetName=TXA Pin=J1-10
+Removed Pin From Net: NetName=GND Pin=J1-11
+Removed Pin From Net: NetName=GND Pin=J1-12
+Removed Pin From Net: NetName=RXB Pin=J1-13
+Removed Pin From Net: NetName=TXB Pin=J1-14
+Removed Pin From Net: NetName=ADRS3 Pin=J1-15
+Removed Pin From Net: NetName=ADRS2 Pin=J1-16
+Removed Pin From Net: NetName=ADRS1 Pin=J1-17
+Removed Pin From Net: NetName=ADRS0 Pin=J1-18
+Removed Pin From Net: NetName=GND Pin=J1-39
+Removed Pin From Net: NetName=GND Pin=J1-40
+Removed Pin From Net: NetName=GND Pin=J1-41
+Removed Pin From Net: NetName=GND Pin=J1-42
+Added Pin To Net: NetName=ADRS3 Pin=J1-7
+Added Pin To Net: NetName=ADRS2 Pin=J1-8
+Added Pin To Net: NetName=ADRS1 Pin=J1-9
+Added Pin To Net: NetName=ADRS0 Pin=J1-10
+Added Pin To Net: NetName=TXB Pin=J1-11
+Added Pin To Net: NetName=RXB Pin=J1-12
+Added Pin To Net: NetName=GND Pin=J1-13
+Added Pin To Net: NetName=+5V Pin=J1-18
+Added Pin To Net: NetName=+5V Pin=J1-43
+Added Pin To Net: NetName=GND Pin=J1-44
+Added Pin To Net: NetName=GND Pin=J1-45
+Added Pin To Net: NetName=GND Pin=J1-46
+Added Pin To Net: NetName=GND Pin=J1-47
+Added Pin To Net: NetName=GND Pin=J1-48
+Added Pin To Net: NetName=RXA Pin=J1-49
+Added Pin To Net: NetName=TXA Pin=J1-50
+Added Pin To Net: NetName=NetJ1_14 Pin=J1-14
+Added Pin To Net: NetName=NetJ1_14 Pin=R1-1
+Added Pin To Net: NetName=NetJ1_14 Pin=U1-7
+Added Net: Name=NetJ1_14
+Added Pin To Net: NetName=NetJ1_15 Pin=J1-15
+Added Pin To Net: NetName=NetJ1_15 Pin=R1-2
+Added Pin To Net: NetName=NetJ1_15 Pin=U1-8
+Added Net: Name=NetJ1_15
+Added Pin To Net: NetName=NetJ1_16 Pin=J1-16
+Added Pin To Net: NetName=NetJ1_16 Pin=U1-5
+Added Net: Name=NetJ1_16
+Added Pin To Net: NetName=NetJ1_17 Pin=J1-17
+Added Pin To Net: NetName=NetJ1_17 Pin=U1-6
+Added Net: Name=NetJ1_17
+Added Pin To Net: NetName=NetJ1_39 Pin=J1-39
+Added Pin To Net: NetName=NetJ1_39 Pin=R2-2
+Added Pin To Net: NetName=NetJ1_39 Pin=U2-7
+Added Net: Name=NetJ1_39
+Added Pin To Net: NetName=NetJ1_40 Pin=J1-40
+Added Pin To Net: NetName=NetJ1_40 Pin=R2-1
+Added Pin To Net: NetName=NetJ1_40 Pin=U2-8
+Added Net: Name=NetJ1_40
+Added Pin To Net: NetName=NetJ1_41 Pin=J1-41
+Added Pin To Net: NetName=NetJ1_41 Pin=U2-5
+Added Net: Name=NetJ1_41
+Added Pin To Net: NetName=NetJ1_42 Pin=J1-42
+Added Pin To Net: NetName=NetJ1_42 Pin=U2-6
+Added Net: Name=NetJ1_42
