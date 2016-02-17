@@ -1,0 +1,67 @@
+Removed Pin From Net: NetName=VIN Pin=Rtrim_down-1
+Removed Pin From Net: NetName=VIN Pin=U1-4
+Added Pin To Net: NetName=GND Pin=Rtrim_down-1
+Added Pin To Net: NetName=VIN Pin=Rtrim_up-2
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=VIN Pin=U1-8
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component AC1 Cap Semi
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C2 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C3 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C4 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C5 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C6 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C7 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C8 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C9 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C10 1u
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C11 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C12 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C13 1u
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C14 22p
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C15 22p
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component D2 CD1206-S01575
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component D4 LEDYELLOW
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component D5 LEDYELLOW
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component D6 LEDYELLOW
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component D7 LEDYELLOW
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component F1 MF-MSMF050-2 500mA
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component GROUND SJ
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component IC1 NCP1117ST50T3G
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component IC3 ATMEGA2560-16AU
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component IC4 ATMEGA16U2-MU
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component IC6 LP2985-33DBVR
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component IC7 LMV358IDGKR
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component ICSP1 3x2M
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component ICSP 5x2 M
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component JP5 2x2M - NM
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component L1 BLM21
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component ON GREEN
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component PC1 47u
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component PC2 47u
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R1 1M
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R2 1M
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R_LED3 Res3
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R_LED4 Res3
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R_LED5 Res3
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R_LED6 Res3
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R_pu5 pullup
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RESET-EN SJ
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RESET PB_RST
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RN1 10K
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RN2 22R
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RN3 1k
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RN4 1k
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RN5 10K
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component Rtrim_down 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component Rtrim_up 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RX YELLOW
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component T1 FDN340P
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component TX YELLOW
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U1 DCDCPowerModule
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U2 OCTAL BUFFER/DRIVER
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U3 OCTAL BUFFER/DRIVER
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U4 single 8-Channel multiplexer
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component Y1 CSTCE16M0V53-R0 16MHZ
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component Y2 16MHz
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component Z1 CG0603MLC-05E
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component Z2 CG0603MLC-05E

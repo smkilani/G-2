@@ -1,0 +1,7 @@
+Added Component: Designator=U1(EHHD006A0B41-HZ)
+Added Pin To Net: NetName=48V Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=VIN Pin=U1-4
+Added Pin To Net: NetName=NetRtrim_down_2 Pin=U1-6
+Added Pin To Net: NetName=NetRtrim_up_2 Pin=U1-8
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U1 DCDCPowerModule

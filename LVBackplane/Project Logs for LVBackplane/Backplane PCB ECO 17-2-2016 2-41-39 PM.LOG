@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=+5V Pin=RSCL1-1
+Removed Pin From Net: NetName=SCLNET Pin=RSCL1-2
+Removed Pin From Net: NetName=+5V Pin=RSDA1-1
+Removed Pin From Net: NetName=SDANET Pin=RSDA1-2
+Removed Member From Class: ClassName=Backplane Member=RSCL1
+Removed Member From Class: ClassName=Backplane Member=RSDA1
+Change Component Comment : Designator=RJ1_Conn1 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn2 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn3 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn4 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn5 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn6 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn7 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn8 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn1 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn2 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn3 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn4 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn5 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn6 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn7 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn8 Old Comment=85504-5001 New Comment=85513-5013

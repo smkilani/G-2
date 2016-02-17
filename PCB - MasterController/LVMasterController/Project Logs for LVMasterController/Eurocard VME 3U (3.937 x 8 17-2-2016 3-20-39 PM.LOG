@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=AREF Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=+5V Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=+5V Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=C6-2
+Change Component DesignItemId : Designator=C3 Old DesignItemId=C-EU0603-RND New DesignItemId=Cap Semi
+Change Component DesignItemId : Designator=C5 Old DesignItemId=C-EU0603-RND New DesignItemId=Cap Semi
+Change Component DesignItemId : Designator=C6 Old DesignItemId=C-EU0603-RND New DesignItemId=Cap Semi
+Change Component Footprint: Designator=C3 Old Footprint=C0603-ROUND New Footprint=1608[0603]
+Change Component Footprint: Designator=C5 Old Footprint=C0603-ROUND New Footprint=1608[0603]
+Change Component Footprint: Designator=C6 Old Footprint=C0603-ROUND New Footprint=1608[0603]
+Change Component Comment : Designator=C3 Old Comment=100n New Comment=Cap Semi
+Change Component Comment : Designator=C5 Old Comment=100n New Comment=Cap Semi
+Change Component Comment : Designator=C6 Old Comment=100n New Comment=Cap Semi
+Added Component: Designator=C4(1608[0603])
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=AREF Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+5V Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=+5V Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=+5V Pin=C6-2
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C4 Cap Semi

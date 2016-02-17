@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=ON-C
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=ON
+Added Component: Designator=LED1(LEDRED)
+Added Pin To Net: NetName=GND Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_2 Pin=R5-2
+Added Net: Name=NetLED1_2
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component LED1 LEDRED

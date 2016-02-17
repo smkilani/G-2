@@ -1,0 +1,10 @@
+Change Component DesignItemId : Designator=C11 Old DesignItemId=C-EU0603-RND New DesignItemId=Cap Semi
+Change Component DesignItemId : Designator=C12 Old DesignItemId=C-EU0603-RND New DesignItemId=Cap Semi
+Change Component Footprint: Designator=C11 Old Footprint=C0603-ROUND New Footprint=1608[0603]
+Change Component Footprint: Designator=C12 Old Footprint=C0603-ROUND New Footprint=1608[0603]
+Change Component Comment : Designator=C11 Old Comment=100n New Comment=Cap Semi
+Change Component Comment : Designator=C12 Old Comment=100n New Comment=Cap Semi
+Added Component: Designator=R1(J1-0603)
+Added Pin To Net: NetName=XTAL1 Pin=R1-1
+Added Pin To Net: NetName=XTAL2 Pin=R1-2
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R1 

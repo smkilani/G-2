@@ -1,0 +1,254 @@
+Removed Pin From Net: NetName=GND Pin=J1-7
+Removed Pin From Net: NetName=GND Pin=J1-8
+Removed Pin From Net: NetName=GND Pin=J1-9
+Removed Pin From Net: NetName=GND Pin=J1-10
+Removed Pin From Net: NetName=GND Pin=J1-12
+Removed Pin From Net: NetName=GND Pin=J1-13
+Removed Pin From Net: NetName=GND Pin=J1-15
+Removed Pin From Net: NetName=GND Pin=J1-16
+Removed Pin From Net: NetName=GND Pin=J1-18
+Removed Pin From Net: NetName=GND Pin=J1-19
+Removed Pin From Net: NetName=GND Pin=J1-21
+Removed Pin From Net: NetName=GND Pin=J1-22
+Removed Pin From Net: NetName=GND Pin=J1-24
+Removed Pin From Net: NetName=GND Pin=J1-25
+Removed Pin From Net: NetName=GND Pin=J1-27
+Removed Pin From Net: NetName=GND Pin=J1-28
+Removed Pin From Net: NetName=GND Pin=J1-30
+Removed Pin From Net: NetName=GND Pin=J1-31
+Removed Pin From Net: NetName=XVCC Pin=J1-39
+Removed Pin From Net: NetName=D- Pin=J1-40
+Removed Pin From Net: NetName=D+ Pin=J1-41
+Removed Pin From Net: NetName=UGND Pin=J1-42
+Removed Pin From Net: NetName=GND Pin=J1-43
+Removed Pin From Net: NetName=GND Pin=J1-45
+Removed Pin From Net: NetName=GND Pin=J1-46
+Removed Pin From Net: NetName=GND Pin=J1-48
+Removed Pin From Net: NetName=GND Pin=J1-49
+Removed Pin From Net: NetName=GND Pin=J1-51
+Removed Pin From Net: NetName=GND Pin=J1-52
+Removed Pin From Net: NetName=GND Pin=J1-54
+Removed Pin From Net: NetName=GND Pin=J1-55
+Removed Pin From Net: NetName=GND Pin=J1-57
+Removed Pin From Net: NetName=GND Pin=J1-58
+Removed Pin From Net: NetName=GND Pin=J1-60
+Removed Pin From Net: NetName=GND Pin=J1-61
+Removed Pin From Net: NetName=GND Pin=J1-62
+Removed Pin From Net: NetName=GND Pin=J1-63
+Added Component: Designator=C16(1608[0603])
+Added Component: Designator=C17(1608[0603])
+Added Component: Designator=C18(1608[0603])
+Added Component: Designator=C19(1608[0603])
+Added Component: Designator=C20(1608[0603])
+Added Component: Designator=C21(1608[0603])
+Added Component: Designator=U5(SOP65P640X120-16N)
+Added Component: Designator=U6(SOP65P640X120-16N)
+Added Component: Designator=U7(SOP65P640X120-16N)
+Added Pin To Net: NetName=+5V Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=+5V Pin=C17-1
+Added Pin To Net: NetName=GND Pin=C17-2
+Added Pin To Net: NetName=+5V Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=+5V Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=+5V Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=+5V Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=XVCC Pin=J1-7
+Added Pin To Net: NetName=D- Pin=J1-8
+Added Pin To Net: NetName=D+ Pin=J1-9
+Added Pin To Net: NetName=UGND Pin=J1-10
+Added Pin To Net: NetName=GND Pin=J1-41
+Added Pin To Net: NetName=GND Pin=U2-10
+Added Pin To Net: NetName=+5V Pin=U2-20
+Added Pin To Net: NetName=GND Pin=U3-10
+Added Pin To Net: NetName=+5V Pin=U3-20
+Added Pin To Net: NetName=GND Pin=U4-7
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=+5V Pin=U4-16
+Added Pin To Net: NetName=GND Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Pin To Net: NetName=+5V Pin=U5-16
+Added Pin To Net: NetName=GND Pin=U6-7
+Added Pin To Net: NetName=GND Pin=U6-8
+Added Pin To Net: NetName=+5V Pin=U6-16
+Added Pin To Net: NetName=GND Pin=U7-7
+Added Pin To Net: NetName=GND Pin=U7-8
+Added Pin To Net: NetName=+5V Pin=U7-16
+Added Pin To Net: NetName=BRD_CST_EN Pin=IC3-6
+Added Pin To Net: NetName=BRD_CST_EN Pin=U2-1
+Added Pin To Net: NetName=BRD_CST_EN Pin=U2-19
+Added Pin To Net: NetName=BRD_CST_EN Pin=U3-1
+Added Pin To Net: NetName=BRD_CST_EN Pin=U3-19
+Added Net: Name=BRD_CST_EN
+Added Pin To Net: NetName=MUX_ADRS0 Pin=IC3-15
+Added Pin To Net: NetName=MUX_ADRS0 Pin=U4-11
+Added Pin To Net: NetName=MUX_ADRS0 Pin=U5-11
+Added Pin To Net: NetName=MUX_ADRS0 Pin=U6-11
+Added Pin To Net: NetName=MUX_ADRS0 Pin=U7-11
+Added Net: Name=MUX_ADRS0
+Added Pin To Net: NetName=MUX_ADRS1 Pin=IC3-16
+Added Pin To Net: NetName=MUX_ADRS1 Pin=U4-10
+Added Pin To Net: NetName=MUX_ADRS1 Pin=U5-10
+Added Pin To Net: NetName=MUX_ADRS1 Pin=U6-10
+Added Pin To Net: NetName=MUX_ADRS1 Pin=U7-10
+Added Net: Name=MUX_ADRS1
+Added Pin To Net: NetName=MUX_ADRS2 Pin=IC3-17
+Added Pin To Net: NetName=MUX_ADRS2 Pin=U4-9
+Added Pin To Net: NetName=MUX_ADRS2 Pin=U5-9
+Added Pin To Net: NetName=MUX_ADRS2 Pin=U6-9
+Added Pin To Net: NetName=MUX_ADRS2 Pin=U7-9
+Added Net: Name=MUX_ADRS2
+Added Pin To Net: NetName=MUX_EN Pin=IC3-7
+Added Pin To Net: NetName=MUX_EN Pin=U4-6
+Added Pin To Net: NetName=MUX_EN Pin=U5-6
+Added Pin To Net: NetName=MUX_EN Pin=U6-6
+Added Pin To Net: NetName=MUX_EN Pin=U7-6
+Added Net: Name=MUX_EN
+Added Pin To Net: NetName=RX1 Pin=IC3-45
+Added Pin To Net: NetName=RX1 Pin=U6-3
+Added Pin To Net: NetName=RX1 Pin=U7-3
+Added Net: Name=RX1
+Added Pin To Net: NetName=RXA1 Pin=J1-62
+Added Pin To Net: NetName=RXA1 Pin=U6-1
+Added Net: Name=RXA1
+Added Pin To Net: NetName=RXA2 Pin=J1-60
+Added Pin To Net: NetName=RXA2 Pin=U6-2
+Added Net: Name=RXA2
+Added Pin To Net: NetName=RXA3 Pin=J1-57
+Added Pin To Net: NetName=RXA3 Pin=U6-12
+Added Net: Name=RXA3
+Added Pin To Net: NetName=RXA4 Pin=J1-54
+Added Pin To Net: NetName=RXA4 Pin=U6-13
+Added Net: Name=RXA4
+Added Pin To Net: NetName=RXA5 Pin=J1-51
+Added Pin To Net: NetName=RXA5 Pin=U6-14
+Added Net: Name=RXA5
+Added Pin To Net: NetName=RXA6 Pin=J1-48
+Added Pin To Net: NetName=RXA6 Pin=U6-15
+Added Net: Name=RXA6
+Added Pin To Net: NetName=RXA7 Pin=J1-45
+Added Pin To Net: NetName=RXA7 Pin=U6-4
+Added Net: Name=RXA7
+Added Pin To Net: NetName=RXA8 Pin=J1-42
+Added Pin To Net: NetName=RXA8 Pin=U6-5
+Added Net: Name=RXA8
+Added Pin To Net: NetName=RXB1 Pin=J1-30
+Added Pin To Net: NetName=RXB1 Pin=U7-1
+Added Net: Name=RXB1
+Added Pin To Net: NetName=RXB2 Pin=J1-27
+Added Pin To Net: NetName=RXB2 Pin=U7-2
+Added Net: Name=RXB2
+Added Pin To Net: NetName=RXB3 Pin=J1-24
+Added Pin To Net: NetName=RXB3 Pin=U7-12
+Added Net: Name=RXB3
+Added Pin To Net: NetName=RXB4 Pin=J1-21
+Added Pin To Net: NetName=RXB4 Pin=U7-13
+Added Net: Name=RXB4
+Added Pin To Net: NetName=RXB5 Pin=J1-18
+Added Pin To Net: NetName=RXB5 Pin=U7-14
+Added Net: Name=RXB5
+Added Pin To Net: NetName=RXB6 Pin=J1-15
+Added Pin To Net: NetName=RXB6 Pin=U7-15
+Added Net: Name=RXB6
+Added Pin To Net: NetName=RXB7 Pin=J1-12
+Added Pin To Net: NetName=RXB7 Pin=U7-4
+Added Net: Name=RXB7
+Added Pin To Net: NetName=RXB8 Pin=J1-39
+Added Pin To Net: NetName=RXB8 Pin=U7-5
+Added Net: Name=RXB8
+Added Pin To Net: NetName=TX1 Pin=IC3-46
+Added Pin To Net: NetName=TX1 Pin=U2-2
+Added Pin To Net: NetName=TX1 Pin=U2-4
+Added Pin To Net: NetName=TX1 Pin=U2-6
+Added Pin To Net: NetName=TX1 Pin=U2-8
+Added Pin To Net: NetName=TX1 Pin=U2-11
+Added Pin To Net: NetName=TX1 Pin=U2-13
+Added Pin To Net: NetName=TX1 Pin=U2-15
+Added Pin To Net: NetName=TX1 Pin=U2-17
+Added Pin To Net: NetName=TX1 Pin=U3-2
+Added Pin To Net: NetName=TX1 Pin=U3-4
+Added Pin To Net: NetName=TX1 Pin=U3-6
+Added Pin To Net: NetName=TX1 Pin=U3-8
+Added Pin To Net: NetName=TX1 Pin=U3-11
+Added Pin To Net: NetName=TX1 Pin=U3-13
+Added Pin To Net: NetName=TX1 Pin=U3-15
+Added Pin To Net: NetName=TX1 Pin=U3-17
+Added Pin To Net: NetName=TX1 Pin=U4-3
+Added Pin To Net: NetName=TX1 Pin=U5-3
+Added Net: Name=TX1
+Added Pin To Net: NetName=TXA1 Pin=J1-63
+Added Pin To Net: NetName=TXA1 Pin=U2-18
+Added Pin To Net: NetName=TXA1 Pin=U4-1
+Added Net: Name=TXA1
+Added Pin To Net: NetName=TXA2 Pin=J1-61
+Added Pin To Net: NetName=TXA2 Pin=U2-16
+Added Pin To Net: NetName=TXA2 Pin=U4-2
+Added Net: Name=TXA2
+Added Pin To Net: NetName=TXA3 Pin=J1-58
+Added Pin To Net: NetName=TXA3 Pin=U2-14
+Added Pin To Net: NetName=TXA3 Pin=U4-12
+Added Net: Name=TXA3
+Added Pin To Net: NetName=TXA4 Pin=J1-55
+Added Pin To Net: NetName=TXA4 Pin=U2-12
+Added Pin To Net: NetName=TXA4 Pin=U4-13
+Added Net: Name=TXA4
+Added Pin To Net: NetName=TXA5 Pin=J1-52
+Added Pin To Net: NetName=TXA5 Pin=U2-9
+Added Pin To Net: NetName=TXA5 Pin=U4-14
+Added Net: Name=TXA5
+Added Pin To Net: NetName=TXA6 Pin=J1-49
+Added Pin To Net: NetName=TXA6 Pin=U2-7
+Added Pin To Net: NetName=TXA6 Pin=U4-15
+Added Net: Name=TXA6
+Added Pin To Net: NetName=TXA7 Pin=J1-46
+Added Pin To Net: NetName=TXA7 Pin=U2-5
+Added Pin To Net: NetName=TXA7 Pin=U4-4
+Added Net: Name=TXA7
+Added Pin To Net: NetName=TXA8 Pin=J1-43
+Added Pin To Net: NetName=TXA8 Pin=U2-3
+Added Pin To Net: NetName=TXA8 Pin=U4-5
+Added Net: Name=TXA8
+Added Pin To Net: NetName=TXB1 Pin=J1-31
+Added Pin To Net: NetName=TXB1 Pin=U3-18
+Added Pin To Net: NetName=TXB1 Pin=U5-1
+Added Net: Name=TXB1
+Added Pin To Net: NetName=TXB2 Pin=J1-28
+Added Pin To Net: NetName=TXB2 Pin=U3-16
+Added Pin To Net: NetName=TXB2 Pin=U5-2
+Added Net: Name=TXB2
+Added Pin To Net: NetName=TXB3 Pin=J1-25
+Added Pin To Net: NetName=TXB3 Pin=U3-14
+Added Pin To Net: NetName=TXB3 Pin=U5-12
+Added Net: Name=TXB3
+Added Pin To Net: NetName=TXB4 Pin=J1-22
+Added Pin To Net: NetName=TXB4 Pin=U3-12
+Added Pin To Net: NetName=TXB4 Pin=U5-13
+Added Net: Name=TXB4
+Added Pin To Net: NetName=TXB5 Pin=J1-19
+Added Pin To Net: NetName=TXB5 Pin=U3-9
+Added Pin To Net: NetName=TXB5 Pin=U5-14
+Added Net: Name=TXB5
+Added Pin To Net: NetName=TXB6 Pin=J1-16
+Added Pin To Net: NetName=TXB6 Pin=U3-7
+Added Pin To Net: NetName=TXB6 Pin=U5-15
+Added Net: Name=TXB6
+Added Pin To Net: NetName=TXB7 Pin=J1-13
+Added Pin To Net: NetName=TXB7 Pin=U3-5
+Added Pin To Net: NetName=TXB7 Pin=U5-4
+Added Net: Name=TXB7
+Added Pin To Net: NetName=TXB8 Pin=J1-40
+Added Pin To Net: NetName=TXB8 Pin=U3-3
+Added Pin To Net: NetName=TXB8 Pin=U5-5
+Added Net: Name=TXB8
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C16 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C17 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C18 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C19 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C20 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C21 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U5 single 8-Channel multiplexer
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U6 single 8-Channel multiplexer
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U7 single 8-Channel multiplexer
