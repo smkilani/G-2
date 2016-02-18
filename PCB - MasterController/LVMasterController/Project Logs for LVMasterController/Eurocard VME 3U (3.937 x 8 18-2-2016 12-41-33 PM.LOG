@@ -1,0 +1,11 @@
+Change Physical Footprint: Designator=IC1 Old Footprint=SOT223 New Footprint=SOT223
+Change Physical Footprint: Designator=ICSP1 Old Footprint=2X03 New Footprint=2X03
+Change Physical Footprint: Designator=RX Old Footprint=CHIP-LED0805 New Footprint=CHIP-LED0805
+Change Physical Footprint: Designator=T1 Old Footprint=SOT-23 New Footprint=SOT-23
+Change Physical Footprint: Designator=TX Old Footprint=CHIP-LED0805 New Footprint=CHIP-LED0805
+Change Physical Footprint: Designator=U1 Old Footprint=EHHD006A0B41-HZ New Footprint=EHHD006A0B41-HZ
+Change Physical Footprint: Designator=U4 Old Footprint=SOP65P640X120-16N New Footprint=SOP65P640X120-16N
+Change Physical Footprint: Designator=U5 Old Footprint=SOP65P640X120-16N New Footprint=SOP65P640X120-16N
+Change Physical Footprint: Designator=U6 Old Footprint=SOP65P640X120-16N New Footprint=SOP65P640X120-16N
+Change Physical Footprint: Designator=U7 Old Footprint=SOP65P640X120-16N New Footprint=SOP65P640X120-16N
+Change Physical Footprint: Designator=Y1 Old Footprint=RESONATOR New Footprint=RESONATOR

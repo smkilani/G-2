@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BRD_CST_EN Pin=IC3-6
+Removed Pin From Net: NetName=MUX_EN Pin=IC3-7
+Added Pin To Net: NetName=BRD_CST_EN Pin=IC3-41
+Added Pin To Net: NetName=MUX_EN Pin=IC3-42

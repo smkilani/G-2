@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=LED1 Pin=D5-2
+Removed Pin From Net: NetName=LED2 Pin=D6-2
+Removed Pin From Net: NetName=GND Pin=Q2_LV2-2
+Removed Pin From Net: NetName=NetLT2_LV2_1 Pin=Q2_LV2-3
+Removed Pin From Net: NetName=GND Pin=Q2_LV4-2
+Removed Pin From Net: NetName=NetLT2_LV4_1 Pin=Q2_LV4-3
+Removed Pin From Net: NetName=GND Pin=Q3_LV1-2
+Removed Pin From Net: NetName=NetQ3_LV1_3 Pin=Q3_LV1-3
+Removed Pin From Net: NetName=GND Pin=Q3_LV3-2
+Removed Pin From Net: NetName=NetQ3_LV3_3 Pin=Q3_LV3-3
+Removed Pin From Net: NetName=GND Pin=R_LED5-2
+Removed Pin From Net: NetName=GND Pin=R_LED6-2
+Change Component DesignItemId : Designator=Q2_LV2 Old DesignItemId=BSS131 New DesignItemId=SSN1N45B
+Change Component DesignItemId : Designator=Q2_LV4 Old DesignItemId=BSS131 New DesignItemId=SSN1N45B
+Change Component DesignItemId : Designator=Q3_LV1 Old DesignItemId=BSS131 New DesignItemId=SSN1N45B
+Change Component DesignItemId : Designator=Q3_LV3 Old DesignItemId=BSS131 New DesignItemId=SSN1N45B
+Change Component Footprint: Designator=Q2_LV2 Old Footprint=SOT-23_2 New Footprint=TO-92
+Change Component Footprint: Designator=Q2_LV4 Old Footprint=SOT-23_2 New Footprint=TO-92
+Change Component Footprint: Designator=Q3_LV1 Old Footprint=SOT-23_2 New Footprint=TO-92
+Change Component Footprint: Designator=Q3_LV3 Old Footprint=SOT-23_2 New Footprint=TO-92
+Change Component Comment : Designator=Q2_LV2 Old Comment=BSS131 New Comment=SSN1N45B
+Change Component Comment : Designator=Q2_LV4 Old Comment=BSS131 New Comment=SSN1N45B
+Change Component Comment : Designator=Q3_LV1 Old Comment=BSS131 New Comment=SSN1N45B
+Change Component Comment : Designator=Q3_LV3 Old Comment=BSS131 New Comment=SSN1N45B
+Added Pin To Net: NetName=LED1 Pin=D5-1
+Added Pin To Net: NetName=LED2 Pin=D6-1
+Added Pin To Net: NetName=NetLT2_LV2_1 Pin=Q2_LV2-2
+Added Pin To Net: NetName=GND Pin=Q2_LV2-3
+Added Pin To Net: NetName=NetLT2_LV4_1 Pin=Q2_LV4-2
+Added Pin To Net: NetName=GND Pin=Q2_LV4-3
+Added Pin To Net: NetName=NetQ3_LV1_3 Pin=Q3_LV1-2
+Added Pin To Net: NetName=GND Pin=Q3_LV1-3
+Added Pin To Net: NetName=NetQ3_LV3_3 Pin=Q3_LV3-2
+Added Pin To Net: NetName=GND Pin=Q3_LV3-3
+Added Pin To Net: NetName=+5V Pin=R_LED5-2
+Added Pin To Net: NetName=+5V Pin=R_LED6-2
+Change Net Name : Old Net Name=NetQ3_LV1_3 New Net Name=NetQ3_LV1_2
+Change Net Name : Old Net Name=NetQ3_LV3_3 New Net Name=NetQ3_LV3_2
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=R_LED5-1
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=R_LED6-1
+Added Net: Name=NetD6_2

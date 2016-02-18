@@ -39,6 +39,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\PCB - Rack\6C-2L-1550um.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FQTLOTRO
+
+[Document2]
 DocumentPath=Eurocard VME 3U (3.937 x 8.660 inches).schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -55,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PXTMYPBE
 
-[Document2]
+[Document3]
 DocumentPath=Eurocard VME 3U (3.937 x 8.660 inches).PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWRPCPJV
 
-[Document3]
+[Document4]
 DocumentPath=..\..\Libraries\Atmel Microcontroller megaAVR.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=..\..\Libraries\G2_LV.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,9 +121,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ISMWONNT
 
-[Document5]
+[Document6]
 DocumentPath=..\..\Libraries\LV1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,7 +138,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=YYTTTHLK
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for LVMasterController\Design Rule Check - Eurocard VME 3U (3.937 x 8.html

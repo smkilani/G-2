@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MUX_ADRS0 Pin=IC3-15
+Removed Pin From Net: NetName=MUX_ADRS1 Pin=IC3-16
+Removed Pin From Net: NetName=MUX_ADRS2 Pin=IC3-17
+Added Pin To Net: NetName=MUX_ADRS0 Pin=IC3-35
+Added Pin To Net: NetName=MUX_ADRS1 Pin=IC3-36
+Added Pin To Net: NetName=MUX_ADRS2 Pin=IC3-37
