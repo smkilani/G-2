@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=VIN Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Change Component DesignItemId : Designator=C2 Old DesignItemId=C-EU0603-RND New DesignItemId=Cap Semi
+Change Component Description : Designator=C2 Old Description=CAPACITOR, European symbol New Description=Capacitor (Semiconductor SIM Model)
+Change Component Library : Designator=C2 Old Library=SmartPrj.IntLib New Library=Miscellaneous Devices.IntLib
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=VIN Pin=C2-2

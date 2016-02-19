@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=IC1-1
+Removed Pin From Net: NetName=+5V Pin=IC1-2
+Removed Pin From Net: NetName=VIN Pin=IC1-3
+Removed Pin From Net: NetName=+5V Pin=IC1-4
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=IC1
+Added Component: Designator=LDO1(SOT223)
+Added Pin To Net: NetName=GND Pin=LDO1-1
+Added Pin To Net: NetName=+5V Pin=LDO1-2
+Added Pin To Net: NetName=VIN Pin=LDO1-3
+Added Pin To Net: NetName=+5V Pin=LDO1-4
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component LDO1 LDO_5V

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=R_pu1-1
+Removed Pin From Net: NetName=GND Pin=R_pu2-1
+Change Component Comment : Designator=R_pu1 Old Comment=pulldown New Comment=pullup
+Change Component Comment : Designator=R_pu2 Old Comment=pulldown New Comment=pullup
+Added Pin To Net: NetName=48V Pin=R_pu1-1
+Added Pin To Net: NetName=48V Pin=R_pu2-1

@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=C2 Old Footprint=C0603-ROUND New Footprint=1608[0603]
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C2 100n

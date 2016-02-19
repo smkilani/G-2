@@ -1,32 +1,38 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\smkilani\Documents\GitHub\G-2\PCB - Rack\LV1.PCBDOC
-Date     : 1/12/2015
-Time     : 2:57:00 PM
+Date     : 19/2/2016
+Time     : 11:23:19 AM
 
-Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7.874mil) (InNamedPolygon('GNDbottom')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7.874mil) (InNamedPolygon('GNDtop')),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=78.74mil) (Preferred=39.37mil) (InNet('ISENSE_2') OR InNet('ISENSE_1') OR InNet('NEGISENSE_2') OR InNet('NEGISENSE_1') OR InNet('L_OUT+') OR InNet('L_OUT-') OR InNet('NEGL_OUT+') OR InNet('NEGL_OUT-') OR InNet('SW'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=78.74mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InNet('GND'))
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net 48V Between Pad R_pu1-1(4229mil,3601.472mil) on Bottom Layer And Pad Rsense1_LV1-1(4399.449mil,3826.614mil) on Component Side 
+   Violation between Un-Routed Net Constraint: Net EN2 Between Track (3644.236mil,3450mil)(3742mil,3352.236mil) on Bottom Layer And Pad R_pu1-2(4229mil,3660.526mil) on Bottom Layer 
+Rule Violations :2
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=1mm) (InNet('ISENSE_2') OR InNet('ISENSE_1') OR InNet('NEGISENSE_2') OR InNet('NEGISENSE_1') OR InNet('L_OUT+') OR InNet('L_OUT-') OR InNet('NEGL_OUT+') OR InNet('NEGL_OUT-') OR InNet('SW'))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GNDtop')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GNDbottom')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
-Rule Violations :0
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Track (1983.149mil,3155.193mil)(1983.15mil,3155.194mil) on Bottom Layer And Pad U3-46(1983.15mil,3155.194mil) on Bottom Layer Location : [X = 1983.15mil][Y = 3155.193mil]
+Rule Violations :1
 
 
-Violations Detected : 0
+Violations Detected : 3
 Time Elapsed        : 00:00:01

@@ -1,53 +1,23 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\smkilani\Documents\GitHub\G-2\PCB - MasterController\LVMasterController\Eurocard VME 3U (3.937 x 8.660 inches).PCBDOC
-Date     : 17/2/2016
-Time     : 4:53:00 PM
+Date     : 19/2/2016
+Time     : 4:23:54 PM
 
 Processing Rule : Width Constraint (Min=3.937mil) (Max=51.181mil) (Preferred=10mil) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net TXB8 Between Pad U3-3(10561mil,7741mil) on Component Side And Pad J1-40(12240mil,8722mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB8 Between Pad U5-5(7458mil,4178mil) on Component Side And Pad U3-3(10561mil,7741mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXB7 Between Pad U3-5(10561mil,7690mil) on Component Side And Pad J1-13(12440mil,8222mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB7 Between Pad U5-4(7458mil,4204mil) on Component Side And Pad U3-5(10561mil,7690mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXB6 Between Pad U3-7(10561mil,7639mil) on Component Side And Pad J1-16(12440mil,7922mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB6 Between Pad U5-15(7688mil,4255mil) on Component Side And Pad U3-7(10561mil,7639mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXB5 Between Pad U3-9(10561mil,7587mil) on Component Side And Pad J1-19(12440mil,7622mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB5 Between Pad U5-14(7688mil,4229mil) on Component Side And Pad U3-9(10561mil,7587mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXB4 Between Pad U3-12(10791mil,7587mil) on Component Side And Pad J1-22(12440mil,7322mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB4 Between Pad U5-13(7688mil,4204mil) on Component Side And Pad U3-12(10791mil,7587mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXB3 Between Pad U3-14(10791mil,7639mil) on Component Side And Pad J1-25(12440mil,7022mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB3 Between Pad U5-12(7688mil,4178mil) on Component Side And Pad U3-14(10791mil,7639mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXB2 Between Pad U3-16(10791mil,7690mil) on Component Side And Pad J1-28(12440mil,6722mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB2 Between Pad U5-2(7458mil,4255mil) on Component Side And Pad U3-16(10791mil,7690mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXB1 Between Pad U3-18(10791mil,7741mil) on Component Side And Pad J1-31(12440mil,6422mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXB1 Between Pad U5-1(7458mil,4281mil) on Component Side And Pad U3-18(10791mil,7741mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXA8 Between Pad U4-5(10545mil,7204mil) on Component Side And Pad U2-3(10553mil,8178mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXA8 Between Pad U2-3(10553mil,8178mil) on Component Side And Pad J1-43(12240mil,8422mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXA7 Between Pad U4-4(10545mil,7230mil) on Component Side And Pad U2-5(10553mil,8127mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXA7 Between Pad U2-5(10553mil,8127mil) on Component Side And Pad J1-46(12240mil,8122mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXA6 Between Pad U2-7(10553mil,8076mil) on Component Side And Pad U4-15(10775mil,7281mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXA6 Between Pad U2-7(10553mil,8076mil) on Component Side And Pad J1-49(12240mil,7822mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXA5 Between Pad U2-9(10553mil,8024mil) on Component Side And Pad U4-14(10775mil,7255mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXA5 Between Pad U4-14(10775mil,7255mil) on Component Side And Pad J1-52(12240mil,7522mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXA4 Between Pad U4-13(10775mil,7230mil) on Component Side And Pad U2-12(10783mil,8024mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXA4 Between Pad U4-13(10775mil,7230mil) on Component Side And Pad J1-55(12240mil,7222mil) on MultiLayer 
-   Violation between Un-Routed Net Constraint: Net TXA3 Between Pad U4-12(10775mil,7204mil) on Component Side And Pad U2-14(10783mil,8076mil) on Component Side 
-   Violation between Un-Routed Net Constraint: Net TXA3 Between Pad U4-12(10775mil,7204mil) on Component Side And Pad J1-58(12240mil,6922mil) on MultiLayer 
-Rule Violations :28
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Track (7030.97mil,8964.8mil)(7030.97mil,8975.99mil) on Component Side And Pad R3-2(7041.472mil,8999mil) on Component Side Location : [X = 7030.97mil][Y = 8981.695mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=5.905mil) (All),(All)
-   Violation between Clearance Constraint: (Collision < 5.905mil) Between Track (7030.97mil,8964.8mil)(7030.97mil,8975.99mil) on Component Side And Pad R3-2(7041.472mil,8999mil) on Component Side 
-Rule Violations :1
+Rule Violations :0
 
 
-Violations Detected : 30
-Time Elapsed        : 00:00:00
+Violations Detected : 0
+Time Elapsed        : 00:00:01

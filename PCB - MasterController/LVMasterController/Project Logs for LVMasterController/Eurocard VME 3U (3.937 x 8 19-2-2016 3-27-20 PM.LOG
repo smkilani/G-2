@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VIN Pin=C2-2
+Removed Pin From Net: NetName=VIN Pin=IC1-3
+Removed Pin From Net: NetName=VIN Pin=PC1-+
+Removed Pin From Net: NetName=VIN Pin=R3-1
+Added Component: Designator=DTVS(DO-214AA)
+Added Component: Designator=F3(MF-MSMF1)
+Added Pin To Net: NetName=GND Pin=DTVS-2
+Change Net Name : Old Net Name=VIN New Net Name=12V
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=F3-2
+Added Pin To Net: NetName=NetC2_2 Pin=IC1-3
+Added Pin To Net: NetName=NetC2_2 Pin=PC1-+
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=VIN Pin=F3-1
+Added Pin To Net: NetName=VIN Pin=R3-1
+Added Net: Name=VIN
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component DTVS SMBJ10CA
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component F3 MINISMDC050F-2
