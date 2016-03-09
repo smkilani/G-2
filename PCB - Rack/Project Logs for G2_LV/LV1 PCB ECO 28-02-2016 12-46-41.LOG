@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetLT2_LV2_1 Pin=Q2_LV2-2
+Removed Pin From Net: NetName=GND Pin=Q2_LV2-3
+Removed Pin From Net: NetName=NetLT2_LV4_1 Pin=Q2_LV4-2
+Removed Pin From Net: NetName=GND Pin=Q2_LV4-3
+Removed Pin From Net: NetName=NetQ3_LV1_2 Pin=Q3_LV1-2
+Removed Pin From Net: NetName=GND Pin=Q3_LV1-3
+Removed Pin From Net: NetName=NetQ3_LV3_2 Pin=Q3_LV3-2
+Removed Pin From Net: NetName=GND Pin=Q3_LV3-3
+Change Component DesignItemId : Designator=Q2_LV2 Old DesignItemId=SSN1N45B New DesignItemId=BSS131
+Change Component DesignItemId : Designator=Q2_LV4 Old DesignItemId=SSN1N45B New DesignItemId=BSS131
+Change Component DesignItemId : Designator=Q3_LV1 Old DesignItemId=SSN1N45B New DesignItemId=BSS131
+Change Component DesignItemId : Designator=Q3_LV3 Old DesignItemId=SSN1N45B New DesignItemId=BSS131
+Change Component Footprint: Designator=Q2_LV2 Old Footprint=TO-92 New Footprint=SOT-23_2
+Change Component Footprint: Designator=Q2_LV4 Old Footprint=TO-92 New Footprint=SOT-23_2
+Change Component Footprint: Designator=Q3_LV1 Old Footprint=TO-92 New Footprint=SOT-23_2
+Change Component Footprint: Designator=Q3_LV3 Old Footprint=TO-92 New Footprint=SOT-23_2
+Change Component Comment : Designator=Q2_LV2 Old Comment=SSN1N45B New Comment=BSS131
+Change Component Comment : Designator=Q2_LV4 Old Comment=SSN1N45B New Comment=BSS131
+Change Component Comment : Designator=Q3_LV1 Old Comment=SSN1N45B New Comment=BSS131
+Change Component Comment : Designator=Q3_LV3 Old Comment=SSN1N45B New Comment=BSS131
+Added Pin To Net: NetName=GND Pin=Q2_LV2-2
+Added Pin To Net: NetName=NetLT2_LV2_1 Pin=Q2_LV2-3
+Added Pin To Net: NetName=GND Pin=Q2_LV4-2
+Added Pin To Net: NetName=NetLT2_LV4_1 Pin=Q2_LV4-3
+Added Pin To Net: NetName=GND Pin=Q3_LV1-2
+Added Pin To Net: NetName=NetQ3_LV1_2 Pin=Q3_LV1-3
+Added Pin To Net: NetName=GND Pin=Q3_LV3-2
+Added Pin To Net: NetName=NetQ3_LV3_2 Pin=Q3_LV3-3
+Change Net Name : Old Net Name=NetQ3_LV1_2 New Net Name=NetQ3_LV1_3
+Change Net Name : Old Net Name=NetQ3_LV3_2 New Net Name=NetQ3_LV3_3

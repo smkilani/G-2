@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=D+ Pin=U1-7
+Removed Pin From Net: NetName=GND Pin=U1-9
+Removed Pin From Net: NetName=RX0 Pin=U1-11
+Removed Pin From Net: NetName=TX0 Pin=U1-12
+Removed Pin From Net: NetName=XVCC Pin=U1-13
+Removed Pin From Net: NetName=GND Pin=U1-17
+Removed Pin From Net: NetName=DTR Pin=U1-21
+Removed Pin From Net: NetName=GND Pin=U1-22
+Removed Pin From Net: NetName=PE0 Pin=U1-24
+Removed Pin From Net: NetName=PE1 Pin=U1-25
+Removed Pin From Net: NetName=+5V Pin=U1-26
+Removed Pin From Net: NetName=GND Pin=U1-29
+Removed Pin From Net: NetName=GND Pin=U1-31
+Change Component DesignItemId : Designator=U1 Old DesignItemId=FT232BL New DesignItemId=DCDCPowerModule
+Change Component Footprint: Designator=U1 Old Footprint=LQFP-32_N New Footprint=EHHD006A0B41-HZ
+Change Component Comment : Designator=U1 Old Comment=FT232BL New Comment=DCDCPowerModule
+Change Component Designator: OldDesignator=U1 NewDesignator=P1
+Added Component: Designator=U1(LQFP-32_N)
+Added Pin To Net: NetName=+5V Pin=U1-3
+Added Pin To Net: NetName=NetC6_1 Pin=U1-6
+Added Pin To Net: NetName=D+ Pin=U1-7
+Added Pin To Net: NetName=D- Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Pin To Net: NetName=RX0 Pin=U1-11
+Added Pin To Net: NetName=TX0 Pin=U1-12
+Added Pin To Net: NetName=XVCC Pin=U1-13
+Added Pin To Net: NetName=GND Pin=U1-17
+Added Pin To Net: NetName=DTR Pin=U1-21
+Added Pin To Net: NetName=GND Pin=U1-22
+Added Pin To Net: NetName=PE0 Pin=U1-24
+Added Pin To Net: NetName=PE1 Pin=U1-25
+Added Pin To Net: NetName=+5V Pin=U1-26
+Added Pin To Net: NetName=GND Pin=U1-29
+Added Pin To Net: NetName=GND Pin=U1-31
+Change Net Name : Old Net Name=NetRtrim_down1_2 New Net Name=NetP1_6
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U1 FT232BL

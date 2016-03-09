@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VINA Pin=SSR1-4
+Removed Pin From Net: NetName=VINB Pin=SSR2-4
+Added Pin To Net: NetName=48V Pin=SSR1-4
+Added Pin To Net: NetName=48V Pin=SSR2-4

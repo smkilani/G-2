@@ -1,12 +1,22 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [LVBackplane.PrjPcb]
-   Generated File[Backplane.TXT]
-   Generated File[Backplane.LDP]
-   Generated File[Backplane.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LVBackplane.PrjPcb]
+   Generated File[Backplane.GTL]
+   Generated File[Backplane.G1]
+   Generated File[Backplane.G2]
+   Generated File[Backplane.GBL]
+   Generated File[Backplane.GTO]
+   Generated File[Backplane.GTS]
+   Generated File[Backplane.GBS]
+   Generated File[Backplane.GBP]
+   Generated File[Backplane.GBO]
+   Generated File[Backplane.GM1]
+   Generated File[Backplane.RUL]
+   Generated File[Backplane.EXTREP]
+   Generated File[Backplane.REP]
 
 
-Files Generated   : 3
+Files Generated   : 13
 Documents Printed : 0
 
-Finished Output Generation At 11:37:53 AM On 24/11/2015
+Finished Output Generation At 20:29:25 On 02/03/2016

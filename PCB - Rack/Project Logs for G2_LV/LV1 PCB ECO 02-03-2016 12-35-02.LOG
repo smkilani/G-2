@@ -1,0 +1,434 @@
+Removed Pin From Net: NetName=GND Pin=C32_LV1-1
+Removed Pin From Net: NetName=NetC29_LV1_2 Pin=C32_LV1-2
+Removed Pin From Net: NetName=GND Pin=C32_LV3-1
+Removed Pin From Net: NetName=NetC29_LV3_2 Pin=C32_LV3-2
+Removed Pin From Net: NetName=GND Pin=C33_LV1-1
+Removed Pin From Net: NetName=NetC29_LV1_2 Pin=C33_LV1-2
+Removed Pin From Net: NetName=GND Pin=C33_LV3-1
+Removed Pin From Net: NetName=NetC29_LV3_2 Pin=C33_LV3-2
+Removed Member From Class: ClassName=LV1 Member=C17
+Removed Member From Class: ClassName=LV1 Member=C20
+Removed Member From Class: ClassName=LV3 Member=C33
+Removed Member From Class: ClassName=LV4 Member=U1
+Change Component Comment : Designator=R_pu1 Old Comment=pullup New Comment=
+Change Component Comment : Designator=R_pu2 Old Comment=pullup New Comment=
+Change Component Designator: OldDesignator=AC1 NewDesignator=AC3
+Change Component Designator: OldDesignator=AC2 NewDesignator=AC1
+Change Component Designator: OldDesignator=AC3 NewDesignator=AC6
+Change Component Designator: OldDesignator=AC6 NewDesignator=AC2
+Change Component Designator: OldDesignator=AR2 NewDesignator=AR1
+Change Component Designator: OldDesignator=C1 NewDesignator=C40
+Change Component Designator: OldDesignator=C2 NewDesignator=C25
+Change Component Designator: OldDesignator=C3 NewDesignator=C26
+Change Component Designator: OldDesignator=C3_a_LV1 NewDesignator=C19_B
+Change Component Designator: OldDesignator=C3_a_LV3 NewDesignator=C19_C
+Change Component Designator: OldDesignator=C3_b_LV1 NewDesignator=C20_B
+Change Component Designator: OldDesignator=C3_b_LV3 NewDesignator=C20_C
+Change Component Designator: OldDesignator=C4 NewDesignator=C30
+Change Component Designator: OldDesignator=C5 NewDesignator=C29
+Change Component Designator: OldDesignator=C6 NewDesignator=C28
+Change Component Designator: OldDesignator=C7 NewDesignator=C27
+Change Component Designator: OldDesignator=C8 NewDesignator=C44
+Change Component Designator: OldDesignator=C8_LV2 NewDesignator=C3_D
+Change Component Designator: OldDesignator=C8_LV4 NewDesignator=C3_A
+Change Component Designator: OldDesignator=C9 NewDesignator=C43
+Change Component Designator: OldDesignator=C9_LV2 NewDesignator=C9_D
+Change Component Designator: OldDesignator=C9_LV4 NewDesignator=C9_A
+Change Component Designator: OldDesignator=C10 NewDesignator=C42
+Change Component Designator: OldDesignator=C10_LV2 NewDesignator=C10_D
+Change Component Designator: OldDesignator=C10_LV4 NewDesignator=C10_A
+Change Component Designator: OldDesignator=C11 NewDesignator=C41
+Change Component Designator: OldDesignator=C11_LV2 NewDesignator=C4_D
+Change Component Designator: OldDesignator=C11_LV4 NewDesignator=C4_A
+Change Component Designator: OldDesignator=C12 NewDesignator=C34
+Change Component Designator: OldDesignator=C12_LV2 NewDesignator=C11_D
+Change Component Designator: OldDesignator=C12_LV4 NewDesignator=C11_A
+Change Component Designator: OldDesignator=C13 NewDesignator=C33
+Change Component Designator: OldDesignator=C13_LV2 NewDesignator=C5_D
+Change Component Designator: OldDesignator=C13_LV4 NewDesignator=C5_A
+Change Component Designator: OldDesignator=C14 NewDesignator=C32
+Change Component Designator: OldDesignator=C15 NewDesignator=C31
+Change Component Designator: OldDesignator=C16 NewDesignator=C38
+Change Component Designator: OldDesignator=C17 NewDesignator=C37
+Change Component Designator: OldDesignator=C18 NewDesignator=C36
+Change Component Designator: OldDesignator=C19 NewDesignator=C35
+Change Component Designator: OldDesignator=C20 NewDesignator=C1
+Change Component Designator: OldDesignator=C21 NewDesignator=C2
+Change Component Designator: OldDesignator=C23_LV1 NewDesignator=C18_B
+Change Component Designator: OldDesignator=C23_LV3 NewDesignator=C18_C
+Change Component Designator: OldDesignator=C24_LV1 NewDesignator=C21_B
+Change Component Designator: OldDesignator=C24_LV3 NewDesignator=C21_C
+Change Component Designator: OldDesignator=C25_LV1 NewDesignator=C22_B
+Change Component Designator: OldDesignator=C25_LV3 NewDesignator=C22_C
+Change Component Designator: OldDesignator=C26_LV1 NewDesignator=C23_B
+Change Component Designator: OldDesignator=C26_LV3 NewDesignator=C23_C
+Change Component Designator: OldDesignator=C27_LV1 NewDesignator=C24_B
+Change Component Designator: OldDesignator=C27_LV3 NewDesignator=C24_C
+Change Component Designator: OldDesignator=C28_LV1 NewDesignator=C12_B
+Change Component Designator: OldDesignator=C28_LV3 NewDesignator=C12_C
+Change Component Designator: OldDesignator=C29_LV1 NewDesignator=C13_B
+Change Component Designator: OldDesignator=C29_LV3 NewDesignator=C13_C
+Change Component Designator: OldDesignator=C30 NewDesignator=C47
+Change Component Designator: OldDesignator=C30_LV1 NewDesignator=C14_B
+Change Component Designator: OldDesignator=C30_LV2 NewDesignator=C6_D
+Change Component Designator: OldDesignator=C30_LV3 NewDesignator=C14_C
+Change Component Designator: OldDesignator=C30_LV4 NewDesignator=C6_A
+Change Component Designator: OldDesignator=C31 NewDesignator=C46
+Change Component Designator: OldDesignator=C31_LV1 NewDesignator=C15_B
+Change Component Designator: OldDesignator=C31_LV2 NewDesignator=C7_D
+Change Component Designator: OldDesignator=C31_LV3 NewDesignator=C15_C
+Change Component Designator: OldDesignator=C31_LV4 NewDesignator=C7_A
+Change Component Designator: OldDesignator=C32 NewDesignator=C45
+Change Component Designator: OldDesignator=C32_LV2 NewDesignator=C8_D
+Change Component Designator: OldDesignator=C32_LV4 NewDesignator=C8_A
+Change Component Designator: OldDesignator=C33 NewDesignator=C39
+Change Component Designator: OldDesignator=D1 NewDesignator=D11
+Change Component Designator: OldDesignator=D2 NewDesignator=D12
+Change Component Designator: OldDesignator=D3 NewDesignator=D13
+Change Component Designator: OldDesignator=D4 NewDesignator=D14
+Change Component Designator: OldDesignator=D5 NewDesignator=D9
+Change Component Designator: OldDesignator=D5V NewDesignator=D1
+Change Component Designator: OldDesignator=D6 NewDesignator=D10
+Change Component Designator: OldDesignator=D6_LV2 NewDesignator=D4_D
+Change Component Designator: OldDesignator=D6_LV4 NewDesignator=D4_A
+Change Component Designator: OldDesignator=D7_LV2 NewDesignator=D3_D
+Change Component Designator: OldDesignator=D7_LV4 NewDesignator=D3_A
+Change Component Designator: OldDesignator=D8_LV2 NewDesignator=D2_D
+Change Component Designator: OldDesignator=D8_LV4 NewDesignator=D2_A
+Change Component Designator: OldDesignator=D9_LV1 NewDesignator=D6_B
+Change Component Designator: OldDesignator=D9_LV3 NewDesignator=D6_C
+Change Component Designator: OldDesignator=D10_LV2 NewDesignator=D5_D
+Change Component Designator: OldDesignator=D10_LV4 NewDesignator=D5_A
+Change Component Designator: OldDesignator=D11_LV1 NewDesignator=D7_B
+Change Component Designator: OldDesignator=D11_LV3 NewDesignator=D7_C
+Change Component Designator: OldDesignator=D12_LV1 NewDesignator=D8_B
+Change Component Designator: OldDesignator=D12_LV3 NewDesignator=D8_C
+Change Component Designator: OldDesignator=DTVS1 NewDesignator=DTVS2
+Change Component Designator: OldDesignator=DTVS NewDesignator=DTVS1
+Change Component Designator: OldDesignator=F1_LV1 NewDesignator=F3_B
+Change Component Designator: OldDesignator=F1_LV3 NewDesignator=F3_C
+Change Component Designator: OldDesignator=F2_LV2 NewDesignator=F2_D
+Change Component Designator: OldDesignator=F2_LV4 NewDesignator=F2_A
+Change Component Designator: OldDesignator=F3 NewDesignator=F1
+Change Component Designator: OldDesignator=L2 NewDesignator=L4
+Change Component Designator: OldDesignator=L3 NewDesignator=L2
+Change Component Designator: OldDesignator=L4 NewDesignator=L3
+Change Component Designator: OldDesignator=LED1 NewDesignator=LED2
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED1
+Change Component Designator: OldDesignator=LT2_LV2 NewDesignator=LT1_D
+Change Component Designator: OldDesignator=LT2_LV4 NewDesignator=LT1_A
+Change Component Designator: OldDesignator=NTC NewDesignator=NTC1
+Change Component Designator: OldDesignator=Q1_LV1 NewDesignator=Q1_B
+Change Component Designator: OldDesignator=Q1_LV3 NewDesignator=Q1_C
+Change Component Designator: OldDesignator=R1 NewDesignator=R23
+Change Component Designator: OldDesignator=R2 NewDesignator=R22
+Change Component Designator: OldDesignator=R3_LV1 NewDesignator=R15_B
+Change Component Designator: OldDesignator=R3_LV3 NewDesignator=R15_C
+Change Component Designator: OldDesignator=R4_LV1 NewDesignator=R16_B
+Change Component Designator: OldDesignator=R4_LV3 NewDesignator=R16_C
+Change Component Designator: OldDesignator=R5_LV2 NewDesignator=R1_D
+Change Component Designator: OldDesignator=R5_LV4 NewDesignator=R1_A
+Change Component Designator: OldDesignator=R6_LV2 NewDesignator=R3_D
+Change Component Designator: OldDesignator=R6_LV4 NewDesignator=R3_A
+Change Component Designator: OldDesignator=R7_LV2 NewDesignator=R5_D
+Change Component Designator: OldDesignator=R7_LV4 NewDesignator=R5_A
+Change Component Designator: OldDesignator=R8_LV2 NewDesignator=R4_D
+Change Component Designator: OldDesignator=R8_LV4 NewDesignator=R4_A
+Change Component Designator: OldDesignator=R9_LV1 NewDesignator=R13_B
+Change Component Designator: OldDesignator=R9_LV3 NewDesignator=R13_C
+Change Component Designator: OldDesignator=R10_LV1 NewDesignator=R6_B
+Change Component Designator: OldDesignator=R10_LV3 NewDesignator=R6_C
+Change Component Designator: OldDesignator=R11_LV1 NewDesignator=R8_B
+Change Component Designator: OldDesignator=R11_LV3 NewDesignator=R8_C
+Change Component Designator: OldDesignator=R12_LV1 NewDesignator=R9_B
+Change Component Designator: OldDesignator=R12_LV3 NewDesignator=R9_C
+Change Component Designator: OldDesignator=R13_LV1 NewDesignator=R10_B
+Change Component Designator: OldDesignator=R13_LV3 NewDesignator=R10_C
+Change Component Designator: OldDesignator=R13b_LV1 NewDesignator=R11_B
+Change Component Designator: OldDesignator=R13b_LV3 NewDesignator=R11_C
+Change Component Designator: OldDesignator=R14_LV1 NewDesignator=R12_B
+Change Component Designator: OldDesignator=R14_LV3 NewDesignator=R12_C
+Change Component Designator: OldDesignator=R15_LV1 NewDesignator=R14_B
+Change Component Designator: OldDesignator=R15_LV3 NewDesignator=R14_C
+Change Component Designator: OldDesignator=R16_LV1 NewDesignator=R17_B
+Change Component Designator: OldDesignator=R16_LV3 NewDesignator=R17_C
+Change Component Designator: OldDesignator=R_L1 NewDesignator=R24
+Change Component Designator: OldDesignator=R_L2 NewDesignator=R31
+Change Component Designator: OldDesignator=R_L3 NewDesignator=R25
+Change Component Designator: OldDesignator=R_L4 NewDesignator=R26
+Change Component Designator: OldDesignator=R_LED1 NewDesignator=R30
+Change Component Designator: OldDesignator=R_LED2 NewDesignator=R32
+Change Component Designator: OldDesignator=R_LED3 NewDesignator=R33
+Change Component Designator: OldDesignator=R_LED4 NewDesignator=R34
+Change Component Designator: OldDesignator=R_LED5 NewDesignator=R27
+Change Component Designator: OldDesignator=R_LED6 NewDesignator=R28
+Change Component Designator: OldDesignator=R_NTC NewDesignator=R29
+Change Component Designator: OldDesignator=R_pu1 NewDesignator=AR5
+Change Component Designator: OldDesignator=R_pu2 NewDesignator=AR4
+Change Component Designator: OldDesignator=R_pu5 NewDesignator=AR3
+Change Component Designator: OldDesignator=RADRS0 NewDesignator=R21
+Change Component Designator: OldDesignator=RADRS1 NewDesignator=R20
+Change Component Designator: OldDesignator=RADRS2 NewDesignator=R19
+Change Component Designator: OldDesignator=RADRS3 NewDesignator=R18
+Change Component Designator: OldDesignator=Rfb2_LV2 NewDesignator=Rfb1_D
+Change Component Designator: OldDesignator=Rfb2_LV4 NewDesignator=Rfb1_A
+Change Component Designator: OldDesignator=RLED1 NewDesignator=AR6
+Change Component Designator: OldDesignator=RLED2 NewDesignator=AR2
+Change Component Designator: OldDesignator=Rref2_LV2 NewDesignator=Rref1_D
+Change Component Designator: OldDesignator=Rref2_LV4 NewDesignator=Rref1_A
+Change Component Designator: OldDesignator=Rsense1_LV1 NewDesignator=R7_B
+Change Component Designator: OldDesignator=Rsense1_LV3 NewDesignator=R7_C
+Change Component Designator: OldDesignator=Rsense2_LV2 NewDesignator=R2_D
+Change Component Designator: OldDesignator=Rsense2_LV4 NewDesignator=R2_A
+Change Component Designator: OldDesignator=Rtc2_LV2 NewDesignator=Rtc1_D
+Change Component Designator: OldDesignator=Rtc2_LV4 NewDesignator=Rtc1_A
+Change Component Designator: OldDesignator=T1_LV1 NewDesignator=T2_B
+Change Component Designator: OldDesignator=T1_LV3 NewDesignator=T2_C
+Change Component Designator: OldDesignator=T2_LV2 NewDesignator=T1_D
+Change Component Designator: OldDesignator=T2_LV4 NewDesignator=T1_A
+Change Component Designator: OldDesignator=U1 NewDesignator=U6
+Change Component Designator: OldDesignator=U2 NewDesignator=U5
+Change Component Designator: OldDesignator=U2_LV2 NewDesignator=U2_D
+Change Component Designator: OldDesignator=U2_LV4 NewDesignator=U2_A
+Change Component Designator: OldDesignator=U3 NewDesignator=U1
+Change Component Designator: OldDesignator=U4_LV1 NewDesignator=U4_B
+Change Component Designator: OldDesignator=U4_LV3 NewDesignator=U4_C
+Change Component Designator: OldDesignator=U5_LV1 NewDesignator=U3_B
+Change Component Designator: OldDesignator=U5_LV3 NewDesignator=U3_C
+Added Component: Designator=C16_B(C1210)
+Added Component: Designator=C16_C(C1210)
+Added Component: Designator=C17_B(C1210)
+Added Component: Designator=C17_C(C1210)
+Added Pin To Net: NetName=GND Pin=C16_B-1
+Added Pin To Net: NetName=NetC29_LV1_2 Pin=C16_B-2
+Added Pin To Net: NetName=GND Pin=C16_C-1
+Added Pin To Net: NetName=NetC29_LV3_2 Pin=C16_C-2
+Added Pin To Net: NetName=GND Pin=C17_B-1
+Added Pin To Net: NetName=NetC29_LV1_2 Pin=C17_B-2
+Added Pin To Net: NetName=GND Pin=C17_C-1
+Added Pin To Net: NetName=NetC29_LV3_2 Pin=C17_C-2
+Change Net Name : Old Net Name=NetAC6_2 New Net Name=NetAC2_2
+Change Net Name : Old Net Name=NetC11_LV2_2 New Net Name=NetC4_D_2
+Change Net Name : Old Net Name=NetC11_LV4_2 New Net Name=NetC4_A_2
+Change Net Name : Old Net Name=NetC12_LV2_1 New Net Name=NetC11_D_1
+Change Net Name : Old Net Name=NetC12_LV4_1 New Net Name=NetC11_A_1
+Change Net Name : Old Net Name=NetC13_LV2_1 New Net Name=NetC5_D_1
+Change Net Name : Old Net Name=NetC13_LV4_1 New Net Name=NetC5_A_1
+Change Net Name : Old Net Name=NetC23_LV1_1 New Net Name=NetC18_B_1
+Change Net Name : Old Net Name=NetC23_LV1_2 New Net Name=NetC18_B_2
+Change Net Name : Old Net Name=NetC23_LV3_1 New Net Name=NetC18_C_1
+Change Net Name : Old Net Name=NetC23_LV3_2 New Net Name=NetC18_C_2
+Change Net Name : Old Net Name=NetC24_LV1_2 New Net Name=NetC21_B_2
+Change Net Name : Old Net Name=NetC24_LV3_2 New Net Name=NetC21_C_2
+Change Net Name : Old Net Name=NetC25_LV1_2 New Net Name=NetC22_B_2
+Change Net Name : Old Net Name=NetC25_LV3_2 New Net Name=NetC22_C_2
+Change Net Name : Old Net Name=NetC26_LV1_2 New Net Name=NetC23_B_2
+Change Net Name : Old Net Name=NetC26_LV3_2 New Net Name=NetC23_C_2
+Change Net Name : Old Net Name=NetC27_LV1_2 New Net Name=NetC24_B_2
+Change Net Name : Old Net Name=NetC27_LV3_2 New Net Name=NetC24_C_2
+Change Net Name : Old Net Name=NetC29_LV1_2 New Net Name=NetC13_B_2
+Change Net Name : Old Net Name=NetC29_LV3_2 New Net Name=NetC13_C_2
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetD11_1
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD12_1
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD13_1
+Change Net Name : Old Net Name=NetD4_1 New Net Name=NetD14_1
+Change Net Name : Old Net Name=NetD5_2 New Net Name=NetD9_2
+Change Net Name : Old Net Name=NetD5V_2 New Net Name=NetD1_2
+Change Net Name : Old Net Name=NetD6_2 New Net Name=NetD10_2
+Change Net Name : Old Net Name=NetD7_LV2_1 New Net Name=NetD3_D_1
+Change Net Name : Old Net Name=NetD7_LV4_1 New Net Name=NetD3_A_1
+Change Net Name : Old Net Name=NetD8_LV2_2 New Net Name=NetD2_D_2
+Change Net Name : Old Net Name=NetD8_LV4_2 New Net Name=NetD2_A_2
+Change Net Name : Old Net Name=NetD9_LV1_2 New Net Name=NetD6_B_2
+Change Net Name : Old Net Name=NetD9_LV3_2 New Net Name=NetD6_C_2
+Change Net Name : Old Net Name=NetD11_LV1_1 New Net Name=NetD7_B_1
+Change Net Name : Old Net Name=NetD11_LV3_1 New Net Name=NetD7_C_1
+Change Net Name : Old Net Name=NetF1_LV1_1 New Net Name=NetF3_B_1
+Change Net Name : Old Net Name=NetF1_LV3_1 New Net Name=NetF3_C_1
+Change Net Name : Old Net Name=NetF2_LV2_1 New Net Name=NetF2_D_1
+Change Net Name : Old Net Name=NetF2_LV4_1 New Net Name=NetF2_A_1
+Change Net Name : Old Net Name=NetLED1_2 New Net Name=NetAR6_2
+Change Net Name : Old Net Name=NetLED2_A New Net Name=NetAR2_1
+Change Net Name : Old Net Name=NetLT2_LV2_1 New Net Name=NetLT1_D_1
+Change Net Name : Old Net Name=NetLT2_LV2_6 New Net Name=NetLT1_D_6
+Change Net Name : Old Net Name=NetLT2_LV2_7 New Net Name=NetLT1_D_7
+Change Net Name : Old Net Name=NetLT2_LV2_8 New Net Name=NetLT1_D_8
+Change Net Name : Old Net Name=NetLT2_LV4_1 New Net Name=NetLT1_A_1
+Change Net Name : Old Net Name=NetLT2_LV4_6 New Net Name=NetLT1_A_6
+Change Net Name : Old Net Name=NetLT2_LV4_7 New Net Name=NetLT1_A_7
+Change Net Name : Old Net Name=NetLT2_LV4_8 New Net Name=NetLT1_A_8
+Change Net Name : Old Net Name=NetQ1_LV1_1 New Net Name=NetQ1_B_1
+Change Net Name : Old Net Name=NetQ1_LV1_4 New Net Name=NetQ1_B_4
+Change Net Name : Old Net Name=NetQ1_LV3_1 New Net Name=NetQ1_C_1
+Change Net Name : Old Net Name=NetQ1_LV3_4 New Net Name=NetQ1_C_4
+Change Net Name : Old Net Name=NetR3_LV1_1 New Net Name=NetR15_B_1
+Change Net Name : Old Net Name=NetR3_LV3_1 New Net Name=NetR15_C_1
+Change Net Name : Old Net Name=NetR9_LV1_2 New Net Name=NetR13_B_2
+Change Net Name : Old Net Name=NetR9_LV3_2 New Net Name=NetR13_C_2
+Change Net Name : Old Net Name=NetR11_LV1_1 New Net Name=NetR8_B_1
+Change Net Name : Old Net Name=NetR11_LV3_1 New Net Name=NetR8_C_1
+Change Net Name : Old Net Name=NetR12_LV1_1 New Net Name=NetR9_B_1
+Change Net Name : Old Net Name=NetR12_LV3_1 New Net Name=NetR9_C_1
+Change Net Name : Old Net Name=NetR15_LV1_2 New Net Name=NetR14_B_2
+Change Net Name : Old Net Name=NetR15_LV3_2 New Net Name=NetR14_C_2
+Change Net Name : Old Net Name=SW_LV2 New Net Name=SW_D
+Change Net Name : Old Net Name=SW_LV4 New Net Name=SW_A
+Change Class Name : Old Net Name=LV1 New Net Name=B
+Change Class Name : Old Net Name=LV2 New Net Name=D
+Change Class Name : Old Net Name=LV3 New Net Name=C
+Change Class Name : Old Net Name=LV4 New Net Name=A
+Added Member To Class: ClassName=U_controller Member=Component AR1 
+Added Member To Class: ClassName=U_controller Member=Component AR3 pullup
+Added Member To Class: ClassName=U_controller Member=Component C1 
+Added Member To Class: ClassName=U_controller Member=Component C2 
+Added Member To Class: ClassName=A Member=Component C3_A (C3) Cap Semi
+Added Member To Class: ClassName=D Member=Component C3_D (C3) Cap Semi
+Added Member To Class: ClassName=A Member=Component C4_A (C4) Cap Semi
+Added Member To Class: ClassName=D Member=Component C4_D (C4) Cap Semi
+Added Member To Class: ClassName=A Member=Component C5_A (C5) Cap Semi
+Added Member To Class: ClassName=D Member=Component C5_D (C5) Cap Semi
+Added Member To Class: ClassName=A Member=Component C6_A (C6) Cap Semi
+Added Member To Class: ClassName=D Member=Component C6_D (C6) Cap Semi
+Added Member To Class: ClassName=A Member=Component C7_A (C7) Cap Semi
+Added Member To Class: ClassName=D Member=Component C7_D (C7) Cap Semi
+Added Member To Class: ClassName=A Member=Component C8_A (C8) Cap Semi
+Added Member To Class: ClassName=D Member=Component C8_D (C8) Cap Semi
+Added Member To Class: ClassName=A Member=Component C9_A (C9) Cap Semi
+Added Member To Class: ClassName=D Member=Component C9_D (C9) Cap Semi
+Added Member To Class: ClassName=A Member=Component C10_A (C10) Cap Semi
+Added Member To Class: ClassName=D Member=Component C10_D (C10) Cap Semi
+Added Member To Class: ClassName=A Member=Component C11_A (C11) Cap Semi
+Added Member To Class: ClassName=D Member=Component C11_D (C11) Cap Semi
+Added Member To Class: ClassName=B Member=Component C12_B (C12) Cap Semi
+Added Member To Class: ClassName=C Member=Component C12_C (C12) Cap Semi
+Added Member To Class: ClassName=B Member=Component C13_B (C13) Cap Semi
+Added Member To Class: ClassName=C Member=Component C13_C (C13) Cap Semi
+Added Member To Class: ClassName=B Member=Component C14_B (C14) Cap Semi
+Added Member To Class: ClassName=C Member=Component C14_C (C14) Cap Semi
+Added Member To Class: ClassName=B Member=Component C15_B (C15) Cap Semi
+Added Member To Class: ClassName=C Member=Component C15_C (C15) Cap Semi
+Added Member To Class: ClassName=B Member=Component C16_B (C16) Cap Semi
+Added Member To Class: ClassName=C Member=Component C16_C (C16) Cap Semi
+Added Member To Class: ClassName=B Member=Component C17_B (C17) Cap Semi
+Added Member To Class: ClassName=C Member=Component C17_C (C17) Cap Semi
+Added Member To Class: ClassName=B Member=Component C18_B (C18) Cap Semi
+Added Member To Class: ClassName=C Member=Component C18_C (C18) Cap Semi
+Added Member To Class: ClassName=B Member=Component C19_B (C19) Cap Semi
+Added Member To Class: ClassName=C Member=Component C19_C (C19) Cap Semi
+Added Member To Class: ClassName=B Member=Component C20_B (C20) Cap Semi
+Added Member To Class: ClassName=C Member=Component C20_C (C20) Cap Semi
+Added Member To Class: ClassName=B Member=Component C21_B (C21) Cap Semi
+Added Member To Class: ClassName=C Member=Component C21_C (C21) Cap Semi
+Added Member To Class: ClassName=B Member=Component C22_B (C22) Cap Semi
+Added Member To Class: ClassName=C Member=Component C22_C (C22) Cap Semi
+Added Member To Class: ClassName=B Member=Component C23_B (C23) Cap Semi
+Added Member To Class: ClassName=C Member=Component C23_C (C23) Cap Semi
+Added Member To Class: ClassName=B Member=Component C24_B (C24) Cap Semi
+Added Member To Class: ClassName=C Member=Component C24_C (C24) Cap Semi
+Added Member To Class: ClassName=Top Member=Component C25 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C26 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C27 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C28 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C29 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C30 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C31 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C32 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C33 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C34 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C35 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C36 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C37 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C38 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C39 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C40 
+Added Member To Class: ClassName=Top Member=Component C41 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C42 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C43 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C44 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C45 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C46 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C47 Cap Semi
+Added Member To Class: ClassName=U_controller Member=Component D1 MBRS130LT3G
+Added Member To Class: ClassName=A Member=Component D2_A (D2) SMAJ30A
+Added Member To Class: ClassName=D Member=Component D2_D (D2) SMAJ30A
+Added Member To Class: ClassName=A Member=Component D3_A (D3) PDS1040L
+Added Member To Class: ClassName=D Member=Component D3_D (D3) PDS1040L
+Added Member To Class: ClassName=A Member=Component D4_A (D4) BZT52H-B5V6
+Added Member To Class: ClassName=D Member=Component D4_D (D4) BZT52H-B5V6
+Added Member To Class: ClassName=A Member=Component D5_A (D5) ES3B
+Added Member To Class: ClassName=D Member=Component D5_D (D5) ES3B
+Added Member To Class: ClassName=B Member=Component D6_B (D6) BAV20WS
+Added Member To Class: ClassName=C Member=Component D6_C (D6) BAV20WS
+Added Member To Class: ClassName=B Member=Component D7_B (D7) PDS760-13
+Added Member To Class: ClassName=C Member=Component D7_C (D7) PDS760-13
+Added Member To Class: ClassName=B Member=Component D8_B (D8) BZT52H-B5V6
+Added Member To Class: ClassName=C Member=Component D8_C (D8) BZT52H-B5V6
+Added Member To Class: ClassName=U_controller Member=Component DTVS1 SMBJ10CA
+Added Member To Class: ClassName=U_controller Member=Component F1 MINISMDC050F-2
+Added Member To Class: ClassName=A Member=Component F2_A (F2) MINISMDC050F-2
+Added Member To Class: ClassName=D Member=Component F2_D (F2) MINISMDC050F-2
+Added Member To Class: ClassName=B Member=Component F3_B (F3) MINISMDC050F-2
+Added Member To Class: ClassName=C Member=Component F3_C (F3) MINISMDC050F-2
+Added Member To Class: ClassName=A Member=Component LT1_A (LT1) LT8302
+Added Member To Class: ClassName=D Member=Component LT1_D (LT1) LT8302
+Added Member To Class: ClassName=Top Member=Component NTC1 
+Added Member To Class: ClassName=B Member=Component Q1_B (Q1) BSC320N20NS3 G
+Added Member To Class: ClassName=C Member=Component Q1_C (Q1) BSC320N20NS3 G
+Added Member To Class: ClassName=A Member=Component R1_A (R1) Res3
+Added Member To Class: ClassName=D Member=Component R1_D (R1) Res3
+Added Member To Class: ClassName=A Member=Component R2_A (R2) Rsense
+Added Member To Class: ClassName=D Member=Component R2_D (R2) Rsense
+Added Member To Class: ClassName=A Member=Component R3_A (R3) Res3
+Added Member To Class: ClassName=D Member=Component R3_D (R3) Res3
+Added Member To Class: ClassName=A Member=Component R4_A (R4) Res3
+Added Member To Class: ClassName=D Member=Component R4_D (R4) Res3
+Added Member To Class: ClassName=A Member=Component R5_A (R5) Res3
+Added Member To Class: ClassName=D Member=Component R5_D (R5) Res3
+Added Member To Class: ClassName=B Member=Component R6_B (R6) Res3
+Added Member To Class: ClassName=C Member=Component R6_C (R6) Res3
+Added Member To Class: ClassName=B Member=Component R7_B (R7) Rsense
+Added Member To Class: ClassName=C Member=Component R7_C (R7) Rsense
+Added Member To Class: ClassName=B Member=Component R8_B (R8) Res3
+Added Member To Class: ClassName=C Member=Component R8_C (R8) Res3
+Added Member To Class: ClassName=B Member=Component R9_B (R9) Res3
+Added Member To Class: ClassName=C Member=Component R9_C (R9) Res3
+Added Member To Class: ClassName=B Member=Component R10_B (R10) Res3
+Added Member To Class: ClassName=C Member=Component R10_C (R10) Res3
+Added Member To Class: ClassName=B Member=Component R11_B (R11) Res3
+Added Member To Class: ClassName=C Member=Component R11_C (R11) Res3
+Added Member To Class: ClassName=B Member=Component R12_B (R12) Res3
+Added Member To Class: ClassName=C Member=Component R12_C (R12) Res3
+Added Member To Class: ClassName=B Member=Component R13_B (R13) Res3
+Added Member To Class: ClassName=C Member=Component R13_C (R13) Res3
+Added Member To Class: ClassName=B Member=Component R14_B (R14) Res3
+Added Member To Class: ClassName=C Member=Component R14_C (R14) Res3
+Added Member To Class: ClassName=B Member=Component R15_B (R15) Res3
+Added Member To Class: ClassName=C Member=Component R15_C (R15) Res3
+Added Member To Class: ClassName=B Member=Component R16_B (R16) Res3
+Added Member To Class: ClassName=C Member=Component R16_C (R16) Res3
+Added Member To Class: ClassName=B Member=Component R17_B (R17) Res3
+Added Member To Class: ClassName=C Member=Component R17_C (R17) Res3
+Added Member To Class: ClassName=Top Member=Component R21 Res3
+Added Member To Class: ClassName=Top Member=Component R22 
+Added Member To Class: ClassName=Top Member=Component R23 
+Added Member To Class: ClassName=Top Member=Component R28 Res3
+Added Member To Class: ClassName=Top Member=Component R29 
+Added Member To Class: ClassName=A Member=Component Rfb1_A (Rfb1) Res3
+Added Member To Class: ClassName=D Member=Component Rfb1_D (Rfb1) Res3
+Added Member To Class: ClassName=A Member=Component Rref1_A (Rref1) Res3
+Added Member To Class: ClassName=D Member=Component Rref1_D (Rref1) Res3
+Added Member To Class: ClassName=A Member=Component Rtc1_A (Rtc1) Res3
+Added Member To Class: ClassName=D Member=Component Rtc1_D (Rtc1) Res3
+Added Member To Class: ClassName=A Member=Component T1_A (T1) 36V
+Added Member To Class: ClassName=D Member=Component T1_D (T1) 36V
+Added Member To Class: ClassName=B Member=Component T2_B (T2) 750311597
+Added Member To Class: ClassName=C Member=Component T2_C (T2) 750311597
+Added Member To Class: ClassName=U_controller Member=Component U1 ATmega2560-16AU
+Added Member To Class: ClassName=A Member=Component U2_A (U2) INA138
+Added Member To Class: ClassName=D Member=Component U2_D (U2) INA138
+Added Member To Class: ClassName=B Member=Component U3_B (U3) INA138
+Added Member To Class: ClassName=C Member=Component U3_C (U3) INA138
+Added Member To Class: ClassName=B Member=Component U4_B (U4) LT3748IMS#PBF
+Added Member To Class: ClassName=C Member=Component U4_C (U4) LT3748IMS#PBF
+Added Member To Class: ClassName=Top Member=Component U5 ADM4855ARZ
+Added Member To Class: ClassName=Top Member=Component U6 ADM4855ARZ

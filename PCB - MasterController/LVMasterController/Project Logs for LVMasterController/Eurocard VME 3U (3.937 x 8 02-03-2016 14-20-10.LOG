@@ -1,0 +1,243 @@
+Removed Pin From Net: NetName=RESET Pin=AC1-1
+Removed Pin From Net: NetName=VIN Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=AREF Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=+5V Pin=C6-2
+Removed Pin From Net: NetName=RESET Pin=C7-1
+Removed Pin From Net: NetName=DTR Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=+5V Pin=C9-2
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=+5V Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=GND Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=C15-2
+Removed Pin From Net: NetName=+5V Pin=D2-C
+Removed Pin From Net: NetName=LED2 Pin=D5-1
+Removed Pin From Net: NetName=TX1 Pin=D6-1
+Removed Pin From Net: NetName=XVCC Pin=F1-2
+Removed Pin From Net: NetName=GND Pin=GROUND-2
+Removed Pin From Net: NetName=GND Pin=IC4-3
+Removed Pin From Net: NetName=+5V Pin=IC4-4
+Removed Pin From Net: NetName=DTR Pin=IC4-13
+Removed Pin From Net: NetName=+5V Pin=IC4-32
+Removed Pin From Net: NetName=GND Pin=IC4-33
+Removed Pin From Net: NetName=+5V Pin=IC6-1
+Removed Pin From Net: NetName=GND Pin=IC6-2
+Removed Pin From Net: NetName=+5V Pin=IC6-3
+Removed Pin From Net: NetName=GND Pin=IC7-4
+Removed Pin From Net: NetName=+5V Pin=IC7-8
+Removed Pin From Net: NetName=+5V Pin=ICSP1-2
+Removed Pin From Net: NetName=GND Pin=ICSP1-6
+Removed Pin From Net: NetName=VIN Pin=R3-1
+Removed Pin From Net: NetName=GND Pin=R4-2
+Removed Pin From Net: NetName=+5V Pin=R8-1
+Removed Pin From Net: NetName=D- Pin=R9-1
+Removed Pin From Net: NetName=D+ Pin=R10-1
+Removed Pin From Net: NetName=PE0 Pin=R12-1
+Removed Pin From Net: NetName=PE1 Pin=R13-1
+Removed Pin From Net: NetName=DTR Pin=R14-1
+Removed Pin From Net: NetName=GND Pin=R14-2
+Removed Pin From Net: NetName=+5V Pin=R15-2
+Removed Pin From Net: NetName=+5V Pin=R16-2
+Removed Pin From Net: NetName=NetD5_2 Pin=R_LED4-1
+Removed Pin From Net: NetName=NetD6_2 Pin=R_LED5-1
+Removed Pin From Net: NetName=GND Pin=RESET-1
+Removed Pin From Net: NetName=RESET Pin=RESET-2
+Removed Pin From Net: NetName=RESET Pin=RESET-EN-1
+Removed Pin From Net: NetName=RESET Pin=RESET-EN-2
+Removed Pin From Net: NetName=+5V Pin=T1-2
+Removed Pin From Net: NetName=48V Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-2
+Removed Pin From Net: NetName=GND Pin=U1-3
+Removed Pin From Net: NetName=GND Pin=U1-4
+Removed Pin From Net: NetName=12V Pin=U1-8
+Removed Pin From Net: NetName=BRD_CST_EN Pin=U3-1
+Removed Pin From Net: NetName=TX1 Pin=U3-2
+Removed Pin From Net: NetName=TXB8 Pin=U3-3
+Removed Pin From Net: NetName=TX1 Pin=U3-4
+Removed Pin From Net: NetName=TXB7 Pin=U3-5
+Removed Pin From Net: NetName=TX1 Pin=U3-6
+Removed Pin From Net: NetName=TXB6 Pin=U3-7
+Removed Pin From Net: NetName=TX1 Pin=U3-8
+Removed Pin From Net: NetName=TXB5 Pin=U3-9
+Removed Pin From Net: NetName=GND Pin=U3-10
+Removed Pin From Net: NetName=TX1 Pin=U3-11
+Removed Pin From Net: NetName=TXB4 Pin=U3-12
+Removed Pin From Net: NetName=TX1 Pin=U3-13
+Removed Pin From Net: NetName=TXB3 Pin=U3-14
+Removed Pin From Net: NetName=TX1 Pin=U3-15
+Removed Pin From Net: NetName=TXB2 Pin=U3-16
+Removed Pin From Net: NetName=TX1 Pin=U3-17
+Removed Pin From Net: NetName=TXB1 Pin=U3-18
+Removed Pin From Net: NetName=BRD_CST_EN Pin=U3-19
+Removed Pin From Net: NetName=+5V Pin=U3-20
+Removed Pin From Net: NetName=D- Pin=Z1-2
+Removed Pin From Net: NetName=D+ Pin=Z2-2
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C13
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C14
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C15
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C16
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C17
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C18
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C19
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C20
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=C21
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=F3
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=GROUND
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=IC4
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=IC6
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=IC7
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=ICSP1
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=JP5
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=L1
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R5
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R6
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R8
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R9
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R10
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R11
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R12
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R13
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R14
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R15
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=R16
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=RESET-EN
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=RESET
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=RX
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=T1
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=TX
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Y2
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Z1
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Z2
+Change Component DesignItemId : Designator=U1 Old DesignItemId=DCDCPowerModule New DesignItemId=FT232BL
+Change Component DesignItemId : Designator=D2 Old DesignItemId=DIODE-MINIMELF New DesignItemId=LEDYELLOW
+Change Component Footprint: Designator=U1 Old Footprint=EHHD006A0B41-HZ New Footprint=LQFP-32_N
+Change Component Footprint: Designator=D2 Old Footprint=MINIMELF New Footprint=LEDYELLOW
+Change Component Comment : Designator=C2 Old Comment=100n New Comment=Cap Semi
+Change Component Comment : Designator=D2 Old Comment=CD1206-S01575 New Comment=LEDYELLOW
+Change Component Comment : Designator=U1 Old Comment=DCDCPowerModule New Comment=FT232BL
+Change Component Designator: OldDesignator=C4 NewDesignator=C3
+Change Component Designator: OldDesignator=C16 NewDesignator=C7
+Change Component Designator: OldDesignator=C17 NewDesignator=C12
+Change Component Designator: OldDesignator=C18 NewDesignator=C8
+Change Component Designator: OldDesignator=C19 NewDesignator=C10
+Change Component Designator: OldDesignator=C20 NewDesignator=C9
+Change Component Designator: OldDesignator=C21 NewDesignator=C11
+Change Component Designator: OldDesignator=D4 NewDesignator=D1
+Change Component Designator: OldDesignator=D5V NewDesignator=D7
+Change Component Designator: OldDesignator=D7 NewDesignator=D4
+Change Component Designator: OldDesignator=DTVS NewDesignator=DTVS1
+Change Component Designator: OldDesignator=F3 NewDesignator=F1
+Change Component Designator: OldDesignator=ICSP NewDesignator=ICSP1
+Change Component Designator: OldDesignator=R1 NewDesignator=R4
+Change Component Designator: OldDesignator=R5 NewDesignator=R3
+Change Component Designator: OldDesignator=R6 NewDesignator=R1
+Change Component Designator: OldDesignator=R7 NewDesignator=R2
+Change Component Designator: OldDesignator=R_LED3 NewDesignator=R_LED1
+Change Component Designator: OldDesignator=R_LED4 NewDesignator=R_LED2
+Change Component Designator: OldDesignator=R_LED5 NewDesignator=R_LED3
+Change Component Designator: OldDesignator=R_LED6 NewDesignator=R_LED4
+Change Component Designator: OldDesignator=R_pu5 NewDesignator=R_pu1
+Change Component Designator: OldDesignator=Rtrim_down NewDesignator=Rtrim_down1
+Change Component Designator: OldDesignator=Rtrim_up NewDesignator=Rtrim_up1
+Change Component Designator: OldDesignator=U4 NewDesignator=U3
+Change Component Designator: OldDesignator=U5 NewDesignator=U6
+Change Component Designator: OldDesignator=U6 NewDesignator=U4
+Added Component: Designator=AC2(1608[0603])
+Added Component: Designator=C1(1608[0603])
+Added Component: Designator=C4(1608[0603])
+Added Component: Designator=D3(LEDYELLOW)
+Added Component: Designator=R_LED5(J1-0603)
+Added Component: Designator=R_LED6(J1-0603)
+Added Component: Designator=RESET1(1-1825027-4)
+Added Component: Designator=U5(EHHD006A0B41-HZ)
+Added Component: Designator=U8(SOP65P640X120-20N)
+Added Pin To Net: NetName=DTR Pin=AC1-1
+Added Pin To Net: NetName=RESET Pin=AC2-1
+Added Pin To Net: NetName=GND Pin=AC2-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=VIN Pin=C1-2
+Added Pin To Net: NetName=AREF Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+5V Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=LED2 Pin=D2-1
+Added Pin To Net: NetName=TX1 Pin=D3-1
+Added Pin To Net: NetName=GND Pin=J1-10
+Added Pin To Net: NetName=NetD5_2 Pin=R_LED5-1
+Added Pin To Net: NetName=+5V Pin=R_LED5-2
+Added Pin To Net: NetName=NetD6_2 Pin=R_LED6-1
+Added Pin To Net: NetName=+5V Pin=R_LED6-2
+Added Pin To Net: NetName=GND Pin=RESET1-1
+Added Pin To Net: NetName=RESET Pin=RESET1-2
+Added Pin To Net: NetName=+5V Pin=U1-3
+Added Pin To Net: NetName=D+ Pin=U1-7
+Added Pin To Net: NetName=D- Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Pin To Net: NetName=XVCC Pin=U1-13
+Added Pin To Net: NetName=GND Pin=U1-17
+Added Pin To Net: NetName=DTR Pin=U1-21
+Added Pin To Net: NetName=GND Pin=U1-22
+Added Pin To Net: NetName=PE0 Pin=U1-24
+Added Pin To Net: NetName=PE1 Pin=U1-25
+Added Pin To Net: NetName=+5V Pin=U1-26
+Added Pin To Net: NetName=GND Pin=U1-29
+Added Pin To Net: NetName=GND Pin=U1-31
+Added Pin To Net: NetName=48V Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=12V Pin=U1-8
+Added Pin To Net: NetName=BRD_CST_EN Pin=U8-1
+Added Pin To Net: NetName=TX1 Pin=U8-2
+Added Pin To Net: NetName=TXB8 Pin=U8-3
+Added Pin To Net: NetName=TX1 Pin=U8-4
+Added Pin To Net: NetName=TXB7 Pin=U8-5
+Added Pin To Net: NetName=TX1 Pin=U8-6
+Added Pin To Net: NetName=TXB6 Pin=U8-7
+Added Pin To Net: NetName=TX1 Pin=U8-8
+Added Pin To Net: NetName=TXB5 Pin=U8-9
+Added Pin To Net: NetName=GND Pin=U8-10
+Added Pin To Net: NetName=TX1 Pin=U8-11
+Added Pin To Net: NetName=TXB4 Pin=U8-12
+Added Pin To Net: NetName=TX1 Pin=U8-13
+Added Pin To Net: NetName=TXB3 Pin=U8-14
+Added Pin To Net: NetName=TX1 Pin=U8-15
+Added Pin To Net: NetName=TXB2 Pin=U8-16
+Added Pin To Net: NetName=TX1 Pin=U8-17
+Added Pin To Net: NetName=TXB1 Pin=U8-18
+Added Pin To Net: NetName=BRD_CST_EN Pin=U8-19
+Added Pin To Net: NetName=+5V Pin=U8-20
+Change Net Name : Old Net Name=NetD4_2 New Net Name=NetD1_2
+Change Net Name : Old Net Name=NetD5V_2 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetD7_2 New Net Name=NetD4_2
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=U1-6
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R_LED2-1
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=R_LED3-1
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetRtrim_down1_2 Pin=Rtrim_down1-2
+Added Pin To Net: NetName=NetRtrim_down1_2 Pin=Rtrim_up1-1
+Added Pin To Net: NetName=NetRtrim_down1_2 Pin=U1-6
+Added Net: Name=NetRtrim_down1_2
+Added Pin To Net: NetName=RX0 Pin=D6-1
+Added Pin To Net: NetName=RX0 Pin=U1-11
+Added Net: Name=RX0
+Added Pin To Net: NetName=TX0 Pin=D5-1
+Added Pin To Net: NetName=TX0 Pin=U1-12
+Added Net: Name=TX0
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component AC2 Cap Semi
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component C1 100n
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component D3 LEDYELLOW
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R_LED5 Res3
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R_LED6 Res3
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component RESET1 PB_RST
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U8 OCTAL BUFFER/DRIVER

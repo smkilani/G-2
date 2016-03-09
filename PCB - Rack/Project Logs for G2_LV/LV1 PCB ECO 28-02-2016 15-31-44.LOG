@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-60
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-61
+Removed Pin From Net: NetName=EN1 Pin=Q2_LV2-1
+Removed Pin From Net: NetName=GND Pin=Q2_LV2-2
+Removed Pin From Net: NetName=NetLT2_LV2_1 Pin=Q2_LV2-3
+Removed Pin From Net: NetName=EN2 Pin=Q2_LV4-1
+Removed Pin From Net: NetName=GND Pin=Q2_LV4-2
+Removed Pin From Net: NetName=NetLT2_LV4_1 Pin=Q2_LV4-3
+Removed Pin From Net: NetName=EN2 Pin=Q3_LV1-1
+Removed Pin From Net: NetName=GND Pin=Q3_LV1-2
+Removed Pin From Net: NetName=NetQ3_LV1_3 Pin=Q3_LV1-3
+Removed Pin From Net: NetName=EN1 Pin=Q3_LV3-1
+Removed Pin From Net: NetName=GND Pin=Q3_LV3-2
+Removed Pin From Net: NetName=NetQ3_LV3_3 Pin=Q3_LV3-3
+Removed Pin From Net: NetName=48V Pin=Rsense1_LV1-1
+Removed Pin From Net: NetName=48V Pin=Rsense1_LV3-1
+Removed Pin From Net: NetName=48V Pin=Rsense2_LV2-1
+Removed Pin From Net: NetName=48V Pin=Rsense2_LV4-1
+Removed Pin From Net: NetName=48V Pin=U2_LV2-3
+Removed Pin From Net: NetName=48V Pin=U2_LV4-3
+Removed Pin From Net: NetName=48V Pin=U5_LV1-3
+Removed Pin From Net: NetName=48V Pin=U5_LV3-3
+Removed Member From Class: ClassName=LV2 Member=Q2_LV2
+Removed Member From Class: ClassName=LV4 Member=Q2_LV4
+Removed Member From Class: ClassName=LV1 Member=Q3_LV1
+Removed Member From Class: ClassName=LV3 Member=Q3_LV3
+Added Component: Designator=SSR1(LCA701S)
+Added Component: Designator=SSR2(LCA701S)
+Added Pin To Net: NetName=EN1 Pin=SSR1-1
+Added Pin To Net: NetName=GND Pin=SSR1-2
+Added Pin To Net: NetName=48V Pin=SSR1-6
+Added Pin To Net: NetName=EN2 Pin=SSR2-1
+Added Pin To Net: NetName=GND Pin=SSR2-2
+Added Pin To Net: NetName=48V Pin=SSR2-6
+Change Net Name : Old Net Name=NetQ3_LV1_3 New Net Name=NetR11_LV1_1
+Change Net Name : Old Net Name=NetQ3_LV3_3 New Net Name=NetR11_LV3_1
+Added Pin To Net: NetName=NetJ1_60 Pin=J1-60
+Added Pin To Net: NetName=NetJ1_60 Pin=J1-61
+Added Net: Name=NetJ1_60
+Added Pin To Net: NetName=VINA Pin=Rsense1_LV1-1
+Added Pin To Net: NetName=VINA Pin=Rsense2_LV4-1
+Added Pin To Net: NetName=VINA Pin=SSR1-4
+Added Pin To Net: NetName=VINA Pin=SSR1-5
+Added Pin To Net: NetName=VINA Pin=U2_LV4-3
+Added Pin To Net: NetName=VINA Pin=U5_LV1-3
+Added Net: Name=VINA
+Added Pin To Net: NetName=VINB Pin=Rsense1_LV3-1
+Added Pin To Net: NetName=VINB Pin=Rsense2_LV2-1
+Added Pin To Net: NetName=VINB Pin=SSR2-4
+Added Pin To Net: NetName=VINB Pin=SSR2-5
+Added Pin To Net: NetName=VINB Pin=U2_LV2-3
+Added Pin To Net: NetName=VINB Pin=U5_LV3-3
+Added Net: Name=VINB
+Added Member To Class: ClassName=Top Member=Component SSR1 LCA701
+Added Member To Class: ClassName=Top Member=Component SSR2 LCA701

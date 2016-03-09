@@ -1,9 +1,12 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [G2_LV.PrjPcb]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [G2_LV.PrjPcb]
+   Generated File[LV1.TXT]
+   Generated File[LV1.LDP]
+   Generated File[LV1.DRR]
 
 
-Files Generated   : 0
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 12:39:47 PM On 8/12/2015
+Finished Output Generation At 16:13:31 On 02/03/2016

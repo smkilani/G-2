@@ -1,0 +1,31 @@
+Added Pin To Net: NetName=NetJ1_Conn1_40 Pin=J1_Conn1-40
+Added Net: Name=NetJ1_Conn1_40
+Added Pin To Net: NetName=NetJ1_Conn2_39 Pin=J1_Conn2-39
+Added Net: Name=NetJ1_Conn2_39
+Added Pin To Net: NetName=NetJ1_Conn2_40 Pin=J1_Conn2-40
+Added Net: Name=NetJ1_Conn2_40
+Added Pin To Net: NetName=NetJ1_Conn3_41 Pin=J1_Conn3-41
+Added Net: Name=NetJ1_Conn3_41
+Added Pin To Net: NetName=NetJ1_Conn4_39 Pin=J1_Conn4-39
+Added Net: Name=NetJ1_Conn4_39
+Added Pin To Net: NetName=NetJ1_Conn4_41 Pin=J1_Conn4-41
+Added Net: Name=NetJ1_Conn4_41
+Added Pin To Net: NetName=NetJ1_Conn5_40 Pin=J1_Conn5-40
+Added Net: Name=NetJ1_Conn5_40
+Added Pin To Net: NetName=NetJ1_Conn5_41 Pin=J1_Conn5-41
+Added Net: Name=NetJ1_Conn5_41
+Added Pin To Net: NetName=NetJ1_Conn6_39 Pin=J1_Conn6-39
+Added Net: Name=NetJ1_Conn6_39
+Added Pin To Net: NetName=NetJ1_Conn6_40 Pin=J1_Conn6-40
+Added Net: Name=NetJ1_Conn6_40
+Added Pin To Net: NetName=NetJ1_Conn6_41 Pin=J1_Conn6-41
+Added Net: Name=NetJ1_Conn6_41
+Added Pin To Net: NetName=NetJ1_Conn7_42 Pin=J1_Conn7-42
+Added Net: Name=NetJ1_Conn7_42
+Added Pin To Net: NetName=NetJ1_Conn8_39 Pin=J1_Conn8-39
+Added Net: Name=NetJ1_Conn8_39
+Added Pin To Net: NetName=NetJ1_Conn8_42 Pin=J1_Conn8-42
+Added Net: Name=NetJ1_Conn8_42
+Added Pin To Net: NetName=NetJ2_39 Pin=J2-39
+Added Pin To Net: NetName=NetJ2_39 Pin=USB1-1
+Added Net: Name=NetJ2_39

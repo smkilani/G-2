@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=P1 Old DesignItemId=3Way_Power New DesignItemId=4Way_Power
+Change Component Footprint: Designator=P1 Old Footprint=3Way_Screw_Power New Footprint=4Way_Screw_Power
+Change Component Comment : Designator=P1 Old Comment=3Way_Power New Comment=4Way_Power
+Added Pin To Net: NetName=48V Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-4
