@@ -169,77 +169,35 @@ void runCMD(){
         }
         break;
         case 5:
-          Wire.beginTransmission(arg); // transmit to device #
-          Wire.write(CMD_SCA);              // sends one byte
-          if (Wire.endTransmission()==0) {
-            Serial.print("SC on device ");
-            Serial.print(arg);
-            Serial.println(" A");
+            digitalWrite(42,LOW); //disable broadcast buffer
+            digitalWrite(43,LOW); //disable SC mux
+            set_mux_adrs(arg);
+            digitalWrite(43,HIGH); //enable SC mux
             sc_mode=1;    // stop transmitting
-			Wire.onReceive(WireEvent); //Attach the wire to an onreceive function
-          }
-          else {
-            Serial.println("Error");
-            sc_mode=0; 
-          }
+
         break;
         case 6:
-          Wire.beginTransmission(arg); // transmit to device #
-          Wire.write(CMD_SCB);              // sends one byte
-          if (Wire.endTransmission()==0) {
-            Serial.print("SC on device ");
-            Serial.print(arg);
-            Serial.println(" B");
+            digitalWrite(42,LOW); //disable broadcast buffer
+            digitalWrite(43,LOW); //disable SC mux
+            set_mux_adrs(arg);
+            digitalWrite(43,HIGH); //enable SC mux
+            
             sc_mode=1;    // stop transmitting
-			Wire.onReceive(WireEvent); //Attach the wire to an onreceive function
-          }
-          else {
-            Serial.println("Error");
-            sc_mode=0; 
-          }
         break;
-		case 7:
-		  brdcst_size=arg;
-		  brdcst_count=0;
-		  //Serial.print("BRD size=");
-		  //Serial.println(brdcst_size);
-		  
-          Wire.beginTransmission(0); // transmit to device #
-          byte dd[3];
-		  dd[0]=CMD_BRDSCA;
-		  dd[1]=((brdcst_size & 0xff00)>>8);
-		  //Serial.println((byte)dd[1]);
-		  dd[2]=(brdcst_size & 0xff);
-		//	Serial.println((byte)dd[2]);
-		  Wire.write(dd,3);              // sends one byte
-		  //Wire.write(brdcst_size);
-		  
-          if (Wire.endTransmission()==0) {
-            Serial.print("Broadcast SC mode on channel A");
+	case 7:
+            digitalWrite(43,LOW); //disable SC mux
+            digitalWrite(42,HIGH); //enable broadcast buffer  
+	    brdcst_size=arg;
+	    brdcst_count=0;
             sc_mode=2;   
-          }
-          else {
-            Serial.println("Error");
-            sc_mode=0; 
-          }
+
         break;
-		case 8:
-		  brdcst_size=arg;
-		  brdcst_count=0;
-          Wire.beginTransmission(0); // transmit to device #
-          byte ff[3];
-		  ff[0]=CMD_BRDSCB;
-		  ff[1]=((brdcst_size & 0xff00)>>8);
-		  ff[2]=(brdcst_size & 0xff);
-		  Wire.write(ff,3);              // sends one byte
-          if (Wire.endTransmission()==0) {
-            Serial.print("Broadcast SC mode on channel B");
+	case 8:
+            digitalWrite(43,LOW); //disable SC mux
+            digitalWrite(42,HIGH); //enable broadcast buffer
+	    brdcst_size=arg;
+            brdcst_count=0;
             sc_mode=2;  
-          }
-          else {
-            Serial.println("Error");
-            sc_mode=0; 
-          }
         break;
         case 9:
         Serial.println(ver);
@@ -264,7 +222,7 @@ void runCMD(){
   //}
 }
 
-void WireEvent(int numBytes) {
+/*void WireEvent(int numBytes) {
   
 	if (sc_mode==1){	
 	//Serial.println("testtt");
@@ -274,94 +232,45 @@ void WireEvent(int numBytes) {
             Serial.print(c);
           }
 	}
-}
+}*/
 
 void serialEvent() {
-	int scpointer=0;
-//int savailable=Serial.available();
-
-	while (Serial.available()) {
-    // get the new byte:
-    
-    
+  int scpointer=0;
+  while (Serial.available()) {
     char inChar = (char)Serial.read();
-	
-	if (sc_mode==1)
-	{
-		if (inChar!=0x03){
-			if (scpointer<packetsize) //this will make sure that the SC data is sent in 64byte chunks. 
-									  //if the total data send is less that 64 or not a multiple of 64, then the data will be sent at the end of the serialevent
-			{
-				i2cpacket[scpointer]=inChar;
-				scpointer++;
-			}else{
-				Wire.beginTransmission(arg);
-				
-				Wire.write(i2cpacket);
-				Wire.endTransmission();	
-				
-				scpointer=0;
-				for( int i = 0; i < packetsize;  ++i )
-				i2cpacket[i] = (char)0;  
-			}
-
-		}
-		else{
-			//break @ CTRL+C
-			sc_mode=0;
-			Serial.print("SC mode ended\n>");
-			Wire.beginTransmission(arg);
-			Wire.write(0x03);
-			Wire.endTransmission();	
-			Wire.onReceive(0); //detach onreceive function
-			for( int i = 0; i < packetsize;  ++i )
-			inputString[i] = (char)0;
-			pointer=0;
-			
-		}
-	}else if (sc_mode==2){
-			if (scpointer<packetsize)
-			{
-				i2cpacket[scpointer]=inChar;
-				scpointer++;
-				brdcst_count++;
-			}else{
-				Wire.beginTransmission(0);
-				Wire.write(i2cpacket);
-				Wire.endTransmission();	
-				scpointer=0;
-				for( int i = 0; i < packetsize;  ++i )
-				i2cpacket[i] = (char)0;  
-			}
-	} else {
-		//Serial.print((byte)inChar);
-		inputString[pointer] = inChar;
-		if ((inChar==0x7F | inChar==0x8) & pointer>0) { //backspace or delete
-		Serial.write(inChar); 
-		inputString[pointer] = (char)0;
-		pointer--; 
-		}
-		else {
-		Serial.write(inChar); 
-		if (pointer<packetsize) pointer++;
-		}
-		if (inChar == '\r') runCMD();		
-	}
-  }
-  if ((sc_mode>0) && (scpointer>0)){
-	if (sc_mode==1) Wire.beginTransmission(arg);
-	else if (sc_mode==2) Wire.beginTransmission(0);
-	//Serial.print("begin");
-	//Serial.println(sc_mode);
-	Wire.write(i2cpacket);
-	//Serial.print("sent:");
-  //Serial.println(i2cpacket);
-	Wire.endTransmission();	
-	//Serial.println("end");
-	scpointer=0;
-	for( int i = 0; i < packetsize;  ++i )
-	i2cpacket[i] = (char)0;  
-	if ((brdcst_count==brdcst_size) && (sc_mode==2)) sc_mode=0;
+    if (sc_mode==1)
+    {
+      if (inChar!=0x03){
+        Serial1.write(inChar);
+      }
+      else{
+        //break @ CTRL+C
+        sc_mode=0;
+        Serial.print("SC mode ended\n>");
+      }
+    }else if (sc_mode==2){
+      if (brdcst_count<brdcst_size)
+      {
+        Serial1.write(inChar);
+        brdcst_count++;
+      }else{
+        sc_mode=0;
+  	brdcst_count=0;
+      }
+    } else {
+      //Serial.print((byte)inChar);
+      inputString[pointer] = inChar;
+      if ((inChar==0x7F | inChar==0x8) & pointer>0) { //backspace or delete
+        Serial.write(inChar); 
+        inputString[pointer] = (char)0;
+        pointer--; 
+      }
+      else {
+        Serial.write(inChar); 
+        if (pointer<packetsize) pointer++;
+      }
+      if (inChar == '\r') runCMD();		
+    }
   }
 }
 
@@ -370,4 +279,71 @@ int joinbytes(byte b1, byte b2)
 {
   int joinedint = ((b2<<8) & 0x0f00) | (0xff & b1);
   return joinedint;
+}
+
+int set_mux_adrs(int adrs)
+{
+  /*
+  C   B   A     Out
+  D49 D48 D47
+  0   0   0     0
+  0   0   1     1
+  0   1   0     2
+  0   1   1     3
+  1   0   0     4
+  1   0   1     5
+  1   1   0     6
+  1   1   1     7
+  */
+  bool a,b,c;
+  switch (adrs){
+    case 0:
+      a=LOW;
+      b=LOW;
+      c=LOW;
+    break;
+    case 1:
+      a=HIGH;
+      b=LOW;
+      c=LOW;
+    break;
+    case 2:
+      a=LOW;
+      b=HIGH;
+      c=LOW;
+    break;
+    case 3:
+      a=HIGH;
+      b=HIGH;
+      c=LOW;
+    break;
+    case 4:
+      a=LOW;
+      b=LOW;
+      c=HIGH;
+    break;
+    case 5:
+      a=HIGH;
+      b=LOW;
+      c=HIGH;
+    break;
+    case 6:
+      a=LOW;
+      b=HIGH;
+      c=HIGH;
+    break;
+    case 7:
+      a=HIGH;
+      b=HIGH;
+      c=HIGH;
+    break;
+    default:
+      a=LOW;
+      b=LOW;
+      c=LOW;
+    break;
+  }
+  digitalWrite(49, c);
+  digitalWrite(48, b);
+  digitalWrite(47, a);
 }
