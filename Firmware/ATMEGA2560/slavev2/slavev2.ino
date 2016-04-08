@@ -59,13 +59,12 @@ void setup()
   TWAR = (ADRS << 1) | 1;
   Wire.onReceive(receiveEvent); // register event
   Wire.onRequest(requestEvent); // register event
-  Serial1.begin(115200);
   Serial.begin(115200); 
   
   pinMode(ENApin, OUTPUT); //to control the output
   pinMode(ENBpin, OUTPUT); //to control the output
-  digitalWrite(ENApin, HIGH);
-  digitalWrite(ENBpin, HIGH);
+  digitalWrite(ENApin, LOW);
+  digitalWrite(ENBpin, LOW);
   
   for( int i = 0; i < packetsize;  ++i ){
   inputString[i] = (char)0;
@@ -90,10 +89,10 @@ void receiveEvent(int howMany)
 	for( int i = 0; i < packetsize;  ++i ) receivedData[i] = (char)0;
         //x = Wire.read();    // receive byte as an integer
 		//Serial.println(x);
-        if (x==CMD_OFFA) digitalWrite(ENApin, HIGH);
-        else if (x==CMD_ONA) digitalWrite(ENApin, LOW);
-        else if (x==CMD_OFFB) digitalWrite(ENBpin, HIGH);
-        else if (x==CMD_ONB) digitalWrite(ENBpin, LOW);
+        if (x==CMD_OFFA) digitalWrite(ENApin, LOW);
+        else if (x==CMD_ONA) digitalWrite(ENApin, HIGH);
+        else if (x==CMD_OFFB) digitalWrite(ENBpin, LOW);
+        else if (x==CMD_ONB) digitalWrite(ENBpin, HIGH);
         
   }
 }
