@@ -39,6 +39,8 @@ char receivedData[packetsize];
 //const int negB_ADC = A4; 
 const int ENApin = 23; 
 const int ENBpin = 22; 
+const int LED1 = 28;
+const int LED2 = 29;
 const int posA_ADC = A3; 
 const int negA_ADC = A1; 
 const int posB_ADC = A2; 
@@ -64,9 +66,12 @@ void setup()
   
   pinMode(ENApin, OUTPUT); //to control the output
   pinMode(ENBpin, OUTPUT); //to control the output
+  pinMode(LED1, OUTPUT); //to control the output
+  pinMode(LED2, OUTPUT); //to control the output
   digitalWrite(ENApin, HIGH);
   digitalWrite(ENBpin, HIGH);
-  
+  digitalWrite(LED1, HIGH);
+  digitalWrite(LED2, HIGH);  
   for( int i = 0; i < packetsize;  ++i ){
   inputString[i] = (char)0;
   receivedData[i] = (char)0;}
@@ -94,6 +99,14 @@ void receiveEvent(int howMany)
         else if (x==CMD_ONA) digitalWrite(ENApin, LOW);
         else if (x==CMD_OFFB) digitalWrite(ENBpin, HIGH);
         else if (x==CMD_ONB) digitalWrite(ENBpin, LOW);
+        else if (x==CMD_SCA) {
+          digitalWrite(LED1, LOW);
+          digitalWrite(LED2, HIGH);
+        }
+        else if (x==CMD_SCB) {
+          digitalWrite(LED1, HIGH);
+          digitalWrite(LED2, LOW);
+        }
         
   }
 }

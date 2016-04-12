@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=BRD_CST_EN Pin=IC3-42
+Removed Pin From Net: NetName=MUX_EN_A Pin=R12-2
+Removed Pin From Net: NetName=MUX_EN_B Pin=R13-2
+Removed Pin From Net: NetName=NetD1_2 Pin=R_LED1-1
+Removed Pin From Net: NetName=+5V Pin=R_LED1-2
+Removed Pin From Net: NetName=NetD2_2 Pin=R_LED2-1
+Removed Pin From Net: NetName=+5V Pin=R_LED2-2
+Removed Pin From Net: NetName=BRD_CST_EN Pin=U8-1
+Removed Pin From Net: NetName=BRD_CST_EN Pin=U8-19
+Added Component: Designator=R14(J1-0603)
+Added Component: Designator=U9(SOP8)
+Added Pin To Net: NetName=MUX_EN_A Pin=R13-2
+Added Pin To Net: NetName=+5V Pin=R14-1
+Added Pin To Net: NetName=MUX_EN_B Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R_LED1-2
+Added Pin To Net: NetName=GND Pin=R_LED2-2
+Added Pin To Net: NetName=MUX_EN_A Pin=U9-1
+Added Pin To Net: NetName=BRD_CST_EN Pin=U9-2
+Added Pin To Net: NetName=NetD2_2 Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U9-4
+Added Pin To Net: NetName=MUX_EN_B Pin=U9-6
+Added Pin To Net: NetName=NetD1_2 Pin=U9-7
+Added Pin To Net: NetName=+5V Pin=U9-8
+Change Net Name : Old Net Name=BRD_CST_EN New Net Name=BRD_CST_EN_A
+Added Pin To Net: NetName=BRD_CST_EN_B Pin=R12-2
+Added Pin To Net: NetName=BRD_CST_EN_B Pin=U8-1
+Added Pin To Net: NetName=BRD_CST_EN_B Pin=U8-19
+Added Pin To Net: NetName=BRD_CST_EN_B Pin=U9-5
+Added Net: Name=BRD_CST_EN_B
+Added Pin To Net: NetName=BRD_CST_EN Pin=IC3-42
+Added Net: Name=BRD_CST_EN
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R_LED1-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R_LED2-1
+Added Net: Name=NetD2_1
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R14 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component U9 SN74LVC2G32DCTR

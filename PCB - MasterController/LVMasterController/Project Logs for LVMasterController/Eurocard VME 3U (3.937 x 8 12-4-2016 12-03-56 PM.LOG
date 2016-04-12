@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=LED1 Pin=IC3-23
+Removed Pin From Net: NetName=LED2 Pin=IC3-24
+Removed Pin From Net: NetName=PE1 Pin=R6-1
+Removed Pin From Net: NetName=PE0 Pin=R7-1
+Removed Pin From Net: NetName=D+ Pin=R8-2
+Removed Pin From Net: NetName=D+ Pin=U1-7
+Removed Pin From Net: NetName=D- Pin=U1-8
+Removed Pin From Net: NetName=XVCC Pin=U1-13
+Removed Pin From Net: NetName=MUX_EN Pin=U6-6
+Removed Pin From Net: NetName=MUX_EN Pin=U7-6
+Change Component Comment : Designator=C1 Old Comment=100n New Comment=Cap Semi
+Added Component: Designator=R11(J1-0603)
+Added Component: Designator=R12(J1-0603)
+Added Component: Designator=R13(J1-0603)
+Added Pin To Net: NetName=D- Pin=R6-2
+Added Pin To Net: NetName=D+ Pin=R7-2
+Added Pin To Net: NetName=+5V Pin=R11-1
+Added Pin To Net: NetName=BRD_CST_EN Pin=R11-2
+Added Pin To Net: NetName=+5V Pin=R12-1
+Added Pin To Net: NetName=MUX_EN Pin=R12-2
+Added Pin To Net: NetName=+5V Pin=R13-1
+Added Pin To Net: NetName=+5V Pin=U1-13
+Added Pin To Net: NetName=PE1 Pin=U1-24
+Added Pin To Net: NetName=PE0 Pin=U1-25
+Change Net Name : Old Net Name=MUX_EN New Net Name=MUX_EN_A
+Added Pin To Net: NetName=MUX_EN_B Pin=IC3-40
+Added Pin To Net: NetName=MUX_EN_B Pin=R13-2
+Added Pin To Net: NetName=MUX_EN_B Pin=U6-6
+Added Pin To Net: NetName=MUX_EN_B Pin=U7-6
+Added Net: Name=MUX_EN_B
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=U1-8
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=R8-2
+Added Pin To Net: NetName=NetR7_1 Pin=U1-7
+Added Net: Name=NetR7_1
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R11 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R12 
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component R13 

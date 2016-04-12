@@ -51,10 +51,28 @@ void setup()
   for( int i = 0; i < packetsize;  ++i )
   i2cpacket[i] = (char)0;  
 
-  Serial.begin(115200);  // start serial for output
+  Serial.begin(115200);  // start serial for menu
+  Serial1.begin(115200); // start serial for SC
   delay(1000);
   Serial.print('>');
   
+  
+  pinMode(11, OUTPUT); 
+  pinMode(42, OUTPUT); 
+  pinMode(43, OUTPUT); 
+  pinMode(10, OUTPUT); 
+  pinMode(49, OUTPUT); 
+  pinMode(48, OUTPUT); 
+  pinMode(47, OUTPUT); 
+  
+  digitalWrite(49, LOW);
+  digitalWrite(48, LOW);
+  digitalWrite(47, LOW);
+  
+  digitalWrite(42,HIGH); //disable broadcast buffer
+  digitalWrite(43,HIGH); //disable SCa mux
+  digitalWrite(11,HIGH); //disable SCb mux
+  digitalWrite(10,HIGH); //disable SCb mux
 }
 
 
@@ -169,32 +187,54 @@ void runCMD(){
         }
         break;
         case 5:
-            digitalWrite(42,LOW); //disable broadcast buffer
-            digitalWrite(43,LOW); //disable SC mux
-            set_mux_adrs(arg);
-            digitalWrite(43,HIGH); //enable SC mux
-            sc_mode=1;    // stop transmitting
-
+        
+            Wire.beginTransmission(arg); // transmit to device #
+            Wire.write(CMD_SCA);              // sends one byte
+            if (Wire.endTransmission()==0) {
+              Serial.println(reply[0]);  // stop transmitting
+              digitalWrite(42,HIGH); //disable broadcast buffer
+              digitalWrite(43,HIGH); //disable SC mux
+              digitalWrite(11,HIGH); //disable SC mux
+              set_mux_adrs(arg);
+              digitalWrite(43,LOW); //enable SC mux
+              digitalWrite(10,LOW); //LED
+              sc_mode=1;    // stop transmitting
+            }
+            else Serial.println(reply[1]);
         break;
         case 6:
-            digitalWrite(42,LOW); //disable broadcast buffer
-            digitalWrite(43,LOW); //disable SC mux
+            Wire.beginTransmission(arg); // transmit to device #
+            Wire.write(CMD_SCB);              // sends one byte
+            if (Wire.endTransmission()==0) {
+              Serial.println(reply[0]);  // stop transmitting
+            digitalWrite(42,HIGH); //disable broadcast buffer
+            digitalWrite(43,HIGH); //disable SC mux
+            digitalWrite(11,HIGH); //disable SC mux
             set_mux_adrs(arg);
-            digitalWrite(43,HIGH); //enable SC mux
+            digitalWrite(11,LOW); //enable SC mux
+            digitalWrite(10,HIGH); //enable SC mux
             
             sc_mode=1;    // stop transmitting
-        break;
+            }
+            else Serial.println(reply[1]);
+            
+            break;
 	case 7:
-            digitalWrite(43,LOW); //disable SC mux
-            digitalWrite(42,HIGH); //enable broadcast buffer  
+            digitalWrite(43,HIGH); //disable SC mux
+            digitalWrite(11,HIGH); //disable SC mux
+            digitalWrite(10,HIGH); //enable SC mux
+            digitalWrite(42,LOW); //enable broadcast buffer  
+            
 	    brdcst_size=arg;
 	    brdcst_count=0;
             sc_mode=2;   
 
         break;
 	case 8:
-            digitalWrite(43,LOW); //disable SC mux
-            digitalWrite(42,HIGH); //enable broadcast buffer
+            digitalWrite(43,HIGH); //disable SC mux
+            digitalWrite(11,HIGH); //disable SC mux
+            digitalWrite(10,HIGH); //enable SC mux
+            digitalWrite(42,LOW); //enable broadcast buffer
 	    brdcst_size=arg;
             brdcst_count=0;
             sc_mode=2;  
@@ -234,6 +274,14 @@ void runCMD(){
 	}
 }*/
 
+
+
+void serialEvent1() {
+    while (Serial1.available()) {
+      char inChar = (char)Serial1.read();
+      Serial.write(inChar);
+    }
+}
 void serialEvent() {
   int scpointer=0;
   while (Serial.available()) {
@@ -246,6 +294,10 @@ void serialEvent() {
       else{
         //break @ CTRL+C
         sc_mode=0;
+        digitalWrite(42,HIGH); //disable broadcast buffer
+        digitalWrite(43,HIGH); //disable SC mux
+        digitalWrite(11,HIGH); //disable SC mux
+        digitalWrite(10,HIGH); //disable SCb mux
         Serial.print("SC mode ended\n>");
       }
     }else if (sc_mode==2){
@@ -255,7 +307,11 @@ void serialEvent() {
         brdcst_count++;
       }else{
         sc_mode=0;
-  	brdcst_count=0;
+  	brdcst_count=0;  
+        digitalWrite(42,HIGH); //disable broadcast buffer
+        digitalWrite(43,HIGH); //disable SC mux
+        digitalWrite(11,HIGH); //disable SC mux
+        digitalWrite(10,HIGH); //disable SCb mux
       }
     } else {
       //Serial.print((byte)inChar);
@@ -294,45 +350,59 @@ int set_mux_adrs(int adrs)
   1   0   1     5
   1   1   0     6
   1   1   1     7
+  
+  However
+  
+  When making the PCB the pinout order was overlooked. The actual pin map is
+  
+  TX1 and RX1 --> 4
+  TX2 and RX2 --> 6
+  TX3 and RX3 --> 3
+  TX4 and RX4 --> 0
+  TX5 and RX5 --> 1
+  TX6 and RX6 --> 2
+  TX7 and RX7 --> 7
+  TX8 and RX8 --> 5
   */
+  
   bool a,b,c;
   switch (adrs){
-    case 0:
+    case 5://4
       a=LOW;
       b=LOW;
       c=LOW;
     break;
-    case 1:
+    case 6://5
       a=HIGH;
       b=LOW;
       c=LOW;
     break;
-    case 2:
+    case 7://6
       a=LOW;
       b=HIGH;
       c=LOW;
     break;
-    case 3:
+    case 4://3
       a=HIGH;
       b=HIGH;
       c=LOW;
     break;
-    case 4:
+    case 2://1
       a=LOW;
       b=LOW;
       c=HIGH;
     break;
-    case 5:
+    case 9://8
       a=HIGH;
       b=LOW;
       c=HIGH;
     break;
-    case 6:
+    case 3://2
       a=LOW;
       b=HIGH;
       c=HIGH;
     break;
-    case 7:
+    case 8://7
       a=HIGH;
       b=HIGH;
       c=HIGH;
