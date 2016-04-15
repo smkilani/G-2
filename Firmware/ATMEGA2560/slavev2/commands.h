@@ -4,7 +4,9 @@
 #define CMD_OFFB 0x4
 #define CMD_statusA 0x5
 #define CMD_statusB 0x6
-#define CMD_SCA 0x7
-#define CMD_SCB 0x8
-#define CMD_BRDSCA 0x9
-#define CMD_BRDSCB 0xA
+#define CMD_SCA_ON 0x7
+#define CMD_SCA_OFF 0x8
+#define CMD_SCB_ON 0x9
+#define CMD_SCB_OFF 0xA
+#define CMD_BRDSCA 0xB
+#define CMD_BRDSCB 0xC

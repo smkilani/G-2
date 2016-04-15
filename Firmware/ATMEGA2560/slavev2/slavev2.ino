@@ -65,18 +65,17 @@ void setup()
   
   pinMode(ENApin, OUTPUT); //to control the output
   pinMode(ENBpin, OUTPUT); //to control the output
-<<<<<<< HEAD
+
   pinMode(LED1, OUTPUT); //to control the output
   pinMode(LED2, OUTPUT); //to control the output
-  digitalWrite(ENApin, HIGH);
-  digitalWrite(ENBpin, HIGH);
+
   digitalWrite(LED1, HIGH);
   digitalWrite(LED2, HIGH);  
-=======
+
   digitalWrite(ENApin, LOW);
   digitalWrite(ENBpin, LOW);
   
->>>>>>> origin/master
+
   for( int i = 0; i < packetsize;  ++i ){
   inputString[i] = (char)0;
   receivedData[i] = (char)0;}
@@ -100,25 +99,26 @@ void receiveEvent(int howMany)
 	for( int i = 0; i < packetsize;  ++i ) receivedData[i] = (char)0;
         //x = Wire.read();    // receive byte as an integer
 		//Serial.println(x);
-<<<<<<< HEAD
-        if (x==CMD_OFFA) digitalWrite(ENApin, HIGH);
-        else if (x==CMD_ONA) digitalWrite(ENApin, LOW);
-        else if (x==CMD_OFFB) digitalWrite(ENBpin, HIGH);
-        else if (x==CMD_ONB) digitalWrite(ENBpin, LOW);
-        else if (x==CMD_SCA) {
-          digitalWrite(LED1, LOW);
-          digitalWrite(LED2, HIGH);
-        }
-        else if (x==CMD_SCB) {
-          digitalWrite(LED1, HIGH);
-          digitalWrite(LED2, LOW);
-        }
-=======
+
         if (x==CMD_OFFA) digitalWrite(ENApin, LOW);
         else if (x==CMD_ONA) digitalWrite(ENApin, HIGH);
         else if (x==CMD_OFFB) digitalWrite(ENBpin, LOW);
         else if (x==CMD_ONB) digitalWrite(ENBpin, HIGH);
->>>>>>> origin/master
+        else if (x==CMD_SCA_ON) {
+          digitalWrite(LED1, LOW);
+          digitalWrite(LED2, HIGH);
+        }
+        else if (x==CMD_SCB_ON) {
+          digitalWrite(LED1, HIGH);
+          digitalWrite(LED2, LOW);
+        }
+        else if (x==CMD_SCA_OFF) {
+          digitalWrite(LED1, HIGH);
+        }
+        else if (x==CMD_SCB_OFF) {
+          digitalWrite(LED2, HIGH);
+        }
+
         
   }
 }

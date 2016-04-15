@@ -20,6 +20,11 @@
 
 #define ver "2.0"
 #define packetsize 64
+#define SCidle 0x0
+#define SCAmode 0x1
+#define SCBmode 0x2
+#define BRDSCAmode 0x3
+#define BRDSCBmode 0x4
 
 String wireString="";
 
@@ -35,7 +40,7 @@ String menu[11] = {"ona","onb","offa","offb","status","sca","scb","brdsca","brds
 String reply[2] = {"OK","Error"};
 int selected_menu=-1;
 int arg=0;
-int sc_mode = 0; //0 normal mode, 1 SC mode, 2 Broadcast SC mode
+int sc_mode = SCidle; 
 int brdcst_size=0;
 int brdcst_count=0;
 char i2cpacket[packetsize]; //defined by the serial and wire buffer sizes
@@ -189,7 +194,7 @@ void runCMD(){
         case 5:
         
             Wire.beginTransmission(arg); // transmit to device #
-            Wire.write(CMD_SCA);              // sends one byte
+            Wire.write(CMD_SCA_ON);              // sends one byte
             if (Wire.endTransmission()==0) {
               Serial.println(reply[0]);  // stop transmitting
               digitalWrite(42,HIGH); //disable broadcast buffer
@@ -198,13 +203,13 @@ void runCMD(){
               set_mux_adrs(arg);
               digitalWrite(43,LOW); //enable SC mux
               digitalWrite(10,LOW); //LED
-              sc_mode=1;    // stop transmitting
+              sc_mode=SCAmode;    
             }
             else Serial.println(reply[1]);
         break;
         case 6:
             Wire.beginTransmission(arg); // transmit to device #
-            Wire.write(CMD_SCB);              // sends one byte
+            Wire.write(CMD_SCB_ON);              // sends one byte
             if (Wire.endTransmission()==0) {
               Serial.println(reply[0]);  // stop transmitting
             digitalWrite(42,HIGH); //disable broadcast buffer
@@ -214,7 +219,7 @@ void runCMD(){
             digitalWrite(11,LOW); //enable SC mux
             digitalWrite(10,HIGH); //enable SC mux
             
-            sc_mode=1;    // stop transmitting
+            sc_mode=SCBmode;    // stop transmitting
             }
             else Serial.println(reply[1]);
             
@@ -227,7 +232,7 @@ void runCMD(){
             
 	    brdcst_size=arg;
 	    brdcst_count=0;
-            sc_mode=2;   
+            sc_mode=BRDSCAmode;   
 
         break;
 	case 8:
@@ -237,7 +242,7 @@ void runCMD(){
             digitalWrite(42,LOW); //enable broadcast buffer
 	    brdcst_size=arg;
             brdcst_count=0;
-            sc_mode=2;  
+            sc_mode=BRDSCBmode;  
         break;
         case 9:
         Serial.println(ver);
@@ -258,7 +263,7 @@ void runCMD(){
     inputString[i] = (char)0;
     pointer=0;
     //stringComplete = false;
-    if (sc_mode==0) Serial.print('>');
+    if (sc_mode==SCidle) Serial.print('>');
   //}
 }
 
@@ -279,6 +284,7 @@ void runCMD(){
 void serialEvent1() {
     while (Serial1.available()) {
       char inChar = (char)Serial1.read();
+      Serial.write("Receiving");
       Serial.write(inChar);
     }
 }
@@ -286,32 +292,46 @@ void serialEvent() {
   int scpointer=0;
   while (Serial.available()) {
     char inChar = (char)Serial.read();
-    if (sc_mode==1)
+    if (sc_mode==SCAmode || sc_mode==SCBmode)
     {
       if (inChar!=0x03){
+        Serial.write("Sending");
         Serial1.write(inChar);
       }
       else{
         //break @ CTRL+C
-        sc_mode=0;
+        Wire.beginTransmission(arg); // transmit to device #
+        if (sc_mode==SCAmode) Wire.write(CMD_SCA_OFF); else if (sc_mode==SCBmode) Wire.write(CMD_SCB_OFF);              // sends one byte
+        if (Wire.endTransmission()==0) Serial.println(reply[0]); else Serial.println(reply[1]); // stop transmitting
+          
+        sc_mode=SCidle;
         digitalWrite(42,HIGH); //disable broadcast buffer
         digitalWrite(43,HIGH); //disable SC mux
         digitalWrite(11,HIGH); //disable SC mux
         digitalWrite(10,HIGH); //disable SCb mux
+
         Serial.print("SC mode ended\n>");
       }
-    }else if (sc_mode==2){
+    }else if ((sc_mode==BRDSCAmode) || (sc_mode==BRDSCBmode)){
       if (brdcst_count<brdcst_size)
       {
         Serial1.write(inChar);
         brdcst_count++;
       }else{
-        sc_mode=0;
+        Wire.beginTransmission(0); // transmit to device #
+        //if (sc_mode==SCAmode) Wire.write(CMD_SCA_OFF); else if (sc_mode==SCBmode) Wire.write(CMD_SCB_OFF);              // sends one byte
+        Wire.write(CMD_SCA_OFF);
+        Wire.write(CMD_SCB_OFF);
+        if (Wire.endTransmission()==0) Serial.println(reply[0]); else Serial.println(reply[1]);  // stop transmitting
+          
+        sc_mode=SCidle;
   	brdcst_count=0;  
         digitalWrite(42,HIGH); //disable broadcast buffer
         digitalWrite(43,HIGH); //disable SC mux
         digitalWrite(11,HIGH); //disable SC mux
         digitalWrite(10,HIGH); //disable SCb mux
+        
+      
       }
     } else {
       //Serial.print((byte)inChar);
