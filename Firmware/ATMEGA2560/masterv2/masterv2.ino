@@ -58,7 +58,7 @@ void setup()
 
   Serial.begin(115200);  // start serial for menu
   Serial1.begin(115200); // start serial for SC
-  delay(1000);
+  //delay(1000);
   Serial.print('>');
   
   
@@ -284,7 +284,7 @@ void runCMD(){
 void serialEvent1() {
     while (Serial1.available()) {
       char inChar = (char)Serial1.read();
-      Serial.write("Receiving");
+      //Serial.write("Receiving");
       Serial.write(inChar);
     }
 }
@@ -295,7 +295,7 @@ void serialEvent() {
     if (sc_mode==SCAmode || sc_mode==SCBmode)
     {
       if (inChar!=0x03){
-        Serial.write("Sending");
+        //Serial1.println("help");
         Serial1.write(inChar);
       }
       else{
