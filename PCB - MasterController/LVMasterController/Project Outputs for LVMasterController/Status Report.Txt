@@ -1,9 +1,20 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [LVMasterController.PrjPcb]
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [LVMasterController.PrjPcb]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Copper_Signal_Top.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Copper_Signal_Bot.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Legend_Top.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Soldermask_Top.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Legend_Bot.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Soldermask_Bot.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Mechanical_1.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Profile.gbr]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).RUL]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).EXTREP]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).REP]
 
 
-Files Generated   : 0
+Files Generated   : 11
 Documents Printed : 0
 
-Finished Output Generation At 13:21:35 On 09/03/2016
+Finished Output Generation At 2:48:01 PM On 19/4/2016
