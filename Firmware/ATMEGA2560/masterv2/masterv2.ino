@@ -28,6 +28,15 @@
 
 String wireString="";
 
+#define THERMISTORNOMINAL 10000   
+// temp. for nominal resistance (almost always 25 C)
+#define TEMPERATURENOMINAL 25   
+// The beta coefficient of the thermistor (usually 3000-4000)
+#define BCOEFFICIENT 3428
+// the value of the 'other' resistor
+#define SERIESRESISTOR 9990 
+
+
 
 char inputString[packetsize];  
 
@@ -139,7 +148,7 @@ void runCMD(){
               while (Wire.available())   // slave may send less than requested
               {
                 datain[j] = Wire.read(); // receive a byte as character
-                //Serial.println(datain[i],HEX);
+                //Serial.println(datain[j],HEX);
                 //Serial.print("Byte ");
                // Serial.print(i);
                 //Serial.print(" ");
@@ -153,13 +162,13 @@ void runCMD(){
               int pinvalue4 = joinbytes(datain[6],datain[7]);
               int pinvalue5 = joinbytes(datain[8],datain[9]);
              
-              double temp=0;
+              float r_ntc=0.0;
 
 
 
                 Serial.println("LV A");
-                if ((datain[10]) == 0xaa) Serial.println("ON");
-                else if ((datain[10]) == 0xcc) Serial.println("OFF");
+                if ((datain[10]) == 0xaa) Serial.println("OFF");
+                else if ((datain[10]) == 0xcc) Serial.println("ON");
                 Serial.print("+5V -> ");
                 Serial.print(5.0*((float)pinvalue1/1023));
                 Serial.println("A");
@@ -169,8 +178,8 @@ void runCMD(){
                 Serial.println("A");
                 
                 Serial.println("LV B");
-                if ((datain[11]) == 0xaa) Serial.println("ON");
-                else if ((datain[11]) == 0xcc) Serial.println("OFF");
+                if ((datain[11]) == 0xaa) Serial.println("OFF");
+                else if ((datain[11]) == 0xcc) Serial.println("ON");
                 Serial.print("+5V -> ");
                 Serial.print(5.0*((float)pinvalue3/1023));
                 Serial.println("A");
@@ -180,11 +189,21 @@ void runCMD(){
                 Serial.println("A");
                 
                 Serial.print("Temp -> ");
-                temp=(double)pinvalue5/1023.0;
-                temp=(temp*9000.0)/(1.0-temp);
-                temp=(3455/log(temp/0.102756))-273.15;
+                r_ntc=(1023.0/(float)pinvalue5);
+                r_ntc=10000.0*(r_ntc-1.0);
+                float steinhart;
+                steinhart = r_ntc / THERMISTORNOMINAL;     // (R/Ro)
+                steinhart = log(steinhart);                  // ln(R/Ro)
+                steinhart /= BCOEFFICIENT;                   // 1/B * ln(R/Ro)
+                steinhart += 1.0 / (TEMPERATURENOMINAL + 273.15); // + (1/To)
+                steinhart = 1.0 / steinhart;                 // Invert
+                steinhart -= 273.15;                         // convert to C
+            
+                //temp=(temp*10000.0)/(1.0-temp);
+                //temp=(temp*10000.0)/(1.0-temp);
+                //temp=(BCOEFFICIENT/log(temp/0.102756))-273.15;
                 //Serial.print(pinvalue3);
-                Serial.print(temp);
+                Serial.print(steinhart);
                 Serial.println("C");
               }
         
@@ -251,6 +270,7 @@ void runCMD(){
         for (int i = 0;i<11;i++) Serial.println(menu[i]);
         break;
         default:
+        for (int i = 0;i<11;i++) Serial.println(menu[i]);
         Serial.println("Bad command");   
       }
 

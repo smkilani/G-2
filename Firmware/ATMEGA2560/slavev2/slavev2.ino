@@ -52,6 +52,11 @@ const int ADRS2 = 26;
 const int ADRS3 = 27;
 //------------------------------
 int ADRS=0;
+
+boolean lvstatusA = false;
+boolean lvstatusB = false;
+    
+    
 void setup()
 {
   //calculate adrs
@@ -100,10 +105,10 @@ void receiveEvent(int howMany)
         //x = Wire.read();    // receive byte as an integer
 		//Serial.println(x);
 
-        if (x==CMD_OFFA) digitalWrite(ENApin, LOW);
-        else if (x==CMD_ONA) digitalWrite(ENApin, HIGH);
-        else if (x==CMD_OFFB) digitalWrite(ENBpin, LOW);
-        else if (x==CMD_ONB) digitalWrite(ENBpin, HIGH);
+        if (x==CMD_OFFA) {digitalWrite(ENApin, LOW); lvstatusA = false;}
+        else if (x==CMD_ONA) {digitalWrite(ENApin, HIGH); lvstatusA = true;}
+        else if (x==CMD_OFFB) {digitalWrite(ENBpin, LOW);lvstatusB = false;}
+        else if (x==CMD_ONB) {digitalWrite(ENBpin, HIGH);lvstatusB = true;}
         else if (x==CMD_SCA_ON) {
           digitalWrite(LED1, LOW);
           digitalWrite(LED2, HIGH);
@@ -129,8 +134,8 @@ void requestEvent()
 	 // Serial.println("hello");
     byte data[12];
 
-    boolean lvstatusA = digitalRead(ENApin);
-    boolean lvstatusB = digitalRead(ENBpin);
+    //boolean lvstatusA = digitalRead(ENApin);
+    //boolean lvstatusB = digitalRead(ENBpin);
     unsigned int pinvalue1=0;
     unsigned int pinvalue2=0;
     unsigned int pinvalue3=0;
@@ -179,9 +184,9 @@ void requestEvent()
     //Serial.println(pinvalue2>>8,HEX);
     
     
-    if (lvstatusA==true) data[10] = 0xcc;
+    if (lvstatusA==false) data[10] = 0xcc;
     else data[10] = 0xaa;
-    if (lvstatusB==true) data[11] = 0xcc;
+    if (lvstatusB==false) data[11] = 0xcc;
     else data[11] = 0xaa;
     Wire.write(data,12);
     
