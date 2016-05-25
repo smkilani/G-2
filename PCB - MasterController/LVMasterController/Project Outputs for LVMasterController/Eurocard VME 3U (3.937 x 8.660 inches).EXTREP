@@ -1,17 +1,16 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Eurocard VME 3U (3.937 x 8.660 inches).GBR   19/4/2016  2:47:59 PM
+Gerber File Extension Report For: Eurocard VME 3U (3.937 x 8.660 inches).GBR   4/5/2016  3:43:57 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.gbr                Component Side                          
-.gbr                Bottom Layer                            
-.gbr                Top Overlay                             
-.gbr                Top Solder                              
-.gbr                Bottom Overlay                          
-.gbr                Solder Side                             
-.gbr                Mechanical1                             
-.gbr                Profile                                 
+.GTL                Component Side                          
+.GBL                Bottom Layer                            
+.GTO                Top Overlay                             
+.GTS                Top Solder                              
+.GBS                Solder Side                             
+.GBO                Bottom Overlay                          
+.GM1                Mechanical1                             
 ------------------------------------------------------------------------------------------

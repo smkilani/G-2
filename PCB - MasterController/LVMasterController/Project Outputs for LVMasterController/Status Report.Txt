@@ -1,20 +1,19 @@
-Output: Gerber X2 Files
-Type  : GerberX2
-From  : Project [LVMasterController.PrjPcb]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Copper_Signal_Top.gbr]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Copper_Signal_Bot.gbr]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Legend_Top.gbr]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Soldermask_Top.gbr]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Legend_Bot.gbr]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Soldermask_Bot.gbr]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Mechanical_1.gbr]
-   Generated File[Eurocard VME 3U (3.937 x 8.660 inches)_Profile.gbr]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LVMasterController.PrjPcb]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).GTL]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).GBL]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).GTO]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).GTS]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).GBS]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).GBO]
+   Generated File[Eurocard VME 3U (3.937 x 8.660 inches).GM1]
    Generated File[Eurocard VME 3U (3.937 x 8.660 inches).RUL]
    Generated File[Eurocard VME 3U (3.937 x 8.660 inches).EXTREP]
    Generated File[Eurocard VME 3U (3.937 x 8.660 inches).REP]
 
 
-Files Generated   : 11
+Files Generated   : 10
 Documents Printed : 0
 
-Finished Output Generation At 2:48:01 PM On 19/4/2016
+Finished Output Generation At 3:43:58 PM On 4/5/2016

@@ -66,7 +66,7 @@ void setup()
   i2cpacket[i] = (char)0;  
 
   Serial.begin(115200);  // start serial for menu
-  Serial1.begin(115200); // start serial for SC
+  Serial1.begin(125000); // start serial for SC
   //delay(1000);
   Serial.print('>');
   

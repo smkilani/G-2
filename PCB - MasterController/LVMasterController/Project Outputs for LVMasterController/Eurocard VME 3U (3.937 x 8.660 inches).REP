@@ -3,9 +3,11 @@ FileName = Eurocard VME 3U (3.937 x 8.660 inches).GBR
 AutoAperture = True
 *************************************************************
 Generating : Component Side
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Copper_Signal_Top.gbr
+      File : Eurocard VME 3U (3.937 x 8.660 inches).GTL
 
     Adding Layer      : Component Side
+
+    Adding Layer      : Mechanical1
 
     Adding Layer      : MultiLayer
 
@@ -54,15 +56,17 @@ Used DCodes :
 
 *************************************************************
 Generating : Bottom Layer
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Copper_Signal_Bot.gbr
+      File : Eurocard VME 3U (3.937 x 8.660 inches).GBL
 
     Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical1
 
     Adding Layer      : MultiLayer
 
 
 Used DCodes :
-    D13
+    D12
     D29
     D30
     D31
@@ -87,12 +91,17 @@ Used DCodes :
 
 *************************************************************
 Generating : Top Overlay
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Legend_Top.gbr
+      File : Eurocard VME 3U (3.937 x 8.660 inches).GTO
 
     Adding Layer      : Top Overlay
 
+    Adding Layer      : Mechanical1
+
 
 Used DCodes :
+    D29
+    D30
+    D33
     D49
     D50
     D51
@@ -104,15 +113,15 @@ Used DCodes :
     D57
     D58
     D59
-    D60
-    D61
 *************************************************************
 
 *************************************************************
 Generating : Top Solder
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Soldermask_Top.gbr
+      File : Eurocard VME 3U (3.937 x 8.660 inches).GTS
 
     Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical1
 
     Adding Layer      : Component Side
 
@@ -120,7 +129,10 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D29
     D47
+    D60
+    D61
     D62
     D63
     D64
@@ -150,27 +162,15 @@ Used DCodes :
     D88
     D89
     D90
-    D91
-    D92
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D57
-    D60
 *************************************************************
 
 *************************************************************
 Generating : Solder Side
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Soldermask_Bot.gbr
+      File : Eurocard VME 3U (3.937 x 8.660 inches).GBS
 
     Adding Layer      : Solder Side
+
+    Adding Layer      : Mechanical1
 
     Adding Layer      : Bottom Layer
 
@@ -178,8 +178,11 @@ Generating : Solder Side
 
 
 Used DCodes :
+    D29
     D47
-    D65
+    D62
+    D79
+    D80
     D81
     D82
     D83
@@ -190,27 +193,33 @@ Used DCodes :
     D88
     D89
     D90
-    D91
-    D92
 *************************************************************
 
 *************************************************************
-Generating : Mechanical1
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Mechanical_1.gbr
+Generating : Bottom Overlay
+      File : Eurocard VME 3U (3.937 x 8.660 inches).GBO
+
+    Adding Layer      : Bottom Overlay
 
     Adding Layer      : Mechanical1
 
 
 Used DCodes :
-    D93
+    D29
+    D55
+    D58
 *************************************************************
 
 *************************************************************
-Generating : Profile
-      File : Eurocard VME 3U (3.937 x 8.660 inches)_Profile.gbr
+Generating : Mechanical1
+      File : Eurocard VME 3U (3.937 x 8.660 inches).GM1
+
+    Adding Layer      : Mechanical1
+
+    Adding Layer      : Mechanical1
 
 
 Used DCodes :
-    D94
+    D29
 *************************************************************
 
