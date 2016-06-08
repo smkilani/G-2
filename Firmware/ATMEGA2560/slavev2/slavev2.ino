@@ -77,8 +77,8 @@ void setup()
   digitalWrite(LED1, HIGH);
   digitalWrite(LED2, HIGH);  
 
-  digitalWrite(ENApin, LOW);
-  digitalWrite(ENBpin, LOW);
+  digitalWrite(ENApin, HIGH);
+  digitalWrite(ENBpin, HIGH);
   
 
   for( int i = 0; i < packetsize;  ++i ){
