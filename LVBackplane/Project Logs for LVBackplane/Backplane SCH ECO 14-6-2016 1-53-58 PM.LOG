@@ -1,0 +1,4 @@
+Replace Part J2 DIN41612_64WAY in C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane.SchDoc with DIN41612_64WAY from BACKPLANElib.SchLib
+Replace Part P1 4Way_Power in C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane.SchDoc with 4Way_Power from BACKPLANElib.SchLib
+Replace Part P2 Header 2X2 in C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane.SchDoc with Header 2X2 from Miscellaneous Connectors.IntLib
+Replace Part USB1 USB_B in C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane.SchDoc with USB_B from BACKPLANElib.SchLib

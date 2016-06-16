@@ -1,0 +1,108 @@
+Removed Pin From Net: NetName=-5VGNDB Pin=C39-2
+Removed Pin From Net: NetName=+5VGNDB Pin=C45-2
+Removed Pin From Net: NetName=-5VGNDA Pin=C46-2
+Removed Pin From Net: NetName=+5VGNDA Pin=C47-2
+Removed Pin From Net: NetName=-5VGNDA Pin=D12-2
+Removed Pin From Net: NetName=-5VGNDB Pin=D14-2
+Removed Pin From Net: NetName=+5VB_FILTERED Pin=J1-20
+Removed Pin From Net: NetName=+5VB_FILTERED Pin=J1-21
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-22
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-23
+Removed Pin From Net: NetName=-5VGNDB Pin=J1-24
+Removed Pin From Net: NetName=-5VB_FILTERED Pin=J1-25
+Removed Pin From Net: NetName=+5VA_FILTERED Pin=J1-26
+Removed Pin From Net: NetName=+5VA_FILTERED Pin=J1-27
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-28
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-29
+Removed Pin From Net: NetName=-5VGNDA Pin=J1-30
+Removed Pin From Net: NetName=-5VA_FILTERED Pin=J1-31
+Removed Pin From Net: NetName=+5VB_FILTERED Pin=J1-52
+Removed Pin From Net: NetName=+5VB_FILTERED Pin=J1-53
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-54
+Removed Pin From Net: NetName=+5VGNDB Pin=J1-55
+Removed Pin From Net: NetName=-5VGNDB Pin=J1-56
+Removed Pin From Net: NetName=-5VB_FILTERED Pin=J1-57
+Removed Pin From Net: NetName=+5VA_FILTERED Pin=J1-58
+Removed Pin From Net: NetName=+5VA_FILTERED Pin=J1-59
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-60
+Removed Pin From Net: NetName=+5VGNDA Pin=J1-61
+Removed Pin From Net: NetName=-5VGNDA Pin=J1-62
+Removed Pin From Net: NetName=-5VA_FILTERED Pin=J1-63
+Removed Pin From Net: NetName=+5VGNDA Pin=R30-2
+Removed Pin From Net: NetName=+5VGNDB Pin=R33-2
+Removed Member From Class: ClassName=D Member=C46
+Removed Member From Class: ClassName=A Member=D10
+Removed Member From Class: ClassName=B Member=D13
+Removed Member From Class: ClassName=U_controller Member=DTVS2
+Added Component: Designator=L5(ACMV_TDK)
+Added Component: Designator=L6(ACMV_TDK)
+Added Component: Designator=L7(ACMV_TDK)
+Added Component: Designator=L8(ACMV_TDK)
+Added Pin To Net: NetName=+5VGNDB Pin=L5-3
+Added Pin To Net: NetName=+5VB_FILTERED Pin=L5-4
+Added Pin To Net: NetName=-5VB_FILTERED Pin=L6-3
+Added Pin To Net: NetName=-5VGNDB Pin=L6-4
+Added Pin To Net: NetName=+5VGNDA Pin=L7-3
+Added Pin To Net: NetName=+5VA_FILTERED Pin=L7-4
+Added Pin To Net: NetName=-5VA_FILTERED Pin=L8-3
+Added Pin To Net: NetName=-5VGNDA Pin=L8-4
+Change Net Name : Old Net Name=+5VA_FILTERED New Net Name=NetC35_1
+Change Net Name : Old Net Name=+5VB_FILTERED New Net Name=NetC27_2
+Change Net Name : Old Net Name=+5VGNDA New Net Name=NetC19_B_1
+Change Net Name : Old Net Name=+5VGNDB New Net Name=NetC19_C_1
+Change Net Name : Old Net Name=-5VA_FILTERED New Net Name=NetC41_1
+Change Net Name : Old Net Name=-5VB_FILTERED New Net Name=NetC31_2
+Change Net Name : Old Net Name=-5VGNDA New Net Name=NetC9_A_2
+Change Net Name : Old Net Name=-5VGNDB New Net Name=NetC9_D_2
+Added Pin To Net: NetName=+5VA_FILTERED Pin=J1-26
+Added Pin To Net: NetName=+5VA_FILTERED Pin=J1-27
+Added Pin To Net: NetName=+5VA_FILTERED Pin=J1-58
+Added Pin To Net: NetName=+5VA_FILTERED Pin=J1-59
+Added Pin To Net: NetName=+5VA_FILTERED Pin=L7-1
+Added Net: Name=+5VA_FILTERED
+Added Pin To Net: NetName=+5VB_FILTERED Pin=J1-20
+Added Pin To Net: NetName=+5VB_FILTERED Pin=J1-21
+Added Pin To Net: NetName=+5VB_FILTERED Pin=J1-52
+Added Pin To Net: NetName=+5VB_FILTERED Pin=J1-53
+Added Pin To Net: NetName=+5VB_FILTERED Pin=L5-1
+Added Net: Name=+5VB_FILTERED
+Added Pin To Net: NetName=+5VGNDA Pin=C47-2
+Added Pin To Net: NetName=+5VGNDA Pin=J1-28
+Added Pin To Net: NetName=+5VGNDA Pin=J1-29
+Added Pin To Net: NetName=+5VGNDA Pin=J1-60
+Added Pin To Net: NetName=+5VGNDA Pin=J1-61
+Added Pin To Net: NetName=+5VGNDA Pin=L7-2
+Added Pin To Net: NetName=+5VGNDA Pin=R30-2
+Added Net: Name=+5VGNDA
+Added Pin To Net: NetName=+5VGNDB Pin=C45-2
+Added Pin To Net: NetName=+5VGNDB Pin=J1-22
+Added Pin To Net: NetName=+5VGNDB Pin=J1-23
+Added Pin To Net: NetName=+5VGNDB Pin=J1-54
+Added Pin To Net: NetName=+5VGNDB Pin=J1-55
+Added Pin To Net: NetName=+5VGNDB Pin=L5-2
+Added Pin To Net: NetName=+5VGNDB Pin=R33-2
+Added Net: Name=+5VGNDB
+Added Pin To Net: NetName=-5VA_FILTERED Pin=J1-31
+Added Pin To Net: NetName=-5VA_FILTERED Pin=J1-63
+Added Pin To Net: NetName=-5VA_FILTERED Pin=L8-2
+Added Net: Name=-5VA_FILTERED
+Added Pin To Net: NetName=-5VB_FILTERED Pin=J1-25
+Added Pin To Net: NetName=-5VB_FILTERED Pin=J1-57
+Added Pin To Net: NetName=-5VB_FILTERED Pin=L6-2
+Added Net: Name=-5VB_FILTERED
+Added Pin To Net: NetName=-5VGNDA Pin=C46-2
+Added Pin To Net: NetName=-5VGNDA Pin=D12-2
+Added Pin To Net: NetName=-5VGNDA Pin=J1-30
+Added Pin To Net: NetName=-5VGNDA Pin=J1-62
+Added Pin To Net: NetName=-5VGNDA Pin=L8-1
+Added Net: Name=-5VGNDA
+Added Pin To Net: NetName=-5VGNDB Pin=C39-2
+Added Pin To Net: NetName=-5VGNDB Pin=D14-2
+Added Pin To Net: NetName=-5VGNDB Pin=J1-24
+Added Pin To Net: NetName=-5VGNDB Pin=J1-56
+Added Pin To Net: NetName=-5VGNDB Pin=L6-1
+Added Net: Name=-5VGNDB
+Added Member To Class: ClassName=Top Member=Component L5 TDK_CHOKE
+Added Member To Class: ClassName=Top Member=Component L6 TDK_CHOKE
+Added Member To Class: ClassName=Top Member=Component L7 TDK_CHOKE
+Added Member To Class: ClassName=Top Member=Component L8 TDK_CHOKE

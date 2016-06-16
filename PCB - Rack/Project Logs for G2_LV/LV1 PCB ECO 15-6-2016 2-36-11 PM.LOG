@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=F2_A Old Footprint=MF-MSMF1 New Footprint=MC33192
+Change Component Footprint: Designator=F2_D Old Footprint=MF-MSMF1 New Footprint=MC33192
+Change Component Footprint: Designator=F3_B Old Footprint=MF-MSMF1 New Footprint=MC33192
+Change Component Footprint: Designator=F3_C Old Footprint=MF-MSMF1 New Footprint=MC33192
+Change Component Comment : Designator=F2_A Old Comment=MINISMDC050F-2 New Comment=
+Change Component Comment : Designator=F2_D Old Comment=MINISMDC050F-2 New Comment=
+Change Component Comment : Designator=F3_B Old Comment=MINISMDC050F-2 New Comment=
+Change Component Comment : Designator=F3_C Old Comment=MINISMDC050F-2 New Comment=

@@ -1,18 +1,21 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: LV1.GBR   02/03/2016  16:12:30
+Gerber File Extension Report For: LV1.GBR   15/6/2016  3:40:49 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.GTL                Component Side                          
-.GBL                Bottom Layer                            
-.GTO                Top Overlay                             
-.GTP                Top Paste                               
-.GTS                Top Solder                              
-.GBS                Solder Side                             
-.GBP                Bottom Paste                            
-.GBO                Bottom Overlay                          
-.GM6                Mechanical 6                            
+.gbr                Component Side                          
+.gbr                Signal Layer 1                          
+.gbr                Signal Layer 2                          
+.gbr                Bottom Layer                            
+.gbr                Top Overlay                             
+.gbr                Top Solder                              
+.gbr                Bottom Paste                            
+.gbr                Bottom Overlay                          
+.gbr                Solder Side                             
+.gbr                Top Paste                               
+.gbr                Mechanical 1                            
+.gbr                Profile                                 
 ------------------------------------------------------------------------------------------

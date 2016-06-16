@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC9_D_2 Pin=L6-1
+Removed Pin From Net: NetName=NetC31_2 Pin=L6-2
+Removed Pin From Net: NetName=-5VB_FILTERED Pin=L6-3
+Removed Pin From Net: NetName=-5VGNDB Pin=L6-4
+Added Pin To Net: NetName=-5VGNDB Pin=L6-1
+Added Pin To Net: NetName=-5VB_FILTERED Pin=L6-2
+Added Pin To Net: NetName=NetC31_2 Pin=L6-3
+Added Pin To Net: NetName=NetC9_D_2 Pin=L6-4

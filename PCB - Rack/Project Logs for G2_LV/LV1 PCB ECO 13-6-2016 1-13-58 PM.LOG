@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC35_1 Pin=L7-1
+Removed Pin From Net: NetName=NetC19_B_1 Pin=L7-2
+Removed Pin From Net: NetName=+5VGNDA Pin=L7-3
+Removed Pin From Net: NetName=+5VA_FILTERED Pin=L7-4
+Added Pin To Net: NetName=+5VA_FILTERED Pin=L7-1
+Added Pin To Net: NetName=+5VGNDA Pin=L7-2
+Added Pin To Net: NetName=NetC19_B_1 Pin=L7-3
+Added Pin To Net: NetName=NetC35_1 Pin=L7-4

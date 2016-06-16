@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=RXB Pin=U5-2
+Removed Pin From Net: NetName=TXB Pin=U5-3
+Removed Pin From Net: NetName=RXA Pin=U6-2
+Removed Pin From Net: NetName=TXA Pin=U6-3
+Added Component: Designator=B1(Bridge)
+Added Component: Designator=B2(Bridge)
+Added Component: Designator=B3(Bridge)
+Added Component: Designator=B4(Bridge)
+Added Component: Designator=B5(Bridge)
+Added Component: Designator=B6(Bridge)
+Added Component: Designator=B7(Bridge)
+Added Component: Designator=B8(Bridge)
+Added Pin To Net: NetName=RXA Pin=B1-1
+Added Pin To Net: NetName=RXA Pin=B2-1
+Added Pin To Net: NetName=TXA Pin=B3-1
+Added Pin To Net: NetName=TXA Pin=B4-1
+Added Pin To Net: NetName=RXB Pin=B5-1
+Added Pin To Net: NetName=RXB Pin=B6-1
+Added Pin To Net: NetName=TXB Pin=B7-1
+Added Pin To Net: NetName=TXB Pin=B8-1
+Added Pin To Net: NetName=DIA Pin=B2-2
+Added Pin To Net: NetName=DIA Pin=B4-2
+Added Pin To Net: NetName=DIA Pin=U6-3
+Added Net: Name=DIA
+Added Pin To Net: NetName=DIB Pin=B6-2
+Added Pin To Net: NetName=DIB Pin=B8-2
+Added Pin To Net: NetName=DIB Pin=U5-3
+Added Net: Name=DIB
+Added Pin To Net: NetName=ROA Pin=B1-2
+Added Pin To Net: NetName=ROA Pin=B3-2
+Added Pin To Net: NetName=ROA Pin=U6-2
+Added Net: Name=ROA
+Added Pin To Net: NetName=ROB Pin=B5-2
+Added Pin To Net: NetName=ROB Pin=B7-2
+Added Pin To Net: NetName=ROB Pin=U5-2
+Added Net: Name=ROB
+Added Member To Class: ClassName=Top Member=Component B1 Bridge
+Added Member To Class: ClassName=Top Member=Component B2 Bridge
+Added Member To Class: ClassName=Top Member=Component B3 Bridge
+Added Member To Class: ClassName=Top Member=Component B4 Bridge
+Added Member To Class: ClassName=Top Member=Component B5 Bridge
+Added Member To Class: ClassName=Top Member=Component B6 Bridge
+Added Member To Class: ClassName=Top Member=Component B7 Bridge
+Added Member To Class: ClassName=Top Member=Component B8 Bridge

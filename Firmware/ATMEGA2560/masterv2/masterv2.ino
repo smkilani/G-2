@@ -231,14 +231,14 @@ void runCMD(){
             Wire.write(CMD_SCB_ON);              // sends one byte
             if (Wire.endTransmission()==0) {
               Serial.println(reply[0]);  // stop transmitting
-            digitalWrite(42,HIGH); //disable broadcast buffer
-            digitalWrite(43,HIGH); //disable SC mux
-            digitalWrite(11,HIGH); //disable SC mux
-            set_mux_adrs(arg);
-            digitalWrite(11,LOW); //enable SC mux
-            digitalWrite(10,HIGH); //enable SC mux
+              digitalWrite(42,HIGH); //disable broadcast buffer
+              digitalWrite(43,HIGH); //disable SC mux
+              digitalWrite(11,HIGH); //disable SC mux
+              set_mux_adrs(arg);
+              digitalWrite(11,LOW); //enable SC mux
+              digitalWrite(10,HIGH); //LED
             
-            sc_mode=SCBmode;    // stop transmitting
+              sc_mode=SCBmode;    // stop transmitting
             }
             else Serial.println(reply[1]);
             
