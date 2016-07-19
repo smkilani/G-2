@@ -167,28 +167,28 @@ void runCMD(){
 
 
                 Serial.println("LV A");
-                if ((datain[10]) == 0xaa) Serial.println("OFF");
-                else if ((datain[10]) == 0xcc) Serial.println("ON");
-                Serial.print("+5V -> ");
+                if ((datain[10]) == 0xaa) Serial.println("ON");
+                else if ((datain[10]) == 0xcc) Serial.println("OFF");
+                Serial.print("+5V : ");
                 Serial.print(5.0*((float)pinvalue1/1023));
                 Serial.println("A");
                 //int pinvalue2 = ((datain[1]<<8) & 0x300) | datain[2];
-                Serial.print("-5V -> ");
+                Serial.print("-5V : ");
                 Serial.print(5.0*((float)pinvalue2/1023));
                 Serial.println("A");
                 
                 Serial.println("LV B");
-                if ((datain[11]) == 0xaa) Serial.println("OFF");
-                else if ((datain[11]) == 0xcc) Serial.println("ON");
-                Serial.print("+5V -> ");
+                if ((datain[11]) == 0xaa) Serial.println("ON");
+                else if ((datain[11]) == 0xcc) Serial.println("OFF");
+                Serial.print("+5V : ");
                 Serial.print(5.0*((float)pinvalue3/1023));
                 Serial.println("A");
                 //int pinvalue2 = ((datain[1]<<8) & 0x300) | datain[2];
-                Serial.print("-5V -> ");
+                Serial.print("-5V : ");
                 Serial.print(5.0*((float)pinvalue4/1023));
                 Serial.println("A");
                 
-                Serial.print("Temp -> ");
+                Serial.print("Temp : ");
                 r_ntc=(1023.0/(float)pinvalue5);
                 r_ntc=10000.0*(r_ntc-1.0);
                 float steinhart;
