@@ -44,3 +44,5 @@ Temporary Items
 *.SchDocPreview
 *.SchDocPreview
 *.PCBDOCPreview
+LVBackplane/__Previews/Backplane.SchDocPreview
+*.SchDocPreview
