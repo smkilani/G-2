@@ -1,0 +1,54 @@
+Removed Member From Class: ClassName=A Member=C3_D
+Removed Member From Class: ClassName=A Member=C4_D
+Removed Member From Class: ClassName=A Member=C5_D
+Removed Member From Class: ClassName=A Member=C6_D
+Removed Member From Class: ClassName=A Member=C7_D
+Removed Member From Class: ClassName=A Member=C8_D
+Removed Member From Class: ClassName=A Member=C9_D
+Removed Member From Class: ClassName=A Member=C10_D
+Removed Member From Class: ClassName=A Member=C11_D
+Removed Member From Class: ClassName=A Member=D2_D
+Removed Member From Class: ClassName=A Member=D3_D
+Removed Member From Class: ClassName=A Member=D4_D
+Removed Member From Class: ClassName=A Member=D5_D
+Removed Member From Class: ClassName=A Member=F2_D
+Removed Member From Class: ClassName=A Member=LT1_D
+Removed Member From Class: ClassName=A Member=R1_D
+Removed Member From Class: ClassName=A Member=R2_D
+Removed Member From Class: ClassName=A Member=R3_D
+Removed Member From Class: ClassName=A Member=R4_D
+Removed Member From Class: ClassName=A Member=R5_D
+Removed Member From Class: ClassName=A Member=Rfb1_D
+Removed Member From Class: ClassName=A Member=Rref1_D
+Removed Member From Class: ClassName=A Member=Rtc1_D
+Removed Member From Class: ClassName=A Member=T1_D
+Removed Member From Class: ClassName=A Member=U2_D
+Added Pin To Net: NetName=A1 Pin=R1_A-2
+Added Pin To Net: NetName=A2 Pin=R1_C-2
+Added Pin To Net: NetName=A1 Pin=U2_A-1
+Added Pin To Net: NetName=A2 Pin=U2_C-1
+Added Member To Class: ClassName=A Member=Component C3_A (C3) Cap Semi
+Added Member To Class: ClassName=A Member=Component C4_A (C4) Cap Semi
+Added Member To Class: ClassName=A Member=Component C5_A (C5) Cap Semi
+Added Member To Class: ClassName=A Member=Component C6_A (C6) Cap Semi
+Added Member To Class: ClassName=A Member=Component C7_A (C7) Cap Semi
+Added Member To Class: ClassName=A Member=Component C8_A (C8) Cap Semi
+Added Member To Class: ClassName=A Member=Component C9_A (C9) Cap Semi
+Added Member To Class: ClassName=A Member=Component C10_A (C10) Cap Semi
+Added Member To Class: ClassName=A Member=Component C11_A (C11) Cap Semi
+Added Member To Class: ClassName=A Member=Component D2_A (D2) SMAJ30A
+Added Member To Class: ClassName=A Member=Component D3_A (D3) PDS1040L
+Added Member To Class: ClassName=A Member=Component D4_A (D4) BZT52H-B5V6
+Added Member To Class: ClassName=A Member=Component D5_A (D5) ES3B
+Added Member To Class: ClassName=A Member=Component F2_A (F2) 
+Added Member To Class: ClassName=A Member=Component LT1_A (LT1) LT8302
+Added Member To Class: ClassName=A Member=Component R1_A (R1) Res3
+Added Member To Class: ClassName=A Member=Component R2_A (R2) Rsense
+Added Member To Class: ClassName=A Member=Component R3_A (R3) Res3
+Added Member To Class: ClassName=A Member=Component R4_A (R4) Res3
+Added Member To Class: ClassName=A Member=Component R5_A (R5) Res3
+Added Member To Class: ClassName=A Member=Component Rfb1_A (Rfb1) Res3
+Added Member To Class: ClassName=A Member=Component Rref1_A (Rref1) Res3
+Added Member To Class: ClassName=A Member=Component Rtc1_A (Rtc1) Res3
+Added Member To Class: ClassName=A Member=Component T1_A (T1) 36V
+Added Member To Class: ClassName=A Member=Component U2_A (U2) INA138
