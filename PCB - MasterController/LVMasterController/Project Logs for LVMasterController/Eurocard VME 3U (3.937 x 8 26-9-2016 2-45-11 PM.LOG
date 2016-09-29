@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=NetP1_6 Pin=Rtrim_up1-1
+Removed Pin From Net: NetName=12V Pin=Rtrim_up1-2
+Removed Member From Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Rtrim_up1

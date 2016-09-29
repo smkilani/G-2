@@ -1,0 +1,14 @@
+G04 Layer_Color=16711935*
+%FSLAX45Y45*%
+%MOMM*%
+%TF.FileFunction,Keep-out,Top*%
+%TF.Part,Single*%
+G01*
+G75*
+%TA.AperFunction,NonConductor*%
+%ADD93R,45.90000X22.50000*%
+D93*
+X27317001Y22659419D02*
+D03*
+%TF.MD5,f157f3086185ebc8815e2f13ae529052*%
+M02*

@@ -57,6 +57,15 @@ bool stringComplete = false;  // whether the string is complete
 byte x=0;
 int pointer=0;
 
+int SCApin=44;
+int SCBpin=45;
+int BRDCSTApin=42;
+int BRDCSTBpin=43;
+int muxAdrs0=47;
+int muxAdrs1=48;
+int muxAdrs2=49;
+
+
 void setup()
 {
   Wire.begin(1); // join i2c bus (address optional for master but it is assigned as 1 to allow slaves to send back data when they receive it through the SC)
@@ -71,29 +80,30 @@ void setup()
   Serial.print('>');
   
   
-  pinMode(11, OUTPUT); 
-  pinMode(42, OUTPUT); 
-  pinMode(43, OUTPUT); 
-  pinMode(10, OUTPUT); 
-  pinMode(49, OUTPUT); 
-  pinMode(48, OUTPUT); 
-  pinMode(47, OUTPUT); 
+  //pinMode(11, OUTPUT); 
+  pinMode(SCApin, OUTPUT); 
+  pinMode(SCBpin, OUTPUT); 
+  pinMode(BRDCSTApin, OUTPUT); 
+  pinMode(BRDCSTBpin, OUTPUT);   
+  //pinMode(10, OUTPUT); 
+  pinMode(muxAdrs0, OUTPUT); 
+  pinMode(muxAdrs1, OUTPUT); 
+  pinMode(muxAdrs2, OUTPUT); 
   
-  digitalWrite(49, LOW);
-  digitalWrite(48, LOW);
-  digitalWrite(47, LOW);
+  digitalWrite(muxAdrs0, LOW);
+  digitalWrite(muxAdrs1, LOW);
+  digitalWrite(muxAdrs2, LOW);
   
-  digitalWrite(42,HIGH); //disable broadcast buffer
-  digitalWrite(43,HIGH); //disable SCa mux
-  digitalWrite(11,HIGH); //disable SCb mux
-  digitalWrite(10,HIGH); //disable SCb mux
+  digitalWrite(SCApin,HIGH); 
+  digitalWrite(SCBpin,HIGH); 
+  digitalWrite(BRDCSTApin,HIGH); 
+  digitalWrite(BRDCSTBpin,HIGH);   
+  //digitalWrite(11,HIGH); //disable SCb mux
+  //digitalWrite(10,HIGH); //disable SCb mux
 }
 
 
-void loop()
-{
-    
-}
+void loop(){}
 
 void runCMD(){
   //if (stringComplete) {
@@ -216,12 +226,13 @@ void runCMD(){
             Wire.write(CMD_SCA_ON);              // sends one byte
             if (Wire.endTransmission()==0) {
               Serial.println(reply[0]);  // stop transmitting
-              digitalWrite(42,HIGH); //disable broadcast buffer
-              digitalWrite(43,HIGH); //disable SC mux
-              digitalWrite(11,HIGH); //disable SC mux
+              digitalWrite(SCApin,HIGH); 
+              digitalWrite(SCBpin,HIGH); 
+              digitalWrite(BRDCSTApin,HIGH); 
+              digitalWrite(BRDCSTBpin,HIGH);  
               set_mux_adrs(arg);
-              digitalWrite(43,LOW); //enable SC mux
-              digitalWrite(10,LOW); //LED
+              digitalWrite(SCApin,LOW); //enable SC mux
+              //digitalWrite(10,LOW); //LED
               sc_mode=SCAmode;    
             }
             else Serial.println(reply[1]);
@@ -231,12 +242,12 @@ void runCMD(){
             Wire.write(CMD_SCB_ON);              // sends one byte
             if (Wire.endTransmission()==0) {
               Serial.println(reply[0]);  // stop transmitting
-              digitalWrite(42,HIGH); //disable broadcast buffer
-              digitalWrite(43,HIGH); //disable SC mux
-              digitalWrite(11,HIGH); //disable SC mux
+              digitalWrite(SCApin,HIGH); 
+              digitalWrite(SCBpin,HIGH); 
+              digitalWrite(BRDCSTApin,HIGH); 
+              digitalWrite(BRDCSTBpin,HIGH);  
               set_mux_adrs(arg);
-              digitalWrite(11,LOW); //enable SC mux
-              digitalWrite(10,HIGH); //LED
+              digitalWrite(SCBpin,LOW);
             
               sc_mode=SCBmode;    // stop transmitting
             }
@@ -244,10 +255,10 @@ void runCMD(){
             
             break;
 	case 7:
-            digitalWrite(43,HIGH); //disable SC mux
-            digitalWrite(11,HIGH); //disable SC mux
-            digitalWrite(10,HIGH); //enable SC mux
-            digitalWrite(42,LOW); //enable broadcast buffer  
+              digitalWrite(SCApin,HIGH); 
+              digitalWrite(SCBpin,HIGH); 
+              digitalWrite(BRDCSTApin,LOW); 
+              digitalWrite(BRDCSTBpin,HIGH);  
             
 	    brdcst_size=arg;
 	    brdcst_count=0;
@@ -255,10 +266,10 @@ void runCMD(){
 
         break;
 	case 8:
-            digitalWrite(43,HIGH); //disable SC mux
-            digitalWrite(11,HIGH); //disable SC mux
-            digitalWrite(10,HIGH); //enable SC mux
-            digitalWrite(42,LOW); //enable broadcast buffer
+              digitalWrite(SCApin,HIGH); 
+              digitalWrite(SCBpin,HIGH); 
+              digitalWrite(BRDCSTApin,HIGH); 
+              digitalWrite(BRDCSTBpin,LOW);  
 	    brdcst_size=arg;
             brdcst_count=0;
             sc_mode=BRDSCBmode;  
@@ -325,10 +336,10 @@ void serialEvent() {
         if (Wire.endTransmission()==0) Serial.println(reply[0]); else Serial.println(reply[1]); // stop transmitting
           
         sc_mode=SCidle;
-        digitalWrite(42,HIGH); //disable broadcast buffer
-        digitalWrite(43,HIGH); //disable SC mux
-        digitalWrite(11,HIGH); //disable SC mux
-        digitalWrite(10,HIGH); //disable SCb mux
+        digitalWrite(SCApin,HIGH); 
+        digitalWrite(SCBpin,HIGH); 
+        digitalWrite(BRDCSTApin,HIGH); 
+        digitalWrite(BRDCSTBpin,HIGH);  
 
         Serial.print("SC mode ended\n>");
       }
@@ -346,10 +357,10 @@ void serialEvent() {
           
         sc_mode=SCidle;
   	brdcst_count=0;  
-        digitalWrite(42,HIGH); //disable broadcast buffer
-        digitalWrite(43,HIGH); //disable SC mux
-        digitalWrite(11,HIGH); //disable SC mux
-        digitalWrite(10,HIGH); //disable SCb mux
+        digitalWrite(SCApin,HIGH); 
+        digitalWrite(SCBpin,HIGH); 
+        digitalWrite(BRDCSTApin,HIGH); 
+        digitalWrite(BRDCSTBpin,HIGH);  
         
       
       }
@@ -453,7 +464,8 @@ int set_mux_adrs(int adrs)
       c=LOW;
     break;
   }
-  digitalWrite(49, c);
-  digitalWrite(48, b);
-  digitalWrite(47, a);
+
+  digitalWrite(muxAdrs2, c);
+  digitalWrite(muxAdrs1, b);
+  digitalWrite(muxAdrs0, a);
 }

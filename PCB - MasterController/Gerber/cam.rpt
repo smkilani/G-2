@@ -1,6 +1,6 @@
 CAMtasticDXP Drill Report
 Serial Number:0000-00-00000
-Drill File: C:\Users\Samer\Documents\GitHub\G-2\PCB - MasterController\Gerber\cam.drl
+Drill File: C:\Users\smkilani\Documents\GitHub\G-2\PCB - MasterController\Gerber\cam.drl
 Format: 2.3
 Units: English (Inch)
 Step & Repeat Codes Used: NO
@@ -9,14 +9,14 @@ Step & Repeat Codes Used: NO
 TOOL		SIZE		COUNT
 ====		======		=====
 
- 1 		0.0100		142
+ 1 		0.0100		154
  2 		0.0160		10
  3 		0.0180		10
- 4 		0.0197		43
+ 4 		0.0197		48
  5 		0.0250		1
- 6 		0.0280		5
+ 6 		0.0280		2
  7 		0.0315		14
- 8 		0.0354		7
+ 8 		0.0354		9
  9 		0.0380		10
  10 		0.0390		2
  11 		0.0394		64

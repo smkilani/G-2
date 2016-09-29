@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Samer\Documents\GitHub\G-2\LVBackplane\Backplane.PcbDoc
+DRC Rules Export File for PCB: C:\Users\smkilani\Documents\GitHub\G-2\LVBackplane\Backplane.PcbDoc
 RuleKind=Width|RuleName=Width_2|Scope=Board|Minimum=10.00
 RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=10.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.08

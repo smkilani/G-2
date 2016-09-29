@@ -1,0 +1,14 @@
+G04 Layer_Color=32896*
+%FSLAX45Y45*%
+%MOMM*%
+%TF.FileFunction,Mechanical*%
+%TF.Part,Single*%
+G01*
+G75*
+%TA.AperFunction,NonConductor*%
+%ADD49C,0.00000*%
+D49*
+X20297243Y20907806D02*
+X20529448Y21137296D01*
+%TF.MD5,13bc9bba80ed22a31552f05c71f2bf70*%
+M02*

@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Eurocard VME 3U (3.937 x 8.660 inches).PCBDOC   19/4/2016  2:12:53 PM
+NCDrill File Report For: Eurocard VME 3U (3.937 x 8.660 inches).PCBDOC   9/9/2016  11:27:41 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Component Side to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : Eurocard VME 3U (3.937 x 8.660 inches).TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.254mm (10mil)                                           Round             154       PTH        698.03mm (27.48inch)
+T1      0.254mm (10mil)                                           Round             154       PTH        697.59mm (27.46inch)
 T2      0.406mm (16mil)                                           Round             10        PTH        20.65mm (0.81inch)
 T3      0.457mm (18mil)                                           Round             10        PTH        65.92mm (2.60inch)
 T4      0.5mm (20mil)                                             Round             48        PTH        516.16mm (20.32inch)
@@ -15,7 +15,7 @@ T5      0.635mm (25mil)                                           Round         
 T6      0.711mm (28mil)                                           Round             2         PTH        8.68mm (0.34inch)
 T7      0.8mm (31mil)                                             Round             14        PTH        72.01mm (2.84inch)
 T8      0.9mm (35mil)                                             Round             9         PTH        155.37mm (6.12inch)
-T9      0.965mm (38mil)                                           Round             10        PTH        22.86mm (0.90inch)
+T9      0.965mm (38mil)                                           Round             10        PTH        30.48mm (1.20inch)
 T10     0.99mm (39mil)                                            Round             2         PTH        4.50mm (0.18inch)
 T11     1mm (39mil)                                               Round             64        PTH        238.76mm (9.40inch)
 T12     1.3mm (51mil)                                             Round             2         PTH        7.01mm (0.28inch)

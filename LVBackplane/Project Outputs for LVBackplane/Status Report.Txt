@@ -1,22 +1,30 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [LVBackplane.PrjPcb]
-   Generated File[Backplane.GTL]
-   Generated File[Backplane.G1]
-   Generated File[Backplane.G2]
-   Generated File[Backplane.GBL]
-   Generated File[Backplane.GTO]
-   Generated File[Backplane.GTS]
-   Generated File[Backplane.GBS]
-   Generated File[Backplane.GBP]
-   Generated File[Backplane.GBO]
-   Generated File[Backplane.GM1]
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [LVBackplane.PrjPcb]
+   Generated File[Backplane_Copper_Signal_Top.gbr]
+   Generated File[Backplane_Copper_Signal_1.gbr]
+   Generated File[Backplane_Copper_Signal_2.gbr]
+   Generated File[Backplane_Copper_Signal_Bot.gbr]
+   Generated File[Backplane_Pads_Bot.gbr]
+   Generated File[Backplane_Pads_Top.gbr]
+   Generated File[Backplane_Legend_Top.gbr]
+   Generated File[Backplane_Soldermask_Top.gbr]
+   Generated File[Backplane_Paste_Bot.gbr]
+   Generated File[Backplane_Legend_Bot.gbr]
+   Generated File[Backplane_Soldermask_Bot.gbr]
+   Generated File[Backplane_Paste_Top.gbr]
+   Generated File[Backplane_Mechanical_1.gbr]
+   Generated File[Backplane_Profile.gbr]
+   Generated File[Backplane_NPTH_Drill.gbr]
+   Generated File[Backplane_PTH_Drill.gbr]
+   Generated File[Backplane_Drawing_1.gbr]
+   Generated File[Backplane_Drillmap_1.gbr]
    Generated File[Backplane.RUL]
    Generated File[Backplane.EXTREP]
    Generated File[Backplane.REP]
 
 
-Files Generated   : 13
+Files Generated   : 21
 Documents Printed : 0
 
-Finished Output Generation At 20:29:25 On 02/03/2016
+Finished Output Generation At 11:09:45 AM On 9/9/2016

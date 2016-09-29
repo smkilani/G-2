@@ -1,0 +1,39 @@
+Added Component: Designator=J1(DSUB1.385-2H9)
+Added Component: Designator=J2(DSUB1.385-2H9)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R2(AXIAL-0.3)
+Added Component: Designator=R3(AXIAL-0.3)
+Added Component: Designator=R4(AXIAL-0.3)
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_1 Pin=R1-2
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-4
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-5
+Added Pin To Net: NetName=NetJ1_4 Pin=R2-1
+Added Net: Name=NetJ1_4
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-6
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-7
+Added Pin To Net: NetName=NetJ1_6 Pin=R1-1
+Added Net: Name=NetJ1_6
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-8
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-9
+Added Pin To Net: NetName=NetJ1_8 Pin=R2-2
+Added Net: Name=NetJ1_8
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_1 Pin=R3-2
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ2_4 Pin=J2-4
+Added Pin To Net: NetName=NetJ2_4 Pin=J2-5
+Added Pin To Net: NetName=NetJ2_4 Pin=R4-1
+Added Net: Name=NetJ2_4
+Added Pin To Net: NetName=NetJ2_6 Pin=J2-6
+Added Pin To Net: NetName=NetJ2_6 Pin=J2-7
+Added Pin To Net: NetName=NetJ2_6 Pin=R3-1
+Added Net: Name=NetJ2_6
+Added Pin To Net: NetName=NetJ2_8 Pin=J2-8
+Added Pin To Net: NetName=NetJ2_8 Pin=J2-9
+Added Pin To Net: NetName=NetJ2_8 Pin=R4-2
+Added Net: Name=NetJ2_8
+Added Class: Name=Sheet1
