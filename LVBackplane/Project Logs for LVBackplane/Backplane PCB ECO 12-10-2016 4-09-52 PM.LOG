@@ -1,0 +1,4 @@
+Added Component: Designator=DTVS1(SMBJ)
+Added Pin To Net: NetName=36V Pin=DTVS1-1
+Added Pin To Net: NetName=GND Pin=DTVS1-2
+Added Member To Class: ClassName=Backplane Member=Component DTVS1 SMBJ36A

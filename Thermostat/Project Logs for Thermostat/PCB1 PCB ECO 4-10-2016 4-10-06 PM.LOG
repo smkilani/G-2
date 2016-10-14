@@ -1,0 +1,6 @@
+Added Component: Designator=LCD1(HDR1X4)
+Added Pin To Net: NetName=+3V3 Pin=LCD1-1
+Added Pin To Net: NetName=GND Pin=LCD1-2
+Added Pin To Net: NetName=D12/SCL Pin=LCD1-3
+Added Pin To Net: NetName=D11/SDA Pin=LCD1-4
+Added Member To Class: ClassName=Sheet1 Member=Component LCD1 Header 4

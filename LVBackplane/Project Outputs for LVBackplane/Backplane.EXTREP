@@ -1,27 +1,19 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Backplane.GBR   9/9/2016  11:09:38 AM
+Gerber File Extension Report For: Backplane.GBR   11/10/2016  4:22:46 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.gbr                Component Side                          
-.gbr                Signal Layer 2                          
-.gbr                Signal Layer 1                          
-.gbr                Solder Side                             
-.gbr                Bottom Pad Master                       
-.gbr                Top Pad Master                          
-.gbr                Top Overlay                             
-.gbr                Top Solder                              
-.gbr                Bottom Paste                            
-.gbr                Bottom Overlay                          
-.gbr                Bottom Solder                           
-.gbr                Top Paste                               
-.gbr                Mechanical 1                            
-.gbr                Profile                                 
-.gbr                Non-plated through-hole drill file      
-.gbr                Plated through-hole drill file          
-.gbr                Drill Drawing                           
-.gbr                Drill Guide                             
+.GTL                Component Side                          
+.G1                 Signal Layer 2                          
+.G2                 Signal Layer 1                          
+.GBL                Solder Side                             
+.GTO                Top Overlay                             
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
 ------------------------------------------------------------------------------------------

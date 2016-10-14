@@ -1,0 +1,73 @@
+Added Component: Designator=C1(CAPR5-4X5)
+Added Component: Designator=C2(CAPR5-4X5)
+Added Component: Designator=J1(STRIP-14)
+Added Component: Designator=J2(STRIP-14)
+Added Component: Designator=RF1(2X04)
+Added Pin To Net: NetName=+3V3 Pin=C1-1
+Added Pin To Net: NetName=+3V3 Pin=C2-1
+Added Pin To Net: NetName=+3V3 Pin=J2-12
+Added Pin To Net: NetName=+3V3 Pin=RF1-2
+Added Net: Name=+3V3
+Added Pin To Net: NetName=+5V Pin=J2-14
+Added Net: Name=+5V
+Added Pin To Net: NetName=A1 Pin=J1-3
+Added Net: Name=A1
+Added Pin To Net: NetName=A2 Pin=J1-4
+Added Net: Name=A2
+Added Pin To Net: NetName=A3 Pin=J1-5
+Added Net: Name=A3
+Added Pin To Net: NetName=A4 Pin=J1-6
+Added Net: Name=A4
+Added Pin To Net: NetName=A5 Pin=J1-7
+Added Net: Name=A5
+Added Pin To Net: NetName=A6 Pin=J1-8
+Added Net: Name=A6
+Added Pin To Net: NetName=AREF Pin=J1-1
+Added Net: Name=AREF
+Added Pin To Net: NetName=D0 Pin=J1-9
+Added Net: Name=D0
+Added Pin To Net: NetName=D1 Pin=J1-10
+Added Net: Name=D1
+Added Pin To Net: NetName=D2 Pin=J1-11
+Added Net: Name=D2
+Added Pin To Net: NetName=D3 Pin=J1-12
+Added Net: Name=D3
+Added Pin To Net: NetName=D4 Pin=J1-13
+Added Net: Name=D4
+Added Pin To Net: NetName=D5 Pin=J1-14
+Added Net: Name=D5
+Added Pin To Net: NetName=D6 Pin=J2-1
+Added Pin To Net: NetName=D6 Pin=RF1-3
+Added Net: Name=D6
+Added Pin To Net: NetName=D7 Pin=J2-2
+Added Pin To Net: NetName=D7 Pin=RF1-4
+Added Net: Name=D7
+Added Pin To Net: NetName=D8/MOSI Pin=J2-3
+Added Pin To Net: NetName=D8/MOSI Pin=RF1-6
+Added Net: Name=D8/MOSI
+Added Pin To Net: NetName=D9/SCK Pin=J2-4
+Added Pin To Net: NetName=D9/SCK Pin=RF1-5
+Added Net: Name=D9/SCK
+Added Pin To Net: NetName=D10/MISO Pin=J2-5
+Added Pin To Net: NetName=D10/MISO Pin=RF1-7
+Added Net: Name=D10/MISO
+Added Pin To Net: NetName=D11/SDA Pin=J2-6
+Added Net: Name=D11/SDA
+Added Pin To Net: NetName=D12/SCL Pin=J2-7
+Added Net: Name=D12/SCL
+Added Pin To Net: NetName=D13/RX Pin=J2-8
+Added Net: Name=D13/RX
+Added Pin To Net: NetName=D14/TX Pin=J2-9
+Added Net: Name=D14/TX
+Added Pin To Net: NetName=DAC0/A0 Pin=J1-2
+Added Net: Name=DAC0/A0
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=J2-11
+Added Pin To Net: NetName=GND Pin=RF1-1
+Added Net: Name=GND
+Added Pin To Net: NetName=RESET Pin=J2-10
+Added Net: Name=RESET
+Added Pin To Net: NetName=VIN Pin=J2-13
+Added Net: Name=VIN
+Added Class: Name=Sheet1

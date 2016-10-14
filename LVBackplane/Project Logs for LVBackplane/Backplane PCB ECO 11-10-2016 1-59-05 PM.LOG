@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=P1-1
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=32V Pin=P1-3
+Removed Pin From Net: NetName=32V Pin=P1-4
+Change Component Designator: OldDesignator=P2 NewDesignator=P3
+Added Component: Designator=P1(8PCV)
+Added Component: Designator=P2(8PCV)
+Added Pin To Net: NetName=32V Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=32V Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Change Net Name : Old Net Name=32V New Net Name=36V
+Added Member To Class: ClassName=Backplane Member=Component P3 Header 2X2
