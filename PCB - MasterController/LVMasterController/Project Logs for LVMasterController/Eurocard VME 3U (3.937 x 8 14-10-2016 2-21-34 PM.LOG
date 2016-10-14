@@ -1,0 +1,4 @@
+Added Component: Designator=DTVS2(SMBJ)
+Added Pin To Net: NetName=36V Pin=DTVS2-1
+Added Pin To Net: NetName=GND Pin=DTVS2-2
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component DTVS2 SMBJ48A

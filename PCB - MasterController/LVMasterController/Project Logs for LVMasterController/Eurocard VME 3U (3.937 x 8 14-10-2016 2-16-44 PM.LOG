@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=48V Pin=P1-1
+Added Component: Designator=F2(MC33192)
+Added Pin To Net: NetName=48V Pin=F2-2
+Change Net Name : Old Net Name=12V New Net Name=9V
+Change Net Name : Old Net Name=48V New Net Name=36V
+Added Pin To Net: NetName=NetF2_1 Pin=F2-1
+Added Pin To Net: NetName=NetF2_1 Pin=P1-1
+Added Net: Name=NetF2_1
+Added Member To Class: ClassName=Eurocard VME 3U (3.937 x 8.660 inches) Member=Component F2 
