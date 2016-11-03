@@ -1,0 +1,112 @@
+Removed Pin From Net: NetName=NetJ1_Conn1_7 Pin=RJ1_Conn1-1
+Removed Pin From Net: NetName=NetJ1_Conn1_8 Pin=RJ1_Conn1-2
+Removed Pin From Net: NetName=NetJ1_Conn1_9 Pin=RJ1_Conn1-3
+Removed Pin From Net: NetName=NetJ1_Conn1_10 Pin=RJ1_Conn1-6
+Removed Pin From Net: NetName=NetJ1_Conn1_11 Pin=RJ1_Conn1-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn1-8
+Removed Pin From Net: NetName=NetJ1_Conn2_7 Pin=RJ1_Conn2-1
+Removed Pin From Net: NetName=NetJ1_Conn2_8 Pin=RJ1_Conn2-2
+Removed Pin From Net: NetName=NetJ1_Conn2_9 Pin=RJ1_Conn2-3
+Removed Pin From Net: NetName=NetJ1_Conn2_10 Pin=RJ1_Conn2-6
+Removed Pin From Net: NetName=NetJ1_Conn2_11 Pin=RJ1_Conn2-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn2-8
+Removed Pin From Net: NetName=NetJ1_Conn3_7 Pin=RJ1_Conn3-1
+Removed Pin From Net: NetName=NetJ1_Conn3_8 Pin=RJ1_Conn3-2
+Removed Pin From Net: NetName=NetJ1_Conn3_9 Pin=RJ1_Conn3-3
+Removed Pin From Net: NetName=NetJ1_Conn3_10 Pin=RJ1_Conn3-6
+Removed Pin From Net: NetName=NetJ1_Conn3_11 Pin=RJ1_Conn3-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn3-8
+Removed Pin From Net: NetName=NetJ1_Conn4_7 Pin=RJ1_Conn4-1
+Removed Pin From Net: NetName=NetJ1_Conn4_8 Pin=RJ1_Conn4-2
+Removed Pin From Net: NetName=NetJ1_Conn4_9 Pin=RJ1_Conn4-3
+Removed Pin From Net: NetName=NetJ1_Conn4_10 Pin=RJ1_Conn4-6
+Removed Pin From Net: NetName=NetJ1_Conn4_11 Pin=RJ1_Conn4-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn4-8
+Removed Pin From Net: NetName=NetJ1_Conn5_7 Pin=RJ1_Conn5-1
+Removed Pin From Net: NetName=NetJ1_Conn5_8 Pin=RJ1_Conn5-2
+Removed Pin From Net: NetName=NetJ1_Conn5_9 Pin=RJ1_Conn5-3
+Removed Pin From Net: NetName=NetJ1_Conn5_10 Pin=RJ1_Conn5-6
+Removed Pin From Net: NetName=NetJ1_Conn5_11 Pin=RJ1_Conn5-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn5-8
+Removed Pin From Net: NetName=NetJ1_Conn6_7 Pin=RJ1_Conn6-1
+Removed Pin From Net: NetName=NetJ1_Conn6_8 Pin=RJ1_Conn6-2
+Removed Pin From Net: NetName=NetJ1_Conn6_9 Pin=RJ1_Conn6-3
+Removed Pin From Net: NetName=NetJ1_Conn6_10 Pin=RJ1_Conn6-6
+Removed Pin From Net: NetName=NetJ1_Conn6_11 Pin=RJ1_Conn6-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn6-8
+Removed Pin From Net: NetName=NetJ1_Conn7_7 Pin=RJ1_Conn7-1
+Removed Pin From Net: NetName=NetJ1_Conn7_8 Pin=RJ1_Conn7-2
+Removed Pin From Net: NetName=NetJ1_Conn7_9 Pin=RJ1_Conn7-3
+Removed Pin From Net: NetName=NetJ1_Conn7_10 Pin=RJ1_Conn7-6
+Removed Pin From Net: NetName=NetJ1_Conn7_11 Pin=RJ1_Conn7-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn7-8
+Removed Pin From Net: NetName=NetJ1_Conn8_7 Pin=RJ1_Conn8-1
+Removed Pin From Net: NetName=NetJ1_Conn8_8 Pin=RJ1_Conn8-2
+Removed Pin From Net: NetName=NetJ1_Conn8_9 Pin=RJ1_Conn8-3
+Removed Pin From Net: NetName=NetJ1_Conn8_10 Pin=RJ1_Conn8-6
+Removed Pin From Net: NetName=NetJ1_Conn8_11 Pin=RJ1_Conn8-7
+Removed Pin From Net: NetName=GND Pin=RJ1_Conn8-8
+Change Component Comment : Designator=RJ1_Conn1 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn2 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn3 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn4 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn5 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn6 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn7 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ1_Conn8 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn1 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn2 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn3 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn4 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn5 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn6 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn7 Old Comment=85504-5001 New Comment=85513-5013
+Change Component Comment : Designator=RJ2_Conn8 Old Comment=85504-5001 New Comment=85513-5013
+Added Pin To Net: NetName=GND Pin=RJ1_Conn1-1
+Added Pin To Net: NetName=NetJ1_Conn1_11 Pin=RJ1_Conn1-2
+Added Pin To Net: NetName=NetJ1_Conn1_10 Pin=RJ1_Conn1-3
+Added Pin To Net: NetName=NetJ1_Conn1_9 Pin=RJ1_Conn1-6
+Added Pin To Net: NetName=NetJ1_Conn1_8 Pin=RJ1_Conn1-7
+Added Pin To Net: NetName=NetJ1_Conn1_7 Pin=RJ1_Conn1-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn2-1
+Added Pin To Net: NetName=NetJ1_Conn2_11 Pin=RJ1_Conn2-2
+Added Pin To Net: NetName=NetJ1_Conn2_10 Pin=RJ1_Conn2-3
+Added Pin To Net: NetName=NetJ1_Conn2_9 Pin=RJ1_Conn2-6
+Added Pin To Net: NetName=NetJ1_Conn2_8 Pin=RJ1_Conn2-7
+Added Pin To Net: NetName=NetJ1_Conn2_7 Pin=RJ1_Conn2-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn3-1
+Added Pin To Net: NetName=NetJ1_Conn3_11 Pin=RJ1_Conn3-2
+Added Pin To Net: NetName=NetJ1_Conn3_10 Pin=RJ1_Conn3-3
+Added Pin To Net: NetName=NetJ1_Conn3_9 Pin=RJ1_Conn3-6
+Added Pin To Net: NetName=NetJ1_Conn3_8 Pin=RJ1_Conn3-7
+Added Pin To Net: NetName=NetJ1_Conn3_7 Pin=RJ1_Conn3-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn4-1
+Added Pin To Net: NetName=NetJ1_Conn4_11 Pin=RJ1_Conn4-2
+Added Pin To Net: NetName=NetJ1_Conn4_10 Pin=RJ1_Conn4-3
+Added Pin To Net: NetName=NetJ1_Conn4_9 Pin=RJ1_Conn4-6
+Added Pin To Net: NetName=NetJ1_Conn4_8 Pin=RJ1_Conn4-7
+Added Pin To Net: NetName=NetJ1_Conn4_7 Pin=RJ1_Conn4-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn5-1
+Added Pin To Net: NetName=NetJ1_Conn5_11 Pin=RJ1_Conn5-2
+Added Pin To Net: NetName=NetJ1_Conn5_10 Pin=RJ1_Conn5-3
+Added Pin To Net: NetName=NetJ1_Conn5_9 Pin=RJ1_Conn5-6
+Added Pin To Net: NetName=NetJ1_Conn5_8 Pin=RJ1_Conn5-7
+Added Pin To Net: NetName=NetJ1_Conn5_7 Pin=RJ1_Conn5-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn6-1
+Added Pin To Net: NetName=NetJ1_Conn6_11 Pin=RJ1_Conn6-2
+Added Pin To Net: NetName=NetJ1_Conn6_10 Pin=RJ1_Conn6-3
+Added Pin To Net: NetName=NetJ1_Conn6_9 Pin=RJ1_Conn6-6
+Added Pin To Net: NetName=NetJ1_Conn6_8 Pin=RJ1_Conn6-7
+Added Pin To Net: NetName=NetJ1_Conn6_7 Pin=RJ1_Conn6-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn7-1
+Added Pin To Net: NetName=NetJ1_Conn7_11 Pin=RJ1_Conn7-2
+Added Pin To Net: NetName=NetJ1_Conn7_10 Pin=RJ1_Conn7-3
+Added Pin To Net: NetName=NetJ1_Conn7_9 Pin=RJ1_Conn7-6
+Added Pin To Net: NetName=NetJ1_Conn7_8 Pin=RJ1_Conn7-7
+Added Pin To Net: NetName=NetJ1_Conn7_7 Pin=RJ1_Conn7-8
+Added Pin To Net: NetName=GND Pin=RJ1_Conn8-1
+Added Pin To Net: NetName=NetJ1_Conn8_11 Pin=RJ1_Conn8-2
+Added Pin To Net: NetName=NetJ1_Conn8_10 Pin=RJ1_Conn8-3
+Added Pin To Net: NetName=NetJ1_Conn8_9 Pin=RJ1_Conn8-6
+Added Pin To Net: NetName=NetJ1_Conn8_8 Pin=RJ1_Conn8-7
+Added Pin To Net: NetName=NetJ1_Conn8_7 Pin=RJ1_Conn8-8

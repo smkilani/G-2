@@ -1,0 +1,16 @@
+Added Component: Designator=C48(1812)
+Added Component: Designator=C49(1812)
+Added Component: Designator=C50(1812)
+Added Component: Designator=C51(1812)
+Added Pin To Net: NetName=GND Pin=C48-1
+Added Pin To Net: NetName=NetC41_1 Pin=C48-2
+Added Pin To Net: NetName=NetC35_1 Pin=C49-1
+Added Pin To Net: NetName=GND Pin=C49-2
+Added Pin To Net: NetName=GND Pin=C50-1
+Added Pin To Net: NetName=NetC31_2 Pin=C50-2
+Added Pin To Net: NetName=NetC27_2 Pin=C51-1
+Added Pin To Net: NetName=GND Pin=C51-2
+Added Member To Class: ClassName=Top Member=Component C48 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C49 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C50 Cap Semi
+Added Member To Class: ClassName=Top Member=Component C51 Cap Semi
