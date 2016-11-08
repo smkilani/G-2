@@ -180,7 +180,7 @@ void readPSUout()
 
 void readVoltage(byte adrs, bool* alive, float* value)
 {
-  int data[2]={0,0};
+  int data=0;
 
   assert(alive);
   assert(value);
@@ -206,12 +206,12 @@ void readVoltage(byte adrs, bool* alive, float* value)
     int temp= Wire.read();
     Serial.print(temp,HEX); // print em out
     Serial.print(" ");
-    data[i] = temp;//(temp<<(8*i));
+    data = (temp<<(8*i));
     i++;
   }
   Serial.println();
   //out=(28.58/14638)*data;
-  *value=linear(data[1],data[0]);
+  *value=data*pow(2,-9);
   //return out;
 }
 
@@ -285,6 +285,8 @@ float linear(unsigned char byte1, unsigned char byte2)
   return mantissa*pow(2,exponent);
   
 }
+
+
 
 void test()
 {
