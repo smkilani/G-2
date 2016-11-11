@@ -211,7 +211,7 @@ void readVoltage(byte adrs, bool* alive, float* value)
   }
   Serial.println();
   //out=(28.58/14638)*data;
-  *value=data*pow(2,-9);
+  *value=((float)data/512.0);
   //return out;
 }
 
