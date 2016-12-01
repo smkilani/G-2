@@ -11,11 +11,11 @@
    height="128.400mm"
    version="1.1"
    viewBox="0 0 40.300 128.400"
-   id="svg4136"
+   id="svg4342"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Frontpanel.svg">
+   sodipodi:docname="Frontpanel_controller.svg">
   <metadata
-     id="metadata4198">
+     id="metadata4404">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -36,19 +36,19 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1137"
-     id="namedview4196"
+     id="namedview4402"
      showgrid="false"
-     inkscape:zoom="2.0661129"
-     inkscape:cx="71.397636"
-     inkscape:cy="227.4803"
+     inkscape:zoom="2.0749049"
+     inkscape:cx="54.216346"
+     inkscape:cy="203.33111"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4136" />
+     inkscape:current-layer="svg4342" />
   <desc
-     id="desc4138">Created with the Front Panel Designer by the export of the file 'Frontpanel.fpd'.</desc>
+     id="desc4344">Created with the Front Panel Designer by the export of the file 'Frontpanel_controller.fpd'.</desc>
   <defs
-     id="defs4140">
+     id="defs4346">
     <pattern
        id="revside-fill"
        x="1"
@@ -62,14 +62,14 @@
          x2="1"
          y2="1"
          style="stroke-width:0.2; stroke:black; stroke-dasharray:none;"
-         id="line4143" />
+         id="line4349" />
       <line
          x1="0"
          y1="1"
          x2="1"
          y2="0"
          style="stroke-width:0.2; stroke:black; stroke-dasharray:none;"
-         id="line4145" />
+         id="line4351" />
     </pattern>
     <pattern
        id="revside-fill-e0e0e0"
@@ -84,59 +84,51 @@
          x2="1.5"
          y2="1.5"
          style="stroke-width:0.2; stroke:#e0e0e0; stroke-dasharray:none;"
-         id="line4148" />
+         id="line4354" />
       <line
          x1="0"
          y1="1.5"
          x2="1.5"
          y2="0"
          style="stroke-width:0.2; stroke:#e0e0e0; stroke-dasharray:none;"
-         id="line4150" />
+         id="line4356" />
     </pattern>
   </defs>
   <g
      transform="scale(1,-1) translate(0, -128.400)"
      fill-rule="evenodd"
      style="stroke-linecap:round; stroke-linejoin:round; stroke-opacity:1.0; stroke-opacity:1.0;"
-     id="g4152">
+     id="g4358">
     <path
        d="M40.300 128.400  L0.000 128.400 L0.000 128.400 L0.000 0.000 L0.000 0.000 L40.300 0.000 L40.300 0.000 L40.300 128.400 L40.300 128.400z"
        fill="#cccccc"
        vector-effect="non-scaling-stroke"
        stroke="#000000"
        stroke-width="0.100mm"
-       id="path4154" />
+       id="path4360" />
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 9.3499999,29.92 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
-       id="circle4156" />
+       d="m 9.3499999,29.209999 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+       id="circle4362" />
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 9.3499999,36.27 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
-       id="circle4158" />
+       d="m 9.3499999,35.560001 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+       id="circle4364" />
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 9.3499999,42.619999 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
-       id="circle4160" />
+       d="m 9.3499999,85.980003 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+       id="circle4366" />
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 9.3499999,48.970001 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
-       id="circle4162" />
+       d="m 9.3499999,92.330002 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+       id="circle4368" />
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 9.3499999,87.330002 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
-       id="circle4164" />
-    <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 9.3499999,93.93 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
-       id="circle4166" />
-    <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 9.3499999,100.28 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.500001 2.5,2.5 0 0 1 2.5,2.500001 z"
-       id="circle4168" />
+       d="m 9.3499999,98.68 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+       id="circle4370" />
     <rect
        x="3.850"
-       y="61.590"
+       y="47.030"
        width="10.000"
        height="21.000"
        rx="0.500"
@@ -144,73 +136,95 @@
        vector-effect="non-scaling-stroke"
        stroke="#000000"
        stroke-width="0.100mm"
-       id="rect4170" />
+       id="rect4372" />
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
-       d="m 8.8499999,58.880001 a 1.5,1.5 0 0 1 -1.5,1.5 1.5,1.5 0 0 1 -1.5,-1.5 1.5,1.5 0 0 1 1.5,-1.5 1.5,1.5 0 0 1 1.5,1.5 z"
-       id="circle4172" />
+       d="m 8.8499999,44.470001 a 1.5,1.5 0 0 1 -1.5,1.5 1.5,1.5 0 0 1 -1.5,-1.5 1.5,1.5 0 0 1 1.5,-1.5 1.5,1.5 0 0 1 1.5,1.5 z"
+       id="circle4374" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
+       d="m 9.3499999,79.629997 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+       id="circle4376" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm"
+       d="m 9.3499999,73.279999 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+       id="circle4378" />
     <path
        d="M40.300 128.400  L0.000 128.400 L0.000 128.400 L0.000 0.000 L0.000 0.000 L40.300 0.000 L40.300 0.000 L40.300 128.400 L40.300 128.400"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#000000"
        stroke-width="0.100mm"
-       id="path4174" />
+       id="path4380" />
     <path
        d="M-1.000 0.000 L1.000 0.000 M0.000 -1.000 L0.000 1.000"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4176" />
+       id="path4382" />
     <path
-       d="M5.850 29.920 L7.850 29.920 M6.850 28.920 L6.850 30.920"
+       d="M5.850 29.210 L7.850 29.210 M6.850 28.210 L6.850 30.210"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4178" />
+       id="path4384" />
     <path
-       d="M5.850 36.270 L7.850 36.270 M6.850 35.270 L6.850 37.270"
+       d="M5.850 35.560 L7.850 35.560 M6.850 34.560 L6.850 36.560"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4180" />
+       id="path4386" />
     <path
-       d="M5.850 42.620 L7.850 42.620 M6.850 41.620 L6.850 43.620"
+       d="M5.850 85.980 L7.850 85.980 M6.850 84.980 L6.850 86.980"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4182" />
+       id="path4388" />
     <path
-       d="M5.850 48.970 L7.850 48.970 M6.850 47.970 L6.850 49.970"
+       d="M5.850 92.330 L7.850 92.330 M6.850 91.330 L6.850 93.330"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4184" />
+       id="path4390" />
     <path
-       d="M5.850 87.330 L7.850 87.330 M6.850 86.330 L6.850 88.330"
+       d="M5.850 98.680 L7.850 98.680 M6.850 97.680 L6.850 99.680"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4186" />
+       id="path4392" />
     <path
-       d="M7.850 72.090 L9.850 72.090 M8.850 71.090 L8.850 73.090"
+       d="M7.850 57.530 L9.850 57.530 M8.850 56.530 L8.850 58.530"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4192" />
+       id="path4394" />
     <path
-       d="M6.350 58.880 L8.350 58.880 M7.350 57.880 L7.350 59.880"
+       d="M6.350 44.470 L8.350 44.470 M7.350 43.470 L7.350 45.470"
        fill="none"
        vector-effect="non-scaling-stroke"
        stroke="#ff0000"
        stroke-width="0.100mm"
-       id="path4194" />
+       id="path4396" />
+    <path
+       d="M5.850 79.630 L7.850 79.630 M6.850 78.630 L6.850 80.630"
+       fill="none"
+       vector-effect="non-scaling-stroke"
+       stroke="#ff0000"
+       stroke-width="0.100mm"
+       id="path4398" />
+    <path
+       d="M5.850 73.280 L7.850 73.280 M6.850 72.280 L6.850 74.280"
+       fill="none"
+       vector-effect="non-scaling-stroke"
+       stroke="#ff0000"
+       stroke-width="0.100mm"
+       id="path4400" />
   </g>
 </svg>

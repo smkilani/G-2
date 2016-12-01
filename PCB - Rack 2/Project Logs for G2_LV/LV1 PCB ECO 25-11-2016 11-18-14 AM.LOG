@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=32V Pin=PS1-1
+Removed Pin From Net: NetName=32V Pin=PS2-1
+Removed Pin From Net: NetName=32V Pin=PS3-1
+Removed Pin From Net: NetName=-5VA Pin=PS3-3
+Removed Pin From Net: NetName=-5VARTN Pin=PS3-5
+Removed Pin From Net: NetName=32V Pin=PS4-1
+Removed Pin From Net: NetName=+5VB Pin=PS4-3
+Removed Pin From Net: NetName=+5VBRTN Pin=PS4-5
+Added Pin To Net: NetName=VINB Pin=PS1-1
+Added Pin To Net: NetName=VINA Pin=PS2-1
+Added Pin To Net: NetName=VINB Pin=PS3-1
+Added Pin To Net: NetName=+5VB Pin=PS3-3
+Added Pin To Net: NetName=+5VBRTN Pin=PS3-5
+Added Pin To Net: NetName=VINA Pin=PS4-1
+Added Pin To Net: NetName=-5VA Pin=PS4-3
+Added Pin To Net: NetName=-5VARTN Pin=PS4-5

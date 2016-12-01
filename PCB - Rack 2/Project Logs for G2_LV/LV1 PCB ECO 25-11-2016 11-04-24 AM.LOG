@@ -1,0 +1,28 @@
+Added Component: Designator=PS1(UEI15)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PS2(UEI15)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PS3(UEI15)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PS4(UEI15)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=32V Pin=PS1-1
+Added Pin To Net: NetName=GND Pin=PS1-2
+Added Pin To Net: NetName=-5VBRTN Pin=PS1-3
+Added Pin To Net: NetName=-5VB Pin=PS1-5
+Added Pin To Net: NetName=32V Pin=PS2-1
+Added Pin To Net: NetName=GND Pin=PS2-2
+Added Pin To Net: NetName=+5VA Pin=PS2-3
+Added Pin To Net: NetName=+5VARTN Pin=PS2-5
+Added Pin To Net: NetName=32V Pin=PS3-1
+Added Pin To Net: NetName=GND Pin=PS3-2
+Added Pin To Net: NetName=-5VARTN Pin=PS3-3
+Added Pin To Net: NetName=-5VA Pin=PS3-5
+Added Pin To Net: NetName=32V Pin=PS4-1
+Added Pin To Net: NetName=GND Pin=PS4-2
+Added Pin To Net: NetName=+5VB Pin=PS4-3
+Added Pin To Net: NetName=+5VBRTN Pin=PS4-5
+Added Member To Class: ClassName=Top Member=Component PS1 UEI15-050-Q48N-C
+Added Member To Class: ClassName=Top Member=Component PS2 UEI15-050-Q48N-C
+Added Member To Class: ClassName=Top Member=Component PS3 UEI15-050-Q48N-C
+Added Member To Class: ClassName=Top Member=Component PS4 UEI15-050-Q48N-C

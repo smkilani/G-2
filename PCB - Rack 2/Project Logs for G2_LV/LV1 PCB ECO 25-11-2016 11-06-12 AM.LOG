@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=-5VBRTN Pin=PS1-3
+Removed Pin From Net: NetName=-5VB Pin=PS1-5
+Removed Pin From Net: NetName=-5VARTN Pin=PS3-3
+Removed Pin From Net: NetName=-5VA Pin=PS3-5
+Added Pin To Net: NetName=-5VB Pin=PS1-3
+Added Pin To Net: NetName=-5VBRTN Pin=PS1-5
+Added Pin To Net: NetName=-5VA Pin=PS3-3
+Added Pin To Net: NetName=-5VARTN Pin=PS3-5
