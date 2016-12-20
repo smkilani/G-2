@@ -1,35 +1,48 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\smkilani\Documents\GitHub\G-2\PCB - Rack 2\LV1.PCBDOC
-Date     : 26/10/2016
-Time     : 2:53:10 PM
+Date     : 16/12/2016
+Time     : 11:46:48 AM
 
-Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
-
-Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
-
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InNet('GND'))
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=1mm) (InNet('ISENSE_2') OR InNet('ISENSE_1') OR InNet('NEGISENSE_2') OR InNet('NEGISENSE_1') OR InNet('L_OUT+') OR InNet('L_OUT-') OR InNet('NEGL_OUT+') OR InNet('NEGL_OUT-') OR InNet('SW'))
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GNDbottom')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GNDtop')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GNDbottom')),(All)
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net Shield Between Pad Free-2(25.57mm,15.549mm) on MultiLayer And Pad Free-2(25.57mm,104.444mm) on MultiLayer 
+   Violation between Un-Routed Net Constraint: Net -5VARTN Between Pad Free-7(87.7mm,40.3mm) on Bottom Layer And Pad Free-7(87.7mm,42mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +5VB Between Pad Free-7(153.1mm,41.9mm) on Bottom Layer And Pad Free-7(153.2mm,40.2mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net -5VBRTN Between Track (181.6mm,40.8mm)(187.3mm,40.8mm) on Component Side And Pad Free-7(187.4mm,42.4mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net -5VA Between Pad Free-7(77.3mm,40.1mm) on Bottom Layer And Pad Free-7(77.3mm,41.8mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +5VBRTN Between Pad Free-7(142.6mm,40.3mm) on Bottom Layer And Pad Free-7(142.6mm,42mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net -5VB Between Pad Free-7(177mm,40.7mm) on Component Side And Pad Free-7(177mm,42.4mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net NetC4_D_2 Between Pad T1_D-5(91.794mm,67.438mm) on Component Side And Pad Free-7(91.8mm,65.6mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net +5VA Between Pad Free-7(119.4mm,40.95mm) on Component Side And Pad Free-7(119.4mm,42.7mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net +5VARTN Between Pad Free-7(109.1mm,41mm) on Component Side And Pad Free-7(109.1mm,42.7mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net NetC4_A_2 Between Pad Free-7(157.1mm,65.45mm) on Component Side And Pad T1_A-5(157.114mm,67.288mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net NetC4_B_2 Between Pad Free-7(191.55mm,65.55mm) on Component Side And Pad T1_B-5(191.554mm,67.458mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net NetC4_C_2 Between Pad Free-7(123.5mm,65.55mm) on Component Side And Pad T1_C-5(123.514mm,67.418mm) on Component Side 
+Rule Violations :13
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=1mm) (InNet('ISENSE_2') OR InNet('ISENSE_1') OR InNet('NEGISENSE_2') OR InNet('NEGISENSE_1') OR InNet('L_OUT+') OR InNet('L_OUT-') OR InNet('NEGL_OUT+') OR InNet('NEGL_OUT-') OR InNet('SW'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InNet('GND'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 13
 Time Elapsed        : 00:00:00

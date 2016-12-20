@@ -22,8 +22,8 @@ bool statusB=false;
 char inputString[packetsize]; //this is equal to the i2c buffer size
 char receivedData[packetsize];
 //-----------------------------
-const int ENApin = 2; 
-const int ENBpin = 3; 
+const int ENApin = 3; 
+const int ENBpin = 2; 
 const int LED1 = 10;
 const int LED2 = 9;
 const int posA_ADC = A1;

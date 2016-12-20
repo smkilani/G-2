@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=ROB Pin=B5-2
+Removed Pin From Net: NetName=DIB Pin=B6-2
+Removed Pin From Net: NetName=ROB Pin=B7-2
+Removed Pin From Net: NetName=DIB Pin=B8-2
+Removed Pin From Net: NetName=-5VBRTN Pin=C39-2
+Removed Member From Class: ClassName=Top Member=B5
+Removed Member From Class: ClassName=Top Member=B6
+Removed Member From Class: ClassName=Top Member=B7
+Removed Member From Class: ClassName=Top Member=B8
+Added Pin To Net: NetName=DIB Pin=J1-11
+Added Pin To Net: NetName=ROB Pin=J1-12

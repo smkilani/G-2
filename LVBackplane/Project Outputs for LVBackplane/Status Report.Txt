@@ -1,12 +1,30 @@
-Output: NC Drill Files
-Type  : NC Drill
+Output: Gerber X2 Files
+Type  : GerberX2
 From  : Project [LVBackplane.PrjPcb]
-   Generated File[Backplane.TXT]
-   Generated File[Backplane.LDP]
-   Generated File[Backplane.DRR]
+   Generated File[Backplane_Copper_Signal_Top.gbr]
+   Generated File[Backplane_Copper_Signal_1.gbr]
+   Generated File[Backplane_Copper_Signal_2.gbr]
+   Generated File[Backplane_Copper_Signal_Bot.gbr]
+   Generated File[Backplane_Pads_Bot.gbr]
+   Generated File[Backplane_Pads_Top.gbr]
+   Generated File[Backplane_Legend_Top.gbr]
+   Generated File[Backplane_Soldermask_Top.gbr]
+   Generated File[Backplane_Paste_Bot.gbr]
+   Generated File[Backplane_Legend_Bot.gbr]
+   Generated File[Backplane_Soldermask_Bot.gbr]
+   Generated File[Backplane_Paste_Top.gbr]
+   Generated File[Backplane_Mechanical_1.gbr]
+   Generated File[Backplane_Profile.gbr]
+   Generated File[Backplane_NPTH_Drill.gbr]
+   Generated File[Backplane_PTH_Drill.gbr]
+   Generated File[Backplane_Drawing_1.gbr]
+   Generated File[Backplane_Drillmap_1.gbr]
+   Generated File[Backplane.RUL]
+   Generated File[Backplane.EXTREP]
+   Generated File[Backplane.REP]
 
 
-Files Generated   : 3
+Files Generated   : 21
 Documents Printed : 0
 
-Finished Output Generation At 12:19:03 PM On 14/10/2016
+Finished Output Generation At 12:22:09 PM On 16/12/2016

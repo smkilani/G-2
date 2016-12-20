@@ -1,9 +1,28 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [G2_LV.PrjPcb]
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [G2_LV.PrjPcb]
+   Generated File[LV1_Copper_Signal_Top.gbr]
+   Generated File[LV1_Copper_Signal_1.gbr]
+   Generated File[LV1_Copper_Signal_2.gbr]
+   Generated File[LV1_Copper_Signal_Bot.gbr]
+   Generated File[LV1_Legend_Top.gbr]
+   Generated File[LV1_Soldermask_Top.gbr]
+   Generated File[LV1_Paste_Bot.gbr]
+   Generated File[LV1_Legend_Bot.gbr]
+   Generated File[LV1_Soldermask_Bot.gbr]
+   Generated File[LV1_Paste_Top.gbr]
+   Generated File[LV1_Mechanical_1.gbr]
+   Generated File[LV1_Profile.gbr]
+   Generated File[LV1_NPTH_Drill.gbr]
+   Generated File[LV1_PTH_Drill.gbr]
+   Generated File[LV1_Drawing_1.gbr]
+   Generated File[LV1_Drillmap_1.gbr]
+   Generated File[LV1.RUL]
+   Generated File[LV1.EXTREP]
+   Generated File[LV1.REP]
 
 
-Files Generated   : 0
+Files Generated   : 19
 Documents Printed : 0
 
-Finished Output Generation At 11:11:43 AM On 7/10/2016
+Finished Output Generation At 11:48:10 AM On 16/12/2016
