@@ -1,15 +1,3 @@
-// Wire Slave Receiver
-// by Nicholas Zambetti <http://www.zambetti.com>
-
-// Demonstrates use of the Wire library
-// Receives data as an I2C/TWI slave device
-// Refer to the "Wire Master Writer" example for use with this
-
-// Created 29 March 2006
-
-// This example code is in the public domain.
-
-
 #include <Wire.h>
 #include <TFT.h>  // Arduino LCD library
 #include <SPI.h>
@@ -19,6 +7,8 @@
 #define cs   10
 #define dc   9
 #define rst  8
+
+#define INH 3 //inhibit signal
 
 TFT TFTscreen = TFT(cs, dc, rst);
 //char sensorPrintout[4];
@@ -33,6 +23,8 @@ bool i2cstatus2=false;
 
 char sensorPrintout1[5];
 char sensorPrintout2[5];
+
+
 
 
 void setup() {
@@ -67,6 +59,9 @@ void setup() {
   TFTscreen.print("I2");
   // ste the font size very large for the loop
   TFTscreen.setTextSize(2.5);
+
+  //pinMode(inh,OUTPUT);
+  //digitalWrite(inh,LOW);
 
 }
 
